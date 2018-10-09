@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-STAG.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\STAGEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\STAG.cpp.obj"
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\STAGGameModeBase.cpp.obj"
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\STAG.init.gen.cpp.obj"
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\STAGGameModeBase.gen.cpp.obj"
+"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\PCLaunch.rc.res"
+/OUT:"C:\UnrealProject\UE4STAG\STAGame\STAG\Intermediate\Build\Win64\UE4Editor\Development\STAG\UE4Editor-STAG.lib"
