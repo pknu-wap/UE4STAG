@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\FujiwaraBattleField.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{87A059C2-D491-4AD2-968C-5AE670AD1DEE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FujiwaraBattleField.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8089FDA2-319C-419B-9EAD-CC0D67CD3AA9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FujiwaraBattleField">
+			<UniqueIdentifier>{95163ECC-A5B0-446F-BCA9-1CBB4BFD0446}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.cpp">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.h">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.cpp">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
