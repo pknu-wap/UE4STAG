@@ -1,3 +1,0 @@
-C:\UnrealProject\UE4STAG\STAGame\STAG\Source\STAG\STAG.Build.cs
-C:\UnrealProject\UE4STAG\STAGame\STAG\Source\STAG.Target.cs
-C:\UnrealProject\UE4STAG\STAGame\STAG\Source\STAGEditor.Target.cs
