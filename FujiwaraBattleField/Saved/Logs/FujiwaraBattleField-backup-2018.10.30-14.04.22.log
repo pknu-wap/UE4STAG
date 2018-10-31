@@ -1,0 +1,1627 @@
+﻿Log file open, 10/29/18 23:06:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.906865
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.290s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.29-14.06.19:517][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-14.06.19:517][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.29-14.06.19:574][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.29-14.06.19:575][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.29-14.06.19:575][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.29-14.06.19:585][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.10.29-14.06.19:586][  0]LogInit: User: Utsuho
+[2018.10.29-14.06.19:586][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.29-14.06.19:586][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2018.10.29-14.06.19:586][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.10.29-14.06.19:586][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.29-14.06.19:586][  0]LogMemory: Process Physical Memory: 100.14 MB used, 100.14 MB peak
+[2018.10.29-14.06.19:586][  0]LogMemory: Process Virtual Memory: 90.91 MB used, 90.91 MB peak
+[2018.10.29-14.06.19:586][  0]LogMemory: Physical Memory: 5843.58 MB used,  2160.91 MB free, 8004.50 MB total
+[2018.10.29-14.06.19:586][  0]LogMemory: Virtual Memory: 4645.04 MB used,  2160.91 MB free, 134217728.00 MB total
+[2018.10.29-14.06.19:700][  0]LogInit: Using OS detected language (ko-KR).
+[2018.10.29-14.06.19:700][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.10.29-14.06.19:702][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.10.29-14.06.20:533][  0]LogStreaming: Display: Took  0.834s to InitEngineTextLocalization.
+[2018.10.29-14.06.20:534][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.29-14.06.20:760][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.29-14.06.20:760][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.29-14.06.27:043][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.29-14.06.27:044][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.29-14.06.27:177][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.10.29-14.06.27:177][  0]LogD3D11RHI:       2007/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.29-14.06.27:200][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.10.29-14.06.27:200][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.29-14.06.27:205][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.29-14.06.27:206][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.29-14.06.27:206][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.29-14.06.27:279][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.29-14.06.27:279][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.10.29-14.06.27:279][  0]LogWindows: EnumDisplayDevices:
+[2018.10.29-14.06.27:280][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.10.29-14.06.27:281][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.10.29-14.06.27:282][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.10.29-14.06.27:283][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.10.29-14.06.27:284][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.10.29-14.06.27:285][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.10.29-14.06.27:285][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.10.29-14.06.27:286][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.10.29-14.06.27:287][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.29-14.06.27:288][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.10.29-14.06.27:288][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2018.10.29-14.06.27:288][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2018.10.29-14.06.27:288][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.10.29-14.06.27:363][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.29-14.06.27:388][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.29-14.06.27:451][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/3464/).
+[2018.10.29-14.06.27:451][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/946CC3964C687749F4C94888D827609D/'.
+[2018.10.29-14.06.28:402][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.29-14.06.28:431][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.29-14.06.28:458][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.29-14.06.28:484][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.29-14.06.28:516][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.29-14.06.28:546][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.29-14.06.28:568][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.29-14.06.28:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.29-14.06.28:615][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.29-14.06.28:790][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.29-14.06.28:798][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.29-14.06.28:909][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.29-14.06.28:909][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.29-14.06.28:951][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.29-14.06.28:951][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.29-14.06.28:979][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.29-14.06.29:002][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.29-14.06.29:031][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.29-14.06.29:078][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.29-14.06.29:097][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.29-14.06.29:097][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.29-14.06.29:308][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.29-14.06.29:308][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.29-14.06.29:308][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.29-14.06.33:996][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.29-14.06.34:316][  0]LogDerivedDataCache: Loaded boot cache 0.32s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.29-14.06.34:317][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.29-14.06.34:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.29-14.06.34:317][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.29-14.06.34:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.29-14.06.34:317][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.29-14.06.34:349][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.29-14.06.34:367][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.29-14.06.34:367][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.29-14.06.34:367][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.29-14.06.34:412][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.29-14.06.34:414][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.29-14.06.34:434][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.29-14.06.35:005][  0]LogAssetRegistry: FAssetRegistry took 0.0364 seconds to start up
+[2018.10.29-14.06.35:749][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.29-14.06.36:100][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.29-14.06.36:118][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.29-14.06.36:118][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.29-14.06.36:119][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.29-14.06.36:119][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.29-14.06.36:164][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.10.29-14.06.37:563][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.323130 seconds
+[2018.10.29-14.06.37:580][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.29-14.06.37:581][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.29-14.06.37:581][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.29-14.06.44:823][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.29-14.06.44:845][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.29-14.06.45:362][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.10.29-14.06.45:363][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.10.29-14.06.45:373][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.10.29-14.06.45:379][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.10.29-14.06.45:840][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.29-14.06.46:181][  0]LogOcInput: OculusInput pre-init called
+[2018.10.29-14.06.46:329][  0]LogEngine: Initializing Engine...
+[2018.10.29-14.06.46:331][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.29-14.06.46:335][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.29-14.06.46:335][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.29-14.06.46:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.10.29-14.06.46:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.29-14.06.46:867][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.29-14.06.46:926][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.29-14.06.47:049][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-14.06.47:178][  0]LogInit: FAudioDevice initialized.
+[2018.10.29-14.06.47:179][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.29-14.06.47:322][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.29-14.06.47:348][  0]LogInit: Texture streaming: Enabled
+[2018.10.29-14.06.47:414][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.29-14.06.47:479][  0]LogInit: Transaction tracking system initialized
+[2018.10.29-14.06.47:579][  0]BlueprintLog: New page: 에디터 로드
+[2018.10.29-14.06.47:913][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.10.29-14.06.48:687][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.29-14.06.48:688][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.29-14.06.48:689][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.29-14.06.48:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.29-14.06.48:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.29-14.06.48:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.29-14.06.48:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.29-14.06.49:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/' took 0.04s
+[2018.10.29-14.06.49:299][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.10.29-14.06.49:299][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-14.06.49:315][  0]LightingResults: New page: 라이팅 빌드
+[2018.10.29-14.06.49:326][  0]MapCheck: New page: 맵 체크
+[2018.10.29-14.06.49:327][  0]LightingResults: New page: 라이팅 빌드
+[2018.10.29-14.06.50:641][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.29-14.06.50:694][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-14.06.50:732][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-14.06.50:945][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 212.359ms.
+[2018.10.29-14.06.50:945][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.646
+[2018.10.29-14.06.51:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-14.06.51:246][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-14.06.51:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-14.06.51:278][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-14.06.51:312][  0]LogCollectionManager: Loaded 0 collections in 0.003003 seconds
+[2018.10.29-14.06.51:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.10.29-14.06.51:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.10.29-14.06.51:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.02s
+[2018.10.29-14.06.51:377][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.29-14.06.51:396][  0]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 2573 classes and 605 folders.
+[2018.10.29-14.06.51:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.10.29-14.06.52:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2018.10.29-14.06.52:326][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.10.29-14.06.52:350][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0020 seconds. Added 2 classes and 3 folders.
+[2018.10.29-14.06.52:579][  0]LogSlate: Took 0.015931 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.29-14.06.52:611][  0]LogSlate: Took 0.029685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.10.29-14.06.52:634][  0]LogSlate: Took 0.019605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.10.29-14.06.52:647][  0]LogSlate: Took 0.012083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.29-14.06.52:667][  0]LogSlate: Took 0.016208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.29-14.06.52:998][  0]LogRenderer: Reallocating scene render targets to support 1128x560 Format 10 NumSamples 1 (Frame:1).
+[2018.10.29-14.06.53:245][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.29-14.06.53:245][  0]LogLoad: (Engine Initialization) Total time: 43.20 seconds
+[2018.10.29-14.06.53:245][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.29-14.06.53:294][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.29-14.06.53:374][  0]LogSlate: Took 0.009722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.29-14.06.53:409][  1]LogAssetRegistry: Asset discovery search completed in 18.4298 seconds
+[2018.10.29-14.06.53:412][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.29-14.06.53:412][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.10.29-14.12.58:505][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.12.59:481][342]LogSlate: Took 0.001150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.29-14.12.59:533][342]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.10.29-14.12.59:549][342]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map_LostBambooForest.Map_LostBambooForest
+[2018.10.29-14.12.59:587][342]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.29-14.12.59:587][342]LightingResults: New page: 라이팅 빌드
+[2018.10.29-14.12.59:588][342]LoadErrors: New page: 맵 로드중: Map_LostBambooForest.umap
+[2018.10.29-14.12.59:591][342]MapCheck: New page: 맵 체크
+[2018.10.29-14.12.59:592][342]LightingResults: New page: 라이팅 빌드
+[2018.10.29-14.12.59:737][342]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.29-14.12.59:834][342]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.29-14.13.00:067][342]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 233.976ms.
+[2018.10.29-14.13.00:069][342]LogFileHelpers: Loading map 'Map_LostBambooForest' took 0.484
+[2018.10.29-14.13.07:869][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.13.08:041][525]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.10.29-14.13.08:097][525]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.29-14.13.08:097][525]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.10.29-14.13.08:143][525]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.29-14.13.08:143][525]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.29-14.13.08:143][525]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.10.29-14.13.08:200][525]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.29-14.13.08:200][525]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.10.29-14.13.08:303][525]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.10.29-14.13.08:397][525]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.29-14.13.08:427][525]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.29-14.13.08:458][525]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.29-14.13.08:486][525]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.29-14.13.08:542][525]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.10.29-14.13.08:585][525]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.29-14.13.08:627][525]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.10.29-14.13.08:649][525]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2018.10.29-14.13.08:817][526]LogSlate: Took 0.007841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.10.29-14.13.14:178][811]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.10.29-14.13.16:884][962]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.10.29-14.13.17:520][999]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.29-14.13.17:557][  1]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.29-14.13.17:694][  7]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.13.22:006][249]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.29-14.13.23:702][348]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.29-14.13.24:594][399]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.29-14.13.24:802][410]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.29-14.13.29:569][681]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.29-14.13.31:456][786]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.29-14.13.32:593][853]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.29-14.13.32:666][857]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.29-14.13.38:063][166]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.29-14.13.39:354][242]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.29-14.13.40:476][309]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.29-14.13.40:647][319]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.29-14.13.44:815][565]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.29-14.13.46:032][637]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.29-14.14.05:068][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.14.11:847][438]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.14.41:864][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.14.44:066][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.15.01:562][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.15.06:164][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.30.21:214][510]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.32.42:892][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.32.56:023][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.06:955][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.09:955][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.12:778][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.18:453][249]LogActorFactory: Actor Factory created Floor_400x400
+[2018.10.29-14.33.18:977][279]LogActorFactory: Actor Factory created Floor_400x400
+[2018.10.29-14.33.21:249][407]LogEditorViewport: Clicking Background
+[2018.10.29-14.33.21:721][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.10.29-14.33.22:464][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.25:000][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.26:337][695]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.10.29-14.33.26:454][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.33.26:712][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.10.29-14.33.28:995][838]LogSlate: Took 0.008230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.29-14.33.29:454][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.35:303][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.33.35:406][199]LogTexture: Display: 텍스처 빌드: Texture2D_3 (G8, 128X128)
+[2018.10.29-14.33.53:460][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.35.06:282][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.35.42:690][390]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto1842EFD4A4C7FC96290E7A89505844908.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto1.umap'
+[2018.10.29-14.35.42:707][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 0.174
+[2018.10.29-14.35.42:707][390]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2018.10.29-14.36.04:104][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.36.26:079][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.36.35:168][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.37.03:333][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.37.18:584][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.37.26:360][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.37.29:577][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.37.35:722][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.37.58:237][452]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.37.58:254][452]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.29-14.38.24:258][452]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.10.29-14.38.24:259][452]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.10.29-14.38.24:259][452]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.10.29-14.38.24:259][452]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.10.29-14.38.24:259][452]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.10.29-14.38.24:261][452]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.10.29-14.38.24:261][452]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.10.29-14.38.24:261][452]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.29-14.38.24:261][452]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.10.29-14.38.24:262][452]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.29-14.38.24:262][452]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.10.29-14.38.24:263][452]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.29-14.38.24:264][452]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.29-14.38.24:265][452]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-14.38.24:266][452]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.29-14.45.43:498][764]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto2514223794E5E1C95C4890388ECB1F144.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto2.umap'
+[2018.10.29-14.45.43:503][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 0.269
+[2018.10.29-14.45.43:503][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2018.10.29-14.47.40:692][288]Cmd: TRANSACTION UNDO
+[2018.10.29-14.47.40:693][288]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.47.40:734][288]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.47.42:106][356]Cmd: TRANSACTION UNDO
+[2018.10.29-14.47.42:106][356]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.47.47:934][683]Cmd: TRANSACTION UNDO
+[2018.10.29-14.47.47:934][683]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.47.47:960][683]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.47.49:975][786]Cmd: TRANSACTION UNDO
+[2018.10.29-14.47.49:975][786]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.47.49:997][786]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.47.50:422][810]Cmd: TRANSACTION UNDO
+[2018.10.29-14.47.50:422][810]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.47.57:793][108]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-14.47.57:793][108]Can't find target actor or component.
+[2018.10.29-14.48.39:291][556]Cmd: TRANSACTION UNDO
+[2018.10.29-14.48.39:292][556]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.48.41:446][647]Cmd: TRANSACTION UNDO
+[2018.10.29-14.48.41:446][647]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.48.41:476][647]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.48.42:036][676]Cmd: TRANSACTION UNDO
+[2018.10.29-14.48.42:036][676]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.49.20:308][937]Cmd: TRANSACTION UNDO
+[2018.10.29-14.49.20:308][937]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.49.26:212][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.49.33:098][683]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.29-14.49.35:145][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.49.37:837][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.49.37:938][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.29-14.49.40:510][113]Cmd: TRANSACTION UNDO
+[2018.10.29-14.49.40:510][113]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.49.40:535][113]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.10.29-14.49.41:014][130]Cmd: TRANSACTION UNDO
+[2018.10.29-14.49.41:014][130]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.49.44:519][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.49.46:007][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.29-14.50.07:594][692]Cmd: TRANSACTION UNDO
+[2018.10.29-14.50.07:594][692]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.50.09:654][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.51.10:234][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.51.33:761][811]Cmd: TRANSACTION UNDO
+[2018.10.29-14.51.33:761][811]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.51.47:892][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.51.57:322][162]Cmd: SELECT NONE
+[2018.10.29-14.51.57:773][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.52.03:503][520]LogEditorActor: Deleted Actor: Landscape
+[2018.10.29-14.52.03:560][520]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.10.29-14.52.05:565][638]LogTexture: Display: 텍스처 빌드: Texture2D_4 (G8, 128X128)
+[2018.10.29-14.52.36:373][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.53.11:574][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.53.20:491][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.53.24:805][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.53.31:861][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.53.43:537][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.54.09:032][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.54.42:959][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.54.44:993][ 18]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-14.54.45:007][ 18]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-14.54.45:020][ 18]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-14.54.45:031][ 18]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-14.54.49:112][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.55.01:356][899]Cmd: TRANSACTION UNDO
+[2018.10.29-14.55.01:356][899]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.55.04:301][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.55.50:907][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.55.55:408][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-14.55.59:048][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.56.11:637][929]Cmd: TRANSACTION UNDO
+[2018.10.29-14.56.11:637][929]LogEditorTransaction: Undo 위치 설정
+[2018.10.29-14.56.13:947][ 31]Cmd: TRANSACTION UNDO
+[2018.10.29-14.56.13:947][ 31]LogEditorTransaction: Undo 위치 설정
+[2018.10.29-14.56.35:643][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.56.55:316][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.57.00:776][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.57.08:251][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.57.24:169][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.57.44:535][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.59.06:749][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.59.09:731][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-14.59.49:266][901]Cmd: TRANSACTION UNDO
+[2018.10.29-14.59.49:266][901]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-14.59.58:135][387]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.10.29-14.59.59:618][431]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.10.29-14.59.59:943][449]Cmd: TRANSACTION UNDO
+[2018.10.29-14.59.59:943][449]LogEditorTransaction: Undo 액터 클릭 (더블클릭)
+[2018.10.29-15.00.00:410][468]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.00:410][468]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.00:460][468]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.00:772][479]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.00:772][479]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.00:807][479]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.01:056][488]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.01:056][488]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.01:093][488]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.01:409][502]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.01:409][502]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.01:454][502]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.01:717][513]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.01:717][513]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.01:760][513]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.02:078][527]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.02:078][527]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.02:117][527]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.02:575][549]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.02:575][549]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.02:609][549]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.02:959][563]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.02:959][563]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.02:995][563]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.03:403][583]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.03:403][583]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.03:437][583]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.03:827][602]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.03:827][602]LogEditorTransaction: Undo 액터 클릭 (더블클릭)
+[2018.10.29-15.00.04:220][623]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.04:220][623]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.04:259][623]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.04:681][643]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.04:682][643]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.05:881][709]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.05:881][709]LogEditorTransaction: Undo Brush Size 편집
+[2018.10.29-15.00.08:912][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.00.32:872][134]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.32:872][134]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.32:917][134]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.00.32:943][134]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.00.33:373][143]Cmd: TRANSACTION UNDO
+[2018.10.29-15.00.33:373][143]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.00.36:817][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.11:745][392]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.11:809][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.14:736][545]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.14:777][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.14:835][547]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.14:876][547]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.15:069][557]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.15:106][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.18:063][683]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.18:103][683]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.19:167][745]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.10.29-15.01.19:209][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.01.33:881][569]LogEditorViewport: Clicking Background
+[2018.10.29-15.01.36:841][725]Cmd: TRANSACTION UNDO
+[2018.10.29-15.01.36:842][725]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.01.36:880][725]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.01.40:881][933]Cmd: TRANSACTION UNDO
+[2018.10.29-15.01.40:882][933]LogEditorTransaction: Undo 배경 클릭
+[2018.10.29-15.01.41:565][967]Cmd: TRANSACTION UNDO
+[2018.10.29-15.01.41:565][967]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.01.43:265][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.02.09:711][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.02.58:548][909]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.02.58:556][909]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.03.00:843][909]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto3CAA6B45F48B8E74A213BECBA86FF497F.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto3.umap'
+[2018.10.29-15.03.00:854][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 2.405
+[2018.10.29-15.03.00:854][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.405
+[2018.10.29-15.08.22:799][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.08.24:962][138]Cmd: TRANSACTION UNDO
+[2018.10.29-15.08.24:963][138]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.08.25:012][138]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.08.25:544][162]Cmd: TRANSACTION UNDO
+[2018.10.29-15.08.25:544][162]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.08.45:641][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.08.46:147][231]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.10.29-15.08.46:175][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.29-15.08.46:197][231]PIE: New page: PIE 세션: Map_LostBambooForest (2018. 10. 30. 오전 9:08:46)
+[2018.10.29-15.08.46:197][231]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_LostBambooForest
+[2018.10.29-15.08.46:241][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043905s)
+[2018.10.29-15.08.46:243][231]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.10.29-15.08.46:244][231]LogPlayLevel: PIE: World Init took: (0.002563s)
+[2018.10.29-15.08.46:244][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_LostBambooForest.Map_LostBambooForest to /Game/Maps/UEDPIE_0_Map_LostBambooForest.Map_LostBambooForest (0.047104s)
+[2018.10.29-15.08.46:340][231]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.29-15.08.46:398][231]LogInit: FAudioDevice initialized.
+[2018.10.29-15.08.46:451][231]LogUObjectGlobals: Warning: 'Class /Script/FujiwaraBattleField.FujiwaraBattleFieldGameMode' 오브젝트를 찾는 데 실패했습니다.
+[2018.10.29-15.08.46:451][231]LogLoad: Game class is 'GameModeBase'
+[2018.10.29-15.08.46:467][231]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_LostBambooForest.Map_LostBambooForest up for play (max tick rate 60) at 2018.10.30-00.08.46
+[2018.10.29-15.08.46:470][231]LogWorld: Bringing up level for play took: 0.010356
+[2018.10.29-15.08.46:503][231]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 10 classes and 0 folders.
+[2018.10.29-15.08.46:509][231]PIE: /Game/Maps/UEDPIE_0_Map_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.463
+[2018.10.29-15.08.51:693][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-15.08.51:737][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.29-15.08.51:765][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.29-15.08.51:796][540]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.29-15.08.52:494][580]Cmd: TRANSACTION UNDO
+[2018.10.29-15.08.52:495][580]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.08.57:880][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.09.13:002][695]Cmd: TRANSACTION UNDO
+[2018.10.29-15.09.13:002][695]LogEditorTransaction: Undo 랜드스케이프 편집중: 침식
+[2018.10.29-15.09.18:256][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.09.36:570][765]Cmd: TRANSACTION UNDO
+[2018.10.29-15.09.36:570][765]LogEditorTransaction: Undo 랜드스케이프 편집중: 수성 침식
+[2018.10.29-15.09.36:641][765]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.09.36:665][765]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.09.36:689][765]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.09.36:717][765]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.09.40:915][998]Cmd: TRANSACTION UNDO
+[2018.10.29-15.09.40:916][998]LogEditorTransaction: Undo 랜드스케이프 편집중: 수성 침식
+[2018.10.29-15.09.55:333][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.10.01:543][151]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.01:544][151]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.16:127][876]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.16:127][876]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.16:173][876]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.10.16:196][876]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.16:476][882]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.16:477][882]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.16:534][882]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.16:801][892]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.16:801][892]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.16:851][892]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.16:871][892]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.17:374][917]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.17:374][917]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.17:429][917]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.17:452][917]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.17:861][937]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.17:862][937]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.17:910][937]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.17:930][937]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.10.18:292][955]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.18:292][955]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.18:346][955]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.10.18:365][955]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.10.18:388][955]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.18:411][955]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.18:862][977]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.18:862][977]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.10.23:148][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.10.32:540][702]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.32:540][702]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.10.32:621][702]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.10.32:645][702]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.10.32:668][702]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.32:692][702]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.55:475][978]Cmd: TRANSACTION UNDO
+[2018.10.29-15.10.55:475][978]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.10.55:532][978]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.10.55:554][978]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.10.55:579][978]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.10.55:603][978]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.11.07:781][601]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.07:782][601]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.08:228][607]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.08:228][607]LogEditorTransaction: Undo 액터 클릭
+[2018.10.29-15.11.08:895][632]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.08:895][632]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.08:950][632]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.11.08:968][632]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.11.08:988][632]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.11.09:009][632]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.11.10:560][717]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.10:560][717]LogEditorTransaction: Undo 액터 클릭
+[2018.10.29-15.11.11:188][752]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.11:188][752]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.11:239][752]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.11.11:260][752]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.11.11:284][752]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.11.11:307][752]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.11.12:003][789]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.12:003][789]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.14:139][898]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.14:139][898]LogEditorTransaction: Undo 액터 클릭
+[2018.10.29-15.11.24:710][508]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.24:710][508]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.25:487][545]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.25:487][545]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.30:155][801]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.30:155][801]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.30:214][801]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.11.30:234][801]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.11.30:256][801]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.11.30:279][801]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.11.30:714][823]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.30:714][823]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.59:325][446]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.59:325][446]LogEditorTransaction: Undo 액터 클릭
+[2018.10.29-15.11.59:877][473]Cmd: TRANSACTION UNDO
+[2018.10.29-15.11.59:877][473]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.11.59:931][473]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.11.59:955][473]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.11.59:976][473]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.12.00:001][473]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.12.00:243][483]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.00:243][483]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.12.00:292][483]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.12.00:310][483]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.12.00:329][483]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.12.00:349][483]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.12.00:670][499]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.00:670][499]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.12.00:728][499]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.12.00:747][499]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.12.00:767][499]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.12.00:785][499]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.12.01:117][515]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.01:117][515]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.12.01:165][515]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.12.01:185][515]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.12.01:205][515]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.12.01:226][515]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.12.01:654][536]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.01:654][536]LogEditorTransaction: Undo 랜드스케이프 편집중: 조각
+[2018.10.29-15.12.02:241][563]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.02:241][563]LogEditorTransaction: Undo Brush Size 편집
+[2018.10.29-15.12.06:139][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.12.26:899][988]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.26:899][988]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.29:575][123]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.29:575][123]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.30:974][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.12.33:819][357]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.33:819][357]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.40:635][739]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.40:635][739]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.42:372][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.12.46:770][ 91]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.46:770][ 91]LogEditorTransaction: Undo Noise Scale 편집
+[2018.10.29-15.12.49:651][248]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.49:651][248]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.50:880][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.12.54:420][507]Cmd: TRANSACTION UNDO
+[2018.10.29-15.12.54:420][507]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.12.55:469][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.13.00:317][826]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.00:317][826]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.03:070][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.13.11:423][326]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.11:423][326]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.11:546][326]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.13.11:568][326]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.13.11:589][326]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.13.11:613][326]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.13.12:177][341]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.12:178][341]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.12:238][341]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.13.12:258][341]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.13.12:714][357]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.12:714][357]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.12:759][357]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.13.12:777][357]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.13.13:211][379]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.13:211][379]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.13:264][379]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.13.13:282][379]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.13.13:301][379]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.13.13:324][379]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.13.13:709][398]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.13:709][398]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.14:736][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.13.19:425][713]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.19:425][713]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.23:913][885]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.23:913][885]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.29:615][123]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.29:615][123]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.37:826][351]Cmd: TRANSACTION UNDO
+[2018.10.29-15.13.37:826][351]LogEditorTransaction: Undo 랜드스케이프 편집중: 노이즈
+[2018.10.29-15.13.39:535][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.14.45:832][478]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 512X512)
+[2018.10.29-15.14.45:842][478]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 512X512)
+[2018.10.29-15.14.45:853][478]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 512X512)
+[2018.10.29-15.14.45:864][478]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 512X512)
+[2018.10.29-15.14.47:454][478]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto4AAABB2DF4A2E359ECBDC87BD68C838B0.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto4.umap'
+[2018.10.29-15.14.47:462][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 1.729
+[2018.10.29-15.14.47:462][478]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.729
+[2018.10.29-15.21.41:444][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.25.43:591][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.26.58:058][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.08:142][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.13:785][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.19:561][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.22:083][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.33:954][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.27.55:705][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.28.10:463][971]LogSlate: Window '색 선택 툴' being destroyed
+[2018.10.29-15.28.21:318][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.28.30:459][134]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.10.29-15.28.31:571][186]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2018.10.29-15.28.33:159][259]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.10.29-15.28.35:654][399]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.10.29-15.28.46:787][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.10.29-15.28.47:384][ 82]LogEditorViewport: Clicking Background
+[2018.10.29-15.28.48:820][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.28.57:204][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.29.10:441][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.29.41:677][844]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto5E8B9F28545C8A4C9986D0E9D2EB60ACE.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto5.umap'
+[2018.10.29-15.29.41:692][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 1.375
+[2018.10.29-15.29.41:693][844]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.375
+[2018.10.29-15.30.13:294][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.30.20:129][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.30.23:471][716]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.29-15.30.42:593][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.30.51:530][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.31.04:506][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.31.04:588][122]LogSlate: Window '색 선택 툴' being destroyed
+[2018.10.29-15.31.07:557][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.31.13:446][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.31.38:888][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.29-15.31.50:927][833]MapCheck: New page: 맵 체크
+[2018.10.29-15.31.50:948][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.29-15.31.50:963][833]LightingResults: New page: 라이팅 빌드 - 2018. 10. 30. 오전 9:31:50
+[2018.10.29-15.31.51:260][833]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.29-15.31.51:670][833]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.29-15.31.51:760][833]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.29-15.31.52:809][833]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.29-15.31.52:809][833]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3464
+[2018.10.29-15.31.56:782][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.29-15.31.56:782][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.29-15.31.56:782][833]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.29-15.31.56:782][833]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.29-15.31.56:782][833]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.29-15.31.57:731][833]LogEditorBuildUtils: Build time 0:06
+[2018.10.29-15.31.57:751][833]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2018.10.29-15.31.57:766][833]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2018.10.29-15.31.57:802][833]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-15.31.57:813][833]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-15.31.57:852][834]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling. Is special engine material.
+[2018.10.29-15.31.57:891][834]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling. Is special engine material.
+[2018.10.29-15.31.57:940][834]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-15.31.57:947][835]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.29-15.34.46:333][997]Job is a success!
+[2018.10.29-15.34.48:107][998]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 1.254s
+[2018.10.29-15.34.48:107][998]LogVolumetricLightmapImport:      Indirection Texture 64x64x64 = 1.0Mb
+[2018.10.29-15.34.48:108][998]LogVolumetricLightmapImport:      BrickData 1280x90x5 = 22.5Mb (trimmed 0.7Mb due to 0.010000 MinBrickError)
+[2018.10.29-15.34.48:108][998]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.29-15.34.48:108][998]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2018.10.29-15.34.48:108][998]LogVolumetricLightmapImport:          1: 5.7% covering 6.3% of volume
+[2018.10.29-15.34.48:108][998]LogVolumetricLightmapImport:          2: 92.9% covering 1.6% of volume
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.10.29-15.34.51:572][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:573][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:574][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.10.29-15.34.51:575][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_21 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:578][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:579][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2018.10.29-15.34.51:579][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_22 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:579][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:579][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_23 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_24 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_24 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_24 (DXT1, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_25 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_25 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:582][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_25 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_26 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_26 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_26 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_27 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_28 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_28 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_28 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_29 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_29 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_29 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_30 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_30 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_30 (DXT1, 256X256)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_31 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:583][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_31 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_31 (DXT1, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_32 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_32 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_32 (DXT1, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_33 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_33 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_33 (DXT1, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_34 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_34 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_34 (DXT1, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_35 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_35 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_35 (DXT1, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_36 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_36 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:584][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_36 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_37 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_37 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_37 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_38 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_38 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_38 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_39 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_39 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_39 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_40 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_40 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_40 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_41 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_41 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_41 (DXT1, 256X256)
+[2018.10.29-15.34.51:585][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_42 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_42 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_42 (DXT1, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_43 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_43 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_43 (DXT1, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_44 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_44 (DXT1, 256X256)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_44 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:586][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_45 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_45 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_45 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_46 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_46 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_46 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_47 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_47 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_47 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_48 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_48 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_48 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_49 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_49 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_49 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_50 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_50 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_50 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_51 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_51 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_51 (DXT1, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_52 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_52 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:587][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_52 (DXT1, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_53 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_53 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_53 (DXT1, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_54 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_54 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_54 (DXT1, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_55 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_55 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_55 (DXT1, 256X256)
+[2018.10.29-15.34.51:588][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_56 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_56 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_56 (DXT1, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_57 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_57 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_57 (DXT1, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_58 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_58 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_58 (DXT1, 256X256)
+[2018.10.29-15.34.51:589][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_59 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_59 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_59 (DXT1, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_60 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_60 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_60 (DXT1, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_61 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_61 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_61 (DXT1, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_62 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_62 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_62 (DXT1, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_63 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_63 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:590][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_63 (DXT1, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_64 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_64 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_64 (DXT1, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_65 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_65 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_65 (DXT1, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_66 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_66 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_67 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_66 (DXT1, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_67 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_67 (DXT1, 256X256)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_68 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:591][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_68 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_68 (DXT1, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_69 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_69 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_69 (DXT1, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_70 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_70 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_70 (DXT1, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_71 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_71 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_71 (DXT1, 256X256)
+[2018.10.29-15.34.51:592][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_72 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:593][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_72 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:594][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_72 (DXT1, 256X256)
+[2018.10.29-15.34.51:594][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_73 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:594][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_73 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:595][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_73 (DXT1, 256X256)
+[2018.10.29-15.34.51:596][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_74 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:597][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_74 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:597][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_74 (DXT1, 256X256)
+[2018.10.29-15.34.51:597][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_75 (AutoDXT, 256X128)
+[2018.10.29-15.34.51:597][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_75 (AutoDXT, 256X256)
+[2018.10.29-15.34.51:597][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_75 (DXT1, 256X256)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_76 (AutoDXT, 128X64)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_76 (AutoDXT, 128X128)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_76 (DXT1, 128X128)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_77 (AutoDXT, 128X64)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_77 (AutoDXT, 128X128)
+[2018.10.29-15.34.51:598][998]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_77 (DXT1, 128X128)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 256X128)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_3 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_6 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_11 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_18 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_17 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_16 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_15 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_21 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_19 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_20 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_22 (G8, 256X64)
+[2018.10.29-15.34.54:639][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_24 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_28 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_25 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_23 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_27 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_26 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_31 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_30 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_32 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_33 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_36 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_37 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_35 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_38 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_39 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_40 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_41 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_34 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_29 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_42 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_43 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_44 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_45 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_48 (G8, 256X64)
+[2018.10.29-15.34.54:640][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_46 (G8, 256X64)
+[2018.10.29-15.34.54:641][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_49 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_50 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_56 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_54 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_53 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_58 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_55 (G8, 256X64)
+[2018.10.29-15.34.54:716][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_59 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_61 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_60 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_57 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_62 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_64 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_66 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_65 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_68 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_63 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_67 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_69 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_70 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_72 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_71 (G8, 256X64)
+[2018.10.29-15.34.54:717][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_73 (G8, 256X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_51 (G8, 256X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_75 (G8, 128X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_47 (G8, 256X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_74 (G8, 256X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_52 (G8, 256X64)
+[2018.10.29-15.34.54:718][998]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_76 (G8, 128X64)
+[2018.10.29-15.34.55:035][998]Lightmass on DESKTOP-33J3PSK: 2:20 min total, 2.26 sec importing, 2.71 sec setup, 29.9 sec photons, 1:45 min processing, 0 ms extra exporting [257/257 mappings]. Threads: 12:20 min total, 2:52 min processing.
+[2018.10.29-15.34.55:335][998]LogStaticLightingSystem: Illumination: 3:03 min (3.01 sec encoding lightmaps, 3.18 sec encoding shadowmaps)
+[2018.10.29-15.34.55:336][998]LogStaticLightingSystem: Lightmap texture memory:  12.6 MB (12.6 MB streaming, 0.0 MB non-streaming), 154 textures
+[2018.10.29-15.34.55:336][998]LogStaticLightingSystem: Shadowmap texture memory: 1.6 MB (1.6 MB streaming, 0.0 MB non-streaming), 77 textures
+[2018.10.29-15.35.00:729][998]DumpUnbuiltLightIteractions
+[2018.10.29-15.35.00:730][998]Lights with unbuilt interactions: 0
+[2018.10.29-15.35.00:730][998]
+[2018.10.29-15.35.00:730][998]Primitives with unbuilt interactions: 0
+[2018.10.29-15.35.00:901][999]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.29-15.35.00:902][999]MapCheck: New page: Map_LostBambooForest - 2018. 10. 30. 오전 9:35:00
+[2018.10.29-15.35.01:347][999]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 444.313ms.
+[2018.10.29-15.39.58:136][881]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto6314E8C984226B341823B5EA450EE5F47.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto6.umap'
+[2018.10.29-15.39.58:154][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 1.381
+[2018.10.29-15.39.58:154][881]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.381
+[2018.10.29-15.39.58:167][881]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Map_LostBambooForest_BuiltData] ([1] browsable assets)...
+[2018.10.29-15.39.58:167][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Map_LostBambooForest_BuiltData]
+[2018.10.29-15.39.58:778][881]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_BuiltData_A39D176B84BE5B4DFF8E35FAB307BE383.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_BuiltData_Auto6.uasset'
+[2018.10.29-15.39.58:782][881]LogFileHelpers: Auto-saving content packages took 0.620
+[2018.10.29-15.49.14:709][630]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.10.29-15.49.15:911][630]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest16F984CE4F301C2D89BC3EBF3D9819C1.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap'
+[2018.10.29-15.49.15:969][630]LogFileHelpers: Saving map 'Map_LostBambooForest' took 1.193
+[2018.10.29-15.49.17:507][630]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_BuiltData97A9496F4736CC5F4935D29EBC8DD3BA.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest_BuiltData.uasset'
+[2018.10.29-15.49.17:638][630]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
+[2018.10.29-15.49.18:000][631]Cmd: QUIT_EDITOR
+[2018.10.29-15.49.18:883][631]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.10.29-15.49.18:909][631]LogExit: Preparing to exit.
+[2018.10.29-15.49.19:656][631]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/', and we were unable to create a new request.
+[2018.10.29-15.49.19:773][631]LogExit: Editor shut down
+[2018.10.29-15.49.19:775][631]LogExit: Transaction tracking system shut down
+[2018.10.29-15.49.20:524][631]LogExit: Object subsystem successfully closed.
+[2018.10.29-15.49.20:562][631]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.29-15.49.20:574][631]LogD3D11RHI: Shutdown
+[2018.10.29-15.49.20:574][631]LogD3D11RHI: CleanupD3DDevice
+[2018.10.29-15.49.20:587][631]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.29-15.49.20:653][631]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2018.10.29-15.49.20:653][631]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2018.10.29-15.49.20:653][631]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2018.10.29-15.49.20:653][631]LogModuleManager: Shutting down and abandoning module WorldBrowser (612)
+[2018.10.29-15.49.20:654][631]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.10.29-15.49.20:654][631]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.10.29-15.49.20:666][631]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.10.29-15.49.20:666][631]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.10.29-15.49.20:666][631]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.10.29-15.49.20:667][631]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.10.29-15.49.20:668][631]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.10.29-15.49.20:668][631]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.10.29-15.49.20:669][631]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.10.29-15.49.20:670][631]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.10.29-15.49.20:670][631]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.10.29-15.49.20:670][631]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.10.29-15.49.20:670][631]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.10.29-15.49.20:673][631]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.10.29-15.49.20:673][631]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.10.29-15.49.20:674][631]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.10.29-15.49.20:674][631]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.10.29-15.49.20:674][631]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.10.29-15.49.20:676][631]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.10.29-15.49.20:677][631]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.10.29-15.49.20:678][631]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.10.29-15.49.20:680][631]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.10.29-15.49.20:681][631]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.10.29-15.49.20:681][631]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.10.29-15.49.20:681][631]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.10.29-15.49.20:681][631]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.10.29-15.49.20:681][631]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.10.29-15.49.20:682][631]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.10.29-15.49.21:642][631]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.10.29-15.49.21:642][631]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.10.29-15.49.21:642][631]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.10.29-15.49.21:642][631]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.10.29-15.49.21:642][631]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.10.29-15.49.21:643][631]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.10.29-15.49.21:643][631]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.10.29-15.49.21:644][631]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.10.29-15.49.21:644][631]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.10.29-15.49.21:644][631]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.10.29-15.49.21:644][631]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.10.29-15.49.21:645][631]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.10.29-15.49.21:645][631]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.10.29-15.49.21:645][631]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.10.29-15.49.21:645][631]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.10.29-15.49.21:646][631]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.10.29-15.49.21:646][631]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.10.29-15.49.21:647][631]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.10.29-15.49.21:647][631]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.10.29-15.49.21:648][631]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.10.29-15.49.21:648][631]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.10.29-15.49.21:648][631]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.10.29-15.49.21:704][631]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.10.29-15.49.21:704][631]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.10.29-15.49.21:705][631]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.10.29-15.49.21:707][631]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.10.29-15.49.21:707][631]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.10.29-15.49.21:707][631]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.10.29-15.49.21:707][631]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.10.29-15.49.21:708][631]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.10.29-15.49.21:708][631]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.10.29-15.49.21:709][631]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.10.29-15.49.21:710][631]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.10.29-15.49.21:712][631]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.10.29-15.49.21:712][631]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.10.29-15.49.21:712][631]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.10.29-15.49.21:713][631]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.29-15.49.21:713][631]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.29-15.49.21:714][631]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.29-15.49.21:714][631]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.29-15.49.21:714][631]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.29-15.49.21:714][631]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.29-15.49.21:714][631]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.29-15.49.21:715][631]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.29-15.49.21:716][631]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.29-15.49.21:716][631]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.29-15.49.21:716][631]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.29-15.49.21:716][631]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.10.29-15.49.21:951][631]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.10.29-15.49.21:952][631]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.10.29-15.49.21:952][631]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.10.29-15.49.21:952][631]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.10.29-15.49.21:953][631]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.10.29-15.49.21:955][631]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.10.29-15.49.21:955][631]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.10.29-15.49.21:955][631]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.10.29-15.49.21:955][631]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.10.29-15.49.21:960][631]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.10.29-15.49.21:960][631]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.10.29-15.49.21:960][631]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.10.29-15.49.21:960][631]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.10.29-15.49.21:961][631]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.10.29-15.49.21:963][631]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.10.29-15.49.21:963][631]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.10.29-15.49.21:964][631]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.10.29-15.49.21:965][631]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.10.29-15.49.21:965][631]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.10.29-15.49.21:965][631]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.10.29-15.49.21:966][631]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.10.29-15.49.21:966][631]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.10.29-15.49.21:966][631]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.10.29-15.49.21:966][631]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.10.29-15.49.21:966][631]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.10.29-15.49.21:967][631]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.10.29-15.49.21:968][631]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.10.29-15.49.21:969][631]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.10.29-15.49.21:970][631]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.10.29-15.49.21:970][631]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.10.29-15.49.21:970][631]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.10.29-15.49.21:970][631]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.10.29-15.49.21:970][631]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (300)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.29-15.49.21:971][631]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.29-15.49.21:972][631]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.29-15.49.21:972][631]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.29-15.49.22:073][631]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.29-15.49.22:174][631]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.29-15.49.22:174][631]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.29-15.49.22:174][631]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.29-15.49.22:175][631]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.29-15.49.22:175][631]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.29-15.49.22:175][631]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.29-15.49.22:175][631]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.29-15.49.22:177][631]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.29-15.49.22:178][631]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.29-15.49.22:178][631]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.29-15.49.22:179][631]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.29-15.49.22:180][631]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.29-15.49.22:181][631]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.29-15.49.22:182][631]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.29-15.49.22:182][631]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.29-15.49.22:182][631]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.29-15.49.22:182][631]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.29-15.49.22:182][631]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.29-15.49.22:184][631]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.29-15.49.22:190][631]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.29-15.49.22:190][631]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.29-15.49.22:190][631]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.29-15.49.22:191][631]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.29-15.49.22:191][631]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.29-15.49.22:191][631]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.29-15.49.22:191][631]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.29-15.49.22:191][631]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.29-15.49.22:192][631]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.29-15.49.22:192][631]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.29-15.49.22:193][631]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.29-15.49.22:194][631]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.29-15.49.22:195][631]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.29-15.49.22:195][631]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.29-15.49.22:196][631]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.29-15.49.22:197][631]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.29-15.49.22:199][631]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.29-15.49.22:199][631]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.29-15.49.22:201][631]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.29-15.49.22:201][631]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.29-15.49.22:205][631]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.29-15.49.22:206][631]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.29-15.49.22:206][631]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.29-15.49.22:207][631]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.29-15.49.22:207][631]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.29-15.49.22:207][631]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.29-15.49.22:208][631]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.29-15.49.22:208][631]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.29-15.49.22:208][631]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.29-15.49.22:209][631]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.29-15.49.22:210][631]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.29-15.49.22:218][631]LogDerivedDataCache: Shutdown
+[2018.10.29-15.49.22:218][631]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.29-15.49.22:219][631]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.29-15.49.22:219][631]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.29-15.49.22:220][631]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.29-15.49.22:220][631]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.29-15.49.22:220][631]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.29-15.49.22:220][631]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.29-15.49.22:221][631]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.29-15.49.22:221][631]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.29-15.49.22:221][631]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.29-15.49.22:221][631]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.29-15.49.22:222][631]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.29-15.49.22:223][631]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.29-15.49.22:223][631]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.29-15.49.22:223][631]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.29-15.49.22:223][631]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.29-15.49.22:223][631]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.29-15.49.22:224][631]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.29-15.49.22:238][631]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.29-15.49.22:238][631]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.29-15.49.22:248][631]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.29-15.49.22:248][631]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.29-15.49.22:317][631]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.29-15.49.22:317][631]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.29-15.49.22:317][631]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.29-15.49.22:317][631]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.29-15.49.22:317][631]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.29-15.49.22:318][631]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.29-15.49.22:319][631]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.29-15.49.22:319][631]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.29-15.49.22:319][631]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.29-15.49.22:320][631]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.29-15.49.22:320][631]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.29-15.49.22:321][631]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.29-15.49.22:323][631]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.29-15.49.22:345][631]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.29-15.49.22:345][631]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.29-15.49.22:346][631]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8E9D528-462C-3122-E734-6E92D08D34EE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1e51e6584cfdab19cc033a923e4d2e37%7Cf20972f491e24565a030c6afa01aa409%7C36b8a828-7a73-4478-a859-aadf467041c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.29-15.49.22:359][631]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.29-15.49.22:362][631]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.29-15.49.22:363][631]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.29-15.49.22:363][631]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.29-15.49.22:363][631]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.29-15.49.22:363][631]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.29-15.49.22:364][631]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.29-15.49.22:364][631]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.29-15.49.22:365][631]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.29-15.49.22:365][631]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.29-15.49.22:366][631]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.29-15.49.22:366][631]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.29-15.49.22:366][631]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.29-15.49.22:366][631]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.29-15.49.22:370][631]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.29-15.49.22:371][631]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.29-15.49.22:381][631]LogExit: Exiting.
+[2018.10.29-15.49.22:428][631]Log file closed, 10/30/18 00:49:22
