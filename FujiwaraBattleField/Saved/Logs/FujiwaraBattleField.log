@@ -1,4 +1,4 @@
-﻿Log file open, 10/31/18 10:16:25
+﻿Log file open, 11/07/18 22:55:09
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FujiwaraBattleField
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.442410
+LogStats: Stats thread started at 0.389339
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.319s to configure plugins.
+LogStreaming: Display: Took  0.246s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,524 +147,784 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.008s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.31-01.16.26:953][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.31-01.16.26:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.31-01.16.26:995][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.31-01.16.26:995][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.31-01.16.26:995][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.31-01.16.27:010][  0]LogInit: Computer: DESKTOP-33J3PSK
-[2018.10.31-01.16.27:010][  0]LogInit: User: Utsuho
-[2018.10.31-01.16.27:010][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.31-01.16.27:010][  0]LogInit: High frequency timer resolution =2.531254 MHz
-[2018.10.31-01.16.27:011][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
-[2018.10.31-01.16.27:011][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.31-01.16.27:011][  0]LogMemory: Process Physical Memory: 100.89 MB used, 100.89 MB peak
-[2018.10.31-01.16.27:011][  0]LogMemory: Process Virtual Memory: 89.29 MB used, 89.29 MB peak
-[2018.10.31-01.16.27:011][  0]LogMemory: Physical Memory: 5455.45 MB used,  2549.05 MB free, 8004.50 MB total
-[2018.10.31-01.16.27:011][  0]LogMemory: Virtual Memory: 4643.48 MB used,  2549.05 MB free, 134217728.00 MB total
-[2018.10.31-01.16.27:126][  0]LogInit: Using OS detected language (ko-KR).
-[2018.10.31-01.16.27:126][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.10.31-01.16.27:129][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.10.31-01.16.28:171][  0]LogStreaming: Display: Took  1.046s to InitEngineTextLocalization.
-[2018.10.31-01.16.28:171][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.31-01.16.28:382][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.31-01.16.28:382][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.31-01.16.35:162][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.31-01.16.35:163][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.31-01.16.35:354][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.10.31-01.16.35:354][  0]LogD3D11RHI:       2007/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.31-01.16.35:380][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.10.31-01.16.35:380][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.31-01.16.35:388][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.31-01.16.35:388][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.31-01.16.35:388][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.31-01.16.35:486][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.31-01.16.35:486][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.10.31-01.16.35:486][  0]LogWindows: EnumDisplayDevices:
-[2018.10.31-01.16.35:487][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.10.31-01.16.35:489][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.10.31-01.16.35:491][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.10.31-01.16.35:494][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
-[2018.10.31-01.16.35:496][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
-[2018.10.31-01.16.35:498][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
-[2018.10.31-01.16.35:500][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
-[2018.10.31-01.16.35:502][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
-[2018.10.31-01.16.35:503][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.31-01.16.35:503][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.10.31-01.16.35:503][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
-[2018.10.31-01.16.35:503][  0]LogD3D11RHI:      Driver Date: 2-23-2018
-[2018.10.31-01.16.35:503][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2018.10.31-01.16.35:593][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.31-01.16.35:617][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.31-01.16.35:623][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/30332/).
-[2018.10.31-01.16.35:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/2CF6B2BC47349C0309FC0DB80EC66A29/'.
-[2018.10.31-01.16.36:636][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.31-01.16.36:667][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.31-01.16.36:697][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.31-01.16.36:728][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.31-01.16.36:762][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.31-01.16.36:794][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.31-01.16.36:826][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.31-01.16.36:858][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.31-01.16.36:874][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.31-01.16.37:076][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.31-01.16.37:185][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.31-01.16.37:185][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.31-01.16.37:242][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.31-01.16.37:242][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.31-01.16.37:273][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.31-01.16.37:303][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.31-01.16.37:333][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.31-01.16.37:367][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.31-01.16.37:393][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.31-01.16.37:394][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.31-01.16.37:581][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.31-01.16.37:581][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.31-01.16.37:581][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.31-01.16.39:304][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.31-01.16.39:420][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.31-01.16.39:421][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.31-01.16.39:421][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.31-01.16.39:421][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.31-01.16.39:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.31-01.16.39:422][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.31-01.16.39:452][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.31-01.16.39:466][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.31-01.16.39:466][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.31-01.16.39:466][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.31-01.16.39:503][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.31-01.16.39:507][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.31-01.16.39:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.31-01.16.39:652][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
-[2018.10.31-01.16.40:405][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.31-01.16.40:542][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.31-01.16.40:553][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.31-01.16.40:553][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.31-01.16.40:553][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.31-01.16.40:553][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.31-01.16.40:769][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
-[2018.10.31-01.16.41:929][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.237079 seconds
-[2018.10.31-01.16.41:940][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.31-01.16.41:941][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.31-01.16.41:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.31-01.16.44:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.31-01.16.44:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.31-01.16.44:374][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.10.31-01.16.44:375][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.10.31-01.16.44:379][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.10.31-01.16.44:382][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.10.31-01.16.44:666][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.31-01.16.45:012][  0]LogOcInput: OculusInput pre-init called
-[2018.10.31-01.16.45:132][  0]LogEngine: Initializing Engine...
-[2018.10.31-01.16.45:134][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.31-01.16.45:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.31-01.16.45:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.31-01.16.45:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.31-01.16.45:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.31-01.16.45:664][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.31-01.16.45:698][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.31-01.16.45:843][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.31-01.16.46:114][  0]LogInit: FAudioDevice initialized.
-[2018.10.31-01.16.46:114][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.31-01.16.46:703][  0]LogDerivedDataCache: Saved boot cache 0.59s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.31-01.16.46:731][  0]LogInit: Texture streaming: Enabled
-[2018.10.31-01.16.46:776][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.31-01.16.46:828][  0]LogInit: Transaction tracking system initialized
-[2018.10.31-01.16.46:894][  0]BlueprintLog: New page: 에디터 로드
-[2018.10.31-01.16.47:096][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.10.31-01.16.47:708][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.31-01.16.47:709][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.31-01.16.47:709][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.31-01.16.47:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.31-01.16.47:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.31-01.16.47:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.31-01.16.47:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.31-01.16.47:839][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/' took 0.02s
-[2018.10.31-01.16.48:016][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.10.31-01.16.48:017][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.31-01.16.48:017][  0]LightingResults: New page: 라이팅 빌드
-[2018.10.31-01.16.48:025][  0]MapCheck: New page: 맵 체크
-[2018.10.31-01.16.48:026][  0]LightingResults: New page: 라이팅 빌드
-[2018.10.31-01.16.48:520][  0]LogAIModule: Creating AISystem for world Map_LostBambooForest
-[2018.10.31-01.16.48:844][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.31-01.16.48:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.31-01.16.49:085][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 192.308ms.
-[2018.10.31-01.16.49:085][  0]LogFileHelpers: Loading map 'Map_LostBambooForest' took 1.068
-[2018.10.31-01.16.49:287][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.31-01.16.49:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.31-01.16.49:321][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.31-01.16.49:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.31-01.16.49:356][  0]LogCollectionManager: Loaded 0 collections in 0.004838 seconds
-[2018.10.31-01.16.49:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
-[2018.10.31-01.16.49:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Developers/Utsuho/Collections/' took 0.01s
-[2018.10.31-01.16.49:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
-[2018.10.31-01.16.49:418][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.31-01.16.49:440][  0]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2573 classes and 605 folders.
-[2018.10.31-01.16.49:459][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.10.31-01.16.49:594][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.10.31-01.16.49:607][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.10.31-01.16.49:626][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
-[2018.10.31-01.16.50:052][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.31-01.16.50:063][  0]LogSlate: Took 0.006260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.10.31-01.16.50:076][  0]LogSlate: Took 0.006582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2018.10.31-01.16.50:077][  0]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.31-01.16.50:085][  0]LogSlate: Took 0.000520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.31-01.16.50:299][  0]LogRenderer: Reallocating scene render targets to support 1128x560 Format 10 NumSamples 1 (Frame:1).
-[2018.10.31-01.16.50:583][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.10.31-01.16.50:583][  0]LogLoad: (Engine Initialization) Total time: 31.87 seconds
-[2018.10.31-01.16.50:583][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.31-01.16.50:663][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.31-01.16.50:775][  0]LogSlate: Took 0.000539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.31-01.16.51:175][  3]LogAssetRegistry: Asset discovery search completed in 11.5460 seconds
-[2018.10.31-01.16.51:179][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.31-01.16.51:179][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000208 seconds (updated 0 objects)
-[2018.10.31-01.16.51:825][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.31-01.16.56:459][137]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.31-01.22.59:974][315]LogHotReload: New module detected: UE4Editor-FujiwaraBattleField-6173.dll
-[2018.10.31-01.23.02:348][323]LogHotReload: Starting Hot-Reload from IDE
-[2018.10.31-01.23.02:375][323]LogSlate: Took 0.010974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.31-01.23.02:731][323]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2018.10.31-01.23.02:736][323]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.10.31-01.23.02:966][323]LogContentBrowser: Native class hierarchy populated in 0.0212 seconds. Added 2576 classes and 610 folders.
-[2018.10.31-01.23.03:093][323]Display: HotReload took  0.7s.
-[2018.10.31-01.25.51:157][824]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
-[2018.10.31-01.25.51:608][825]Cmd: QUIT_EDITOR
-[2018.10.31-01.25.51:682][825]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.10.31-01.25.51:715][825]LogExit: Preparing to exit.
-[2018.10.31-01.25.52:524][825]LogExit: Editor shut down
-[2018.10.31-01.25.52:525][825]LogExit: Transaction tracking system shut down
-[2018.10.31-01.25.53:245][825]LogExit: Object subsystem successfully closed.
-[2018.10.31-01.25.53:290][825]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.10.31-01.25.53:296][825]LogD3D11RHI: Shutdown
-[2018.10.31-01.25.53:296][825]LogD3D11RHI: CleanupD3DDevice
-[2018.10.31-01.25.53:301][825]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.10.31-01.25.53:392][825]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (615)
-[2018.10.31-01.25.53:392][825]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
-[2018.10.31-01.25.53:392][825]LogModuleManager: Shutting down and abandoning module WorldBrowser (612)
-[2018.10.31-01.25.53:393][825]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
-[2018.10.31-01.25.53:393][825]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
-[2018.10.31-01.25.53:394][825]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
-[2018.10.31-01.25.53:394][825]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
-[2018.10.31-01.25.53:394][825]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
-[2018.10.31-01.25.53:395][825]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
-[2018.10.31-01.25.53:395][825]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
-[2018.10.31-01.25.53:396][825]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
-[2018.10.31-01.25.53:397][825]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module BspMode (584)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
-[2018.10.31-01.25.53:398][825]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
-[2018.10.31-01.25.53:399][825]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
-[2018.10.31-01.25.53:399][825]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
-[2018.10.31-01.25.53:401][825]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
-[2018.10.31-01.25.53:401][825]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
-[2018.10.31-01.25.53:402][825]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
-[2018.10.31-01.25.53:402][825]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
-[2018.10.31-01.25.53:402][825]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
-[2018.10.31-01.25.53:403][825]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
-[2018.10.31-01.25.53:403][825]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
-[2018.10.31-01.25.53:403][825]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module SessionServices (534)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
-[2018.10.31-01.25.53:404][825]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
-[2018.10.31-01.25.53:405][825]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
-[2018.10.31-01.25.53:406][825]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
-[2018.10.31-01.25.53:408][825]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
-[2018.10.31-01.25.53:408][825]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
-[2018.10.31-01.25.53:409][825]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
-[2018.10.31-01.25.53:409][825]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
-[2018.10.31-01.25.53:409][825]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
-[2018.10.31-01.25.53:409][825]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
-[2018.10.31-01.25.53:409][825]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
-[2018.10.31-01.25.53:492][825]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
-[2018.10.31-01.25.53:493][825]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
-[2018.10.31-01.25.53:493][825]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
-[2018.10.31-01.25.53:493][825]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
-[2018.10.31-01.25.53:493][825]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2018.10.31-01.25.53:493][825]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2018.10.31-01.25.53:494][825]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2018.10.31-01.25.53:495][825]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2018.10.31-01.25.53:496][825]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2018.10.31-01.25.53:496][825]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2018.10.31-01.25.53:496][825]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2018.10.31-01.25.53:496][825]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2018.10.31-01.25.53:497][825]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2018.10.31-01.25.53:498][825]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2018.10.31-01.25.53:498][825]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2018.10.31-01.25.53:499][825]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2018.10.31-01.25.53:499][825]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2018.10.31-01.25.53:554][825]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2018.10.31-01.25.53:555][825]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2018.10.31-01.25.53:555][825]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2018.10.31-01.25.53:557][825]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2018.10.31-01.25.53:557][825]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2018.10.31-01.25.53:558][825]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2018.10.31-01.25.53:558][825]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2018.10.31-01.25.53:560][825]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2018.10.31-01.25.53:560][825]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2018.10.31-01.25.53:560][825]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2018.10.31-01.25.53:562][825]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2018.10.31-01.25.53:563][825]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2018.10.31-01.25.53:563][825]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2018.10.31-01.25.53:563][825]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
-[2018.10.31-01.25.53:564][825]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.10.31-01.25.53:564][825]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.10.31-01.25.53:565][825]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.10.31-01.25.53:565][825]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.10.31-01.25.53:565][825]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.10.31-01.25.53:565][825]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.10.31-01.25.53:565][825]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.10.31-01.25.53:566][825]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.10.31-01.25.53:567][825]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.10.31-01.25.53:567][825]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.10.31-01.25.53:567][825]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.10.31-01.25.53:567][825]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2018.10.31-01.25.53:583][825]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2018.10.31-01.25.53:584][825]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2018.10.31-01.25.53:584][825]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2018.10.31-01.25.53:584][825]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2018.10.31-01.25.53:585][825]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2018.10.31-01.25.53:587][825]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
-[2018.10.31-01.25.53:587][825]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2018.10.31-01.25.53:587][825]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2018.10.31-01.25.53:587][825]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2018.10.31-01.25.53:594][825]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2018.10.31-01.25.53:594][825]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2018.10.31-01.25.53:594][825]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2018.10.31-01.25.53:594][825]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2018.10.31-01.25.53:594][825]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
-[2018.10.31-01.25.53:595][825]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
-[2018.10.31-01.25.53:597][825]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2018.10.31-01.25.53:597][825]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2018.10.31-01.25.53:599][825]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2018.10.31-01.25.53:599][825]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2018.10.31-01.25.53:599][825]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2018.10.31-01.25.53:599][825]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2018.10.31-01.25.53:600][825]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2018.10.31-01.25.53:600][825]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2018.10.31-01.25.53:600][825]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2018.10.31-01.25.53:600][825]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2018.10.31-01.25.53:600][825]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2018.10.31-01.25.53:601][825]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2018.10.31-01.25.53:602][825]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2018.10.31-01.25.53:603][825]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2018.10.31-01.25.53:604][825]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2018.10.31-01.25.53:605][825]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.10.31-01.25.53:605][825]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.10.31-01.25.53:605][825]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.10.31-01.25.53:605][825]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.10.31-01.25.53:606][825]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.10.31-01.25.53:606][825]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.10.31-01.25.53:606][825]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.10.31-01.25.53:606][825]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.10.31-01.25.53:606][825]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.10.31-01.25.53:707][825]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.10.31-01.25.53:845][825]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.10.31-01.25.53:845][825]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.10.31-01.25.53:848][825]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.10.31-01.25.53:848][825]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.10.31-01.25.53:848][825]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.10.31-01.25.53:848][825]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.10.31-01.25.53:849][825]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.10.31-01.25.53:852][825]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.10.31-01.25.53:852][825]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.10.31-01.25.53:853][825]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.10.31-01.25.53:853][825]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.10.31-01.25.53:854][825]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.10.31-01.25.53:856][825]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.10.31-01.25.53:857][825]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.10.31-01.25.53:857][825]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.10.31-01.25.53:857][825]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.10.31-01.25.53:857][825]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.10.31-01.25.53:858][825]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.10.31-01.25.53:895][825]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.10.31-01.25.53:920][825]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.10.31-01.25.53:920][825]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.10.31-01.25.53:920][825]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.10.31-01.25.53:921][825]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.10.31-01.25.53:921][825]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.10.31-01.25.53:921][825]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.10.31-01.25.53:922][825]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.10.31-01.25.53:922][825]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.10.31-01.25.53:923][825]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.10.31-01.25.53:923][825]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.10.31-01.25.53:924][825]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.10.31-01.25.53:925][825]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.10.31-01.25.53:925][825]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.10.31-01.25.53:925][825]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.10.31-01.25.53:926][825]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.10.31-01.25.53:927][825]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.10.31-01.25.53:929][825]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.10.31-01.25.53:929][825]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.10.31-01.25.53:931][825]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.10.31-01.25.53:931][825]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.10.31-01.25.53:937][825]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.10.31-01.25.53:937][825]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.10.31-01.25.53:937][825]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.10.31-01.25.53:938][825]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.10.31-01.25.53:939][825]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.10.31-01.25.53:939][825]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.10.31-01.25.53:939][825]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.10.31-01.25.53:940][825]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.10.31-01.25.53:940][825]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.10.31-01.25.53:940][825]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.10.31-01.25.53:941][825]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.10.31-01.25.53:941][825]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.10.31-01.25.54:013][825]LogDerivedDataCache: Shutdown
-[2018.10.31-01.25.54:013][825]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.10.31-01.25.54:013][825]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.10.31-01.25.54:014][825]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.10.31-01.25.54:015][825]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.10.31-01.25.54:015][825]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.10.31-01.25.54:017][825]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.10.31-01.25.54:017][825]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.10.31-01.25.54:022][825]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.10.31-01.25.54:022][825]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.10.31-01.25.54:022][825]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.10.31-01.25.54:023][825]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.10.31-01.25.54:024][825]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.10.31-01.25.54:024][825]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.10.31-01.25.54:024][825]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.10.31-01.25.54:024][825]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.10.31-01.25.54:025][825]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.10.31-01.25.54:029][825]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.10.31-01.25.54:030][825]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.10.31-01.25.54:032][825]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.10.31-01.25.54:033][825]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.10.31-01.25.54:052][825]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.10.31-01.25.54:052][825]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.10.31-01.25.54:262][825]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.10.31-01.25.54:262][825]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.10.31-01.25.54:262][825]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.10.31-01.25.54:262][825]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.10.31-01.25.54:262][825]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.10.31-01.25.54:263][825]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.10.31-01.25.54:263][825]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.10.31-01.25.54:263][825]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.10.31-01.25.54:263][825]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.10.31-01.25.54:264][825]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.10.31-01.25.54:267][825]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.10.31-01.25.54:268][825]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.10.31-01.25.54:305][825]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.10.31-01.25.54:305][825]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2018.10.31-01.25.54:305][825]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC977745-4A36-8385-C71C-CF84C176714C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1e51e6584cfdab19cc033a923e4d2e37%7Cf20972f491e24565a030c6afa01aa409%7C36b8a828-7a73-4478-a859-aadf467041c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.31-01.25.54:305][825]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC977745-4A36-8385-C71C-CF84C176714C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1e51e6584cfdab19cc033a923e4d2e37%7Cf20972f491e24565a030c6afa01aa409%7C36b8a828-7a73-4478-a859-aadf467041c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.31-01.25.54:339][825]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.10.31-01.25.54:344][825]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.10.31-01.25.54:345][825]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.10.31-01.25.54:345][825]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.10.31-01.25.54:346][825]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.10.31-01.25.54:347][825]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.10.31-01.25.54:347][825]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.10.31-01.25.54:348][825]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.10.31-01.25.54:349][825]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.10.31-01.25.54:349][825]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.10.31-01.25.54:349][825]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.10.31-01.25.54:352][825]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.10.31-01.25.54:353][825]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.10.31-01.25.54:353][825]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.10.31-01.25.54:354][825]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.10.31-01.25.54:355][825]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.10.31-01.25.54:355][825]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.10.31-01.25.54:369][825]LogExit: Exiting.
-[2018.10.31-01.25.54:389][825]Log file closed, 10/31/18 10:25:54
+[2018.11.07-13.55.10:179][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.07-13.55.10:179][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.07-13.55.10:202][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.07-13.55.10:202][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.07-13.55.10:202][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.07-13.55.10:202][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.11.07-13.55.10:202][  0]LogInit: User: Utsuho
+[2018.11.07-13.55.10:202][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.07-13.55.10:202][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.11.07-13.55.10:203][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.11.07-13.55.10:203][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.07-13.55.10:203][  0]LogMemory: Process Physical Memory: 100.07 MB used, 100.07 MB peak
+[2018.11.07-13.55.10:203][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
+[2018.11.07-13.55.10:203][  0]LogMemory: Physical Memory: 5599.94 MB used,  2404.55 MB free, 8004.50 MB total
+[2018.11.07-13.55.10:203][  0]LogMemory: Virtual Memory: 4645.04 MB used,  2404.55 MB free, 134217728.00 MB total
+[2018.11.07-13.55.10:298][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.07-13.55.10:298][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.07-13.55.10:300][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.07-13.55.11:044][  0]LogStreaming: Display: Took  0.746s to InitEngineTextLocalization.
+[2018.11.07-13.55.11:044][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.07-13.55.11:145][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.07-13.55.11:145][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.07-13.55.11:582][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.07-13.55.11:583][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.07-13.55.11:750][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.11.07-13.55.11:750][  0]LogD3D11RHI:       2007/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.07-13.55.11:773][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.07-13.55.11:773][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.07-13.55.11:779][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.07-13.55.11:779][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.07-13.55.11:779][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.07-13.55.11:847][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.07-13.55.11:847][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.11.07-13.55.11:847][  0]LogWindows: EnumDisplayDevices:
+[2018.11.07-13.55.11:847][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.11.07-13.55.11:849][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.07-13.55.11:850][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.07-13.55.11:851][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.11.07-13.55.11:852][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.07-13.55.11:853][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.07-13.55.11:855][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.07-13.55.11:857][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.11.07-13.55.11:857][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.11.07-13.55.11:857][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.11.07-13.55.11:857][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2018.11.07-13.55.11:857][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2018.11.07-13.55.11:857][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.11.07-13.55.11:915][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.07-13.55.11:944][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.07-13.55.12:004][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/33628/).
+[2018.11.07-13.55.12:005][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/FBA36485454C986C48604AA1254B3B55/'.
+[2018.11.07-13.55.12:641][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.07-13.55.12:668][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.07-13.55.12:692][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.07-13.55.12:717][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.07-13.55.12:745][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.07-13.55.12:771][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.07-13.55.12:800][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.07-13.55.12:830][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.07-13.55.12:847][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.07-13.55.13:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:024][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:025][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.07-13.55.13:031][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.07-13.55.13:122][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.07-13.55.13:122][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.07-13.55.13:163][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.07-13.55.13:163][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.07-13.55.13:181][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.07-13.55.13:204][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.07-13.55.13:228][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.07-13.55.13:250][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.07-13.55.13:269][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.07-13.55.13:269][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.07-13.55.13:419][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.07-13.55.13:419][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.07-13.55.13:419][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.07-13.55.14:645][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.07-13.55.14:768][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.07-13.55.14:770][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.07-13.55.14:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.07-13.55.14:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.07-13.55.14:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.07-13.55.14:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.07-13.55.14:789][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.07-13.55.14:803][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.07-13.55.14:803][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.07-13.55.14:803][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.07-13.55.14:840][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.07-13.55.14:842][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.07-13.55.14:842][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.07-13.55.14:948][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2018.11.07-13.55.15:734][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.07-13.55.16:002][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.07-13.55.16:011][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.07-13.55.16:011][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.07-13.55.16:011][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.07-13.55.16:011][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.07-13.55.16:036][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.07-13.55.17:010][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.197031 seconds
+[2018.11.07-13.55.17:026][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.07-13.55.17:026][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.07-13.55.17:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.07-13.55.18:758][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.07-13.55.18:780][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.07-13.55.19:101][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.07-13.55.19:101][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.07-13.55.19:106][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.07-13.55.19:110][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.07-13.55.19:443][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.07-13.55.19:889][  0]LogOcInput: OculusInput pre-init called
+[2018.11.07-13.55.20:002][  0]LogEngine: Initializing Engine...
+[2018.11.07-13.55.20:005][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.07-13.55.20:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.07-13.55.20:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.07-13.55.20:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.07-13.55.20:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.07-13.55.20:479][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.07-13.55.20:523][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.07-13.55.20:656][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.07-13.55.20:749][  0]LogInit: FAudioDevice initialized.
+[2018.11.07-13.55.20:750][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.07-13.55.20:870][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.07-13.55.20:887][  0]LogInit: Texture streaming: Enabled
+[2018.11.07-13.55.20:949][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.07-13.55.20:994][  0]LogInit: Transaction tracking system initialized
+[2018.11.07-13.55.21:058][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.07-13.55.21:243][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.07-13.55.21:795][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.07-13.55.21:795][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.07-13.55.21:795][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.07-13.55.21:796][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.07-13.55.21:796][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.07-13.55.21:796][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.07-13.55.21:796][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.07-13.55.22:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/' took 0.02s
+[2018.11.07-13.55.22:150][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.07-13.55.22:150][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.07-13.55.22:152][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.07-13.55.22:163][  0]MapCheck: New page: 맵 체크
+[2018.11.07-13.55.22:163][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.07-13.55.23:052][  0]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.11.07-13.55.23:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.07-13.55.23:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.07-13.55.23:596][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 166.348ms.
+[2018.11.07-13.55.23:596][  0]LogFileHelpers: Loading map 'Map_LostBambooForest' took 1.446
+[2018.11.07-13.55.23:762][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.07-13.55.23:778][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.07-13.55.23:794][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.07-13.55.23:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.07-13.55.23:824][  0]LogCollectionManager: Loaded 0 collections in 0.005985 seconds
+[2018.11.07-13.55.23:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.07-13.55.23:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.11.07-13.55.23:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.07-13.55.23:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.07-13.55.23:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2573 classes and 605 folders.
+[2018.11.07-13.55.23:924][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.11.07-13.55.24:028][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.07-13.55.24:042][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.07-13.55.24:069][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.07-13.55.24:077][  0]LogSlate: Took 0.005410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.07-13.55.24:083][  0]LogSlate: Took 0.004755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.07-13.55.24:084][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.07-13.55.24:091][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.07-13.55.24:276][  0]LogRenderer: Reallocating scene render targets to support 1208x516 Format 10 NumSamples 1 (Frame:1).
+[2018.11.07-13.55.24:724][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.11.07-13.55.24:725][  0]LogLoad: (Engine Initialization) Total time: 18.01 seconds
+[2018.11.07-13.55.24:725][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.07-13.55.24:785][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.07-13.55.24:845][  0]LogSlate: Took 0.000820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.07-13.55.25:113][  3]LogAssetRegistry: Asset discovery search completed in 10.1874 seconds
+[2018.11.07-13.55.25:120][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.07-13.55.25:120][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000425 seconds (updated 0 objects)
+[2018.11.07-13.59.34:574][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-13.59.42:153][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-13.59.44:288][ 38]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.07-13.59.45:582][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-13.59.47:049][166]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.07-14.00.00:973][477]LogTexture: Display: 텍스처 빌드: T_Canyon_Stripes_02 (AutoDXT, 256X1024)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: SnowMound_01_N (BC5, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: T_LS_Snow_01_D_Disp (AutoDXT, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: T_FullGrass_D (AutoDXT, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: T_RB_LS_Dirt_01_DispAlpha03 (AutoDXT, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: T_FullGrass_N (BC5, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogTexture: Display: 텍스처 빌드: T_GDC_Rocktest_01_N (BC5, 2048X2048)
+[2018.11.07-14.00.00:974][477]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.00.01:127][477]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.07-14.00.01:127][477]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.07-14.00.01:127][477]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.07-14.00.01:127][477]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.07-14.00.01:572][477]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.00.02:075][477]LogSlate: Took 0.008874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.07-14.00.02:099][477]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.07-14.00.02:218][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.00.02:240][477]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.07-14.00.02:323][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.00.02:339][477]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.07-14.00.02:425][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.00.02:462][477]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.11.07-14.00.02:575][478]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.11.07-14.00.02:577][478]LogMaterial: Warning: /Engine/Transient.Material_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.07-14.00.02:577][478]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.07-14.00.02:646][479]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.07-14.00.02:678][479]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2018.11.07-14.00.02:741][480]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2018.11.07-14.00.02:801][481]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2018.11.07-14.00.02:851][482]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2018.11.07-14.00.02:853][482]LogMaterial: Warning: /Engine/Transient.Material_5 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.07-14.00.02:854][482]LogMaterial: 	(Node TextureObject) Texture Object> Requires valid texture
+[2018.11.07-14.00.11:000][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-14.00.11:146][750]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.11.07-14.00.11:194][750]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.11.07-14.00.11:246][750]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.11.07-14.00.11:305][750]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.11.07-14.00.11:381][750]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.11.07-14.00.11:502][750]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.07-14.00.11:531][750]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.07-14.00.11:569][750]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.07-14.00.11:616][750]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.07-14.00.11:665][750]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.11.07-14.00.11:703][750]LogShaderCompilers: Display: Shaders left to compile 246
+[2018.11.07-14.00.11:704][750]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.07-14.00.11:743][750]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.11.07-14.00.11:783][750]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.00.11:812][750]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.00.11:867][750]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.00.11:915][750]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2018.11.07-14.00.14:246][822]LogShaderCompilers: Display: Shaders left to compile 300
+[2018.11.07-14.00.24:046][131]LogShaderCompilers: Display: Shaders left to compile 290
+[2018.11.07-14.00.28:436][216]LogShaderCompilers: Display: Shaders left to compile 280
+[2018.11.07-14.00.34:789][303]LogShaderCompilers: Display: Shaders left to compile 270
+[2018.11.07-14.00.35:073][307]LogShaderCompilers: Display: Shaders left to compile 260
+[2018.11.07-14.00.37:320][345]LogShaderCompilers: Display: Shaders left to compile 250
+[2018.11.07-14.00.41:552][408]LogShaderCompilers: Display: Shaders left to compile 240
+[2018.11.07-14.00.45:472][466]LogShaderCompilers: Display: Shaders left to compile 230
+[2018.11.07-14.00.49:649][537]LogShaderCompilers: Display: Shaders left to compile 220
+[2018.11.07-14.00.55:885][623]LogShaderCompilers: Display: Shaders left to compile 210
+[2018.11.07-14.00.56:743][632]LogShaderCompilers: Display: Shaders left to compile 200
+[2018.11.07-14.00.58:405][657]LogShaderCompilers: Display: Shaders left to compile 190
+[2018.11.07-14.01.01:523][699]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.11.07-14.01.09:727][724]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.11.07-14.01.21:105][827]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.11.07-14.01.23:814][839]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.11.07-14.01.24:195][842]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.11.07-14.01.26:549][869]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.11.07-14.01.30:446][939]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.11.07-14.01.34:441][999]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.11.07-14.01.35:846][ 21]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.11.07-14.01.37:519][ 47]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.07-14.01.40:563][ 65]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.07-14.01.45:379][103]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.07-14.01.52:796][224]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.07-14.01.56:137][250]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.07-14.01.58:130][280]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.07-14.01.58:275][282]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.07-14.02.08:745][393]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.07-14.02.11:495][470]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.07-14.05.30:142][396]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto1A73EF75044A4602354712B8F9B1324DB.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto1.umap'
+[2018.11.07-14.05.30:157][396]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 2.909
+[2018.11.07-14.05.30:157][396]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.909
+[2018.11.07-14.19.26:905][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.37:793][622]LogSlate: Window '새 랜드스케이프 레이어 인포 오브젝트 생성' being destroyed
+[2018.11.07-14.19.37:856][622]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.11.07-14.19.37:885][622]LogMaterial: Display: Missing cached shader map for material M_Landscape_Master, compiling. 
+[2018.11.07-14.19.37:951][622]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.07-14.19.37:951][622]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.07-14.19.37:951][622]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.07-14.19.37:951][622]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.07-14.19.38:006][622]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 64X64)
+[2018.11.07-14.19.38:043][622]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 64X64)
+[2018.11.07-14.19.38:080][622]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 64X64)
+[2018.11.07-14.19.38:113][622]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 64X64)
+[2018.11.07-14.19.38:143][622]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 64X64)
+[2018.11.07-14.19.38:170][622]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 64X64)
+[2018.11.07-14.19.38:194][622]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 64X64)
+[2018.11.07-14.19.38:223][622]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 64X64)
+[2018.11.07-14.19.38:254][622]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 64X64)
+[2018.11.07-14.19.38:288][622]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 64X64)
+[2018.11.07-14.19.38:319][622]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 64X64)
+[2018.11.07-14.19.38:348][622]LogTexture: Display: 텍스처 빌드: Texture2D_16 (BGRA8, 64X64)
+[2018.11.07-14.19.38:384][622]LogTexture: Display: 텍스처 빌드: Texture2D_17 (BGRA8, 64X64)
+[2018.11.07-14.19.38:418][622]LogTexture: Display: 텍스처 빌드: Texture2D_18 (BGRA8, 64X64)
+[2018.11.07-14.19.38:458][622]LogTexture: Display: 텍스처 빌드: Texture2D_19 (BGRA8, 64X64)
+[2018.11.07-14.19.38:497][622]LogTexture: Display: 텍스처 빌드: Texture2D_20 (BGRA8, 64X64)
+[2018.11.07-14.19.38:530][622]LogTexture: Display: 텍스처 빌드: Texture2D_21 (BGRA8, 64X64)
+[2018.11.07-14.19.38:561][622]LogTexture: Display: 텍스처 빌드: Texture2D_22 (BGRA8, 64X64)
+[2018.11.07-14.19.38:599][622]LogTexture: Display: 텍스처 빌드: Texture2D_23 (BGRA8, 64X64)
+[2018.11.07-14.19.38:636][622]LogTexture: Display: 텍스처 빌드: Texture2D_24 (BGRA8, 64X64)
+[2018.11.07-14.19.38:681][622]LogTexture: Display: 텍스처 빌드: Texture2D_25 (BGRA8, 64X64)
+[2018.11.07-14.19.38:725][622]LogTexture: Display: 텍스처 빌드: Texture2D_26 (BGRA8, 64X64)
+[2018.11.07-14.19.38:766][622]LogTexture: Display: 텍스처 빌드: Texture2D_27 (BGRA8, 64X64)
+[2018.11.07-14.19.38:812][622]LogTexture: Display: 텍스처 빌드: Texture2D_28 (BGRA8, 64X64)
+[2018.11.07-14.19.38:862][622]LogTexture: Display: 텍스처 빌드: Texture2D_29 (BGRA8, 64X64)
+[2018.11.07-14.19.38:900][622]LogTexture: Display: 텍스처 빌드: Texture2D_30 (BGRA8, 64X64)
+[2018.11.07-14.19.38:940][622]LogTexture: Display: 텍스처 빌드: Texture2D_31 (BGRA8, 64X64)
+[2018.11.07-14.19.38:981][622]LogTexture: Display: 텍스처 빌드: Texture2D_32 (BGRA8, 64X64)
+[2018.11.07-14.19.39:029][622]LogTexture: Display: 텍스처 빌드: Texture2D_33 (BGRA8, 64X64)
+[2018.11.07-14.19.39:070][622]LogTexture: Display: 텍스처 빌드: Texture2D_34 (BGRA8, 64X64)
+[2018.11.07-14.19.39:118][622]LogTexture: Display: 텍스처 빌드: Texture2D_35 (BGRA8, 64X64)
+[2018.11.07-14.19.39:164][622]LogTexture: Display: 텍스처 빌드: Texture2D_36 (BGRA8, 64X64)
+[2018.11.07-14.19.39:211][622]LogTexture: Display: 텍스처 빌드: Texture2D_37 (BGRA8, 64X64)
+[2018.11.07-14.19.39:250][622]LogTexture: Display: 텍스처 빌드: Texture2D_38 (BGRA8, 64X64)
+[2018.11.07-14.19.39:286][622]LogTexture: Display: 텍스처 빌드: Texture2D_39 (BGRA8, 64X64)
+[2018.11.07-14.19.39:319][622]LogTexture: Display: 텍스처 빌드: Texture2D_40 (BGRA8, 64X64)
+[2018.11.07-14.19.39:360][622]LogTexture: Display: 텍스처 빌드: Texture2D_41 (BGRA8, 64X64)
+[2018.11.07-14.19.39:402][622]LogTexture: Display: 텍스처 빌드: Texture2D_42 (BGRA8, 64X64)
+[2018.11.07-14.19.39:441][622]LogTexture: Display: 텍스처 빌드: Texture2D_43 (BGRA8, 64X64)
+[2018.11.07-14.19.39:493][622]LogTexture: Display: 텍스처 빌드: Texture2D_44 (BGRA8, 64X64)
+[2018.11.07-14.19.39:539][622]LogTexture: Display: 텍스처 빌드: Texture2D_45 (BGRA8, 64X64)
+[2018.11.07-14.19.39:583][622]LogTexture: Display: 텍스처 빌드: Texture2D_46 (BGRA8, 64X64)
+[2018.11.07-14.19.39:623][622]LogTexture: Display: 텍스처 빌드: Texture2D_47 (BGRA8, 64X64)
+[2018.11.07-14.19.39:673][622]LogTexture: Display: 텍스처 빌드: Texture2D_48 (BGRA8, 64X64)
+[2018.11.07-14.19.39:713][622]LogTexture: Display: 텍스처 빌드: Texture2D_49 (BGRA8, 64X64)
+[2018.11.07-14.19.39:752][622]LogTexture: Display: 텍스처 빌드: Texture2D_50 (BGRA8, 64X64)
+[2018.11.07-14.19.39:790][622]LogTexture: Display: 텍스처 빌드: Texture2D_51 (BGRA8, 64X64)
+[2018.11.07-14.19.39:843][622]LogTexture: Display: 텍스처 빌드: Texture2D_52 (BGRA8, 64X64)
+[2018.11.07-14.19.39:894][622]LogTexture: Display: 텍스처 빌드: Texture2D_53 (BGRA8, 64X64)
+[2018.11.07-14.19.39:934][622]LogTexture: Display: 텍스처 빌드: Texture2D_54 (BGRA8, 64X64)
+[2018.11.07-14.19.39:970][622]LogTexture: Display: 텍스처 빌드: Texture2D_55 (BGRA8, 64X64)
+[2018.11.07-14.19.40:011][622]LogTexture: Display: 텍스처 빌드: Texture2D_56 (BGRA8, 64X64)
+[2018.11.07-14.19.40:053][622]LogTexture: Display: 텍스처 빌드: Texture2D_57 (BGRA8, 64X64)
+[2018.11.07-14.19.40:094][622]LogTexture: Display: 텍스처 빌드: Texture2D_58 (BGRA8, 64X64)
+[2018.11.07-14.19.40:138][622]LogTexture: Display: 텍스처 빌드: Texture2D_59 (BGRA8, 64X64)
+[2018.11.07-14.19.40:187][622]LogTexture: Display: 텍스처 빌드: Texture2D_60 (BGRA8, 64X64)
+[2018.11.07-14.19.40:233][622]LogTexture: Display: 텍스처 빌드: Texture2D_61 (BGRA8, 64X64)
+[2018.11.07-14.19.40:266][622]LogTexture: Display: 텍스처 빌드: Texture2D_62 (BGRA8, 64X64)
+[2018.11.07-14.19.40:305][622]LogTexture: Display: 텍스처 빌드: Texture2D_63 (BGRA8, 64X64)
+[2018.11.07-14.19.40:350][622]LogTexture: Display: 텍스처 빌드: Texture2D_64 (BGRA8, 64X64)
+[2018.11.07-14.19.40:398][622]LogTexture: Display: 텍스처 빌드: Texture2D_65 (BGRA8, 64X64)
+[2018.11.07-14.19.40:444][622]LogTexture: Display: 텍스처 빌드: Texture2D_66 (BGRA8, 64X64)
+[2018.11.07-14.19.40:487][622]LogTexture: Display: 텍스처 빌드: Texture2D_67 (BGRA8, 64X64)
+[2018.11.07-14.19.46:427][869]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.07-14.19.49:461][999]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.50:533][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.51:608][ 34]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.07-14.19.51:677][ 34]LogSlate: Window '메시지' being destroyed
+[2018.11.07-14.19.53:666][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.55:014][112]LogSlate: Window '메시지' being destroyed
+[2018.11.07-14.19.55:737][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.56:511][144]LogSlate: Window '메시지' being destroyed
+[2018.11.07-14.19.57:076][168]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.57:822][168]LogSlate: Window '메시지' being destroyed
+[2018.11.07-14.19.58:030][178]Cmd: SELECT NONE
+[2018.11.07-14.19.58:201][184]Cmd: SELECT NONE
+[2018.11.07-14.19.58:875][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.19.59:240][219]LogSlate: Window '메시지' being destroyed
+[2018.11.07-14.19.59:512][232]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.07-14.19.59:637][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.20.07:008][516]LogSlate: Window '새 랜드스케이프 레이어 인포 오브젝트 생성' being destroyed
+[2018.11.07-14.20.22:475][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-14.20.33:645][  2]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.07-14.20.36:029][  3]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.07-14.20.36:030][  3]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.07-14.20.54:019][198]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.07-14.21.18:980][330]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2018.11.07-14.21.18:986][330]LogTexture: Display: 텍스처 빌드: Texture2D_32 (BGRA8, 64X64)
+[2018.11.07-14.21.18:988][330]LogTexture: Display: 텍스처 빌드: Texture2D_48 (BGRA8, 64X64)
+[2018.11.07-14.21.18:991][330]LogTexture: Display: 텍스처 빌드: Texture2D_51 (BGRA8, 64X64)
+[2018.11.07-14.21.18:993][330]LogTexture: Display: 텍스처 빌드: Texture2D_54 (BGRA8, 64X64)
+[2018.11.07-14.21.18:996][330]LogTexture: Display: 텍스처 빌드: Texture2D_57 (BGRA8, 64X64)
+[2018.11.07-14.21.18:998][330]LogTexture: Display: 텍스처 빌드: Texture2D_59 (BGRA8, 64X64)
+[2018.11.07-14.21.18:999][330]LogTexture: Display: 텍스처 빌드: Texture2D_62 (BGRA8, 64X64)
+[2018.11.07-14.21.19:001][330]LogTexture: Display: 텍스처 빌드: Texture2D_65 (BGRA8, 64X64)
+[2018.11.07-14.21.19:009][330]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 64X64)
+[2018.11.07-14.21.19:012][330]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 64X64)
+[2018.11.07-14.21.19:013][330]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 64X64)
+[2018.11.07-14.21.19:014][330]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 64X64)
+[2018.11.07-14.21.19:015][330]LogTexture: Display: 텍스처 빌드: Texture2D_18 (BGRA8, 64X64)
+[2018.11.07-14.21.19:018][330]LogTexture: Display: 텍스처 빌드: Texture2D_21 (BGRA8, 64X64)
+[2018.11.07-14.21.19:020][330]LogTexture: Display: 텍스처 빌드: Texture2D_23 (BGRA8, 64X64)
+[2018.11.07-14.21.19:023][330]LogTexture: Display: 텍스처 빌드: Texture2D_26 (BGRA8, 64X64)
+[2018.11.07-14.21.19:027][330]LogTexture: Display: 텍스처 빌드: Texture2D_29 (BGRA8, 64X64)
+[2018.11.07-14.21.19:030][330]LogTexture: Display: 텍스처 빌드: Texture2D_35 (BGRA8, 64X64)
+[2018.11.07-14.21.19:032][330]LogTexture: Display: 텍스처 빌드: Texture2D_37 (BGRA8, 64X64)
+[2018.11.07-14.21.19:034][330]LogTexture: Display: 텍스처 빌드: Texture2D_40 (BGRA8, 64X64)
+[2018.11.07-14.21.19:036][330]LogTexture: Display: 텍스처 빌드: Texture2D_43 (BGRA8, 64X64)
+[2018.11.07-14.21.19:040][330]LogTexture: Display: 텍스처 빌드: Texture2D_46 (BGRA8, 64X64)
+[2018.11.07-14.21.19:042][330]LogTexture: Display: 텍스처 빌드: Texture2D_47 (BGRA8, 64X64)
+[2018.11.07-14.21.19:043][330]LogTexture: Display: 텍스처 빌드: Texture2D_49 (BGRA8, 64X64)
+[2018.11.07-14.21.19:045][330]LogTexture: Display: 텍스처 빌드: Texture2D_50 (BGRA8, 64X64)
+[2018.11.07-14.21.19:047][330]LogTexture: Display: 텍스처 빌드: Texture2D_52 (BGRA8, 64X64)
+[2018.11.07-14.21.19:048][330]LogTexture: Display: 텍스처 빌드: Texture2D_53 (BGRA8, 64X64)
+[2018.11.07-14.21.19:049][330]LogTexture: Display: 텍스처 빌드: Texture2D_55 (BGRA8, 64X64)
+[2018.11.07-14.21.19:051][330]LogTexture: Display: 텍스처 빌드: Texture2D_56 (BGRA8, 64X64)
+[2018.11.07-14.21.19:054][330]LogTexture: Display: 텍스처 빌드: Texture2D_58 (BGRA8, 64X64)
+[2018.11.07-14.21.19:057][330]LogTexture: Display: 텍스처 빌드: Texture2D_60 (BGRA8, 64X64)
+[2018.11.07-14.21.19:060][330]LogTexture: Display: 텍스처 빌드: Texture2D_61 (BGRA8, 64X64)
+[2018.11.07-14.21.19:062][330]LogTexture: Display: 텍스처 빌드: Texture2D_63 (BGRA8, 64X64)
+[2018.11.07-14.21.19:063][330]LogTexture: Display: 텍스처 빌드: Texture2D_64 (BGRA8, 64X64)
+[2018.11.07-14.21.19:064][330]LogTexture: Display: 텍스처 빌드: Texture2D_66 (BGRA8, 64X64)
+[2018.11.07-14.21.19:067][330]LogTexture: Display: 텍스처 빌드: Texture2D_67 (BGRA8, 64X64)
+[2018.11.07-14.21.19:069][330]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 64X64)
+[2018.11.07-14.21.19:071][330]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 64X64)
+[2018.11.07-14.21.19:074][330]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 64X64)
+[2018.11.07-14.21.19:077][330]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 64X64)
+[2018.11.07-14.21.19:079][330]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 64X64)
+[2018.11.07-14.21.19:081][330]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 64X64)
+[2018.11.07-14.21.19:083][330]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 64X64)
+[2018.11.07-14.21.19:085][330]LogTexture: Display: 텍스처 빌드: Texture2D_16 (BGRA8, 64X64)
+[2018.11.07-14.21.19:088][330]LogTexture: Display: 텍스처 빌드: Texture2D_17 (BGRA8, 64X64)
+[2018.11.07-14.21.19:097][330]LogTexture: Display: 텍스처 빌드: Texture2D_19 (BGRA8, 64X64)
+[2018.11.07-14.21.19:100][330]LogTexture: Display: 텍스처 빌드: Texture2D_20 (BGRA8, 64X64)
+[2018.11.07-14.21.19:103][330]LogTexture: Display: 텍스처 빌드: Texture2D_22 (BGRA8, 64X64)
+[2018.11.07-14.21.19:110][330]LogTexture: Display: 텍스처 빌드: Texture2D_24 (BGRA8, 64X64)
+[2018.11.07-14.21.19:112][330]LogTexture: Display: 텍스처 빌드: Texture2D_25 (BGRA8, 64X64)
+[2018.11.07-14.21.19:114][330]LogTexture: Display: 텍스처 빌드: Texture2D_27 (BGRA8, 64X64)
+[2018.11.07-14.21.19:117][330]LogTexture: Display: 텍스처 빌드: Texture2D_28 (BGRA8, 64X64)
+[2018.11.07-14.21.19:118][330]LogTexture: Display: 텍스처 빌드: Texture2D_30 (BGRA8, 64X64)
+[2018.11.07-14.21.19:122][330]LogTexture: Display: 텍스처 빌드: Texture2D_31 (BGRA8, 64X64)
+[2018.11.07-14.21.19:123][330]LogTexture: Display: 텍스처 빌드: Texture2D_33 (BGRA8, 64X64)
+[2018.11.07-14.21.19:125][330]LogTexture: Display: 텍스처 빌드: Texture2D_34 (BGRA8, 64X64)
+[2018.11.07-14.21.19:126][330]LogTexture: Display: 텍스처 빌드: Texture2D_36 (BGRA8, 64X64)
+[2018.11.07-14.21.19:128][330]LogTexture: Display: 텍스처 빌드: Texture2D_38 (BGRA8, 64X64)
+[2018.11.07-14.21.19:130][330]LogTexture: Display: 텍스처 빌드: Texture2D_39 (BGRA8, 64X64)
+[2018.11.07-14.21.19:131][330]LogTexture: Display: 텍스처 빌드: Texture2D_41 (BGRA8, 64X64)
+[2018.11.07-14.21.19:133][330]LogTexture: Display: 텍스처 빌드: Texture2D_42 (BGRA8, 64X64)
+[2018.11.07-14.21.19:134][330]LogTexture: Display: 텍스처 빌드: Texture2D_44 (BGRA8, 64X64)
+[2018.11.07-14.21.19:138][330]LogTexture: Display: 텍스처 빌드: Texture2D_45 (BGRA8, 64X64)
+[2018.11.07-14.21.21:349][330]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest_Auto25238A56A4FCF8EAAD8DCD5970AA36AC4.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Map_LostBambooForest_Auto2.umap'
+[2018.11.07-14.21.21:361][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Map_LostBambooForest' took 2.622
+[2018.11.07-14.21.21:361][330]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.622
+[2018.11.07-14.44.50:560][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-14.50.43:503][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-16.01.58:470][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.07-16.02.01:994][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.07-16.02.11:169][825]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.11.07-16.02.29:926][825]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest0D35495D4634B7B6FDAF4E8A0421FDC2.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap'
+[2018.11.07-16.02.30:044][825]LogFileHelpers: Saving map 'Map_LostBambooForest' took 18.751
+[2018.11.07-16.02.30:221][825]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
+[2018.11.07-16.02.30:376][825]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.07-16.02.31:156][825]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.07-16.02.31:185][826]Cmd: QUIT_EDITOR
+[2018.11.07-16.02.31:397][826]LogExit: Preparing to exit.
+[2018.11.07-16.02.32:177][826]LogExit: Editor shut down
+[2018.11.07-16.02.32:180][826]LogExit: Transaction tracking system shut down
+[2018.11.07-16.02.33:104][826]LogExit: Object subsystem successfully closed.
+[2018.11.07-16.02.33:205][826]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.07-16.02.33:227][826]LogD3D11RHI: Shutdown
+[2018.11.07-16.02.33:228][826]LogD3D11RHI: CleanupD3DDevice
+[2018.11.07-16.02.33:269][826]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.07-16.02.33:328][826]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.11.07-16.02.33:328][826]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.11.07-16.02.33:328][826]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.11.07-16.02.33:355][826]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.11.07-16.02.33:355][826]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.11.07-16.02.33:355][826]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.11.07-16.02.33:356][826]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.11.07-16.02.33:357][826]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.11.07-16.02.33:358][826]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.11.07-16.02.33:359][826]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.11.07-16.02.33:360][826]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.11.07-16.02.33:361][826]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.11.07-16.02.34:283][826]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.11.07-16.02.34:284][826]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.11.07-16.02.34:285][826]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.11.07-16.02.34:285][826]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.11.07-16.02.34:285][826]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.11.07-16.02.34:285][826]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.11.07-16.02.34:285][826]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.11.07-16.02.34:342][826]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.11.07-16.02.34:343][826]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.07-16.02.34:344][826]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.07-16.02.34:345][826]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.07-16.02.34:370][826]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.07-16.02.34:376][826]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.07-16.02.34:377][826]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.07-16.02.34:377][826]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.07-16.02.34:377][826]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.07-16.02.34:378][826]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.07-16.02.34:378][826]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.07-16.02.34:378][826]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.07-16.02.34:379][826]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (300)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.07-16.02.34:380][826]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.07-16.02.34:481][826]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.07-16.02.34:582][826]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.07-16.02.34:587][826]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.07-16.02.34:588][826]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.07-16.02.34:588][826]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.07-16.02.34:588][826]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.07-16.02.34:589][826]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.07-16.02.34:592][826]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.07-16.02.34:618][826]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.07-16.02.34:626][826]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.07-16.02.34:627][826]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.07-16.02.34:627][826]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.07-16.02.34:627][826]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.07-16.02.34:627][826]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.07-16.02.34:628][826]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.07-16.02.34:628][826]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.07-16.02.34:628][826]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.07-16.02.34:628][826]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.07-16.02.34:633][826]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.07-16.02.34:634][826]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.07-16.02.34:635][826]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.07-16.02.34:635][826]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.07-16.02.34:635][826]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.07-16.02.34:636][826]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.07-16.02.34:643][826]LogDerivedDataCache: Shutdown
+[2018.11.07-16.02.34:643][826]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.07-16.02.34:644][826]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.07-16.02.34:644][826]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.07-16.02.34:644][826]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.07-16.02.34:645][826]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.07-16.02.34:646][826]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.07-16.02.34:647][826]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.07-16.02.34:647][826]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.07-16.02.34:647][826]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.07-16.02.34:647][826]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.07-16.02.34:665][826]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.07-16.02.34:665][826]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.07-16.02.34:681][826]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.07-16.02.34:681][826]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.07-16.02.34:760][826]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.07-16.02.34:760][826]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.07-16.02.34:760][826]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.07-16.02.34:760][826]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.07-16.02.34:760][826]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.07-16.02.34:761][826]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.07-16.02.34:762][826]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.07-16.02.34:764][826]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.07-16.02.34:765][826]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.07-16.02.34:785][826]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.07-16.02.34:785][826]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.07-16.02.34:785][826]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12413135-4D2E-74AB-A861-5FBF76D5AE64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1e51e6584cfdab19cc033a923e4d2e37%7Cf20972f491e24565a030c6afa01aa409%7C36b8a828-7a73-4478-a859-aadf467041c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.07-16.02.34:820][826]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.07-16.02.34:823][826]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.07-16.02.34:824][826]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.07-16.02.34:824][826]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.07-16.02.34:824][826]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.07-16.02.34:824][826]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.07-16.02.34:825][826]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.07-16.02.34:825][826]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.07-16.02.34:825][826]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.07-16.02.34:825][826]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.07-16.02.34:825][826]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.07-16.02.34:829][826]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.07-16.02.34:829][826]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.07-16.02.34:829][826]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.07-16.02.34:829][826]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.07-16.02.34:829][826]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.07-16.02.34:830][826]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.07-16.02.34:839][826]LogExit: Exiting.
+[2018.11.07-16.02.34:895][826]Log file closed, 11/08/18 01:02:34
