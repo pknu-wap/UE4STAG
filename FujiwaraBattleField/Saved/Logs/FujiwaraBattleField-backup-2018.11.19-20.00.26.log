@@ -1,0 +1,1408 @@
+﻿Log file open, 11/19/18 19:54:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.768707
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.204s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.19-10.54.20:021][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.19-10.54.20:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.19-10.54.20:058][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.19-10.54.20:059][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.19-10.54.20:059][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.19-10.54.20:068][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.11.19-10.54.20:068][  0]LogInit: User: Utsuho
+[2018.11.19-10.54.20:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.19-10.54.20:068][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.11.19-10.54.20:069][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.11.19-10.54.20:069][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.19-10.54.20:069][  0]LogMemory: Process Physical Memory: 100.04 MB used, 100.04 MB peak
+[2018.11.19-10.54.20:069][  0]LogMemory: Process Virtual Memory: 90.91 MB used, 90.91 MB peak
+[2018.11.19-10.54.20:069][  0]LogMemory: Physical Memory: 5186.58 MB used,  2817.91 MB free, 8004.50 MB total
+[2018.11.19-10.54.20:069][  0]LogMemory: Virtual Memory: 4645.04 MB used,  2817.91 MB free, 134217728.00 MB total
+[2018.11.19-10.54.20:660][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.19-10.54.20:660][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.19-10.54.20:666][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.19-10.54.21:254][  0]LogStreaming: Display: Took  0.595s to InitEngineTextLocalization.
+[2018.11.19-10.54.21:255][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.19-10.54.21:463][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.19-10.54.21:463][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.19-10.54.25:494][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.19-10.54.25:495][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.19-10.54.25:598][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.11.19-10.54.25:598][  0]LogD3D11RHI:       2007/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.19-10.54.25:613][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.19-10.54.25:613][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.19-10.54.25:620][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.19-10.54.25:620][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.19-10.54.25:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.19-10.54.25:680][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.19-10.54.25:681][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.11.19-10.54.25:681][  0]LogWindows: EnumDisplayDevices:
+[2018.11.19-10.54.25:681][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.11.19-10.54.25:682][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.19-10.54.25:684][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.19-10.54.25:685][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.19-10.54.25:686][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.19-10.54.25:687][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.19-10.54.25:688][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.11.19-10.54.25:689][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.11.19-10.54.25:690][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.11.19-10.54.25:690][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.11.19-10.54.25:690][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2018.11.19-10.54.25:690][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2018.11.19-10.54.25:690][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2018.11.19-10.54.25:745][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.19-10.54.25:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.19-10.54.25:834][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/67256/).
+[2018.11.19-10.54.25:835][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/0029E746497EF53AA902278C3769D852/'.
+[2018.11.19-10.54.26:984][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.19-10.54.27:008][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.19-10.54.27:027][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.19-10.54.27:048][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.19-10.54.27:077][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.19-10.54.27:095][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.19-10.54.27:114][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.19-10.54.27:139][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.19-10.54.27:153][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.19-10.54.27:279][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.19-10.54.27:371][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.19-10.54.27:371][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.19-10.54.27:404][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.19-10.54.27:404][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.19-10.54.27:422][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.19-10.54.27:440][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.19-10.54.27:459][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.19-10.54.27:490][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.19-10.54.27:509][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.19-10.54.27:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.19-10.54.27:722][  0]LogXGEController: Cleaning working directory: C:/Users/Utsuho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.19-10.54.27:722][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.19-10.54.27:722][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.19-10.54.27:722][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.19-10.54.30:810][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.19-10.54.31:022][  0]LogDerivedDataCache: Loaded boot cache 0.21s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.19-10.54.31:022][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.19-10.54.31:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.19-10.54.31:022][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.19-10.54.31:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.19-10.54.31:023][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.19-10.54.31:053][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.19-10.54.31:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.19-10.54.31:066][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.19-10.54.31:066][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.19-10.54.31:093][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.19-10.54.31:099][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.19-10.54.31:110][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.19-10.54.31:476][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2018.11.19-10.54.32:118][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.19-10.54.32:585][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.19-10.54.32:604][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.19-10.54.32:604][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.19-10.54.32:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.19-10.54.32:605][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.19-10.54.32:676][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.19-10.54.34:339][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.189289 seconds
+[2018.11.19-10.54.34:350][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.19-10.54.34:350][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.19-10.54.34:350][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.19-10.54.39:019][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.19-10.54.39:037][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.19-10.54.39:466][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.19-10.54.39:466][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.19-10.54.39:476][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.19-10.54.39:481][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.19-10.54.39:844][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.19-10.54.40:081][  0]LogOcInput: OculusInput pre-init called
+[2018.11.19-10.54.40:217][  0]LogEngine: Initializing Engine...
+[2018.11.19-10.54.40:222][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.19-10.54.40:226][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.19-10.54.40:226][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.19-10.54.40:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.19-10.54.40:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.19-10.54.40:548][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.19-10.54.40:616][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.19-10.54.40:727][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.19-10.54.41:011][  0]LogInit: FAudioDevice initialized.
+[2018.11.19-10.54.41:012][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.19-10.54.41:136][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.19-10.54.41:154][  0]LogInit: Texture streaming: Enabled
+[2018.11.19-10.54.41:214][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.19-10.54.41:261][  0]LogInit: Transaction tracking system initialized
+[2018.11.19-10.54.41:329][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.19-10.54.41:591][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.19-10.54.42:092][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.19-10.54.42:092][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.19-10.54.42:093][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.19-10.54.42:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.19-10.54.42:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.19-10.54.42:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.19-10.54.42:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.19-10.54.42:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/' took 0.03s
+[2018.11.19-10.54.42:495][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.19-10.54.42:497][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.19-10.54.42:506][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.19-10.54.42:519][  0]MapCheck: New page: 맵 체크
+[2018.11.19-10.54.42:520][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.19-10.54.42:736][  0]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:736][  0]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:736][  0]LoadErrors: Error: /Game/Maps/Map_LostBambooForest : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Maps/Map_LostBambooForest_BuiltData
+[2018.11.19-10.54.42:738][  0]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:738][  0]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:738][  0]LoadErrors: Error: /Game/Maps/Map_LostBambooForest : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Maps/Map_LostBambooForest_BuiltData
+[2018.11.19-10.54.42:875][  0]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:875][  0]LoadErrors: 로드에 실패했습니다. /Game/Maps/Map_LostBambooForest_BuiltData.Map_LostBambooForest_BuiltData 레퍼런싱한 것: PersistentLevel
+[2018.11.19-10.54.42:876][  0]LogLinker: Warning: NULL 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.54.42:876][  0]LoadErrors: 로드에 실패했습니다. /Game/Maps/Map_LostBambooForest_BuiltData.Map_LostBambooForest_BuiltData 레퍼런싱한 것: PersistentLevel
+[2018.11.19-10.54.43:059][  0]MapCheck: Warning: LandscapeComponent_0 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:091][  0]MapCheck: Warning: LandscapeComponent_1 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:091][  0]MapCheck: Warning: LandscapeComponent_2 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:096][  0]MapCheck: Warning: LandscapeComponent_3 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:097][  0]MapCheck: Warning: LandscapeComponent_4 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:098][  0]MapCheck: Warning: LandscapeComponent_5 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:099][  0]MapCheck: Warning: LandscapeComponent_6 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:100][  0]MapCheck: Warning: LandscapeComponent_7 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:101][  0]MapCheck: Warning: LandscapeComponent_8 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:102][  0]MapCheck: Warning: LandscapeComponent_9 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:103][  0]MapCheck: Warning: LandscapeComponent_10 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:104][  0]MapCheck: Warning: LandscapeComponent_11 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:104][  0]MapCheck: Warning: LandscapeComponent_12 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:108][  0]MapCheck: Warning: LandscapeComponent_13 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:110][  0]MapCheck: Warning: LandscapeComponent_14 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:111][  0]MapCheck: Warning: LandscapeComponent_15 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:112][  0]MapCheck: Warning: LandscapeComponent_16 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:115][  0]MapCheck: Warning: LandscapeComponent_17 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:116][  0]MapCheck: Warning: LandscapeComponent_18 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:118][  0]MapCheck: Warning: LandscapeComponent_19 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:119][  0]MapCheck: Warning: LandscapeComponent_20 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:119][  0]MapCheck: Warning: LandscapeComponent_21 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:121][  0]MapCheck: Warning: LandscapeComponent_22 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:123][  0]MapCheck: Warning: LandscapeComponent_23 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:123][  0]MapCheck: Warning: LandscapeComponent_24 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:125][  0]MapCheck: Warning: LandscapeComponent_25 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:126][  0]MapCheck: Warning: LandscapeComponent_26 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:126][  0]MapCheck: Warning: LandscapeComponent_27 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:127][  0]MapCheck: Warning: LandscapeComponent_28 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:128][  0]MapCheck: Warning: LandscapeComponent_29 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:129][  0]MapCheck: Warning: LandscapeComponent_30 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:130][  0]MapCheck: Warning: LandscapeComponent_31 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:131][  0]MapCheck: Warning: LandscapeComponent_32 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:131][  0]MapCheck: Warning: LandscapeComponent_33 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:132][  0]MapCheck: Warning: LandscapeComponent_34 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:133][  0]MapCheck: Warning: LandscapeComponent_35 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:133][  0]MapCheck: Warning: LandscapeComponent_36 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:134][  0]MapCheck: Warning: LandscapeComponent_37 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:134][  0]MapCheck: Warning: LandscapeComponent_38 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:134][  0]MapCheck: Warning: LandscapeComponent_39 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:135][  0]MapCheck: Warning: LandscapeComponent_40 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:135][  0]MapCheck: Warning: LandscapeComponent_41 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:136][  0]MapCheck: Warning: LandscapeComponent_42 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:136][  0]MapCheck: Warning: LandscapeComponent_43 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:137][  0]MapCheck: Warning: LandscapeComponent_44 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:137][  0]MapCheck: Warning: LandscapeComponent_45 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:138][  0]MapCheck: Warning: LandscapeComponent_46 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:138][  0]MapCheck: Warning: LandscapeComponent_47 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:139][  0]MapCheck: Warning: LandscapeComponent_48 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:139][  0]MapCheck: Warning: LandscapeComponent_49 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:140][  0]MapCheck: Warning: LandscapeComponent_50 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:140][  0]MapCheck: Warning: LandscapeComponent_51 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:141][  0]MapCheck: Warning: LandscapeComponent_52 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:141][  0]MapCheck: Warning: LandscapeComponent_53 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:142][  0]MapCheck: Warning: LandscapeComponent_54 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:142][  0]MapCheck: Warning: LandscapeComponent_55 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:143][  0]MapCheck: Warning: LandscapeComponent_56 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:145][  0]MapCheck: Warning: LandscapeComponent_57 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:145][  0]MapCheck: Warning: LandscapeComponent_58 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:146][  0]MapCheck: Warning: LandscapeComponent_59 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:146][  0]MapCheck: Warning: LandscapeComponent_60 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:147][  0]MapCheck: Warning: LandscapeComponent_61 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:147][  0]MapCheck: Warning: LandscapeComponent_62 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:148][  0]MapCheck: Warning: LandscapeComponent_63 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:148][  0]MapCheck: Warning: LandscapeComponent_64 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:149][  0]MapCheck: Warning: LandscapeComponent_65 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:149][  0]MapCheck: Warning: LandscapeComponent_66 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:150][  0]MapCheck: Warning: LandscapeComponent_67 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:150][  0]MapCheck: Warning: LandscapeComponent_68 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:150][  0]MapCheck: Warning: LandscapeComponent_69 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:151][  0]MapCheck: Warning: LandscapeComponent_70 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:152][  0]MapCheck: Warning: LandscapeComponent_71 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:152][  0]MapCheck: Warning: LandscapeComponent_72 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:153][  0]MapCheck: Warning: LandscapeComponent_73 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:153][  0]MapCheck: Warning: LandscapeComponent_74 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:154][  0]MapCheck: Warning: LandscapeComponent_75 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:155][  0]MapCheck: Warning: LandscapeComponent_76 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:155][  0]MapCheck: Warning: LandscapeComponent_77 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:155][  0]MapCheck: Warning: LandscapeComponent_78 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:156][  0]MapCheck: Warning: LandscapeComponent_79 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:156][  0]MapCheck: Warning: LandscapeComponent_80 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:157][  0]MapCheck: Warning: LandscapeComponent_81 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:157][  0]MapCheck: Warning: LandscapeComponent_82 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:158][  0]MapCheck: Warning: LandscapeComponent_83 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:158][  0]MapCheck: Warning: LandscapeComponent_84 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:159][  0]MapCheck: Warning: LandscapeComponent_85 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:159][  0]MapCheck: Warning: LandscapeComponent_86 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:160][  0]MapCheck: Warning: LandscapeComponent_87 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:160][  0]MapCheck: Warning: LandscapeComponent_88 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:160][  0]MapCheck: Warning: LandscapeComponent_89 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:161][  0]MapCheck: Warning: LandscapeComponent_90 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:161][  0]MapCheck: Warning: LandscapeComponent_91 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:162][  0]MapCheck: Warning: LandscapeComponent_92 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:162][  0]MapCheck: Warning: LandscapeComponent_93 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:163][  0]MapCheck: Warning: LandscapeComponent_94 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:163][  0]MapCheck: Warning: LandscapeComponent_95 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:164][  0]MapCheck: Warning: LandscapeComponent_96 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:164][  0]MapCheck: Warning: LandscapeComponent_97 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:165][  0]MapCheck: Warning: LandscapeComponent_98 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:165][  0]MapCheck: Warning: LandscapeComponent_99 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:165][  0]MapCheck: Warning: LandscapeComponent_100 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:166][  0]MapCheck: Warning: LandscapeComponent_101 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:167][  0]MapCheck: Warning: LandscapeComponent_102 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:167][  0]MapCheck: Warning: LandscapeComponent_103 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:167][  0]MapCheck: Warning: LandscapeComponent_104 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:168][  0]MapCheck: Warning: LandscapeComponent_105 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:168][  0]MapCheck: Warning: LandscapeComponent_106 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:169][  0]MapCheck: Warning: LandscapeComponent_107 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:169][  0]MapCheck: Warning: LandscapeComponent_108 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:169][  0]MapCheck: Warning: LandscapeComponent_109 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:170][  0]MapCheck: Warning: LandscapeComponent_110 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:170][  0]MapCheck: Warning: LandscapeComponent_111 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:171][  0]MapCheck: Warning: LandscapeComponent_112 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:171][  0]MapCheck: Warning: LandscapeComponent_113 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:172][  0]MapCheck: Warning: LandscapeComponent_114 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:172][  0]MapCheck: Warning: LandscapeComponent_115 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:172][  0]MapCheck: Warning: LandscapeComponent_116 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:173][  0]MapCheck: Warning: LandscapeComponent_117 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:174][  0]MapCheck: Warning: LandscapeComponent_118 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:174][  0]MapCheck: Warning: LandscapeComponent_119 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:175][  0]MapCheck: Warning: LandscapeComponent_120 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:175][  0]MapCheck: Warning: LandscapeComponent_121 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:175][  0]MapCheck: Warning: LandscapeComponent_122 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:176][  0]MapCheck: Warning: LandscapeComponent_123 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:177][  0]MapCheck: Warning: LandscapeComponent_124 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:178][  0]MapCheck: Warning: LandscapeComponent_125 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:178][  0]MapCheck: Warning: LandscapeComponent_126 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:178][  0]MapCheck: Warning: LandscapeComponent_127 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:179][  0]MapCheck: Warning: LandscapeComponent_128 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:179][  0]MapCheck: Warning: LandscapeComponent_129 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:180][  0]MapCheck: Warning: LandscapeComponent_130 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:181][  0]MapCheck: Warning: LandscapeComponent_131 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:181][  0]MapCheck: Warning: LandscapeComponent_132 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:182][  0]MapCheck: Warning: LandscapeComponent_133 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:182][  0]MapCheck: Warning: LandscapeComponent_134 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:183][  0]MapCheck: Warning: LandscapeComponent_135 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:184][  0]MapCheck: Warning: LandscapeComponent_136 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:184][  0]MapCheck: Warning: LandscapeComponent_137 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:185][  0]MapCheck: Warning: LandscapeComponent_138 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:185][  0]MapCheck: Warning: LandscapeComponent_139 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:185][  0]MapCheck: Warning: LandscapeComponent_140 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:186][  0]MapCheck: Warning: LandscapeComponent_141 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:187][  0]MapCheck: Warning: LandscapeComponent_142 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:187][  0]MapCheck: Warning: LandscapeComponent_143 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:188][  0]MapCheck: Warning: LandscapeComponent_144 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:188][  0]MapCheck: Warning: LandscapeComponent_145 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:190][  0]MapCheck: Warning: LandscapeComponent_146 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:190][  0]MapCheck: Warning: LandscapeComponent_147 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:190][  0]MapCheck: Warning: LandscapeComponent_148 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:191][  0]MapCheck: Warning: LandscapeComponent_149 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:191][  0]MapCheck: Warning: LandscapeComponent_150 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:191][  0]MapCheck: Warning: LandscapeComponent_151 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:192][  0]MapCheck: Warning: LandscapeComponent_152 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:193][  0]MapCheck: Warning: LandscapeComponent_153 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:194][  0]MapCheck: Warning: LandscapeComponent_154 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:194][  0]MapCheck: Warning: LandscapeComponent_155 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:195][  0]MapCheck: Warning: LandscapeComponent_156 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:196][  0]MapCheck: Warning: LandscapeComponent_157 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:196][  0]MapCheck: Warning: LandscapeComponent_158 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:197][  0]MapCheck: Warning: LandscapeComponent_159 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:197][  0]MapCheck: Warning: LandscapeComponent_160 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:197][  0]MapCheck: Warning: LandscapeComponent_161 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:198][  0]MapCheck: Warning: LandscapeComponent_162 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:198][  0]MapCheck: Warning: LandscapeComponent_163 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:199][  0]MapCheck: Warning: LandscapeComponent_164 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:200][  0]MapCheck: Warning: LandscapeComponent_165 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:201][  0]MapCheck: Warning: LandscapeComponent_166 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:201][  0]MapCheck: Warning: LandscapeComponent_167 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:201][  0]MapCheck: Warning: LandscapeComponent_168 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:202][  0]MapCheck: Warning: LandscapeComponent_169 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:202][  0]MapCheck: Warning: LandscapeComponent_170 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:203][  0]MapCheck: Warning: LandscapeComponent_171 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:204][  0]MapCheck: Warning: LandscapeComponent_172 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:204][  0]MapCheck: Warning: LandscapeComponent_173 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:205][  0]MapCheck: Warning: LandscapeComponent_174 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:206][  0]MapCheck: Warning: LandscapeComponent_175 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:207][  0]MapCheck: Warning: LandscapeComponent_176 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:207][  0]MapCheck: Warning: LandscapeComponent_177 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:207][  0]MapCheck: Warning: LandscapeComponent_178 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:208][  0]MapCheck: Warning: LandscapeComponent_179 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:208][  0]MapCheck: Warning: LandscapeComponent_180 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:209][  0]MapCheck: Warning: LandscapeComponent_181 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:210][  0]MapCheck: Warning: LandscapeComponent_182 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:210][  0]MapCheck: Warning: LandscapeComponent_183 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:211][  0]MapCheck: Warning: LandscapeComponent_184 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:211][  0]MapCheck: Warning: LandscapeComponent_185 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:212][  0]MapCheck: Warning: LandscapeComponent_186 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:213][  0]MapCheck: Warning: LandscapeComponent_187 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:213][  0]MapCheck: Warning: LandscapeComponent_188 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:213][  0]MapCheck: Warning: LandscapeComponent_189 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:214][  0]MapCheck: Warning: LandscapeComponent_190 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:214][  0]MapCheck: Warning: LandscapeComponent_191 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:215][  0]MapCheck: Warning: LandscapeComponent_192 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:216][  0]MapCheck: Warning: LandscapeComponent_193 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:216][  0]MapCheck: Warning: LandscapeComponent_194 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:216][  0]MapCheck: Warning: LandscapeComponent_195 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:216][  0]MapCheck: Warning: LandscapeComponent_196 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:218][  0]MapCheck: Warning: LandscapeComponent_197 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:219][  0]MapCheck: Warning: LandscapeComponent_198 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:219][  0]MapCheck: Warning: LandscapeComponent_199 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:219][  0]MapCheck: Warning: LandscapeComponent_200 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:219][  0]MapCheck: Warning: LandscapeComponent_201 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:219][  0]MapCheck: Warning: LandscapeComponent_202 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:221][  0]MapCheck: Warning: LandscapeComponent_203 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:221][  0]MapCheck: Warning: LandscapeComponent_204 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:222][  0]MapCheck: Warning: LandscapeComponent_205 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:222][  0]MapCheck: Warning: LandscapeComponent_206 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:224][  0]MapCheck: Warning: LandscapeComponent_207 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:224][  0]MapCheck: Warning: LandscapeComponent_208 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:224][  0]MapCheck: Warning: LandscapeComponent_209 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:225][  0]MapCheck: Warning: LandscapeComponent_210 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:225][  0]MapCheck: Warning: LandscapeComponent_211 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:226][  0]MapCheck: Warning: LandscapeComponent_212 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:226][  0]MapCheck: Warning: LandscapeComponent_213 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:228][  0]MapCheck: Warning: LandscapeComponent_214 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:228][  0]MapCheck: Warning: LandscapeComponent_215 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:229][  0]MapCheck: Warning: LandscapeComponent_216 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:229][  0]MapCheck: Warning: LandscapeComponent_217 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:229][  0]MapCheck: Warning: LandscapeComponent_218 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:230][  0]MapCheck: Warning: LandscapeComponent_219 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:230][  0]MapCheck: Warning: LandscapeComponent_220 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:232][  0]MapCheck: Warning: LandscapeComponent_221 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:232][  0]MapCheck: Warning: LandscapeComponent_222 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:232][  0]MapCheck: Warning: LandscapeComponent_223 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:233][  0]MapCheck: Warning: LandscapeComponent_224 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:234][  0]MapCheck: Warning: LandscapeComponent_225 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:235][  0]MapCheck: Warning: LandscapeComponent_226 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:235][  0]MapCheck: Warning: LandscapeComponent_227 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:235][  0]MapCheck: Warning: LandscapeComponent_228 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:236][  0]MapCheck: Warning: LandscapeComponent_229 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:236][  0]MapCheck: Warning: LandscapeComponent_230 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:237][  0]MapCheck: Warning: LandscapeComponent_231 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:237][  0]MapCheck: Warning: LandscapeComponent_232 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:238][  0]MapCheck: Warning: LandscapeComponent_233 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:238][  0]MapCheck: Warning: LandscapeComponent_234 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:238][  0]MapCheck: Warning: LandscapeComponent_235 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:240][  0]MapCheck: Warning: LandscapeComponent_236 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:240][  0]MapCheck: Warning: LandscapeComponent_237 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:240][  0]MapCheck: Warning: LandscapeComponent_238 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:241][  0]MapCheck: Warning: LandscapeComponent_239 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:241][  0]MapCheck: Warning: LandscapeComponent_240 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:242][  0]MapCheck: Warning: LandscapeComponent_241 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:242][  0]MapCheck: Warning: LandscapeComponent_242 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:243][  0]MapCheck: Warning: LandscapeComponent_243 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:243][  0]MapCheck: Warning: LandscapeComponent_244 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:243][  0]MapCheck: Warning: LandscapeComponent_245 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:244][  0]MapCheck: Warning: LandscapeComponent_246 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:245][  0]MapCheck: Warning: LandscapeComponent_247 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:245][  0]MapCheck: Warning: LandscapeComponent_248 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:245][  0]MapCheck: Warning: LandscapeComponent_249 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:246][  0]MapCheck: Warning: LandscapeComponent_250 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:246][  0]MapCheck: Warning: LandscapeComponent_251 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:246][  0]MapCheck: Warning: LandscapeComponent_252 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:247][  0]MapCheck: Warning: LandscapeComponent_253 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:247][  0]MapCheck: Warning: LandscapeComponent_254 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:247][  0]MapCheck: Warning: LandscapeComponent_255 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-10.54.43:304][  0]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.11.19-10.54.47:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.19-10.54.47:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.19-10.54.47:909][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 256 회, 소요 시간 121.89ms.
+[2018.11.19-10.54.47:938][  0]LogFileHelpers: Loading map 'Map_LostBambooForest' took 5.442
+[2018.11.19-10.54.48:206][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.19-10.54.48:221][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.19-10.54.48:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.19-10.54.48:243][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.19-10.54.48:271][  0]LogCollectionManager: Loaded 0 collections in 0.002853 seconds
+[2018.11.19-10.54.48:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.19-10.54.48:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.11.19-10.54.48:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.19-10.54.48:337][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.19-10.54.48:355][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 2573 classes and 605 folders.
+[2018.11.19-10.54.48:375][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.19-10.54.48:980][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.19-10.54.48:998][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.19-10.54.49:209][  0]LogSlate: Took 0.009418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.19-10.54.49:239][  0]LogSlate: Took 0.026054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.19-10.54.49:276][  0]LogSlate: Took 0.035349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.19-10.54.49:286][  0]LogSlate: Took 0.010010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.19-10.54.49:311][  0]LogSlate: Took 0.014441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.19-10.54.49:591][  0]LogRenderer: Reallocating scene render targets to support 1208x492 Format 10 NumSamples 1 (Frame:1).
+[2018.11.19-10.54.49:868][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.19-10.54.49:868][  0]LogLoad: (Engine Initialization) Total time: 35.72 seconds
+[2018.11.19-10.54.49:868][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.19-10.54.49:924][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.19-10.54.49:938][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.19-10.54.50:384][  3]LogAssetRegistry: Asset discovery search completed in 18.9310 seconds
+[2018.11.19-10.54.50:390][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.19-10.54.50:390][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000173 seconds (updated 0 objects)
+[2018.11.19-10.54.54:059][239]LogSlate: Took 0.007590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.19-10.55.05:133][988]LogSlate: Window '메시지 로그' being destroyed
+[2018.11.19-10.55.05:148][988]LogSlate: Window '메시지 로그' being destroyed
+[2018.11.19-10.55.07:541][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.19-10.55.38:481][605]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.19-10.55.38:500][605]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.19-10.56.05:764][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.19-10.56.09:950][468]LogTexture: Display: 텍스처 빌드: Bar (BGRA8, 128X64)
+[2018.11.19-10.56.09:950][468]LogMaterial: Display: Missing cached shader map for material Mat_ProgressDefault, compiling. 
+[2018.11.19-10.56.10:007][468]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.19-10.56.10:007][468]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.19-10.56.10:007][468]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.19-10.56.10:007][468]LogMaterial: Display: Missing cached shader map for material Mat_RadialCooldown, compiling. 
+[2018.11.19-10.56.10:066][468]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.19-10.56.10:654][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  MoveForward 입력 축  에 대해 알려지지 않은 'MoveForward' 축을 레퍼런싱합니다.
+[2018.11.19-10.56.10:654][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  LookUp 입력 축  에 대해 알려지지 않은 'LookUp' 축을 레퍼런싱합니다.
+[2018.11.19-10.56.10:654][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  Turn 입력 축  에 대해 알려지지 않은 'Turn' 축을 레퍼런싱합니다.
+[2018.11.19-10.56.10:654][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  MoveRight 입력 축  에 대해 알려지지 않은 'MoveRight' 축을 레퍼런싱합니다.
+[2018.11.19-10.56.10:655][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] InputAction Event 가  Jump 입력 액션  에 대해 알려지지 않은 'Jump' 액션을 레퍼런싱합니다.
+[2018.11.19-10.56.10:749][468]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] [0116.60] BP_FBFPlayableCharacter_2 컴파일에 성공했습니다만, 경고가 5 회 있습니다. [소요시간 286 ms] (/Game/Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2)
+[2018.11.19-10.56.10:786][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:787][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_FBFPlayerController.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:787][468]LoadErrors: Error: /Game/Temporary/Game/BP_FBFPlayerController : 애셋에 대한 파일을 찾을 수 없습니다. /Script/TestGame
+[2018.11.19-10.56.10:787][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:787][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_FBFPlayerController.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:787][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:788][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_FBFPlayerController.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:788][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:788][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_FBFPlayerController.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:788][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:789][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_FBFPlayerController.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:789][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:789][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:789][468]LoadErrors: Error: /Game/Temporary/Game/BP_MyGameModeBase : 애셋에 대한 파일을 찾을 수 없습니다. /Script/TestGame
+[2018.11.19-10.56.10:789][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:790][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:790][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:790][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:790][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:790][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:791][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:791][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:791][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:791][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:791][468]LogLinker: Warning: Unable to load Default__BP_FBFPlayerController_C with outer Package /Game/Temporary/Game/BP_FBFPlayerController because its class does not exist
+[2018.11.19-10.56.10:792][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:792][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:792][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:792][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:792][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:793][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:793][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:793][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:793][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:794][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:794][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/BP_MyGameModeBase.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:794][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:802][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:803][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/StartCamera.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:803][468]LoadErrors: Error: /Game/Temporary/Game/StartCamera : 애셋에 대한 파일을 찾을 수 없습니다. /Script/TestGame
+[2018.11.19-10.56.10:803][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:842][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:842][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/StartCamera.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:843][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:845][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:845][468]LoadErrors: 로드에 실패했습니다. /Script/TestGame.FBFPlayerController 레퍼런싱한 것: Default__BP_MyGameModeBase_C
+[2018.11.19-10.56.10:845][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/StartCamera.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:846][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:848][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:848][468]LoadErrors: 로드에 실패했습니다. /Script/TestGame.FBFPlayerController 레퍼런싱한 것: K2Node_DynamicCast_0
+[2018.11.19-10.56.10:848][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/StartCamera.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:848][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:849][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:849][468]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Game/StartCamera.uasset 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.10:849][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.10:867][468]LogBlueprint: Error: [Compiler BP_MyGameModeBase] Object  및  Return Value  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2018.11.19-10.56.10:868][468]LogBlueprint: Error: [Compiler BP_MyGameModeBase] 사용 중인  As BP FBFPlayer Controller  핀은 더 이상  잘못된 형변환 노드입니다.  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.19-10.56.10:868][468]LogBlueprint: Error: [Compiler BP_MyGameModeBase] Return Value  및  Object  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2018.11.19-10.56.10:906][468]LogBlueprint: Warning: [Compiler BP_MyGameModeBase] [0116.76] BP_MyGameModeBase 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 55 ms] (/Game/Temporary/Game/BP_MyGameModeBase.BP_MyGameModeBase)
+[2018.11.19-10.56.11:007][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:008][468]LoadErrors: 로드에 실패했습니다. /Script/TestGame.FBFPlayerController 레퍼런싱한 것: BP_FBFPlayerController
+[2018.11.19-10.56.11:008][468]LogLinker: Warning: NULL 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:008][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:008][468]LoadErrors: 로드에 실패했습니다. /Script/TestGame.BaseSpell 레퍼런싱한 것: BP_FBFPlayerController
+[2018.11.19-10.56.11:008][468]LogLinker: Warning: NULL 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:009][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:009][468]LogLinker: Warning: NULL 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:010][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:010][468]LogLinker: Warning: NULL 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:010][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.11:010][468]LogLinker: Warning: '/Script/TestGame' 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:011][468]LoadErrors: 로드에 실패했습니다. /Script/TestGame.FBFPlayerController 레퍼런싱한 것: PackageMetaData
+[2018.11.19-10.56.11:011][468]LogLinker: Warning: NULL 로드중 '/Script/TestGame' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-10.56.11:011][468]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C
+[2018.11.19-10.56.11:332][468]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2018.11.19-10.56.11:466][468]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.19-10.56.11:850][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Bar8C06ED634853FD956F86DE9970229576.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Bar.uasset'
+[2018.11.19-10.56.14:168][468]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.11.19-10.56.14:168][468]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.19-10.56.14:168][468]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.19-10.56.14:331][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Mat_ProgressDefaultA5A3E73D4C1C0CA5AABEC89707C802F5.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Mat_ProgressDefault.uasset'
+[2018.11.19-10.56.14:426][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Mat_ProgressFillCBC9188E4362A3591617B19FF3C37B70.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Mat_ProgressFill.uasset'
+[2018.11.19-10.56.14:627][468]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.19-10.56.14:711][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Mat_RadialCooldown948F15F047082AB9739E68977A191EED.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Mat_RadialCooldown.uasset'
+[2018.11.19-10.56.14:796][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Mat_SkillCooldownDCEA47E14444EBB04789BC85E09B98B6.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Mat_SkillCooldown.uasset'
+[2018.11.19-10.56.15:842][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/W_SaveSlot8BEC837341F97D69583C91A177BBCC24.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/HUD/W_SaveSlot.uasset'
+[2018.11.19-10.56.15:925][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/W_StatusBarDDD910614559CFF833496DA107C87238.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/HUD/W_StatusBar.uasset'
+[2018.11.19-10.56.16:122][468]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey9ACD0AE34C1B69108158F2AC7E133551.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Skill/W_SkillHotKey.uasset'
+[2018.11.19-10.56.16:193][468]LoadErrors: Warning: CreateExport: 'Spells' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:193][468]LoadErrors: Warning: CreateExport: 'Spells_Value' 리소스에 대한 MapProperty /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C:Spells Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'Spells' 리소스에 대한 MapProperty /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C:Spells Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'UserConstructionScript' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'BaseSpell' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'DefaultSceneRoot_GEN_VARIABLE' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'TransformComponent0' 리소스에 대한 BP_FBFPlayerController_C /Game/Temporary/Game/BP_FBFPlayerController.Default__BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'SimpleConstructionScript_0' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'SCS_Node_0' 리소스에 대한 SimpleConstructionScript /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C:SimpleConstructionScript_0 Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:194][468]LoadErrors: Warning: CreateExport: 'Spell1Name' 리소스에 대한 BlueprintGeneratedClass /Game/Temporary/Game/BP_FBFPlayerController.BP_FBFPlayerController_C Outer 로드에 실패했습니다.
+[2018.11.19-10.56.16:263][469]LogSlate: Took 0.005393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.19-10.56.16:933][489]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.19-10.56.20:829][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:829][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:829][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:829][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:829][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.20:830][687]LogMetaData: Removing '/Game/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2018.11.19-10.56.21:691][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPerson_AnimBP38E1C66248F0FA884BA6EE9E8AE3CEC8.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2018.11.19-10.56.21:816][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPerson_IdleRun_2DB3AF69C24FAEE2D71C6C45B2C4CA1EAC.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2018.11.19-10.56.21:943][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPersonWalk2E632FBF4DE105209941BABDFCF65126.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2018.11.19-10.56.22:048][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPersonRun4FBECCE2449468742B150BA3C7F715E7.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPersonRun.uasset'
+[2018.11.19-10.56.22:148][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPersonIdle56E4BDF645B7DAF962E8618799C0F65A.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2018.11.19-10.56.22:263][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPersonJump_Start04A0145F47660779DC76AD887DFC61AB.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPersonJump_Start.uasset'
+[2018.11.19-10.56.22:370][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPersonJump_LoopDA31446A40A0C37CB580F8B39459A38E.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPersonJump_Loop.uasset'
+[2018.11.19-10.56.22:469][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ThirdPerson_JumpF02659B74272AA8EBA2A84AF78C6ED2E.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Animations/ThirdPerson_Jump.uasset'
+[2018.11.19-10.56.22:506][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/UE4_Mannequin_Skeleton389A4E7245047DB2D6E9518A4402868B.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.11.19-10.56.22:574][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/T_ML_Aluminum01485D3C8447D57BAA8A6AE9B01203A044.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2018.11.19-10.56.22:697][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/T_ML_Rubber_Blue_01_DD8E031A74A08B425530F409F4E83EB93.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2018.11.19-10.56.22:772][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/T_ML_Rubber_Blue_01_N51ECFA98478472274F047D9772C9A65D.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2018.11.19-10.56.22:797][687]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.19-10.56.22:808][687]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.11.19-10.56.23:007][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ML_GlossyBlack_Latex_UE4ADF065ED40519A4E0F27A695B739E806.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2018.11.19-10.56.23:037][687]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.11.19-10.56.23:178][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ML_Plastic_Shiny_Beige734485C9467A843B701ED2B41DBAFC24.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2018.11.19-10.56.23:243][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/UE4_LOGO_CARD3B6DF2E24F8E97E8F91ED7BBE5D4492F.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset'
+[2018.11.19-10.56.23:266][687]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2018.11.19-10.56.23:407][687]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.11.19-10.56.23:407][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ML_Plastic_Shiny_Beige_LOGO793B1DEA48E98F18C52C20AFFCA318C6.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2018.11.19-10.56.23:481][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/T_ML_Aluminum01_NFEB182E549C8C628475939BE1BF6CC32.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2018.11.19-10.56.23:507][687]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2018.11.19-10.56.23:652][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/ML_SoftMetal_UE4774D7C1C43FEA554310C2F9FB924A3DF.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2018.11.19-10.56.23:828][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/UE4_Mannequin__normals0F37A84543B2E901E548BEA173AD2B7E.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset'
+[2018.11.19-10.56.23:895][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/UE4_Mannequin_MAT_MASKA9FA547214458333D64CF00A560141F86.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2018.11.19-10.56.24:032][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/M_UE4Man_Body63B5FE3A4EF88085F9B4AD885D2E26D7.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/M_UE4Man_Body.uasset'
+[2018.11.19-10.56.24:102][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/UE4Man_Logo_N6CED0F96451F33749F00A78D88EE20F6.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Textures/UE4Man_Logo_N.uasset'
+[2018.11.19-10.56.24:200][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/M_UE4Man_ChestLogo5EF2BC49451ED22A23AC0DAFDBC552F2.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2018.11.19-10.56.24:360][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/SK_Mannequin_PhysicsAsset0A3FF03D4B9579D3D63CEEBFD7AFE168.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2018.11.19-10.56.24:575][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/SK_Mannequin85676F604540E9D0654877A6B3D29098.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2018.11.19-10.56.25:239][687]LogShaderCompilers: Display: Shaders left to compile 175
+[2018.11.19-10.56.25:474][687]LogShaderCompilers: Display: Shaders left to compile 165
+[2018.11.19-10.56.28:233][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacterF351510C4E55F7E0D54A5BB2B9917642.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Character/BP_FBFCharacter.uasset'
+[2018.11.19-10.56.28:783][687]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.11.19-10.56.28:783][687]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.11.19-10.56.28:939][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter14E7CD314945EC88CC7196B69018435C.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Character/BP_FBFPlayableCharacter.uasset'
+[2018.11.19-10.56.28:991][687]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Mat_ProgressFill2FCADC0B472574E9EFC173BBEE3B9903.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Temporary/Material/Mat_ProgressFill.uasset'
+[2018.11.19-10.56.29:418][692]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.11.19-10.56.31:216][792]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.11.19-10.56.33:694][938]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.11.19-10.56.35:318][ 38]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.11.19-10.56.36:913][136]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.11.19-10.56.38:005][198]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.11.19-10.56.38:197][208]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.11.19-10.56.41:884][434]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.19-10.56.43:341][528]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.19-10.56.48:447][847]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.19-10.56.48:575][856]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.19-10.56.48:878][876]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.19-10.56.51:367][ 35]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.19-10.56.52:990][138]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.19-10.57.12:035][ 61]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.19-10.59.07:824][203]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.19-10.59.07:956][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.19-10.59.07:987][203]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.19-10.59.08:022][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.19-10.59.08:109][205]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.19-10.59.08:144][205]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.19-10.59.08:252][214]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.11.19-10.59.08:293][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.19-11.00.05:924][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.19-11.00.08:912][425]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.19-11.00.08:957][425]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest
+[2018.11.19-11.00.08:986][425]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.19-11.00.08:986][425]LightingResults: New page: 라이팅 빌드
+[2018.11.19-11.00.08:986][425]LoadErrors: New page: 맵 로드중: Maps_LostBambooForest.umap
+[2018.11.19-11.00.08:991][425]MapCheck: New page: 맵 체크
+[2018.11.19-11.00.08:991][425]LightingResults: New page: 라이팅 빌드
+[2018.11.19-11.00.12:547][425]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.19-11.00.12:625][425]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.19-11.00.12:776][425]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 150.912ms.
+[2018.11.19-11.00.12:785][425]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 3.802
+[2018.11.19-11.00.18:087][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.19-11.00.18:280][848]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:280][848]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:280][848]LoadErrors: Error: /Game/Maps/Map_LostBambooForest : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Maps/Map_LostBambooForest_BuiltData
+[2018.11.19-11.00.18:282][848]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:282][848]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:351][848]LogLinker: Warning: '/Game/Maps/Map_LostBambooForest_BuiltData' 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:352][848]LoadErrors: 로드에 실패했습니다. /Game/Maps/Map_LostBambooForest_BuiltData.Map_LostBambooForest_BuiltData 레퍼런싱한 것: PersistentLevel
+[2018.11.19-11.00.18:352][848]LogLinker: Warning: NULL 로드중 '/Game/Maps/Map_LostBambooForest_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.19-11.00.18:370][848]MapCheck: Warning: LandscapeComponent_0 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:381][848]MapCheck: Warning: LandscapeComponent_1 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:383][848]MapCheck: Warning: LandscapeComponent_2 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:385][848]MapCheck: Warning: LandscapeComponent_3 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:387][848]MapCheck: Warning: LandscapeComponent_4 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:388][848]MapCheck: Warning: LandscapeComponent_5 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:389][848]MapCheck: Warning: LandscapeComponent_6 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:391][848]MapCheck: Warning: LandscapeComponent_7 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:392][848]MapCheck: Warning: LandscapeComponent_8 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:394][848]MapCheck: Warning: LandscapeComponent_9 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:395][848]MapCheck: Warning: LandscapeComponent_10 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:395][848]MapCheck: Warning: LandscapeComponent_11 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:397][848]MapCheck: Warning: LandscapeComponent_12 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:399][848]MapCheck: Warning: LandscapeComponent_13 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:400][848]MapCheck: Warning: LandscapeComponent_14 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:402][848]MapCheck: Warning: LandscapeComponent_15 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:404][848]MapCheck: Warning: LandscapeComponent_16 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:406][848]MapCheck: Warning: LandscapeComponent_17 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:407][848]MapCheck: Warning: LandscapeComponent_18 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:409][848]MapCheck: Warning: LandscapeComponent_19 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:411][848]MapCheck: Warning: LandscapeComponent_20 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:411][848]MapCheck: Warning: LandscapeComponent_21 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:413][848]MapCheck: Warning: LandscapeComponent_22 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:415][848]MapCheck: Warning: LandscapeComponent_23 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:416][848]MapCheck: Warning: LandscapeComponent_24 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:417][848]MapCheck: Warning: LandscapeComponent_25 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:418][848]MapCheck: Warning: LandscapeComponent_26 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:419][848]MapCheck: Warning: LandscapeComponent_27 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:420][848]MapCheck: Warning: LandscapeComponent_28 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:421][848]MapCheck: Warning: LandscapeComponent_29 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:421][848]MapCheck: Warning: LandscapeComponent_30 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:423][848]MapCheck: Warning: LandscapeComponent_31 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:423][848]MapCheck: Warning: LandscapeComponent_32 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:424][848]MapCheck: Warning: LandscapeComponent_33 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:425][848]MapCheck: Warning: LandscapeComponent_34 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:426][848]MapCheck: Warning: LandscapeComponent_35 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:426][848]MapCheck: Warning: LandscapeComponent_36 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:427][848]MapCheck: Warning: LandscapeComponent_37 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:427][848]MapCheck: Warning: LandscapeComponent_38 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:428][848]MapCheck: Warning: LandscapeComponent_39 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:428][848]MapCheck: Warning: LandscapeComponent_40 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:428][848]MapCheck: Warning: LandscapeComponent_41 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:429][848]MapCheck: Warning: LandscapeComponent_42 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:429][848]MapCheck: Warning: LandscapeComponent_43 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:430][848]MapCheck: Warning: LandscapeComponent_44 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:430][848]MapCheck: Warning: LandscapeComponent_45 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:431][848]MapCheck: Warning: LandscapeComponent_46 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:432][848]MapCheck: Warning: LandscapeComponent_47 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:432][848]MapCheck: Warning: LandscapeComponent_48 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:432][848]MapCheck: Warning: LandscapeComponent_49 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:433][848]MapCheck: Warning: LandscapeComponent_50 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:433][848]MapCheck: Warning: LandscapeComponent_51 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:434][848]MapCheck: Warning: LandscapeComponent_52 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:435][848]MapCheck: Warning: LandscapeComponent_53 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:435][848]MapCheck: Warning: LandscapeComponent_54 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:436][848]MapCheck: Warning: LandscapeComponent_55 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:436][848]MapCheck: Warning: LandscapeComponent_56 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:437][848]MapCheck: Warning: LandscapeComponent_57 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:438][848]MapCheck: Warning: LandscapeComponent_58 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:438][848]MapCheck: Warning: LandscapeComponent_59 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:439][848]MapCheck: Warning: LandscapeComponent_60 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:439][848]MapCheck: Warning: LandscapeComponent_61 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:440][848]MapCheck: Warning: LandscapeComponent_62 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:440][848]MapCheck: Warning: LandscapeComponent_63 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:441][848]MapCheck: Warning: LandscapeComponent_64 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:441][848]MapCheck: Warning: LandscapeComponent_65 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:442][848]MapCheck: Warning: LandscapeComponent_66 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:442][848]MapCheck: Warning: LandscapeComponent_67 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:443][848]MapCheck: Warning: LandscapeComponent_68 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:443][848]MapCheck: Warning: LandscapeComponent_69 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:444][848]MapCheck: Warning: LandscapeComponent_70 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:445][848]MapCheck: Warning: LandscapeComponent_71 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:445][848]MapCheck: Warning: LandscapeComponent_72 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:445][848]MapCheck: Warning: LandscapeComponent_73 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:446][848]MapCheck: Warning: LandscapeComponent_74 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:447][848]MapCheck: Warning: LandscapeComponent_75 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:447][848]MapCheck: Warning: LandscapeComponent_76 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:448][848]MapCheck: Warning: LandscapeComponent_77 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:448][848]MapCheck: Warning: LandscapeComponent_78 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:449][848]MapCheck: Warning: LandscapeComponent_79 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:449][848]MapCheck: Warning: LandscapeComponent_80 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:450][848]MapCheck: Warning: LandscapeComponent_81 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:450][848]MapCheck: Warning: LandscapeComponent_82 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:451][848]MapCheck: Warning: LandscapeComponent_83 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:451][848]MapCheck: Warning: LandscapeComponent_84 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:452][848]MapCheck: Warning: LandscapeComponent_85 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:452][848]MapCheck: Warning: LandscapeComponent_86 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:453][848]MapCheck: Warning: LandscapeComponent_87 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:453][848]MapCheck: Warning: LandscapeComponent_88 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:453][848]MapCheck: Warning: LandscapeComponent_89 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:453][848]MapCheck: Warning: LandscapeComponent_90 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:454][848]MapCheck: Warning: LandscapeComponent_91 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:454][848]MapCheck: Warning: LandscapeComponent_92 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:456][848]MapCheck: Warning: LandscapeComponent_93 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:457][848]MapCheck: Warning: LandscapeComponent_94 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:457][848]MapCheck: Warning: LandscapeComponent_95 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:459][848]MapCheck: Warning: LandscapeComponent_96 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:459][848]MapCheck: Warning: LandscapeComponent_97 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:459][848]MapCheck: Warning: LandscapeComponent_98 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:460][848]MapCheck: Warning: LandscapeComponent_99 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:460][848]MapCheck: Warning: LandscapeComponent_100 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:461][848]MapCheck: Warning: LandscapeComponent_101 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:462][848]MapCheck: Warning: LandscapeComponent_102 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:463][848]MapCheck: Warning: LandscapeComponent_103 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:463][848]MapCheck: Warning: LandscapeComponent_104 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:464][848]MapCheck: Warning: LandscapeComponent_105 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:465][848]MapCheck: Warning: LandscapeComponent_106 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:465][848]MapCheck: Warning: LandscapeComponent_107 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:465][848]MapCheck: Warning: LandscapeComponent_108 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:466][848]MapCheck: Warning: LandscapeComponent_109 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:466][848]MapCheck: Warning: LandscapeComponent_110 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:467][848]MapCheck: Warning: LandscapeComponent_111 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:467][848]MapCheck: Warning: LandscapeComponent_112 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:468][848]MapCheck: Warning: LandscapeComponent_113 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:468][848]MapCheck: Warning: LandscapeComponent_114 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:469][848]MapCheck: Warning: LandscapeComponent_115 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:469][848]MapCheck: Warning: LandscapeComponent_116 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:470][848]MapCheck: Warning: LandscapeComponent_117 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:471][848]MapCheck: Warning: LandscapeComponent_118 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:471][848]MapCheck: Warning: LandscapeComponent_119 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:472][848]MapCheck: Warning: LandscapeComponent_120 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:473][848]MapCheck: Warning: LandscapeComponent_121 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:473][848]MapCheck: Warning: LandscapeComponent_122 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:474][848]MapCheck: Warning: LandscapeComponent_123 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:475][848]MapCheck: Warning: LandscapeComponent_124 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:476][848]MapCheck: Warning: LandscapeComponent_125 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:476][848]MapCheck: Warning: LandscapeComponent_126 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:477][848]MapCheck: Warning: LandscapeComponent_127 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:477][848]MapCheck: Warning: LandscapeComponent_128 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:478][848]MapCheck: Warning: LandscapeComponent_129 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:478][848]MapCheck: Warning: LandscapeComponent_130 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:479][848]MapCheck: Warning: LandscapeComponent_131 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:480][848]MapCheck: Warning: LandscapeComponent_132 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:481][848]MapCheck: Warning: LandscapeComponent_133 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:481][848]MapCheck: Warning: LandscapeComponent_134 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:482][848]MapCheck: Warning: LandscapeComponent_135 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:483][848]MapCheck: Warning: LandscapeComponent_136 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:483][848]MapCheck: Warning: LandscapeComponent_137 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:484][848]MapCheck: Warning: LandscapeComponent_138 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:484][848]MapCheck: Warning: LandscapeComponent_139 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:485][848]MapCheck: Warning: LandscapeComponent_140 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:485][848]MapCheck: Warning: LandscapeComponent_141 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:487][848]MapCheck: Warning: LandscapeComponent_142 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:487][848]MapCheck: Warning: LandscapeComponent_143 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:488][848]MapCheck: Warning: LandscapeComponent_144 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:488][848]MapCheck: Warning: LandscapeComponent_145 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:490][848]MapCheck: Warning: LandscapeComponent_146 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:490][848]MapCheck: Warning: LandscapeComponent_147 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:491][848]MapCheck: Warning: LandscapeComponent_148 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:491][848]MapCheck: Warning: LandscapeComponent_149 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:492][848]MapCheck: Warning: LandscapeComponent_150 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:492][848]MapCheck: Warning: LandscapeComponent_151 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:493][848]MapCheck: Warning: LandscapeComponent_152 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:494][848]MapCheck: Warning: LandscapeComponent_153 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:494][848]MapCheck: Warning: LandscapeComponent_154 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:495][848]MapCheck: Warning: LandscapeComponent_155 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:496][848]MapCheck: Warning: LandscapeComponent_156 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:497][848]MapCheck: Warning: LandscapeComponent_157 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:497][848]MapCheck: Warning: LandscapeComponent_158 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:498][848]MapCheck: Warning: LandscapeComponent_159 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:498][848]MapCheck: Warning: LandscapeComponent_160 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:499][848]MapCheck: Warning: LandscapeComponent_161 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:500][848]MapCheck: Warning: LandscapeComponent_162 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:500][848]MapCheck: Warning: LandscapeComponent_163 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:502][848]MapCheck: Warning: LandscapeComponent_164 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:502][848]MapCheck: Warning: LandscapeComponent_165 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:503][848]MapCheck: Warning: LandscapeComponent_166 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:503][848]MapCheck: Warning: LandscapeComponent_167 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:504][848]MapCheck: Warning: LandscapeComponent_168 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:504][848]MapCheck: Warning: LandscapeComponent_169 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:505][848]MapCheck: Warning: LandscapeComponent_170 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:506][848]MapCheck: Warning: LandscapeComponent_171 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:507][848]MapCheck: Warning: LandscapeComponent_172 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:507][848]MapCheck: Warning: LandscapeComponent_173 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:508][848]MapCheck: Warning: LandscapeComponent_174 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:509][848]MapCheck: Warning: LandscapeComponent_175 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:509][848]MapCheck: Warning: LandscapeComponent_176 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:510][848]MapCheck: Warning: LandscapeComponent_177 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:511][848]MapCheck: Warning: LandscapeComponent_178 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:511][848]MapCheck: Warning: LandscapeComponent_179 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:511][848]MapCheck: Warning: LandscapeComponent_180 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:512][848]MapCheck: Warning: LandscapeComponent_181 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:514][848]MapCheck: Warning: LandscapeComponent_182 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:514][848]MapCheck: Warning: LandscapeComponent_183 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:515][848]MapCheck: Warning: LandscapeComponent_184 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:515][848]MapCheck: Warning: LandscapeComponent_185 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:517][848]MapCheck: Warning: LandscapeComponent_186 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:517][848]MapCheck: Warning: LandscapeComponent_187 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:518][848]MapCheck: Warning: LandscapeComponent_188 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:518][848]MapCheck: Warning: LandscapeComponent_189 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:519][848]MapCheck: Warning: LandscapeComponent_190 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:519][848]MapCheck: Warning: LandscapeComponent_191 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:520][848]MapCheck: Warning: LandscapeComponent_192 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:521][848]MapCheck: Warning: LandscapeComponent_193 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:522][848]MapCheck: Warning: LandscapeComponent_194 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:522][848]MapCheck: Warning: LandscapeComponent_195 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:523][848]MapCheck: Warning: LandscapeComponent_196 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:524][848]MapCheck: Warning: LandscapeComponent_197 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:525][848]MapCheck: Warning: LandscapeComponent_198 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:525][848]MapCheck: Warning: LandscapeComponent_199 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:526][848]MapCheck: Warning: LandscapeComponent_200 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:526][848]MapCheck: Warning: LandscapeComponent_201 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:527][848]MapCheck: Warning: LandscapeComponent_202 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:528][848]MapCheck: Warning: LandscapeComponent_203 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:529][848]MapCheck: Warning: LandscapeComponent_204 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:530][848]MapCheck: Warning: LandscapeComponent_205 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:530][848]MapCheck: Warning: LandscapeComponent_206 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:532][848]MapCheck: Warning: LandscapeComponent_207 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:533][848]MapCheck: Warning: LandscapeComponent_208 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:533][848]MapCheck: Warning: LandscapeComponent_209 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:534][848]MapCheck: Warning: LandscapeComponent_210 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:534][848]MapCheck: Warning: LandscapeComponent_211 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:535][848]MapCheck: Warning: LandscapeComponent_212 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:535][848]MapCheck: Warning: LandscapeComponent_213 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:537][848]MapCheck: Warning: LandscapeComponent_214 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:537][848]MapCheck: Warning: LandscapeComponent_215 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:538][848]MapCheck: Warning: LandscapeComponent_216 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:538][848]MapCheck: Warning: LandscapeComponent_217 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:539][848]MapCheck: Warning: LandscapeComponent_218 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:539][848]MapCheck: Warning: LandscapeComponent_219 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:540][848]MapCheck: Warning: LandscapeComponent_220 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:541][848]MapCheck: Warning: LandscapeComponent_221 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:542][848]MapCheck: Warning: LandscapeComponent_222 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:542][848]MapCheck: Warning: LandscapeComponent_223 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:543][848]MapCheck: Warning: LandscapeComponent_224 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:544][848]MapCheck: Warning: LandscapeComponent_225 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:545][848]MapCheck: Warning: LandscapeComponent_226 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:545][848]MapCheck: Warning: LandscapeComponent_227 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:546][848]MapCheck: Warning: LandscapeComponent_228 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:546][848]MapCheck: Warning: LandscapeComponent_229 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:547][848]MapCheck: Warning: LandscapeComponent_230 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:547][848]MapCheck: Warning: LandscapeComponent_231 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:549][848]MapCheck: Warning: LandscapeComponent_232 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:549][848]MapCheck: Warning: LandscapeComponent_233 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:550][848]MapCheck: Warning: LandscapeComponent_234 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:550][848]MapCheck: Warning: LandscapeComponent_235 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:551][848]MapCheck: Warning: LandscapeComponent_236 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:552][848]MapCheck: Warning: LandscapeComponent_237 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:552][848]MapCheck: Warning: LandscapeComponent_238 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:553][848]MapCheck: Warning: LandscapeComponent_239 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:553][848]MapCheck: Warning: LandscapeComponent_240 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:554][848]MapCheck: Warning: LandscapeComponent_241 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:554][848]MapCheck: Warning: LandscapeComponent_242 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:555][848]MapCheck: Warning: LandscapeComponent_243 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:556][848]MapCheck: Warning: LandscapeComponent_244 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:556][848]MapCheck: Warning: LandscapeComponent_245 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:557][848]MapCheck: Warning: LandscapeComponent_246 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:558][848]MapCheck: Warning: LandscapeComponent_247 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:558][848]MapCheck: Warning: LandscapeComponent_248 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:559][848]MapCheck: Warning: LandscapeComponent_249 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:559][848]MapCheck: Warning: LandscapeComponent_250 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:560][848]MapCheck: Warning: LandscapeComponent_251 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:560][848]MapCheck: Warning: LandscapeComponent_252 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:561][848]MapCheck: Warning: LandscapeComponent_253 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:561][848]MapCheck: Warning: LandscapeComponent_254 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:562][848]MapCheck: Warning: LandscapeComponent_255 : 삭제된 레이어 웨이트맵을 고쳤습니다. 
+[2018.11.19-11.00.18:588][848]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.11.19-11.00.18:637][848]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Map_LostBambooForest.Map_LostBambooForest
+[2018.11.19-11.00.18:670][848]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.19-11.00.18:670][848]LightingResults: New page: 라이팅 빌드
+[2018.11.19-11.00.18:671][848]LoadErrors: New page: 맵 로드중: Map_LostBambooForest.umap
+[2018.11.19-11.00.18:675][848]MapCheck: New page: 맵 체크
+[2018.11.19-11.00.18:675][848]LightingResults: New page: 라이팅 빌드
+[2018.11.19-11.00.18:939][848]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.19-11.00.19:030][848]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.19-11.00.19:201][848]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 171.591ms.
+[2018.11.19-11.00.19:204][848]LogFileHelpers: Loading map 'Map_LostBambooForest' took 0.535
+[2018.11.19-11.00.22:655][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.19-11.00.22:964][116]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
+[2018.11.19-11.00.22:970][116]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.19-11.00.23:259][117]Cmd: QUIT_EDITOR
+[2018.11.19-11.00.23:358][117]LogExit: Preparing to exit.
+[2018.11.19-11.00.24:352][117]LogExit: Editor shut down
+[2018.11.19-11.00.24:353][117]LogExit: Transaction tracking system shut down
+[2018.11.19-11.00.24:745][117]LogExit: Object subsystem successfully closed.
+[2018.11.19-11.00.24:778][117]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.19-11.00.24:784][117]LogD3D11RHI: Shutdown
+[2018.11.19-11.00.24:784][117]LogD3D11RHI: CleanupD3DDevice
+[2018.11.19-11.00.24:790][117]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.19-11.00.24:848][117]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.11.19-11.00.24:848][117]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.11.19-11.00.24:848][117]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.11.19-11.00.24:849][117]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.11.19-11.00.24:849][117]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.11.19-11.00.24:849][117]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.11.19-11.00.24:850][117]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.11.19-11.00.24:850][117]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.11.19-11.00.24:850][117]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.11.19-11.00.24:851][117]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.11.19-11.00.24:852][117]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.11.19-11.00.24:853][117]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.11.19-11.00.24:853][117]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.11.19-11.00.24:854][117]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.11.19-11.00.24:854][117]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.11.19-11.00.24:854][117]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.11.19-11.00.24:855][117]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.11.19-11.00.24:856][117]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.11.19-11.00.24:857][117]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.11.19-11.00.24:858][117]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.11.19-11.00.24:859][117]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.11.19-11.00.24:859][117]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.11.19-11.00.24:859][117]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.11.19-11.00.24:860][117]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.11.19-11.00.24:860][117]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.11.19-11.00.24:860][117]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.11.19-11.00.25:879][117]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.11.19-11.00.25:879][117]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.11.19-11.00.25:879][117]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.11.19-11.00.25:879][117]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.11.19-11.00.25:880][117]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.11.19-11.00.25:880][117]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.11.19-11.00.25:881][117]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.11.19-11.00.25:881][117]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.11.19-11.00.25:883][117]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.11.19-11.00.25:883][117]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.11.19-11.00.25:883][117]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.11.19-11.00.25:884][117]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.11.19-11.00.25:884][117]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.11.19-11.00.25:884][117]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.11.19-11.00.25:885][117]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.11.19-11.00.25:885][117]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.11.19-11.00.25:885][117]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.11.19-11.00.25:886][117]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.11.19-11.00.25:887][117]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.11.19-11.00.25:887][117]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.11.19-11.00.25:888][117]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.11.19-11.00.25:888][117]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.11.19-11.00.25:944][117]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.11.19-11.00.25:945][117]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.11.19-11.00.25:946][117]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.11.19-11.00.25:948][117]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.11.19-11.00.25:948][117]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.11.19-11.00.25:948][117]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.11.19-11.00.25:948][117]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.11.19-11.00.25:949][117]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.11.19-11.00.25:949][117]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.11.19-11.00.25:950][117]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.11.19-11.00.25:952][117]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.11.19-11.00.25:954][117]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.11.19-11.00.25:954][117]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.11.19-11.00.25:954][117]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.11.19-11.00.25:954][117]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.19-11.00.25:955][117]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.19-11.00.25:955][117]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.19-11.00.25:955][117]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.19-11.00.25:955][117]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.19-11.00.25:956][117]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.19-11.00.25:957][117]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.19-11.00.25:957][117]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.19-11.00.25:957][117]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.19-11.00.25:957][117]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.11.19-11.00.26:007][117]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.19-11.00.26:008][117]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.19-11.00.26:009][117]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.19-11.00.26:010][117]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.19-11.00.26:010][117]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.19-11.00.26:010][117]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.19-11.00.26:010][117]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.19-11.00.26:015][117]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.19-11.00.26:016][117]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.19-11.00.26:018][117]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.19-11.00.26:018][117]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.19-11.00.26:018][117]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.19-11.00.26:019][117]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.19-11.00.26:020][117]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.19-11.00.26:021][117]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (300)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.19-11.00.26:022][117]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.19-11.00.26:023][117]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.19-11.00.26:023][117]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.19-11.00.26:023][117]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.19-11.00.26:023][117]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.19-11.00.26:023][117]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.19-11.00.26:124][117]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.19-11.00.26:225][117]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.19-11.00.26:226][117]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.19-11.00.26:229][117]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.19-11.00.26:230][117]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.19-11.00.26:230][117]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.19-11.00.26:230][117]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.19-11.00.26:232][117]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.19-11.00.26:233][117]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.19-11.00.26:233][117]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.19-11.00.26:233][117]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.19-11.00.26:234][117]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.19-11.00.26:234][117]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.19-11.00.26:234][117]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.19-11.00.26:236][117]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.19-11.00.26:242][117]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.19-11.00.26:243][117]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.19-11.00.26:244][117]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.19-11.00.26:244][117]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.19-11.00.26:244][117]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.19-11.00.26:246][117]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.19-11.00.26:246][117]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.19-11.00.26:247][117]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.19-11.00.26:247][117]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.19-11.00.26:247][117]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.19-11.00.26:248][117]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.19-11.00.26:249][117]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.19-11.00.26:249][117]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.19-11.00.26:250][117]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.19-11.00.26:250][117]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.19-11.00.26:252][117]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.19-11.00.26:253][117]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.19-11.00.26:253][117]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.19-11.00.26:253][117]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.19-11.00.26:253][117]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.19-11.00.26:254][117]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.19-11.00.26:254][117]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.19-11.00.26:254][117]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.19-11.00.26:254][117]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.19-11.00.26:255][117]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.19-11.00.26:255][117]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.19-11.00.26:255][117]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.19-11.00.26:268][117]LogDerivedDataCache: Shutdown
+[2018.11.19-11.00.26:269][117]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.19-11.00.26:269][117]LogXGEController: Cleaning working directory: C:/Users/Utsuho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.19-11.00.26:269][117]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.19-11.00.26:269][117]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.19-11.00.26:269][117]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.19-11.00.26:270][117]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.19-11.00.26:271][117]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.19-11.00.26:272][117]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.19-11.00.26:272][117]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.19-11.00.26:273][117]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.19-11.00.26:273][117]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.19-11.00.26:284][117]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.19-11.00.26:284][117]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.19-11.00.26:284][117]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.19-11.00.26:285][117]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.19-11.00.26:286][117]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.19-11.00.26:287][117]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.19-11.00.26:288][117]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.19-11.00.26:304][117]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.19-11.00.26:305][117]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.19-11.00.26:305][117]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFF82C7BB-4056-EE9C-CF9E-D195975E976C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1e51e6584cfdab19cc033a923e4d2e37%7Cf20972f491e24565a030c6afa01aa409%7C36b8a828-7a73-4478-a859-aadf467041c6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.19-11.00.26:333][117]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.19-11.00.26:334][117]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.19-11.00.26:334][117]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.19-11.00.26:334][117]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.19-11.00.26:335][117]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.19-11.00.26:335][117]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.19-11.00.26:336][117]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.19-11.00.26:336][117]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.19-11.00.26:337][117]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.19-11.00.26:338][117]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.19-11.00.26:338][117]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.19-11.00.26:338][117]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.19-11.00.26:340][117]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.19-11.00.26:340][117]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.19-11.00.26:340][117]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.19-11.00.26:340][117]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.19-11.00.26:341][117]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.19-11.00.26:354][117]LogExit: Exiting.
+[2018.11.19-11.00.26:359][117]Log file closed, 11/19/18 20:00:26
