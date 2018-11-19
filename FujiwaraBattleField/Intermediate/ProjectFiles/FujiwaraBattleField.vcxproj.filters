@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
@@ -44,3 +45,61 @@
 		</ClInclude >
 	</ItemGroup>
 </Project>
+=======
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FujiwaraBattleField.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0BF6C1A6-C15B-47AC-AAF1-25CA5E689F6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FujiwaraBattleField.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4049DD6D-05DC-44C2-AE7C-9290BCEFCE7C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FujiwaraBattleField">
+      <UniqueIdentifier>{BAD5A9E1-692E-4A9B-BA0C-C530B2ACA35D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
+      <Filter>Source\FujiwaraBattleField</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.cpp">
+      <Filter>Source\FujiwaraBattleField</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.h">
+      <Filter>Source\FujiwaraBattleField</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.cpp">
+      <Filter>Source\FujiwaraBattleField</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
+      <Filter>Source\FujiwaraBattleField</Filter>
+    </ClInclude>
+    <Filter Include="Source\FujiwaraBattleField\.vs">
+      <UniqueIdentifier>{7CD1814B-12A1-46C4-9038-18091FB4D56F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FujiwaraBattleField\.vs\FujiwaraBattleField">
+      <UniqueIdentifier>{1B9E5E18-FE26-420D-833D-4FDDD7772ADE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15">
+      <UniqueIdentifier>{FED0ED88-5BE5-42C2-894B-6BAA13989745}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15\Browse.VC.db">
+      <Filter>Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15</Filter>
+    </None>
+  </ItemGroup>
+</Project>
+>>>>>>> Stashed changes
