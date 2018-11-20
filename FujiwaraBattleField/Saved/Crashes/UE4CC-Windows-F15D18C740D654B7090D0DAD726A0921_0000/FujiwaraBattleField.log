@@ -1,0 +1,1048 @@
+﻿Log file open, 11/20/18 11:11:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.312358
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.280s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.20-02.11.47:169][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-02.11.47:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.20-02.11.47:197][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.20-02.11.47:197][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.20-02.11.47:197][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.20-02.11.47:198][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.11.20-02.11.47:198][  0]LogInit: User: hoon
+[2018.11.20-02.11.47:199][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.20-02.11.47:199][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.11.20-02.11.47:199][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.20-02.11.47:199][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.20-02.11.47:199][  0]LogMemory: Process Physical Memory: 100.77 MB used, 100.77 MB peak
+[2018.11.20-02.11.47:199][  0]LogMemory: Process Virtual Memory: 84.40 MB used, 84.40 MB peak
+[2018.11.20-02.11.47:199][  0]LogMemory: Physical Memory: 4919.89 MB used,  3131.24 MB free, 8051.13 MB total
+[2018.11.20-02.11.47:200][  0]LogMemory: Virtual Memory: 4621.23 MB used,  3131.24 MB free, 134217728.00 MB total
+[2018.11.20-02.11.47:248][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.20-02.11.47:248][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.20-02.11.47:250][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.20-02.11.48:167][  0]LogStreaming: Display: Took  0.919s to InitEngineTextLocalization.
+[2018.11.20-02.11.48:167][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.20-02.11.48:285][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.20-02.11.48:285][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.20-02.11.48:984][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-02.11.48:984][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.20-02.11.49:005][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.20-02.11.49:005][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.20-02.11.49:011][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.20-02.11.49:011][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.20-02.11.49:011][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.20-02.11.49:024][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.20-02.11.49:024][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.20-02.11.49:024][  0]LogWindows: EnumDisplayDevices:
+[2018.11.20-02.11.49:025][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.20-02.11.49:027][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-02.11.49:030][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-02.11.49:032][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.20-02.11.49:032][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.20-02.11.49:032][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.11.20-02.11.49:032][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.11.20-02.11.49:032][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.11.20-02.11.49:048][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.20-02.11.49:070][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.11.20-02.11.49:074][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/10248/).
+[2018.11.20-02.11.49:074][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/43463E9E4E561DA646909CAFE42D08BE/'.
+[2018.11.20-02.11.50:005][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.20-02.11.50:056][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.20-02.11.50:098][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.20-02.11.50:138][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.20-02.11.50:186][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.20-02.11.50:244][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.20-02.11.50:305][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.20-02.11.50:359][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.20-02.11.50:384][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:661][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:662][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:662][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-02.11.50:665][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.20-02.11.50:782][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-02.11.50:782][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-02.11.50:837][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-02.11.50:837][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-02.11.50:876][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.20-02.11.50:917][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.20-02.11.50:956][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.20-02.11.51:000][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.20-02.11.51:035][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.20-02.11.51:035][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.20-02.11.51:213][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.20-02.11.51:214][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.20-02.11.51:214][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.20-02.11.53:311][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.20-02.11.53:420][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-02.11.53:421][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.20-02.11.53:421][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.20-02.11.53:421][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.20-02.11.53:421][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.20-02.11.53:421][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.20-02.11.53:445][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.20-02.11.53:458][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.20-02.11.53:458][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.20-02.11.53:458][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.20-02.11.53:493][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.20-02.11.53:495][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.20-02.11.53:496][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.20-02.11.53:630][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2018.11.20-02.11.54:553][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-02.11.54:897][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.20-02.11.54:907][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.20-02.11.54:907][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.20-02.11.54:907][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.20-02.11.54:907][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.20-02.11.54:943][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.20-02.11.56:192][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.222906 seconds
+[2018.11.20-02.11.56:208][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.20-02.11.56:208][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.20-02.11.56:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.20-02.11.58:569][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.20-02.11.58:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.20-02.11.58:868][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-02.11.58:869][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-02.11.58:873][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-02.11.58:876][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-02.11.59:188][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.20-02.11.59:446][  0]LogOcInput: OculusInput pre-init called
+[2018.11.20-02.11.59:612][  0]LogEngine: Initializing Engine...
+[2018.11.20-02.11.59:614][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-02.11.59:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-02.11.59:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-02.11.59:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.11.20-02.11.59:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-02.12.00:096][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.20-02.12.00:135][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.20-02.12.00:169][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-02.12.00:507][  0]LogInit: FAudioDevice initialized.
+[2018.11.20-02.12.00:508][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.20-02.12.00:598][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-02.12.00:607][  0]LogInit: Texture streaming: Enabled
+[2018.11.20-02.12.00:635][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.20-02.12.00:656][  0]LogInit: Transaction tracking system initialized
+[2018.11.20-02.12.00:700][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.20-02.12.00:818][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.20-02.12.02:076][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.20-02.12.02:076][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.20-02.12.02:076][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.20-02.12.02:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-02.12.02:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-02.12.02:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.20-02.12.02:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-02.12.02:403][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.03s
+[2018.11.20-02.12.02:403][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-02.12.02:540][  0]LogSlate: Took 0.005207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.20-02.12.02:540][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.20-02.12.06:273][  0]LogSlate: Window '패키지 복원' being destroyed
+[2018.11.20-02.12.06:279][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.20-02.12.06:307][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.20-02.12.06:311][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.20-02.12.06:312][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-02.12.06:326][  0]MapCheck: New page: 맵 체크
+[2018.11.20-02.12.06:326][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-02.12.12:037][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-02.12.12:695][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.20-02.12.12:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.20-02.12.13:201][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 309.118ms.
+[2018.11.20-02.12.13:203][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 6.892
+[2018.11.20-02.12.13:404][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-02.12.13:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-02.12.13:459][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-02.12.13:487][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-02.12.13:510][  0]LogCollectionManager: Loaded 0 collections in 0.005726 seconds
+[2018.11.20-02.12.13:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.20-02.12.13:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.11.20-02.12.13:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.20-02.12.13:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.20-02.12.13:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0309 seconds. Added 2574 classes and 607 folders.
+[2018.11.20-02.12.13:618][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.20-02.12.13:814][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.20-02.12.13:827][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.20-02.12.13:879][  0]LogSlate: Took 0.009466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.20-02.12.13:880][  0]LogSlate: Took 0.000582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.20-02.12.13:892][  0]LogSlate: Took 0.003350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.20-02.12.14:111][  0]LogRenderer: Reallocating scene render targets to support 800x412 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-02.12.15:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.20-02.12.15:285][  0]LogLoad: (Engine Initialization) Total time: 32.14 seconds
+[2018.11.20-02.12.15:285][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.20-02.12.15:335][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.20-02.12.15:390][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-02.12.16:352][  3]LogAssetRegistry: Asset discovery search completed in 22.7448 seconds
+[2018.11.20-02.12.16:359][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.20-02.12.16:359][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000173 seconds (updated 0 objects)
+[2018.11.20-02.12.16:481][  4]LogSlate: Took 0.000614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-02.12.46:799][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-02.12.46:959][141]Candidate modules for hot reload:
+[2018.11.20-02.12.46:959][141]  FujiwaraBattleField
+[2018.11.20-02.12.46:960][141]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,8604 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.12.46:964][141]Warning: Starting HotReload took  0.1s.
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:12:56
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.11.20-02.12.56:332][195]CompilerResultsLog:   [1/3] FSkillBase.cpp
+[2018.11.20-02.12.56:332][195]CompilerResultsLog:   C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\FSkillBase.h(6): fatal error C1083: ???? ?????? ?? ?? ???????. 'FSkillBase.generated.h': No such file or directory
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Binaries\Win64\UE4Editor-FujiwaraBattleField-8604.dll
+[2018.11.20-02.12.56:332][195]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.20-02.12.56:332][195]CompilerResultsLog: Total build time: 8.04 seconds (Parallel executor: 0.00 seconds)
+[2018.11.20-02.12.56:332][195]LogMainFrame: MainFrame: Module compiling took 9.388 seconds
+[2018.11.20-02.12.56:333][195]Warning: HotReload failed, recompile failed
+[2018.11.20-02.13.41:754][331]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.20-02.13.43:759][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-02.16.27:990][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-02.17.28:458][318]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.20-02.17.47:922][732]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2018.11.20-02.18.04:435][113]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -game -rocket -progress
+[2018.11.20-02.18.04:941][113]Discovering modules, targets and source code for project...
+[2018.11.20-02.18.08:970][113]C:\Program Files\Epic Games\UE_4.20\Engine\Source\ThirdParty\Expat\Expat.Build.cs: warning: Referenced directory 'C:\Program Files\Epic Games\UE_4.20\Engine\Source\ThirdParty\Expat\expat-2.2.0\Win64\VS2015\Release' does not exist.
+[2018.11.20-02.20.43:311][ 64]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -invalidatemakefilesonly
+[2018.11.20-02.20.44:621][ 64]Invalidating makefiles only in this run.
+[2018.11.20-02.20.44:775][ 64]Candidate modules for hot reload:
+[2018.11.20-02.20.44:775][ 64]  FujiwaraBattleField
+[2018.11.20-02.20.44:775][ 64]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3539 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:21:07
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (no existing makefile)
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(16)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. SkillBase.icon
+[2018.11.20-02.21.07:077][ 64]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-02.21.07:077][ 64]LogMainFrame: MainFrame: Module compiling took 22.309 seconds
+[2018.11.20-02.21.07:077][ 64]Warning: HotReload failed, recompile failed
+[2018.11.20-02.21.07:080][ 64]Warning: RebindPackages failed because compilation failed.
+[2018.11.20-02.21.09:629][ 64]LogSlate: Window '메시지' being destroyed
+[2018.11.20-02.21.09:671][ 64]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2018.11.20-02.21.09:693][ 64]LogSlate: Took 0.010143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.11.20-02.21.09:768][ 64]LogSlate: Took 0.042531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2018.11.20-02.21.11:472][109]Candidate modules for hot reload:
+[2018.11.20-02.21.11:472][109]  FujiwaraBattleField
+[2018.11.20-02.21.11:473][109]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,4935 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.21.11:476][109]Warning: Starting HotReload took  0.0s.
+[2018.11.20-02.21.21:252][373]LogSlate: Window '출력 로그' being destroyed
+[2018.11.20-02.21.21:269][373]LogSlate: Window '출력 로그' being destroyed
+[2018.11.20-02.21.54:716][347]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:21:54
+[2018.11.20-02.21.54:716][347]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.21.54:716][347]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (no existing makefile)
+[2018.11.20-02.21.54:716][347]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.21.54:717][347]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-02.21.54:717][347]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-02.21.54:717][347]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-02.21.54:718][347]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(16)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. SkillBase.icon
+[2018.11.20-02.21.54:718][347]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-02.21.54:718][347]LogMainFrame: MainFrame: Module compiling took 43.251 seconds
+[2018.11.20-02.21.54:718][347]Warning: HotReload failed, recompile failed
+[2018.11.20-02.23.34:041][829]Candidate modules for hot reload:
+[2018.11.20-02.23.34:041][829]  FujiwaraBattleField
+[2018.11.20-02.23.34:041][829]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,1184 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.23.34:043][829]Warning: Starting HotReload took  0.0s.
+[2018.11.20-02.23.38:992][ 12]LogRenderer: Reallocating scene render targets to support 824x412 Format 9 NumSamples 1 (Frame:2739).
+[2018.11.20-02.23.39:097][ 13]LogRenderer: Reallocating scene render targets to support 884x412 Format 9 NumSamples 1 (Frame:2741).
+[2018.11.20-02.23.39:205][ 14]LogRenderer: Reallocating scene render targets to support 908x412 Format 9 NumSamples 1 (Frame:2743).
+[2018.11.20-02.23.39:507][ 19]LogRenderer: Reallocating scene render targets to support 912x412 Format 9 NumSamples 1 (Frame:2749).
+[2018.11.20-02.23.39:593][ 20]LogRenderer: Reallocating scene render targets to support 916x412 Format 9 NumSamples 1 (Frame:2751).
+[2018.11.20-02.23.39:687][ 21]LogRenderer: Reallocating scene render targets to support 920x412 Format 9 NumSamples 1 (Frame:2753).
+[2018.11.20-02.23.40:017][ 32]LogRenderer: Reallocating scene render targets to support 936x412 Format 9 NumSamples 1 (Frame:2757).
+[2018.11.20-02.23.40:124][ 33]LogRenderer: Reallocating scene render targets to support 956x412 Format 9 NumSamples 1 (Frame:2759).
+[2018.11.20-02.24.18:324][670]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:24:18
+[2018.11.20-02.24.18:324][670]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.24.18:324][670]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (no existing makefile)
+[2018.11.20-02.24.18:324][670]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 15.9833634 seconds
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: Building 10 actions with 4 processes...
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [1/10] BaseSkill.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(5) : error C2653: 'BaseSkill': ????? ??? ?????????? ????? ?????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(6) : error C4430: ???? ??????? ???????. int?? ????????. ????: C++?????? ?? int?? ???????? ??????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(7) : error C4508: 'BaseSkill': ????? ???? ?????? ???? 'void' ??? ???????? ???????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(9) : error C2653: 'BaseSkill': ????? ??? ?????????? ????? ?????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(9) : error C2523: '<?? ?? ????>::~BaseSkill': ????? ????? ??????? ??????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(10) : error C4430: ???? ??????? ???????. int?? ????????. ????: C++?????? ?? int?? ???????? ??????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:    C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(10) : error C2084: 'int BaseSkill(void)' ????? ??? ?????? ??????.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\BaseSkill.cpp(5): note: 'BaseSkill'?? ???? ????? ???????y?.
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [2/10] FujiwaraBattleField.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [3/10] FujiwaraBattleFieldGameModeBase.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [4/10] FBFBaseCharacter.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [5/10] BaseSkill.gen.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [6/10] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [7/10] FBFBaseCharacter.gen.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:   [8/10] FujiwaraBattleFieldGameModeBase.gen.cpp
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Binaries\Win64\UE4Editor-FujiwaraBattleField-1184.dll
+[2018.11.20-02.24.18:325][670]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.20-02.24.18:325][670]CompilerResultsLog: Total build time: 42.89 seconds (Parallel executor: 0.00 seconds)
+[2018.11.20-02.24.18:325][670]LogMainFrame: MainFrame: Module compiling took 44.289 seconds
+[2018.11.20-02.24.18:326][670]Warning: HotReload failed, recompile failed
+[2018.11.20-02.24.41:774][278]Candidate modules for hot reload:
+[2018.11.20-02.24.41:774][278]  FujiwaraBattleField
+[2018.11.20-02.24.41:774][278]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,394 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.24.41:775][278]Warning: Starting HotReload took  0.0s.
+[2018.11.20-02.24.47:056][312]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:24:47
+[2018.11.20-02.24.47:057][312]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.24.47:057][312]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.24.47:057][312]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.11.20-02.24.47:057][312]CompilerResultsLog:   [1/3] BaseSkill.cpp
+[2018.11.20-02.24.47:057][312]CompilerResultsLog:   [2/3] UE4Editor-FujiwaraBattleField-394.lib
+[2018.11.20-02.24.47:057][312]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-394.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-394.exp ??u?? ??????? ??????.
+[2018.11.20-02.24.47:057][312]CompilerResultsLog:   [3/3] UE4Editor-FujiwaraBattleField-394.dll
+[2018.11.20-02.24.47:057][312]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-394.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-394.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-02.24.47:057][312]CompilerResultsLog: Total build time: 4.45 seconds (Parallel executor: 2.08 seconds)
+[2018.11.20-02.24.47:057][312]LogMainFrame: MainFrame: Module compiling took 5.288 seconds
+[2018.11.20-02.24.47:088][312]LogClass: Could not find existing type BaseSkill for HotReload. Assuming new
+[2018.11.20-02.24.47:091][312]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0005 seconds. Added 2 classes and 4 folders.
+[2018.11.20-02.24.47:093][312]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2018.11.20-02.24.47:202][312]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-02.24.47:252][312]Display: HotReload took  5.5s.
+[2018.11.20-02.26.48:836][240]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillStage.S_SkillStage
+[2018.11.20-02.28.19:490][665]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-02.28.20:224][665]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.11.20-02.28.25:679][803]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.20-02.28.29:897][943]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-02.44.00:910][305]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-02.57.49:393][159]Candidate modules for hot reload:
+[2018.11.20-02.57.49:393][159]  FujiwaraBattleField
+[2018.11.20-02.57.49:393][159]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,6236 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.57.49:395][159]Warning: Starting HotReload took  0.0s.
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:58:29
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-02.58.29:077][ 16]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/Skill/S_Skill_Base.h(16)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Skill_Base.Overrideicon
+[2018.11.20-02.58.29:078][ 16]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/Skill/S_Skill_Base.h(18)  : Error: Unrecognized type 'UFloat' - type must be a UCLASS, USTRUCT or UENUM
+[2018.11.20-02.58.29:078][ 16]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-02.58.29:078][ 16]LogMainFrame: MainFrame: Module compiling took 39.690 seconds
+[2018.11.20-02.58.29:078][ 16]Warning: HotReload failed, recompile failed
+[2018.11.20-03.00.43:475][550]Candidate modules for hot reload:
+[2018.11.20-03.00.43:475][550]  FujiwaraBattleField
+[2018.11.20-03.00.43:475][550]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,2197 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.00.43:477][550]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.01.38:120][844]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:01:38
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.01.38:121][844]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(16)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. SkillBase.Overrideicon
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(18)  : Error: Unrecognized type 'UFloat' - type must be a UCLASS, USTRUCT or UENUM
+[2018.11.20-03.01.38:121][844]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-03.01.38:121][844]LogMainFrame: MainFrame: Module compiling took 54.650 seconds
+[2018.11.20-03.01.38:121][844]Warning: HotReload failed, recompile failed
+[2018.11.20-03.02.56:213][616]Candidate modules for hot reload:
+[2018.11.20-03.02.56:213][616]  FujiwaraBattleField
+[2018.11.20-03.02.56:213][616]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,7627 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.02.56:215][616]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:03:24
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.03.24:976][491]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(16)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. SkillBase.Overrideicon
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(18)  : Error: Unrecognized type 'UFloat' - type must be a UCLASS, USTRUCT or UENUM
+[2018.11.20-03.03.24:976][491]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-03.03.24:976][491]LogMainFrame: MainFrame: Module compiling took 28.767 seconds
+[2018.11.20-03.03.24:976][491]Warning: HotReload failed, recompile failed
+[2018.11.20-03.08.19:335][634]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-03.08.19:342][634]Candidate modules for hot reload:
+[2018.11.20-03.08.19:342][634]  FujiwaraBattleField
+[2018.11.20-03.08.19:342][634]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,4763 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.08.19:344][634]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:08:59
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-03.08.59:040][816]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.08.59:042][816]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 18.0714692 seconds
+[2018.11.20-03.08.59:042][816]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:   [1/5] S_BaseSkill.cpp
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:   C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\S_BaseSkill.cpp(3): fatal error C1083: ???? ?????? ?? ?? ???????. 'S_BaseSkill.h': No such file or directory
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:   [2/5] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:   [3/5] S_Skill_Base.gen.cpp
+[2018.11.20-03.08.59:042][816]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Binaries\Win64\UE4Editor-FujiwaraBattleField-4763.dll
+[2018.11.20-03.08.59:042][816]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.20-03.08.59:042][816]CompilerResultsLog: Total build time: 38.31 seconds (Parallel executor: 0.00 seconds)
+[2018.11.20-03.08.59:042][816]LogMainFrame: MainFrame: Module compiling took 39.708 seconds
+[2018.11.20-03.08.59:042][816]Warning: HotReload failed, recompile failed
+[2018.11.20-03.09.27:648][432]LogSlate: Window 'Skill_Dash' being destroyed
+[2018.11.20-03.09.27:652][432]LogSlate: Window 'Skill_Dash' being destroyed
+[2018.11.20-03.09.27:911][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-03.09.28:091][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-03.09.32:210][637]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-03.09.32:214][637]Candidate modules for hot reload:
+[2018.11.20-03.09.32:214][637]  FujiwaraBattleField
+[2018.11.20-03.09.32:214][637]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3220 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.09.32:216][637]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.09.42:418][254]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:09:42
+[2018.11.20-03.09.42:418][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.09.42:419][254]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.09.42:419][254]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.11.20-03.09.42:419][254]CompilerResultsLog:   [1/3] S_BaseSkill.cpp
+[2018.11.20-03.09.42:419][254]CompilerResultsLog:   C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Private\Skill\S_BaseSkill.cpp(3): fatal error C1083: ???? ?????? ?? ?? ???????. 'S_BaseSkill.h': No such file or directory
+[2018.11.20-03.09.42:419][254]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Binaries\Win64\UE4Editor-FujiwaraBattleField-3220.dll
+[2018.11.20-03.09.42:419][254]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.20-03.09.42:419][254]CompilerResultsLog: Total build time: 9.34 seconds (Parallel executor: 0.00 seconds)
+[2018.11.20-03.09.42:419][254]LogMainFrame: MainFrame: Module compiling took 10.208 seconds
+[2018.11.20-03.09.42:419][254]Warning: HotReload failed, recompile failed
+[2018.11.20-03.15.05:158][877]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-03.15.05:162][877]Candidate modules for hot reload:
+[2018.11.20-03.15.05:162][877]  FujiwaraBattleField
+[2018.11.20-03.15.05:162][877]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,5725 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.15.05:164][877]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:16:02
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-03.16.02:806][225]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.16.02:806][225]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.16.02:807][225]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/Skill/S_Skill_Spell.h(17)  : Error: Struct 'UVector' is missing or has an incorrect prefix, expecting 'FVector'
+[2018.11.20-03.16.02:807][225]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.11.20-03.16.02:807][225]LogMainFrame: MainFrame: Module compiling took 57.648 seconds
+[2018.11.20-03.16.02:807][225]Warning: HotReload failed, recompile failed
+[2018.11.20-03.44.17:049][459]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.20-03.49.48:517][789]LogVSAccessor: Warning: Couldn't save all documents
+[2018.11.20-03.49.48:541][789]Candidate modules for hot reload:
+[2018.11.20-03.49.48:541][789]  FujiwaraBattleField
+[2018.11.20-03.49.48:541][789]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,2391 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.49.48:543][789]Warning: Starting HotReload took  0.8s.
+[2018.11.20-03.50.51:058][160]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-03.51.07:069][625]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:51:35
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-03.51.35:401][397]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.51.35:402][397]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 45.2377291 seconds
+[2018.11.20-03.51.35:402][397]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   [1/5] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   [2/5] S_Skill_Dash.gen.cpp
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   [3/5] S_Skill_Spell.gen.cpp
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   [4/5] UE4Editor-FujiwaraBattleField-2391.lib
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-2391.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-2391.exp ??u?? ??????? ??????.
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:   [5/5] UE4Editor-FujiwaraBattleField-2391.dll
+[2018.11.20-03.51.35:402][397]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-2391.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-2391.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-03.51.35:402][397]CompilerResultsLog: Total build time: 104.71 seconds (Parallel executor: 30.98 seconds)
+[2018.11.20-03.51.35:402][397]LogMainFrame: MainFrame: Module compiling took 106.868 seconds
+[2018.11.20-03.51.35:522][397]LogClass: Could not find existing type Skill_Base for HotReload. Assuming new
+[2018.11.20-03.51.35:522][397]LogClass: Could not find existing type Skill_Dash for HotReload. Assuming new
+[2018.11.20-03.51.35:523][397]LogClass: Could not find existing type Skill_Spell for HotReload. Assuming new
+[2018.11.20-03.51.35:527][397]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0008 seconds. Added 2 classes and 4 folders.
+[2018.11.20-03.51.35:531][397]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2018.11.20-03.51.36:101][397]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-03.51.36:101][397]Display: HotReload took 108.4s.
+[2018.11.20-03.51.36:145][397]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-03.52.04:905][462]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillStage.S_SkillStage
+[2018.11.20-03.52.08:633][588]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-03.52.53:826][127]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SpellInfo.S_SpellInfo
+[2018.11.20-03.52.55:448][179]LogSlate: Window 'S_SpellInfo' being destroyed
+[2018.11.20-03.52.55:453][179]LogSlate: Window 'S_SpellInfo' being destroyed
+[2018.11.20-03.52.55:559][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-03.52.56:364][208]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-03.53.47:079][ 16]LogSlate: Took 0.001269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.20-03.54.04:165][796]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfo7A87A2E64C6B7AEA9470CBA8D949B3C3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-03.54.05:106][827]LogSlate: Window 'S_SkillInfo' being destroyed
+[2018.11.20-03.54.05:123][827]LogSlate: Window 'S_SkillInfo' being destroyed
+[2018.11.20-03.54.12:852][166]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-03.54.22:037][400]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-03.55.11:683][961]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-03.55.29:654][657]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfoE5CE429D42C791A7A8BE7187E6469F0F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-03.55.35:410][812]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-03.55.35:753][812]LogBlueprint: Error: [Compiler MasterSkill] 사용 중인  Stages  핀은 더 이상  S_SkillInfo 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-03.55.35:853][812]LogBlueprint: Warning: [Compiler W_SkillHotKey] Get Current Stage  에서 호출된 'GetCurrentStage' 함수를 찾을 수 없습니다.
+[2018.11.20-03.55.35:894][812]LogClass: Warning: Property Stages_18_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-03.55.35:894][812]LogClass: Warning: Property Stages_18_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-03.55.35:894][812]LogClass: Warning: Property Stages_18_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-03.55.35:899][812]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6232.76] W_SkillHotKey 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 431 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-03.55.36:153][812]LogBlueprint: Warning: [Compiler MasterSkill] [6233.01] MasterSkill 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 742 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-03.56.37:570][842]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-03.56.37:884][842]LogBlueprint: Error: [Compiler MasterSkill] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:884][842]LogBlueprint: Error: [Compiler MasterSkill] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:885][842]LogBlueprint: Error: [Compiler MasterSkill] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:885][842]LogBlueprint: Error: [Compiler MasterSkill] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:925][842]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:925][842]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.56.37:970][842]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-03.56.37:971][842]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-03.56.37:982][842]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-03.56.38:025][842]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6294.88] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 407 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-03.56.38:217][842]LogBlueprint: Warning: [Compiler MasterSkill] [6295.07] MasterSkill 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 646 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-03.56.38:610][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-03.56.38:770][854]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkillD4DA9BF14C27CBB03473988558DED9CF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-03.57.48:567][ 67]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-03.57.48:899][ 67]LogBlueprint: Error: [Compiler MasterSkill] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.57.48:899][ 67]LogBlueprint: Error: [Compiler MasterSkill] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.57.48:934][ 67]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.57.48:934][ 67]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-03.57.48:990][ 67]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-03.57.49:001][ 67]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-03.57.49:037][ 67]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6365.90] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 419 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-03.57.49:225][ 67]LogBlueprint: Warning: [Compiler MasterSkill] [6366.08] MasterSkill 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 656 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-03.58.44:944][216]Candidate modules for hot reload:
+[2018.11.20-03.58.44:944][216]  FujiwaraBattleField
+[2018.11.20-03.58.44:944][216]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,6196 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-03.58.44:946][216]Warning: Starting HotReload took  0.0s.
+[2018.11.20-03.58.47:694][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.042
+[2018.11.20-03.58.47:698][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/W_SkillHotKey] ([1] browsable assets)...
+[2018.11.20-03.58.47:698][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/W_SkillHotKey]
+[2018.11.20-03.58.47:853][305]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey_Auto1271A16CE449C38E66D1242A4B52FFDFC.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/W_SkillHotKey_Auto1.uasset'
+[2018.11.20-03.58.47:856][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-03.58.47:856][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-03.58.48:064][305]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto1713657D74A5FB51F584DB1B597F2B9B3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto1.uasset'
+[2018.11.20-03.58.48:067][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-03.58.48:067][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-03.58.48:129][305]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto12FAB554B48737456FDFAD58B342546B3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto1.uasset'
+[2018.11.20-03.58.48:133][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-03.58.48:133][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-03.58.48:174][305]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto13588DF73418F08CE290837AFCF148BB9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto1.uasset'
+[2018.11.20-03.58.48:177][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-03.58.48:177][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-03.58.48:207][305]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto12BCA56AB4387CC9C5EAD35A7124AB7CA.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto1.uasset'
+[2018.11.20-03.58.48:209][305]LogFileHelpers: Auto-saving content packages took 0.514
+[2018.11.20-03.59.32:747][520]LogSlate: Window 'S_SkillInfo' being destroyed
+[2018.11.20-03.59.32:752][520]LogSlate: Window 'S_SkillInfo' being destroyed
+[2018.11.20-03.59.57:299][863]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 9:59:57
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 45.5032494 seconds
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [1/6] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [2/6] S_Skill_Spell.gen.cpp
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [3/6] S_Skill_Dash.gen.cpp
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [4/6] S_Skill_Base.gen.cpp
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [5/6] UE4Editor-FujiwaraBattleField-6196.lib
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-6196.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-6196.exp ??u?? ??????? ??????.
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:   [6/6] UE4Editor-FujiwaraBattleField-6196.dll
+[2018.11.20-03.59.57:300][863]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-6196.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-6196.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-03.59.57:300][863]CompilerResultsLog: Total build time: 70.94 seconds (Parallel executor: 12.03 seconds)
+[2018.11.20-03.59.57:300][863]LogMainFrame: MainFrame: Module compiling took 72.361 seconds
+[2018.11.20-03.59.57:362][863]LogClass: Skill_Dash HotReload.
+[2018.11.20-03.59.57:362][863]LogClass: Skill_Spell HotReload.
+[2018.11.20-03.59.57:367][863]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0006 seconds. Added 2 classes and 4 folders.
+[2018.11.20-03.59.57:373][863]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2018.11.20-03.59.57:963][863]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-03.59.57:963][863]Display: HotReload took 73.1s.
+[2018.11.20-04.00.08:381][447]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-04.00.18:233][ 22]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.00.18:567][ 22]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.00.18:567][ 22]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.00.18:628][ 22]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.00.18:662][ 22]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6515.52] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 400 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.00.30:709][689]Candidate modules for hot reload:
+[2018.11.20-04.00.30:709][689]  FujiwaraBattleField
+[2018.11.20-04.00.30:709][689]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,2844 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.00.30:711][689]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.00.34:083][819]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-04.00.39:380][ 23]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:00:39
+[2018.11.20-04.00.39:380][ 23]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.00.39:380][ 23]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.00.39:380][ 23]CompilerResultsLog: Target is up to date
+[2018.11.20-04.00.39:380][ 23]CompilerResultsLog: Total build time: 7.80 seconds (NoActionsToExecute executor: 0.02 seconds)
+[2018.11.20-04.00.39:380][ 23]LogMainFrame: MainFrame: Module compiling took 8.674 seconds
+[2018.11.20-04.00.39:870][ 23]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-04.00.39:870][ 23]Display: HotReload took  9.2s.
+[2018.11.20-04.00.48:866][408]LogSlate: Window 'S_SkillInfo*' being destroyed
+[2018.11.20-04.00.48:876][408]LogSlate: Window 'S_SkillInfo*' being destroyed
+[2018.11.20-04.01.08:541][297]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-04.01.24:338][207]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-04.01.25:036][247]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-04.01.26:465][331]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-04.01.26:977][360]LogEditorTransaction: Undo 파라미터 유형 변경
+[2018.11.20-04.01.27:970][416]LogEditorTransaction: Redo 파라미터 유형 변경
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MasterSkill) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:973][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_Skill_Dash) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:974][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_W_SkillHotKey) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:974][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_W_SkillHotKey) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.27:974][416]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_W_SkillHotKey) bSelfContext == true, but no scope supplied!
+[2018.11.20-04.01.44:970][422]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-04.01.59:247][270]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.01.59:524][270]LogBlueprint: Error: [Compiler MasterSkill] Skill Base  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.01.59:524][270]LogBlueprint: Error: [Compiler MasterSkill] Out  및  Skill Base  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.01.59:562][270]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.01.59:562][270]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.01.59:608][270]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  HOTRELOADED_Skill_Base_0 분해  에 일치하지 않습니다.
+[2018.11.20-04.01.59:623][270]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.01.59:668][270]LogClass: Warning: Property Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_0 != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.01.59:668][270]LogClass: Warning: Property Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_0 != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.01.59:668][270]LogClass: Warning: Property Stages_33_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_0 != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.01.59:673][270]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6616.53] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 395 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.02.00:007][270]LogBlueprint: Warning: [Compiler MasterSkill] [6616.86] MasterSkill 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 760 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-04.02.42:358][750]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.02.42:683][750]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.02.42:683][750]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.02.42:739][750]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.02.42:777][750]LogBlueprint: Warning: [Compiler W_SkillHotKey] [6659.63] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 390 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.02.47:434][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-04.02.47:574][  6]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkillD0FA307043B556DCE37CACAD9D68D3B7.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-04.03.46:230][380]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-04.03.59:891][808]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-04.04.37:140][482]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-04.08.15:675][881]Candidate modules for hot reload:
+[2018.11.20-04.08.15:675][881]  FujiwaraBattleField
+[2018.11.20-04.08.15:675][881]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,6054 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.08.15:677][881]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.08.18:306][970]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.08.51:741][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.072
+[2018.11.20-04.08.51:744][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/W_SkillHotKey] ([1] browsable assets)...
+[2018.11.20-04.08.51:744][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/W_SkillHotKey]
+[2018.11.20-04.08.51:879][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey_Auto2A1E3C77C4F00B81232CB3997715A1F23.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/W_SkillHotKey_Auto2.uasset'
+[2018.11.20-04.08.51:883][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-04.08.51:883][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-04.08.52:052][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto2AD384BA34C5F1FD7BBBB3FB6B2E06FAF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto2.uasset'
+[2018.11.20-04.08.52:055][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Structs/S_SkillInfo] ([1] browsable assets)...
+[2018.11.20-04.08.52:055][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Structs/S_SkillInfo]
+[2018.11.20-04.08.52:081][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfo_Auto27781C00B4DC04139708B1AA2592B0C49.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Structs/S_SkillInfo_Auto2.uasset'
+[2018.11.20-04.08.52:085][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-04.08.52:085][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-04.08.52:140][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto232152BF24B0A9A9041619482AD409612.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto2.uasset'
+[2018.11.20-04.08.52:143][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-04.08.52:143][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-04.08.52:187][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto2753AAE0C433E743A291BE8B8BBF7AA92.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto2.uasset'
+[2018.11.20-04.08.52:190][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-04.08.52:190][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-04.08.52:223][958]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto2F6726C8A4B7097F480BC8E9CF95EDD16.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto2.uasset'
+[2018.11.20-04.08.52:225][958]LogFileHelpers: Auto-saving content packages took 0.483
+[2018.11.20-04.09.19:797][761]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:09:19
+[2018.11.20-04.09.19:798][761]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.09.19:798][761]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.09.19:798][761]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-04.09.19:798][761]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-04.09.19:799][761]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/Skill/S_Skill_Base.h(19)  : Error: Unrecognized type 'SkillType' - type must be a UCLASS, USTRUCT or UENUM
+[2018.11.20-04.09.19:799][761]CompilerResultsLog: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest).
+[2018.11.20-04.09.19:799][761]LogMainFrame: MainFrame: Module compiling took 64.128 seconds
+[2018.11.20-04.09.19:800][761]Warning: HotReload failed, recompile failed
+[2018.11.20-04.09.46:475][418]Candidate modules for hot reload:
+[2018.11.20-04.09.46:475][418]  FujiwaraBattleField
+[2018.11.20-04.09.46:475][418]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,5780 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.09.46:477][418]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:10:41
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-04.10.41:016][331]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: Error: C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/Skill/S_Skill_Base.h(20)  : Error: You cannot use the raw enum name as a type for member variables, instead use TEnumAsByte or a C++11 enum class with an explicit underlying type.
+[2018.11.20-04.10.41:016][331]CompilerResultsLog: UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest).
+[2018.11.20-04.10.41:016][331]LogMainFrame: MainFrame: Module compiling took 54.545 seconds
+[2018.11.20-04.10.41:016][331]Warning: HotReload failed, recompile failed
+[2018.11.20-04.15.36:941][ 75]Candidate modules for hot reload:
+[2018.11.20-04.15.36:941][ 75]  FujiwaraBattleField
+[2018.11.20-04.15.36:941][ 75]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3562 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.15.36:943][ 75]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.15.58:901][167]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:15:58
+[2018.11.20-04.15.58:901][167]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.15.58:901][167]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.15.58:902][167]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-04.15.58:902][167]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 13.4333274 seconds
+[2018.11.20-04.15.58:902][167]CompilerResultsLog: Building 6 actions with 4 processes...
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [1/6] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [2/6] S_Skill_Dash.gen.cpp
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [3/6] S_Skill_Spell.gen.cpp
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [4/6] S_Skill_Base.gen.cpp
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [5/6] UE4Editor-FujiwaraBattleField-3562.lib
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3562.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3562.exp ??u?? ??????? ??????.
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:   [6/6] UE4Editor-FujiwaraBattleField-3562.dll
+[2018.11.20-04.15.58:902][167]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3562.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3562.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-04.15.58:902][167]CompilerResultsLog: Total build time: 20.68 seconds (Parallel executor: 3.55 seconds)
+[2018.11.20-04.15.58:902][167]LogMainFrame: MainFrame: Module compiling took 21.965 seconds
+[2018.11.20-04.15.58:981][167]LogClass: Could not find existing type SkillType for HotReload. Assuming new
+[2018.11.20-04.15.58:988][167]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0009 seconds. Added 2 classes and 4 folders.
+[2018.11.20-04.15.58:993][167]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2018.11.20-04.15.59:480][167]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-04.15.59:480][167]Display: HotReload took 22.6s.
+[2018.11.20-04.19.12:547][306]LogSlate: Window 'Skill_Dash*' being destroyed
+[2018.11.20-04.19.15:307][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.077
+[2018.11.20-04.19.15:310][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-04.19.15:310][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-04.19.15:350][446]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto389E433DB4B4A801BA93A048B2C127412.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto3.uasset'
+[2018.11.20-04.19.15:355][446]LogFileHelpers: Auto-saving content packages took 0.047
+[2018.11.20-04.21.51:176][506]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-04.21.51:180][506]Candidate modules for hot reload:
+[2018.11.20-04.21.51:180][506]  FujiwaraBattleField
+[2018.11.20-04.21.51:180][506]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,1273 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.21.51:182][506]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:22:44
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 37.0645912 seconds
+[2018.11.20-04.22.44:415][666]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   [1/5] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   [2/5] S_Skill_Dash.gen.cpp
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   [3/5] S_Skill_Spell.gen.cpp
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   [4/5] UE4Editor-FujiwaraBattleField-1273.lib
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1273.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1273.exp ??u?? ??????? ??????.
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:   [5/5] UE4Editor-FujiwaraBattleField-1273.dll
+[2018.11.20-04.22.44:415][666]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1273.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1273.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-04.22.44:416][666]CompilerResultsLog: Total build time: 52.58 seconds (Parallel executor: 8.20 seconds)
+[2018.11.20-04.22.44:416][666]LogMainFrame: MainFrame: Module compiling took 53.239 seconds
+[2018.11.20-04.22.44:485][666]LogClass: SkillType HotReload.
+[2018.11.20-04.22.44:485][666]LogClass: Skill_Base HotReload.
+[2018.11.20-04.22.44:490][666]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0005 seconds. Added 2 classes and 4 folders.
+[2018.11.20-04.22.44:495][666]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2018.11.20-04.22.44:911][666]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-04.22.44:911][666]Display: HotReload took 53.7s.
+[2018.11.20-04.22.47:447][818]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.22.47:463][818]LogBlueprint: Error: [Compiler Skill_Dash] Value  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Add  에 무언가를 연결하세요.
+[2018.11.20-04.22.47:464][818]LogBlueprint: Error: [Compiler Skill_Dash] Variable  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Add  에 무언가를 연결하세요.
+[2018.11.20-04.22.47:464][818]LogBlueprint: Error: [Compiler Skill_Dash] ' Target Map ' 핀의 현재 값이 유효하지 않습니다: ('Target Map' 같은) 맵 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeMap 노드를 연결해 보세요).
+[2018.11.20-04.22.47:698][818]LogBlueprint: Warning: [Compiler Skill_Dash] [7864.56] Skill_Dash 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 251 ms] (/Game/_Temporary/Skill/Skill_Dash.Skill_Dash)
+[2018.11.20-04.22.55:677][294]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.22.56:730][339]LogRenderer: Reallocating scene render targets to support 956x508 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-04.23.49:700][149]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-04.26.11:648][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-04.26.12:417][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-04.26.15:330][613]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-04.26.15:337][613]Candidate modules for hot reload:
+[2018.11.20-04.26.15:337][613]  FujiwaraBattleField
+[2018.11.20-04.26.15:337][613]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,7239 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.26.15:338][613]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.26.24:934][874]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:26:24
+[2018.11.20-04.26.24:935][874]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.26.24:935][874]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.26.24:935][874]CompilerResultsLog: Target is up to date
+[2018.11.20-04.26.24:936][874]CompilerResultsLog: Total build time: 8.57 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2018.11.20-04.26.24:936][874]LogMainFrame: MainFrame: Module compiling took 9.606 seconds
+[2018.11.20-04.26.25:512][874]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-04.26.25:513][874]Display: HotReload took 10.2s.
+[2018.11.20-04.26.29:031][974]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-04.26.33:630][170]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-04.29.15:912][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.139
+[2018.11.20-04.29.15:914][748]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-04.29.15:915][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-04.29.15:962][748]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto453D98E174DCD016BAC59C29D3CC21517.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto4.uasset'
+[2018.11.20-04.29.15:964][748]LogFileHelpers: Auto-saving content packages took 0.051
+[2018.11.20-04.31.24:821][942]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Fast.Skill_Fast
+[2018.11.20-04.33.29:041][ 14]LogSlate: Window 'Skill_Fast*' being destroyed
+[2018.11.20-04.33.29:061][ 14]LogSlate: Window 'Skill_Fast*' being destroyed
+[2018.11.20-04.34.04:673][326]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-04.34.04:678][326]Candidate modules for hot reload:
+[2018.11.20-04.34.04:678][326]  FujiwaraBattleField
+[2018.11.20-04.34.04:679][326]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3305 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.34.04:681][326]Warning: Starting HotReload took  0.0s.
+[2018.11.20-04.34.17:069][619]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-04.34.17:618][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-04.35.12:204][306]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 10:35:12
+[2018.11.20-04.35.12:204][306]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-04.35.12:204][306]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-04.35.12:204][306]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-04.35.12:204][306]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-04.35.12:205][306]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 49.1472483 seconds
+[2018.11.20-04.35.12:205][306]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.11.20-04.35.12:205][306]CompilerResultsLog:   [1/3] S_Skill_Spell.gen.cpp
+[2018.11.20-04.35.12:205][306]CompilerResultsLog:   [2/3] UE4Editor-FujiwaraBattleField-3305.lib
+[2018.11.20-04.35.12:205][306]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3305.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3305.exp ??u?? ??????? ??????.
+[2018.11.20-04.35.12:206][306]CompilerResultsLog:   [3/3] UE4Editor-FujiwaraBattleField-3305.dll
+[2018.11.20-04.35.12:206][306]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3305.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3305.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-04.35.12:207][306]CompilerResultsLog: Total build time: 66.67 seconds (Parallel executor: 11.20 seconds)
+[2018.11.20-04.35.12:207][306]LogMainFrame: MainFrame: Module compiling took 67.533 seconds
+[2018.11.20-04.35.12:335][306]LogClass: SkillType HotReload.
+[2018.11.20-04.35.12:335][306]LogClass: Skill_Base HotReload.
+[2018.11.20-04.35.12:336][306]LogClass: Skill_Dash HotReload.
+[2018.11.20-04.35.12:336][306]LogClass: Skill_Spell HotReload.
+[2018.11.20-04.35.12:342][306]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0007 seconds. Added 2 classes and 4 folders.
+[2018.11.20-04.35.12:347][306]Display: HotReload successful (0 functions remapped  4 scriptstructs remapped)
+[2018.11.20-04.35.12:877][306]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2575 classes and 609 folders.
+[2018.11.20-04.35.12:877][306]Display: HotReload took 68.2s.
+[2018.11.20-04.35.16:204][403]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Fast.Skill_Fast
+[2018.11.20-04.37.18:940][417]Cmd: TRANSACTION UNDO
+[2018.11.20-04.37.18:940][417]LogEditorTransaction: Undo 자손 추가
+[2018.11.20-04.38.44:368][348]BlueprintLog: New page: Skill_Fast 컴파일
+[2018.11.20-04.38.47:857][433]LogSlate: Window 'Skill_Fast*' being destroyed
+[2018.11.20-04.38.47:892][433]LogSlate: Window 'Skill_Fast*' being destroyed
+[2018.11.20-04.38.49:406][476]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-04.39.01:820][113]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-04.39.04:195][160]LogSlate: Window 'Skill_Spell_Basic*' being destroyed
+[2018.11.20-04.39.04:329][160]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-04.39.08:790][277]LogSlate: Window 'Skill_Spell_Basic*' being destroyed
+[2018.11.20-04.39.26:270][247]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-04.41.05:835][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.065
+[2018.11.20-04.41.05:837][133]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-04.41.05:837][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-04.41.05:889][133]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto5F24C8B704684924B932C84A68F176FA0.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto5.uasset'
+[2018.11.20-04.41.05:891][133]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-04.41.05:891][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-04.41.05:920][133]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto59D8405D64E616CD7A01B879C4A02D9DC.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto5.uasset'
+[2018.11.20-04.41.05:922][133]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.11.20-04.43.19:810][158]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.43.58:876][335]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SpellInfo.S_SpellInfo
+[2018.11.20-04.44.04:832][616]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillStage.S_SkillStage
+[2018.11.20-04.44.07:329][728]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-04.50.17:322][160]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfoDF9579904BACFFF19CEE5D8A02842855.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-04.50.53:945][346]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfoAC463611460ADBAEBDD55C9C3630112C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-04.51.54:574][633]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.51.54:869][633]LogBlueprint: Error: [Compiler MasterSkill] Out  및  Skill Base  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.51.54:869][633]LogBlueprint: Error: [Compiler MasterSkill] Skill Base  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.51.54:945][633]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  HOTRELOADED_Skill_Base_1 분해  에 일치하지 않습니다.
+[2018.11.20-04.51.55:002][633]LogClass: Warning: Property Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_1 != prop S_SkillStage) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.51.55:003][633]LogClass: Warning: Property Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_1 != prop S_SkillStage) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.51.55:003][633]LogClass: Warning: Property Stages_34_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag HOTRELOADED_Skill_Base_1 != prop S_SkillStage) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.51.55:228][633]LogBlueprint: Warning: [Compiler MasterSkill] [9612.09] MasterSkill 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 653 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-04.51.55:351][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-04.51.55:467][638]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill0C9D10E547B199BFEC9A6A8F987CF2FB.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-04.52.02:159][  9]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-04.52.36:622][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.051
+[2018.11.20-04.52.36:625][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/W_SkillHotKey] ([1] browsable assets)...
+[2018.11.20-04.52.36:625][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/W_SkillHotKey]
+[2018.11.20-04.52.36:721][ 19]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey_Auto68C5F98A94F7EA8DDD94B3AB3EBE6867A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/W_SkillHotKey_Auto6.uasset'
+[2018.11.20-04.52.36:724][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-04.52.36:724][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-04.52.36:858][ 19]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto6605E02494037248ED7B72DB9CC188780.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto6.uasset'
+[2018.11.20-04.52.36:861][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-04.52.36:861][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-04.52.36:910][ 19]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto62A27CAA04642814891219DB4737A76D6.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto6.uasset'
+[2018.11.20-04.52.36:912][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-04.52.36:912][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-04.52.36:944][ 19]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto6AC3F4AA248D69E92F71BD98DD079753E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto6.uasset'
+[2018.11.20-04.52.36:946][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-04.52.36:946][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-04.52.36:973][ 19]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto61E4DAC7541DC1923B939D8BB288A2FC2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto6.uasset'
+[2018.11.20-04.52.36:975][ 19]LogFileHelpers: Auto-saving content packages took 0.352
+[2018.11.20-04.54.00:282][973]LogRenderer: Reallocating scene render targets to support 956x524 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-04.54.34:977][212]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-04.55.00:991][727]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-04.55.50:462][791]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.56.39:157][462]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfo072ED2B64901F0EA5E542298AC09F268.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-04.58.16:782][117]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfoC8DD7B4F46F6F976FC805C94037352E3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_SkillInfo.uasset'
+[2018.11.20-04.58.18:916][245]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-04.58.31:734][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-04.58.40:411][185]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.58.40:708][185]LogBlueprint: Error: [Compiler MasterSkill] 사용 중인  Stages  핀은 더 이상  S_SkillInfo 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-04.58.40:822][185]LogBlueprint: Warning: [Compiler W_SkillHotKey] Get Current Stage  에서 호출된 'GetCurrentStage' 함수를 찾을 수 없습니다.
+[2018.11.20-04.58.40:867][185]LogClass: Warning: Property Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_40_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.58.40:867][185]LogClass: Warning: Property Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_40_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.58.40:868][185]LogClass: Warning: Property Stages_39_2EE06BFB430E07DC3C6D1A87692395A9 of Stages_40_2EE06BFB430E07DC3C6D1A87692395A9 has a struct type mismatch (tag S_SkillStage != prop Skill_Base) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.20-04.58.40:896][185]LogBlueprint: Warning: [Compiler W_SkillHotKey] [0017.75] W_SkillHotKey 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 452 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.58.41:127][185]LogBlueprint: Warning: [Compiler MasterSkill] [0017.98] MasterSkill 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 715 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-04.59.05:399][503]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.59.05:703][503]LogBlueprint: Error: [Compiler MasterSkill] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.05:703][503]LogBlueprint: Error: [Compiler MasterSkill] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.05:736][503]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.05:736][503]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.05:787][503]LogBlueprint: Error: [Compiler MasterSkill] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.59.05:799][503]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.59.05:838][503]LogBlueprint: Warning: [Compiler W_SkillHotKey] [0042.70] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 393 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.59.06:041][503]LogBlueprint: Warning: [Compiler MasterSkill] [0042.90] MasterSkill 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 641 ms] (/Game/_Temporary/Skill/MasterSkill.MasterSkill)
+[2018.11.20-04.59.06:057][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-04.59.06:173][503]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill442ACE8D486E346721153880C643E1AE.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-04.59.07:002][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-04.59.07:148][545]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkillFF470B6543FAECA8F49EA69AD209D032.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-04.59.27:251][684]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-04.59.27:590][684]LogBlueprint: Error: [Compiler W_SkillHotKey] S Skill Stage  및  Out  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.27:590][684]LogBlueprint: Error: [Compiler W_SkillHotKey] Out  및  S Skill Stage  핀을 연결할 수 없습니다: 정확히 일치하는 구조체만 호환되는 것으로 간주됩니다.
+[2018.11.20-04.59.27:651][684]LogBlueprint: Error: [Compiler W_SkillHotKey] 구조체가  S_SkillStage 분해  에 일치하지 않습니다.
+[2018.11.20-04.59.27:688][684]LogBlueprint: Warning: [Compiler W_SkillHotKey] [0064.55] W_SkillHotKey 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 401 ms] (/Game/_Temporary/Skill/W_SkillHotKey.W_SkillHotKey)
+[2018.11.20-04.59.28:393][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-04.59.28:509][708]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkillA090ED0E4C83DD7D2994B5BAA2A3176E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-04.59.58:767][206]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.11.20-04.59.58:771][206]Candidate modules for hot reload:
+[2018.11.20-04.59.58:771][206]  FujiwaraBattleField
+[2018.11.20-04.59.58:772][206]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3044 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-04.59.58:775][206]Warning: Starting HotReload took  0.0s.
+[2018.11.20-05.00.19:958][796]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-05.00.27:125][968]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-05.00.47:557][124]LogEditorTransaction: Undo 변수 추가
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 11:00:51
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 32.6929412 seconds
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Building 5 actions with 4 processes...
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   [1/5] FujiwaraBattleField.init.gen.cpp
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   [2/5] S_Skill_Dash.gen.cpp
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   [3/5] S_Skill_Spell.gen.cpp
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   [4/5] UE4Editor-FujiwaraBattleField-3044.lib
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3044.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3044.exp ??u?? ??????? ??????.
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:   [5/5] UE4Editor-FujiwaraBattleField-3044.dll
+[2018.11.20-05.00.51:911][361]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3044.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3044.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-05.00.51:911][361]CompilerResultsLog: Total build time: 52.21 seconds (Parallel executor: 8.06 seconds)
+[2018.11.20-05.00.51:912][361]LogMainFrame: MainFrame: Module compiling took 53.145 seconds
+[2018.11.20-05.00.51:994][361]LogClass: SkillType HotReload.
+[2018.11.20-05.00.51:995][361]LogClass: Skill_Base HotReload.
+[2018.11.20-05.00.52:000][361]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0006 seconds. Added 2 classes and 4 folders.
+[2018.11.20-05.00.52:006][361]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)

@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeFujiwaraBattleField_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FujiwaraBattleField",
 				PKG_CompiledIn | 0x00000000,
-				0x44E1CC38,
-				0xC795A539,
+				0xDCEC3822,
+				0x67A394EE,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

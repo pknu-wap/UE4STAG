@@ -1,0 +1,544 @@
+﻿Log file open, 11/20/18 09:57:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.449960
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.173s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.20-00.57.00:730][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-00.57.00:730][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.20-00.57.00:747][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.20-00.57.00:747][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.20-00.57.00:747][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.20-00.57.00:748][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.11.20-00.57.00:748][  0]LogInit: User: hoon
+[2018.11.20-00.57.00:748][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.20-00.57.00:748][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.11.20-00.57.00:748][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.20-00.57.00:748][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.20-00.57.00:748][  0]LogMemory: Process Physical Memory: 100.42 MB used, 100.42 MB peak
+[2018.11.20-00.57.00:748][  0]LogMemory: Process Virtual Memory: 84.28 MB used, 84.28 MB peak
+[2018.11.20-00.57.00:748][  0]LogMemory: Physical Memory: 4148.32 MB used,  3902.81 MB free, 8051.13 MB total
+[2018.11.20-00.57.00:748][  0]LogMemory: Virtual Memory: 4621.23 MB used,  3902.81 MB free, 134217728.00 MB total
+[2018.11.20-00.57.00:779][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.20-00.57.00:779][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.20-00.57.00:780][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.20-00.57.01:328][  0]LogStreaming: Display: Took  0.549s to InitEngineTextLocalization.
+[2018.11.20-00.57.01:329][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.20-00.57.01:383][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.20-00.57.01:383][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.20-00.57.01:889][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-00.57.01:889][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.20-00.57.01:901][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.20-00.57.01:901][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.20-00.57.01:904][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.20-00.57.01:904][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.20-00.57.01:904][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.20-00.57.01:913][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.20-00.57.01:913][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.20-00.57.01:913][  0]LogWindows: EnumDisplayDevices:
+[2018.11.20-00.57.01:914][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.20-00.57.01:915][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-00.57.01:916][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-00.57.01:917][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.20-00.57.01:917][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.20-00.57.01:917][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.11.20-00.57.01:917][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.11.20-00.57.01:917][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.11.20-00.57.01:927][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.20-00.57.01:939][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.11.20-00.57.01:940][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/10672/).
+[2018.11.20-00.57.01:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/A115B2C2481EE72A6022659F33546CB4/'.
+[2018.11.20-00.57.02:879][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.20-00.57.02:906][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.20-00.57.02:931][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.20-00.57.02:958][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.20-00.57.02:985][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.20-00.57.03:012][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.20-00.57.03:039][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.20-00.57.03:066][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.20-00.57.03:079][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-00.57.03:250][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.20-00.57.03:338][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-00.57.03:338][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-00.57.03:386][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-00.57.03:386][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-00.57.03:412][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.20-00.57.03:438][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.20-00.57.03:462][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.20-00.57.03:488][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.20-00.57.03:507][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.20-00.57.03:507][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.20-00.57.03:634][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.20-00.57.03:634][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.20-00.57.03:635][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.20-00.57.05:222][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.20-00.57.05:321][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-00.57.05:322][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.20-00.57.05:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.20-00.57.05:323][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.20-00.57.05:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.20-00.57.05:323][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.20-00.57.05:351][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.20-00.57.05:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.20-00.57.05:363][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.20-00.57.05:363][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.20-00.57.05:398][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.20-00.57.05:400][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.20-00.57.05:401][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.20-00.57.05:518][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2018.11.20-00.57.06:180][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-00.57.06:435][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.20-00.57.06:443][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.20-00.57.06:443][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.20-00.57.06:443][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.20-00.57.06:443][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.20-00.57.06:473][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.20-00.57.07:402][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.149411 seconds
+[2018.11.20-00.57.07:414][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.20-00.57.07:414][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.20-00.57.07:414][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.20-00.57.08:909][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.20-00.57.08:923][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.20-00.57.09:143][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-00.57.09:143][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-00.57.09:145][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-00.57.09:147][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-00.57.09:372][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.20-00.57.09:505][  0]LogOcInput: OculusInput pre-init called
+[2018.11.20-00.57.09:601][  0]LogEngine: Initializing Engine...
+[2018.11.20-00.57.09:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-00.57.09:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-00.57.09:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-00.57.09:606][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.20-00.57.09:606][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-00.57.09:994][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.20-00.57.10:020][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.20-00.57.10:049][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-00.57.11:712][  0]LogInit: FAudioDevice initialized.
+[2018.11.20-00.57.11:712][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.20-00.57.11:809][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-00.57.11:821][  0]LogInit: Texture streaming: Enabled
+[2018.11.20-00.57.11:857][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.20-00.57.11:872][  0]LogInit: Transaction tracking system initialized
+[2018.11.20-00.57.11:906][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.20-00.57.12:032][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.20-00.57.13:013][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.20-00.57.13:013][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.20-00.57.13:013][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.20-00.57.13:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-00.57.13:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-00.57.13:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.20-00.57.13:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-00.57.13:226][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.03s
+[2018.11.20-00.57.13:226][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-00.57.13:226][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.20-00.57.13:227][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-00.57.13:232][  0]MapCheck: New page: 맵 체크
+[2018.11.20-00.57.13:232][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-00.57.15:435][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-00.57.15:857][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.20-00.57.15:894][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.20-00.57.16:021][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 126.162ms.
+[2018.11.20-00.57.16:021][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 2.795
+[2018.11.20-00.57.16:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-00.57.16:178][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-00.57.16:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-00.57.16:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-00.57.16:213][  0]LogCollectionManager: Loaded 0 collections in 0.002051 seconds
+[2018.11.20-00.57.16:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.20-00.57.16:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.11.20-00.57.16:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.20-00.57.16:280][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.20-00.57.16:298][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2574 classes and 607 folders.
+[2018.11.20-00.57.16:313][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.20-00.57.16:479][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.20-00.57.16:493][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.20-00.57.16:549][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.20-00.57.16:555][  0]LogSlate: Took 0.003470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.20-00.57.16:566][  0]LogSlate: Took 0.005677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.20-00.57.16:568][  0]LogSlate: Took 0.001689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.20-00.57.16:574][  0]LogSlate: Took 0.001416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.20-00.57.16:719][  0]LogRenderer: Reallocating scene render targets to support 800x412 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-00.57.17:401][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.20-00.57.17:401][  0]LogLoad: (Engine Initialization) Total time: 19.54 seconds
+[2018.11.20-00.57.17:401][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.20-00.57.17:428][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.20-00.57.17:463][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.20-00.57.18:122][  0]LogSlate: Took 0.001969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-00.57.18:155][  1]LogAssetRegistry: Asset discovery search completed in 12.6598 seconds
+[2018.11.20-00.57.18:158][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.20-00.57.18:158][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2018.11.20-00.57.24:304][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-00.58.46:874][594]LogSlate: Took 0.000666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-00.58.47:508][604]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest
+[2018.11.20-00.58.49:466][604]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 116 classes and 0 folders.
+[2018.11.20-00.58.51:509][604]LogSlate: Took 0.002230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.20-00.58.52:121][605]LogSlate: Took 0.003108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.20-00.59.45:320][270]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Game/StartCamera.StartCamera
+[2018.11.20-01.00.50:768][540]LogSlate: Took 0.002193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.20-01.03.08:547][278]LogBlueprint: Warning: [Compiler ] 붙여넣은  CustomEvent  노드가  Tick 이벤트  노드와 충돌되어 커스텀 이벤트로 대체했습니다!
+[2018.11.20-01.03.19:478][475]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-01.03.20:969][497]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-01.03.22:172][512]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.20-01.04.21:386][696]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest.EventGraph.K2Node_CallFunction_22 or K2Node_CallFunction /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest.EventGraph.K2Node_CallFunction_22
+[2018.11.20-01.05.35:726][225]BlueprintLog: New page: Maps_LostBambooForest 컴파일
+[2018.11.20-01.05.41:254][234]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest5831F0F34D9786151D25FAB280F915F8.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap'
+[2018.11.20-01.05.41:354][234]LogFileHelpers: Saving map 'Maps_LostBambooForest' took 4.041
+[2018.11.20-01.06.02:270][743]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-01.06.17:887][ 36]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-01.07.03:349][918]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.20-01.07.10:999][103]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/DanmakuGenerator.DanmakuGenerator
+[2018.11.20-01.07.12:256][103]LogRenderer: Reallocating scene render targets to support 892x524 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-01.08.10:328][812]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/SpellGenerator.SpellGenerator
+[2018.11.20-01.08.11:486][812]LogSlate: Window '블루프린트 컴포넌트 추가' being destroyed
+[2018.11.20-01.08.22:249][996]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.20-01.09.30:966][336]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.20-01.09.31:235][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.09.31:420][336]LogSlate: Window 'Skill_Spell_Basic' being destroyed
+[2018.11.20-01.09.31:432][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.11.09:075][629]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.20-01.11.16:545][842]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Projectile.Projectile
+[2018.11.20-01.11.35:664][248]LogEditorTransaction: Undo Add Component
+[2018.11.20-01.12.19:794][205]LogEditorTransaction: Undo 새 씬 루트로 만들기
+[2018.11.20-01.12.25:466][317]LogEditorTransaction: Undo 새 씬 루트로 만들기
+[2018.11.20-01.13.12:436][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.13.38:243][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.13.42:858][674]LogEditorTransaction: Undo 스케일 설정
+[2018.11.20-01.13.44:232][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.13.56:872][891]LogEditorTransaction: Undo Static Mesh 편집
+[2018.11.20-01.13.57:087][892]LogEditorTransaction: Undo 컴포넌트 변수 이름변경
+[2018.11.20-01.13.57:607][901]LogEditorTransaction: Undo 컴포넌트 변수 이름변경
+[2018.11.20-01.13.57:911][906]LogEditorTransaction: Undo Add Component
+[2018.11.20-01.13.58:586][916]LogEditorTransaction: Undo 컴포넌트 제거
+[2018.11.20-01.13.59:467][927]LogEditorTransaction: Undo 새 씬 루트로 만들기
+[2018.11.20-01.14.16:915][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.14.59:224][206]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.20-01.14.59:224][206]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.20-01.15.30:335][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-01.15.34:297][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.15.53:604][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-01.16.08:496][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.16.52:886][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-01.16.53:073][348]BlueprintLog: New page: Projectile 컴파일
+[2018.11.20-01.17.02:622][527]BlueprintLog: New page: Projectile 컴파일
+[2018.11.20-01.17.04:067][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Projectile" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Projectile.uasset" SILENT=true
+[2018.11.20-01.17.04:103][548]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/ProjectileE16DE27F4B1BE9A8B26EBDBFF485072B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Projectile.uasset'
+[2018.11.20-01.17.55:363][504]BlueprintLog: New page: Projectile 컴파일
+[2018.11.20-01.17.56:397][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Projectile" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Projectile.uasset" SILENT=true
+[2018.11.20-01.17.56:466][514]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Projectile4589C1C04ED43D13796873996707EE50.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Projectile.uasset'
+[2018.11.20-01.18.01:812][617]LogSlate: Window 'Projectile' being destroyed
+[2018.11.20-01.18.01:833][617]LogSlate: Window 'Projectile' being destroyed
+[2018.11.20-01.18.05:444][705]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.SKEL_Spell_Projectile_C' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile_C' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:084][365]LogMetaData: Removing '/Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Temporary/Skill/Projectile.PackageMetaData'
+[2018.11.20-01.18.37:212][365]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_ProjectileCA1D7A5740AF0CB00CB30AA8A8DC2D28.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Spell_Projectile.uasset'
+[2018.11.20-01.18.46:968][538]BlueprintLog: New page: Skill_Spell_Basic 컴파일
+[2018.11.20-01.19.04:796][901]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.20-01.19.33:642][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.097
+[2018.11.20-01.19.33:647][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-01.19.33:647][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-01.19.33:721][475]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto1F2D27A784C1050236071BD9F7C52A9BA.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto1.uasset'
+[2018.11.20-01.19.33:725][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Game/StartCamera] ([1] browsable assets)...
+[2018.11.20-01.19.33:726][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Game/StartCamera]
+[2018.11.20-01.19.33:815][475]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/StartCamera_Auto1866B7508440855D0F38D76AEE5DB6521.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Game/StartCamera_Auto1.uasset'
+[2018.11.20-01.19.33:819][475]LogFileHelpers: Auto-saving content packages took 0.174
+[2018.11.20-01.19.42:046][619]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-01.20.40:715][630]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2
+[2018.11.20-01.20.45:338][683]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-01.38.16:113][127]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SpellInfo.S_SpellInfo
+[2018.11.20-01.38.21:414][234]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillInfo.S_SkillInfo
+[2018.11.20-01.38.28:221][375]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillStage.S_SkillStage
+[2018.11.20-01.43.55:351][835]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-01.44.21:745][320]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_1' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_1' 구조체가 공백입니다.
+[2018.11.20-01.44.24:600][370]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_5' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_5' 구조체가 공백입니다.
+[2018.11.20-01.44.25:771][390]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_9' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_9' 구조체가 공백입니다.
+[2018.11.20-01.44.26:662][407]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_13' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_13' 구조체가 공백입니다.
+[2018.11.20-01.44.27:509][419]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_17' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_17' 구조체가 공백입니다.
+[2018.11.20-01.44.30:448][477]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_21' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_21' 구조체가 공백입니다.
+[2018.11.20-01.44.31:253][493]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_25' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_25' 구조체가 공백입니다.
+[2018.11.20-01.44.33:001][526]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_29' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_29' 구조체가 공백입니다.
+[2018.11.20-01.44.35:317][571]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_33' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_33' 구조체가 공백입니다.
+[2018.11.20-01.44.36:096][587]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_37' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_37' 구조체가 공백입니다.
+[2018.11.20-01.44.36:766][600]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_41' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_41' 구조체가 공백입니다.
+[2018.11.20-01.44.37:573][612]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_45' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_45' 구조체가 공백입니다.
+[2018.11.20-01.44.39:111][642]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_49' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_49' 구조체가 공백입니다.
+[2018.11.20-01.44.39:866][659]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_53' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_53' 구조체가 공백입니다.
+[2018.11.20-01.45.05:547][389]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/_Temporary/Enums/E_SkillTypes.E_SkillTypes
+[2018.11.20-01.46.09:438][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.181
+[2018.11.20-01.46.09:443][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/W_SkillHotKey] ([1] browsable assets)...
+[2018.11.20-01.46.09:443][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/W_SkillHotKey]
+[2018.11.20-01.46.09:665][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey_Auto295FB3C174A698002D12F3B8AD728BCE3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/W_SkillHotKey_Auto2.uasset'
+[2018.11.20-01.46.09:674][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-01.46.09:674][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-01.46.10:111][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto2472DF089467B6F324C0BA88B2D89FF35.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto2.uasset'
+[2018.11.20-01.46.10:120][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Structs/S_SkillInfo] ([1] browsable assets)...
+[2018.11.20-01.46.10:121][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Structs/S_SkillInfo]
+[2018.11.20-01.46.10:174][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfo_Auto21ECE037B47F2C0F92B68238B54ADB7D0.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Structs/S_SkillInfo_Auto2.uasset'
+[2018.11.20-01.46.10:182][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Structs/S_SkillStage] ([1] browsable assets)...
+[2018.11.20-01.46.10:182][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Structs/S_SkillStage]
+[2018.11.20-01.46.10:266][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillStage_Auto2E36EA6D84626C26A91DABFB261B54AC5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Structs/S_SkillStage_Auto2.uasset'
+[2018.11.20-01.46.10:274][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-01.46.10:274][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-01.46.10:392][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto26D8C9115453E35E98161AA87BF76E655.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto2.uasset'
+[2018.11.20-01.46.10:396][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-01.46.10:397][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-01.46.10:447][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto2E654516D4FDF84E14D12CB8FD756A0B6.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto2.uasset'
+[2018.11.20-01.46.10:452][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-01.46.10:452][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-01.46.10:501][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto29F9C6A644C9C09EA0917379C67FA8E73.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto2.uasset'
+[2018.11.20-01.46.10:505][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Enums/E_SkillTypes] ([1] browsable assets)...
+[2018.11.20-01.46.10:506][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Enums/E_SkillTypes]
+[2018.11.20-01.46.10:512][771]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/E_SkillTypes_Auto21176B0854C3896A6FD352F888A4A5579.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Enums/E_SkillTypes_Auto2.uasset'
+[2018.11.20-01.46.10:514][771]LogFileHelpers: Auto-saving content packages took 1.074
+[2018.11.20-01.46.26:308][ 76]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_SkillInfo_57' validation: 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_SkillInfo_57' 구조체가 공백입니다.
+[2018.11.20-01.46.28:486][113]LogSlate: Window 'MasterSkill*' being destroyed
+[2018.11.20-01.46.28:502][113]LogSlate: Window 'MasterSkill*' being destroyed
+[2018.11.20-01.46.28:719][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.46.28:863][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.46.29:056][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.46.29:455][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-01.46.37:431][285]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-01.47.36:845][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2
+[2018.11.20-01.47.48:703][564]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-01.48.49:582][711]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.11.20-01.48.55:055][812]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.20-01.48.55:070][812]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.20-01.48.58:694][874]BlueprintLog: New page: MasterSkill 컴파일
+[2018.11.20-01.49.12:909][ 79]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Dash.Skill_Dash
+[2018.11.20-01.49.22:426][187]LogSlate: Window '변수 삭제' being destroyed
+[2018.11.20-01.49.39:719][534]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-01.49.39:765][534]LogBlueprint: Error: [Compiler Skill_Dash] 이 블루프린트(셀프)는 Character 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2018.11.20-01.49.39:765][534]LogBlueprint: Error: [Compiler Skill_Dash] 이 블루프린트(셀프)는 SceneComponent 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2018.11.20-01.49.39:766][534]LogBlueprint: Error: [Compiler Skill_Dash] CharacterMovement 구하기  변수 노드가 유효하지 않은 타깃을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2018.11.20-01.49.40:500][534]LogBlueprint: Warning: [Compiler Skill_Dash] [3162.64] Skill_Dash 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 780 ms] (/Game/_Temporary/Skill/Skill_Dash.Skill_Dash)
+[2018.11.20-01.49.40:790][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Skill_Dash" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset" SILENT=true
+[2018.11.20-01.49.40:887][539]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_DashA11B420B47979D6C213F76A54C525AEA.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset'
+[2018.11.20-01.49.44:395][609]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-01.49.44:453][609]LogBlueprint: Error: [Compiler Skill_Dash] 이 블루프린트(셀프)는 Character 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2018.11.20-01.49.44:454][609]LogBlueprint: Error: [Compiler Skill_Dash] CharacterMovement 구하기  변수 노드가 유효하지 않은 타깃을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2018.11.20-01.49.45:093][609]LogBlueprint: Warning: [Compiler Skill_Dash] [3167.23] Skill_Dash 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 697 ms] (/Game/_Temporary/Skill/Skill_Dash.Skill_Dash)
+[2018.11.20-01.49.53:118][775]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.20-01.49.54:583][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Skill_Dash" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset" SILENT=true
+[2018.11.20-01.49.54:710][790]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash5BF218BC44D021B66033F9984E4AD59E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset'
+[2018.11.20-01.49.58:165][833]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1ff59303fa0 [can pipeline])
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 1 (Re-using existing connection! (#30) with host datarouter.ol.epicgames.com)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.102.187) port 443 (#30))
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 3 (upload completely sent off: 3345 out of 3345 bytes)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 6 (Closing connection 30)
+[2018.11.20-01.55.07:801][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8484375B-49AD-9C49-37F4-D0BF875F1834%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5b0eb9ea4fda3e341e3a4f8469f8b716%7Cc6d252eadabe4478b45225fa32f2ee07%7C8efa9574-8605-47f4-81c9-781c6a52107c&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.11.20-01.55.07:802][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.20-01.55.07:802][921]LogHttp: Warning: 000001FFB9C78CC0: libcurl info message cache 9 (Closing connection 31)
+[2018.11.20-01.56.25:184][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.041
+[2018.11.20-01.56.25:186][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/W_SkillHotKey] ([1] browsable assets)...
+[2018.11.20-01.56.25:186][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/W_SkillHotKey]
+[2018.11.20-01.56.25:265][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SkillHotKey_Auto3F0285D3E430AFB583B299F91DCC5BDA6.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/W_SkillHotKey_Auto3.uasset'
+[2018.11.20-01.56.25:267][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-01.56.25:267][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-01.56.25:383][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto3A34E28F049E856653BA237B2A8A30790.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto3.uasset'
+[2018.11.20-01.56.25:385][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Structs/S_SkillInfo] ([1] browsable assets)...
+[2018.11.20-01.56.25:385][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Structs/S_SkillInfo]
+[2018.11.20-01.56.25:400][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillInfo_Auto3181CDBDF4CB6B97C29FF888948BDA996.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Structs/S_SkillInfo_Auto3.uasset'
+[2018.11.20-01.56.25:402][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Structs/S_SkillStage] ([1] browsable assets)...
+[2018.11.20-01.56.25:402][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Structs/S_SkillStage]
+[2018.11.20-01.56.25:421][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SkillStage_Auto353C8082C414F29425218E8849E7156BD.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Structs/S_SkillStage_Auto3.uasset'
+[2018.11.20-01.56.25:422][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-01.56.25:422][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-01.56.25:442][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto3D2B86DAE4D38F203FCFBA6A8D03176FC.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto3.uasset'
+[2018.11.20-01.56.25:444][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-01.56.25:444][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-01.56.25:465][485]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto3D2B9143A4A8671E1F8444E9CB1569BB4.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto3.uasset'
+[2018.11.20-01.56.25:467][485]LogFileHelpers: Auto-saving content packages took 0.282
+[2018.11.20-01.56.28:022][550]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_SkillStage.S_SkillStage
+[2018.11.20-01.56.53:386][ 89]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/_Temporary/Enums/E_DamageTypes.E_DamageTypes
+[2018.11.20-02.07.31:178][663]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -invalidatemakefilesonly
+[2018.11.20-02.07.34:304][663]Invalidating makefiles only in this run.
+[2018.11.20-02.07.34:677][663]Candidate modules for hot reload:
+[2018.11.20-02.07.34:677][663]  FujiwaraBattleField
+[2018.11.20-02.07.34:677][663]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,1866 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.20-02.08.05:842][663]CompilerResultsLog: New page: 컴파일 - 2018. 11. 20. 오후 8:08:05
+[2018.11.20-02.08.05:843][663]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.20-02.08.05:843][663]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (no existing makefile)
+[2018.11.20-02.08.05:843][663]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.20-02.08.05:843][663]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.20-02.08.05:844][663]CompilerResultsLog: Building 3 actions with 4 processes...
+[2018.11.20-02.08.05:844][663]CompilerResultsLog:   [1/3] FSkillBase.cpp
+[2018.11.20-02.08.05:844][663]CompilerResultsLog:   [2/3] UE4Editor-FujiwaraBattleField-1866.lib
+[2018.11.20-02.08.05:844][663]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1866.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1866.exp ??u?? ??????? ??????.
+[2018.11.20-02.08.05:844][663]CompilerResultsLog:   [3/3] UE4Editor-FujiwaraBattleField-1866.dll
+[2018.11.20-02.08.05:844][663]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1866.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-1866.suppressed.exp ??u?? ??????? ??????.
+[2018.11.20-02.08.05:844][663]CompilerResultsLog: Total build time: 30.40 seconds (Parallel executor: 11.70 seconds)
+[2018.11.20-02.08.05:844][663]LogMainFrame: MainFrame: Module compiling took 31.180 seconds
+[2018.11.20-02.08.05:969][663]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0015 seconds. Added 2 classes and 4 folders.
+[2018.11.20-02.08.05:973][663]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)

@@ -1,56 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FujiwaraBattleField.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{B83F4F19-B707-46C4-8BCD-2E05416C9328}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FujiwaraBattleField.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{187A91C2-7681-4D11-BBB6-C64657E425AE}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FujiwaraBattleField">
-			<UniqueIdentifier>{39E469A1-4B70-4DF4-8785-29E706EC37D8}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
-			<Filter>Source\FujiwaraBattleField</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.cpp">
-			<Filter>Source\FujiwaraBattleField</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.h">
-			<Filter>Source\FujiwaraBattleField</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.cpp">
-			<Filter>Source\FujiwaraBattleField</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
-			<Filter>Source\FujiwaraBattleField</Filter>
-		</ClInclude >
-	</ItemGroup>
-</Project>
-=======
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\FujiwaraBattleField.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0BF6C1A6-C15B-47AC-AAF1-25CA5E689F6B}</UniqueIdentifier>
+      <UniqueIdentifier>{AFB9DD35-A0F8-45E2-9F28-8A1127AEB0F0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FujiwaraBattleField.Target.cs">
       <Filter>Source</Filter>
@@ -59,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4049DD6D-05DC-44C2-AE7C-9290BCEFCE7C}</UniqueIdentifier>
+      <UniqueIdentifier>{5BF25877-5FAE-461A-BE84-0CD9A214029B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -70,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\FujiwaraBattleField">
-      <UniqueIdentifier>{BAD5A9E1-692E-4A9B-BA0C-C530B2ACA35D}</UniqueIdentifier>
+      <UniqueIdentifier>{30A5BDAC-5B66-41D7-8373-7ED047D418DC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
       <Filter>Source\FujiwaraBattleField</Filter>
@@ -88,18 +44,42 @@
     <ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
       <Filter>Source\FujiwaraBattleField</Filter>
     </ClInclude>
-    <Filter Include="Source\FujiwaraBattleField\.vs">
-      <UniqueIdentifier>{7CD1814B-12A1-46C4-9038-18091FB4D56F}</UniqueIdentifier>
+    <Filter Include="Source\FujiwaraBattleField\Private">
+      <UniqueIdentifier>{CFDF7840-AC8E-4CDE-9614-35E921BDD8E4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\FujiwaraBattleField\.vs\FujiwaraBattleField">
-      <UniqueIdentifier>{1B9E5E18-FE26-420D-833D-4FDDD7772ADE}</UniqueIdentifier>
+    <Filter Include="Source\FujiwaraBattleField\Private\Character">
+      <UniqueIdentifier>{3AAC6568-4C70-4616-99BA-DA4A1DED74E8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15">
-      <UniqueIdentifier>{FED0ED88-5BE5-42C2-894B-6BAA13989745}</UniqueIdentifier>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Character\FBFBaseCharacter.cpp">
+      <Filter>Source\FujiwaraBattleField\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\FujiwaraBattleField\Public">
+      <UniqueIdentifier>{AFD401C0-4258-4B6E-9CD9-A1B9EAFF768E}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15\Browse.VC.db">
-      <Filter>Source\FujiwaraBattleField\.vs\FujiwaraBattleField\v15</Filter>
-    </None>
+    <Filter Include="Source\FujiwaraBattleField\Public\Character">
+      <UniqueIdentifier>{57D739A4-4B53-41C2-BF2A-F670DDF99D48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Character\FBFBaseCharacter.h">
+      <Filter>Source\FujiwaraBattleField\Public\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\FujiwaraBattleField\Public\Skill">
+      <UniqueIdentifier>{343c7de1-a4dd-4993-8ca8-2367091363c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FujiwaraBattleField\Private\Skill">
+      <UniqueIdentifier>{f56ec07e-3de8-4e20-aa2e-f114792b502c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S_Skill_Spell.h">
+      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Skill_Dash.h">
+      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Base.h">
+      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
->>>>>>> Stashed changes

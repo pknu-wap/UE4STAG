@@ -1,25 +1,10 @@
-<<<<<<< Updated upstream
-﻿  Performing full C++ include scan (hot reloading a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading FujiwaraBattleFieldEditor (no existing makefile)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
-  Deploying FujiwaraBattleFieldEditor Win64 Development...
-  Total build time: 77.74 seconds (NoActionsToExecute executor: 0.00 seconds)
-=======
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for FujiwaraBattleFieldEditor (game project files are newer)
+  Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for FujiwaraBattleFieldEditor
-    Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FujiwaraBattleFieldEditor in 23.9959595 seconds
-  Building 3 actions with 4 processes...
-    [1/3] FujiwaraBattleField.init.gen.cpp
-    [2/3] UE4Editor-FujiwaraBattleField.lib
-       C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.exp ??u?? ??????? ??????.
-    [3/3] UE4Editor-FujiwaraBattleField.dll
-       C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.suppressed.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.suppressed.exp ??u?? ??????? ??????.
-  Deploying FujiwaraBattleFieldEditor Win64 Development...
-  Total build time: 42.98 seconds (Parallel executor: 4.26 seconds)
->>>>>>> Stashed changes
+    Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(16) : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. SkillBase.Overrideicon
+C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Source/FujiwaraBattleField/Public/SkillBase.h(18): error : Unrecognized type 'UFloat' - type must be a UCLASS, USTRUCT or UENUM
+EXEC : error : UnrealHeaderTool failed for target 'FujiwaraBattleFieldEditor' (platform: Win64, module info: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" FujiwaraBattleFieldEditor Win64 Development "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
