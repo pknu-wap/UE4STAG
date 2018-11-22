@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FUJIWARABATTLEFIELD_S_Skill_Spell_generated_h
 
-#define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Skill_S_Skill_Spell_h_13_GENERATED_BODY \
+#define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Skill_S_Skill_Spell_h_14_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSkill_Spell_Statics; \
 	FUJIWARABATTLEFIELD_API static class UScriptStruct* StaticStruct();
 

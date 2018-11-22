@@ -116,9 +116,9 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Overrideicon;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_type_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Type_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -168,19 +168,19 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Overrideicon = { UE4CodeGen_Private::EPropertyClass::Object, "Overrideicon", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, Overrideicon), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Overrideicon_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Overrideicon_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_type_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData[] = {
 		{ "Category", "Skill" },
 		{ "ModuleRelativePath", "Public/Skill/S_Skill_Base.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Byte, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, type), Z_Construct_UEnum_FujiwaraBattleField_SkillType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_type_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type = { UE4CodeGen_Private::EPropertyClass::Byte, "Type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, Type), Z_Construct_UEnum_FujiwaraBattleField_SkillType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSkill_Base_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_TickIntervall,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Cost,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_CastingTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Cooldown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Overrideicon,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_type,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSkill_Base_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_FujiwaraBattleField,
@@ -209,7 +209,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 4228842317U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 1596602617U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

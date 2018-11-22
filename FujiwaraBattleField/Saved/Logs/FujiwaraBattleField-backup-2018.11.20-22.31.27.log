@@ -1,0 +1,1328 @@
+﻿Log file open, 11/20/18 16:07:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.301517
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.298s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.20-07.07.18:869][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-07.07.18:869][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.20-07.07.18:918][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.20-07.07.18:918][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.20-07.07.18:918][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.20-07.07.18:920][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.11.20-07.07.18:920][  0]LogInit: User: hoon
+[2018.11.20-07.07.18:921][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.20-07.07.18:921][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.11.20-07.07.18:921][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.20-07.07.18:921][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.20-07.07.18:921][  0]LogMemory: Process Physical Memory: 101.45 MB used, 101.45 MB peak
+[2018.11.20-07.07.18:921][  0]LogMemory: Process Virtual Memory: 100.08 MB used, 100.08 MB peak
+[2018.11.20-07.07.18:921][  0]LogMemory: Physical Memory: 6618.57 MB used,  1432.57 MB free, 8051.13 MB total
+[2018.11.20-07.07.18:921][  0]LogMemory: Virtual Memory: 4637.23 MB used,  1432.57 MB free, 134217728.00 MB total
+[2018.11.20-07.07.18:965][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.20-07.07.18:965][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.20-07.07.18:968][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.20-07.07.19:626][  0]LogStreaming: Display: Took  0.662s to InitEngineTextLocalization.
+[2018.11.20-07.07.19:626][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.20-07.07.19:733][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.20-07.07.19:733][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.20-07.07.20:516][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-07.07.20:516][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.20-07.07.20:531][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.20-07.07.20:531][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.20-07.07.20:535][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.20-07.07.20:535][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.20-07.07.20:535][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.20-07.07.20:546][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.20-07.07.20:546][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.20-07.07.20:546][  0]LogWindows: EnumDisplayDevices:
+[2018.11.20-07.07.20:547][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.20-07.07.20:548][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-07.07.20:549][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.20-07.07.20:550][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.20-07.07.20:550][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.20-07.07.20:550][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.11.20-07.07.20:550][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.11.20-07.07.20:550][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.11.20-07.07.20:561][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.20-07.07.20:574][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.11.20-07.07.20:576][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/8528/).
+[2018.11.20-07.07.20:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/373195234AD0F30EDE0CDDA002FB00F6/'.
+[2018.11.20-07.07.21:895][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.20-07.07.21:921][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.20-07.07.21:948][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.20-07.07.21:974][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.20-07.07.22:006][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.20-07.07.22:032][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.20-07.07.22:058][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.20-07.07.22:088][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.20-07.07.22:102][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.20-07.07.22:285][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.20-07.07.22:411][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-07.07.22:411][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.20-07.07.22:465][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-07.07.22:465][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.20-07.07.22:492][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.20-07.07.22:521][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.20-07.07.22:550][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.20-07.07.22:611][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.20-07.07.22:633][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.20-07.07.22:633][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.20-07.07.22:776][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.20-07.07.22:776][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.20-07.07.22:776][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.20-07.07.24:452][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.20-07.07.24:823][  0]LogDerivedDataCache: Loaded boot cache 0.37s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-07.07.24:824][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.20-07.07.24:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.20-07.07.24:824][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.20-07.07.24:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.20-07.07.24:824][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.20-07.07.24:849][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.20-07.07.24:865][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.20-07.07.24:865][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.20-07.07.24:865][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.20-07.07.24:904][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.20-07.07.24:906][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.20-07.07.24:939][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.20-07.07.25:141][  0]LogAssetRegistry: FAssetRegistry took 0.0322 seconds to start up
+[2018.11.20-07.07.25:791][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.20-07.07.26:065][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.20-07.07.26:075][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.20-07.07.26:075][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.20-07.07.26:075][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.20-07.07.26:075][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.20-07.07.26:109][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.20-07.07.27:246][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.272228 seconds
+[2018.11.20-07.07.27:257][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.20-07.07.27:257][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.20-07.07.27:257][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.20-07.07.30:531][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.20-07.07.30:557][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.20-07.07.30:846][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-07.07.30:846][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-07.07.30:850][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-07.07.30:853][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-07.07.31:388][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.20-07.07.31:680][  0]LogOcInput: OculusInput pre-init called
+[2018.11.20-07.07.31:815][  0]LogEngine: Initializing Engine...
+[2018.11.20-07.07.31:816][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.20-07.07.31:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-07.07.31:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-07.07.31:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.20-07.07.31:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-07.07.32:294][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.20-07.07.32:321][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.20-07.07.32:351][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.07.32:967][  0]LogInit: FAudioDevice initialized.
+[2018.11.20-07.07.32:967][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.20-07.07.33:164][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.20-07.07.33:178][  0]LogInit: Texture streaming: Enabled
+[2018.11.20-07.07.33:225][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.20-07.07.33:252][  0]LogInit: Transaction tracking system initialized
+[2018.11.20-07.07.33:311][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.20-07.07.33:488][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.20-07.07.34:635][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.20-07.07.34:635][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.20-07.07.34:635][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.20-07.07.34:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.20-07.07.34:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.20-07.07.34:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.20-07.07.34:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.20-07.07.34:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.03s
+[2018.11.20-07.07.34:931][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.20-07.07.34:931][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.20-07.07.34:947][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-07.07.34:953][  0]MapCheck: New page: 맵 체크
+[2018.11.20-07.07.34:953][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.20-07.07.38:528][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.07.39:173][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.20-07.07.39:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.20-07.07.39:715][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 186.925ms.
+[2018.11.20-07.07.39:715][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 4.783
+[2018.11.20-07.07.39:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.07.39:888][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.07.39:903][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.07.39:919][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.07.39:935][  0]LogCollectionManager: Loaded 0 collections in 0.003491 seconds
+[2018.11.20-07.07.39:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.20-07.07.39:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.11.20-07.07.39:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.20-07.07.39:986][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.20-07.07.40:008][  0]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2574 classes and 607 folders.
+[2018.11.20-07.07.40:023][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.20-07.07.40:279][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.20-07.07.40:291][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.20-07.07.40:318][  0]LogSlate: Took 0.002315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.20-07.07.40:352][  0]LogSlate: Took 0.032179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.20-07.07.40:394][  0]LogSlate: Took 0.037839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.20-07.07.40:396][  0]LogSlate: Took 0.001983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.20-07.07.40:401][  0]LogSlate: Took 0.001907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.20-07.07.40:574][  0]LogRenderer: Reallocating scene render targets to support 904x412 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-07.07.41:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.20-07.07.41:524][  0]LogLoad: (Engine Initialization) Total time: 26.79 seconds
+[2018.11.20-07.07.41:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.20-07.07.41:575][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.20-07.07.41:617][  0]LogSlate: Took 0.001985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-07.07.42:282][  4]LogAssetRegistry: Asset discovery search completed in 17.1633 seconds
+[2018.11.20-07.07.42:284][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2018.11.20-07.07.42:284][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000135 seconds (updated 0 objects)
+[2018.11.20-07.07.42:931][  6]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.20-07.07.58:706][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.08.00:727][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.08.00:905][183]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile
+[2018.11.20-07.08.01:613][183]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.11.20-07.08.02:871][183]LogSlate: Took 0.001488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.20-07.08.02:971][184]LogSlate: Took 0.001623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.20-07.08.07:129][398]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.08.10:659][518]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Skill_Spell_Basic.Skill_Spell_Basic
+[2018.11.20-07.10.26:621][  9]BlueprintLog: New page: Skill_Spell_Basic 컴파일
+[2018.11.20-07.10.28:321][ 74]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile
+[2018.11.20-07.13.22:051][163]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-07.13.22:468][184]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.20-07.13.23:733][258]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-07.13.40:050][223]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.13.40:796][249]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_Projectile6E89C4C34981994A2DEA6BB285430AA3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Spell_Projectile.uasset'
+[2018.11.20-07.13.42:234][327]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-07.13.42:282][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.13.42:282][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-07.13.42:295][327]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 1:13:42)
+[2018.11.20-07.13.42:296][327]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-07.13.42:455][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158526s)
+[2018.11.20-07.13.42:456][327]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.13.42:456][327]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2018.11.20-07.13.42:456][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.159892s)
+[2018.11.20-07.13.42:504][327]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.13.42:564][327]LogInit: FAudioDevice initialized.
+[2018.11.20-07.13.42:580][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.13.42:685][327]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-07.13.42:708][327]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-16.13.42
+[2018.11.20-07.13.42:708][327]LogWorld: Bringing up level for play took: 0.023017
+[2018.11.20-07.13.42:746][327]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.11.20-07.13.42:764][327]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 1.35
+[2018.11.20-07.13.42:764][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.13.42:781][327]LogSlate: Took 0.004893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.20-07.13.43:901][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.13.48:454][552]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.48:455][552]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.48:457][552]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.50:025][616]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.50:025][616]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.50:025][616]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.51:382][675]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.51:382][675]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.51:382][675]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.52:507][724]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.52:507][724]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.52:507][724]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.53:524][767]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.53:524][767]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.53:524][767]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.54:798][821]LogBlueprintUserMessages: [Skill_Fast_C_0] Slow
+[2018.11.20-07.13.54:799][821]LogBlueprintUserMessages: [Skill_Fast_C_0] Casting Slow
+[2018.11.20-07.13.54:799][821]LogBlueprintUserMessages: [Skill_Fast_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.54:992][829]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.20-07.13.54:992][829]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.58:253][964]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.20-07.13.58:253][964]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.13.59:138][  0]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.13.59:138][  0]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.13.59:139][  0]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.14.00:251][ 45]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.14.00:251][ 45]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.14.00:251][ 45]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.14.00:690][ 63]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.14.00:697][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.14.00:742][ 63]LogSlate: Window 'FujiwaraBattleField 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.11.20-07.14.00:785][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-07.14.00:785][ 63]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.14.00:905][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.20-07.14.15:305][918]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1525e5abfa0 [can pipeline])
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.173.6.69) port 443 (#3))
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 3 (upload completely sent off: 1853 out of 1853 bytes)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 6 (Closing connection 3)
+[2018.11.20-07.19.55:234][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F6BC7F0-42C5-6828-8A67-20B56749C0DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5b0eb9ea4fda3e341e3a4f8469f8b716%7Cc6d252eadabe4478b45225fa32f2ee07%7C8efa9574-8605-47f4-81c9-781c6a52107c&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.11.20-07.19.55:235][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.20-07.19.55:235][874]LogHttp: Warning: 000001524D3F25C0: libcurl info message cache 9 (Closing connection 4)
+[2018.11.20-07.20.00:561][ 28]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.060
+[2018.11.20-07.20.00:565][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-07.20.00:565][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-07.20.00:637][ 28]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto17DED84874BD006D464911D86011F1D5A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto1.uasset'
+[2018.11.20-07.20.00:643][ 28]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Skill/Spell_Projectile] ([1] browsable assets)...
+[2018.11.20-07.20.00:670][ 28]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile]
+[2018.11.20-07.20.00:670][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Spell_Projectile]
+[2018.11.20-07.20.00:744][ 28]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_Projectile_Auto1EFCE8B0D4A3777CE30B08F986DC6C866.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Spell_Projectile_Auto1.uasset'
+[2018.11.20-07.20.00:753][ 28]LogFileHelpers: Auto-saving content packages took 0.190
+[2018.11.20-07.20.02:315][ 33]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.11.20-07.20.55:037][ 43]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-07.20.56:183][107]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-07.21.10:401][943]BlueprintLog: New page: Skill_Spell_Basic 컴파일
+[2018.11.20-07.21.11:290][980]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic654DF4BE42C4EED92FCB72850417888F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Spell_Basic.uasset'
+[2018.11.20-07.21.15:869][182]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest
+[2018.11.20-07.22.12:724][396]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Game/StartCamera.StartCamera
+[2018.11.20-07.22.20:882][541]BlueprintLog: New page: Maps_LostBambooForest 컴파일
+[2018.11.20-07.22.21:433][541]BlueprintLog: New page: Maps_LostBambooForest 컴파일
+[2018.11.20-07.22.22:727][556]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-07.22.22:800][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.22.22:800][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-07.22.22:800][556]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 1:22:22)
+[2018.11.20-07.22.22:801][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-07.22.22:885][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084201s)
+[2018.11.20-07.22.22:887][556]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.22.22:887][556]LogPlayLevel: PIE: World Init took: (0.001820s)
+[2018.11.20-07.22.22:887][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.086329s)
+[2018.11.20-07.22.22:989][556]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.22.23:103][556]LogInit: FAudioDevice initialized.
+[2018.11.20-07.22.23:145][556]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-07.22.23:171][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-16.22.23
+[2018.11.20-07.22.23:172][556]LogWorld: Bringing up level for play took: 0.025230
+[2018.11.20-07.22.23:191][556]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.22
+[2018.11.20-07.22.23:192][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.22.30:411][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.22.32:992][766]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.22.32:992][766]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.22.32:992][766]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.22.40:225][935]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.22.40:226][935]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.22.40:227][935]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.22.40:802][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.23.23:714][778]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.20-07.23.31:052][908]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-07.23.33:325][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.33:332][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.23.33:424][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-07.23.33:424][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.33:585][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.23.33:917][957]Cmd: SELECT NONE
+[2018.11.20-07.23.33:936][957]Cmd: SELECT NONE
+[2018.11.20-07.23.33:937][957]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.20-07.23.34:003][958]Cmd: SELECT NONE
+[2018.11.20-07.23.35:806][992]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-07.23.35:907][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.35:907][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-07.23.35:908][992]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 1:23:35)
+[2018.11.20-07.23.35:908][992]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-07.23.36:092][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183153s)
+[2018.11.20-07.23.36:094][992]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.23.36:095][992]LogPlayLevel: PIE: World Init took: (0.003182s)
+[2018.11.20-07.23.36:095][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.186930s)
+[2018.11.20-07.23.36:247][992]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.23.36:424][992]LogInit: FAudioDevice initialized.
+[2018.11.20-07.23.36:424][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-07.23.36:462][992]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-07.23.36:486][992]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-16.23.36
+[2018.11.20-07.23.36:486][992]LogWorld: Bringing up level for play took: 0.023166
+[2018.11.20-07.23.36:505][992]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 1.093
+[2018.11.20-07.23.36:505][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.41:698][117]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.23.41:698][117]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.23.41:699][117]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.23.42:786][139]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.23.42:786][139]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.23.42:786][139]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.23.43:940][163]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.23.43:940][163]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.23.43:941][163]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.23.45:048][187]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.23.45:049][187]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.23.45:050][187]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.23.45:150][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.45:154][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.23.45:249][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-07.23.45:249][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.23.45:360][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.23.45:538][190]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.11.20-07.24.50:013][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-07.25.01:931][727]LogSlate: Window 'StartCamera' being destroyed
+[2018.11.20-07.26.50:390][454]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.26.53:143][539]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_ProjectileA77CE4474A4080D76E33D8AA7D567053.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Spell_Projectile.uasset'
+[2018.11.20-07.27.09:997][239]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.27.10:833][240]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_ProjectileC4D8A0DF462021CE74ACF49360261793.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Spell_Projectile.uasset'
+[2018.11.20-07.27.11:604][277]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-07.27.11:672][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.27.11:672][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-07.27.11:673][277]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 1:27:11)
+[2018.11.20-07.27.11:673][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-07.27.11:769][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096513s)
+[2018.11.20-07.27.11:770][277]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.27.11:771][277]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2018.11.20-07.27.11:771][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.098512s)
+[2018.11.20-07.27.11:865][277]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.27.11:984][277]LogInit: FAudioDevice initialized.
+[2018.11.20-07.27.12:003][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.27.12:093][277]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-07.27.12:123][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-16.27.12
+[2018.11.20-07.27.12:124][277]LogWorld: Bringing up level for play took: 0.029665
+[2018.11.20-07.27.12:171][277]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.76
+[2018.11.20-07.27.12:172][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.27.17:384][445]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.17:385][445]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.17:385][445]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.18:974][499]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.18:975][499]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.18:975][499]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.20:676][559]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.20:676][559]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.20:677][559]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.21:741][594]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.21:741][594]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.21:742][594]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.22:867][633]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.22:867][633]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.22:868][633]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.24:000][671]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.24:001][671]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.24:001][671]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.25:045][706]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.27.25:045][706]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.27.25:046][706]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.27.25:600][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.27.25:601][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.27.25:689][725]LogSlate: Window 'FujiwaraBattleField 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.11.20-07.27.25:743][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-07.27.25:744][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.27.25:854][726]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.20-07.27.27:871][818]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.28.36:519][649]LogSlate: Window '색 선택 툴' being destroyed
+[2018.11.20-07.28.40:179][701]LogSlate: Window '색 선택 툴' being destroyed
+[2018.11.20-07.28.46:155][931]BlueprintLog: New page: Spell_Projectile 컴파일
+[2018.11.20-07.28.57:151][266]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Skill/MasterSkill.MasterSkill
+[2018.11.20-07.29.02:664][390]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.20-07.29.05:858][450]LogRenderer: Reallocating scene render targets to support 904x524 Format 9 NumSamples 1 (Frame:1).
+[2018.11.20-07.29.27:272][255]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.20-07.30.39:450][167]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-07.30.39:574][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.30.39:575][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-07.30.39:575][167]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 1:30:39)
+[2018.11.20-07.30.39:575][167]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-07.30.39:699][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123645s)
+[2018.11.20-07.30.39:701][167]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-07.30.39:702][167]LogPlayLevel: PIE: World Init took: (0.002384s)
+[2018.11.20-07.30.39:702][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.126478s)
+[2018.11.20-07.30.39:813][167]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-07.30.39:941][167]LogInit: FAudioDevice initialized.
+[2018.11.20-07.30.39:962][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.30.40:080][167]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-07.30.40:117][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-16.30.40
+[2018.11.20-07.30.40:118][167]LogWorld: Bringing up level for play took: 0.034314
+[2018.11.20-07.30.40:153][167]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.742
+[2018.11.20-07.30.40:154][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.30.47:397][386]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.20-07.30.47:397][386]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.30.49:009][434]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.30.49:009][434]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.30.49:010][434]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.30.50:513][475]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.30.50:513][475]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.30.50:513][475]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.30.53:012][554]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] BasicShot
+[2018.11.20-07.30.53:012][554]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] Casting BasicShot
+[2018.11.20-07.30.53:012][554]LogBlueprintUserMessages: [Skill_Spell_Basic_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.20-07.30.54:077][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.30.54:081][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-07.30.54:121][587]LogSlate: Window 'FujiwaraBattleField 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.11.20-07.30.54:168][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-07.30.54:168][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-07.30.54:279][588]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.20-07.31.27:906][ 60]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2018.11.20-07.33.16:053][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto2B9470E2D41DDA439D458C5A21222A6A5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto2.umap'
+[2018.11.20-07.33.16:072][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 4.416
+[2018.11.20-07.33.16:072][172]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.416
+[2018.11.20-07.33.16:083][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFCharacter] ([1] browsable assets)...
+[2018.11.20-07.33.16:121][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter]
+[2018.11.20-07.33.16:121][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFCharacter]
+[2018.11.20-07.33.16:736][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto2B3368BA24CFBC900E223F39D7D704A1C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFCharacter_Auto2.uasset'
+[2018.11.20-07.33.16:745][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-07.33.16:784][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2]
+[2018.11.20-07.33.16:784][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-07.33.17:442][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto23DA634E44E968A8A5A95DB9A05C74C6E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto2.uasset'
+[2018.11.20-07.33.17:454][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.11.20-07.33.17:504][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.11.20-07.33.17:504][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFEnemyCharacter]
+[2018.11.20-07.33.18:164][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto28F92BA3B4C3016480E215BB4E431AE3E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFEnemyCharacter_Auto2.uasset'
+[2018.11.20-07.33.18:173][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-07.33.18:174][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-07.33.18:269][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto256525D2A4C9AB31C8234C9B7584C3486.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto2.uasset'
+[2018.11.20-07.33.18:278][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Skill/Spell_Projectile] ([1] browsable assets)...
+[2018.11.20-07.33.18:310][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile]
+[2018.11.20-07.33.18:310][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Spell_Projectile]
+[2018.11.20-07.33.18:428][172]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_Projectile_Auto2039054DE4BB3707016164BAC9C29107D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Spell_Projectile_Auto2.uasset'
+[2018.11.20-07.33.18:433][172]LogFileHelpers: Auto-saving content packages took 2.355
+[2018.11.20-07.34.39:516][765]BlueprintLog: New page: Skill_Spell_Basic 컴파일
+[2018.11.20-07.34.41:100][798]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_BasicDEBABF1448750426F49B8282ABFFFE44.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Spell_Basic.uasset'
+[2018.11.20-07.34.47:467][ 32]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter
+[2018.11.20-07.35.18:236][668]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-07.35.18:525][668]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2018.11.20-07.35.18:526][668]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2018.11.20-07.35.19:204][668]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] [1684.47] BP_FBFEnemyCharacter 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 967 ms] (/Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter)
+[2018.11.20-07.35.39:682][ 71]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-07.35.40:240][ 75]LogEditorTransaction: Undo 구조체 핀 재결합
+[2018.11.20-07.35.41:762][ 99]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-07.42.06:679][129]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/Structs/S_StatusBar.S_StatusBar
+[2018.11.20-07.42.23:439][473]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_StatusBar59BE935B45D7D942F76A90931FF576EF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Structs/S_StatusBar.uasset'
+[2018.11.20-07.42.27:502][561]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.20-07.42.28:096][561]LogBlueprint: Error: [Compiler BP_FBFCharacter] 사용 중인  Regen Blocked  핀은 더 이상  S_StatusBar 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-07.42.28:141][561]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] 사용 중인  Regen Blocked  핀은 더 이상  S_StatusBar 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-07.42.28:142][561]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] 기본값이 아닌  Regen Blocked  입력 핀이  S_StatusBar 의 멤버 설정  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2018.11.20-07.42.28:143][561]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] 사용 중인  Regen Blocked  핀은 더 이상  S_StatusBar 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-07.42.28:261][561]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] Failed to find a struct member for  Regen Blocked
+[2018.11.20-07.42.28:261][561]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] Failed to find a struct member for  Regen Blocked
+[2018.11.20-07.42.28:327][561]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] [2113.59] BP_FBFEnemyCharacter 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 1 회, [소요시간 717 ms] (/Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter)
+[2018.11.20-07.42.29:187][561]LogBlueprint: Warning: [Compiler BP_FBFCharacter] [2114.45] BP_FBFCharacter 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 1,684 ms] (/Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter)
+[2018.11.20-07.43.11:339][351]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.20-07.43.12:155][351]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] 사용 중인  Regen Blocked  핀은 더 이상  S_StatusBar 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-07.43.12:155][351]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] 기본값이 아닌  Regen Blocked  입력 핀이  S_StatusBar 의 멤버 설정  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2018.11.20-07.43.12:156][351]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] 사용 중인  Regen Blocked  핀은 더 이상  S_StatusBar 분해  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.11.20-07.43.12:324][351]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] Failed to find a struct member for  Regen Blocked
+[2018.11.20-07.43.12:324][351]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] Failed to find a struct member for  Regen Blocked
+[2018.11.20-07.43.12:426][351]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] [2157.69] BP_FBFEnemyCharacter 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 1 회, [소요시간 994 ms] (/Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter)
+[2018.11.20-07.43.14:295][355]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter997D6E4B47CA00E8B322E9A68E00DE80.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFCharacter.uasset'
+[2018.11.20-07.43.52:128][969]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-07.44.32:088][630]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-07.44.35:343][658]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-07.45.57:543][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto34EB6CB53438BC8E92DB4AD98DBAC4930.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto3.umap'
+[2018.11.20-07.45.57:553][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 3.562
+[2018.11.20-07.45.57:554][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.562
+[2018.11.20-07.45.57:560][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-07.45.57:561][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-07.45.57:842][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto3471926F44A255A3861C2A0A661AACF8C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto3.uasset'
+[2018.11.20-07.45.57:851][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-07.45.57:888][896]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2]
+[2018.11.20-07.45.57:888][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-07.45.58:430][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto367379782429BD747E43738A17D397C3D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto3.uasset'
+[2018.11.20-07.45.58:441][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.11.20-07.45.58:484][896]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.11.20-07.45.58:484][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFEnemyCharacter]
+[2018.11.20-07.45.58:918][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto37AE3535C40B8512C71D702B3C166D06D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFEnemyCharacter_Auto3.uasset'
+[2018.11.20-07.45.58:926][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-07.45.58:929][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-07.45.59:027][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto3EE718D784CC5F35E3722C38503FEA9CD.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto3.uasset'
+[2018.11.20-07.45.59:036][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-07.45.59:036][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-07.45.59:106][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto306A83F044D3745A8A085EFB552683AAF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto3.uasset'
+[2018.11.20-07.45.59:114][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-07.45.59:114][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-07.45.59:219][896]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto3FE1AFC254F31CA9198DECD92C5322B08.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto3.uasset'
+[2018.11.20-07.45.59:226][896]LogFileHelpers: Auto-saving content packages took 1.668
+[2018.11.20-07.46.50:721][736]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-07.46.51:708][743]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-07.46.52:645][752]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-07.56.33:872][632]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-07.56.35:782][638]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.02.29:691][151]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.02.32:491][162]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacterDC01548446134D9E6DE59DBA8AA14DFB.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFEnemyCharacter.uasset'
+[2018.11.20-08.03.01:931][600]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto47087E3734B7AA7738B2D199900851ADF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto4.umap'
+[2018.11.20-08.03.01:949][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 3.728
+[2018.11.20-08.03.01:949][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.728
+[2018.11.20-08.03.01:958][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-08.03.01:958][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-08.03.02:530][600]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto4D811A3994F9DAF50BDBBD69E4039C4F9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto4.uasset'
+[2018.11.20-08.03.02:539][600]LogFileHelpers: Auto-saving content packages took 0.584
+[2018.11.20-08.05.19:855][971]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-08.05.19:974][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.05.19:975][971]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.11.20-08.05.20:010][971]LogPlayLevel: [PlayLevel] Compiling Skill_Dash before play...
+[2018.11.20-08.05.20:068][971]LogPlayLevel: [PlayLevel] Compiling Spell_Projectile before play...
+[2018.11.20-08.05.20:584][971]LogPlayLevel: [PlayLevel] Compiling Skill_Spell_Basic before play...
+[2018.11.20-08.05.21:063][971]LogPlayLevel: PlayLevel: Blueprint regeneration took 1088 ms (3 blueprints)
+[2018.11.20-08.05.21:063][971]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 2:05:21)
+[2018.11.20-08.05.21:063][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-08.05.21:172][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109036s)
+[2018.11.20-08.05.21:174][971]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-08.05.21:175][971]LogPlayLevel: PIE: World Init took: (0.002639s)
+[2018.11.20-08.05.21:175][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.112008s)
+[2018.11.20-08.05.21:273][971]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-08.05.21:402][971]LogInit: FAudioDevice initialized.
+[2018.11.20-08.05.21:438][971]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-08.05.21:461][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-17.05.21
+[2018.11.20-08.05.21:461][971]LogWorld: Bringing up level for play took: 0.022530
+[2018.11.20-08.05.21:482][971]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 2.07
+[2018.11.20-08.05.21:483][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.05.41:599][360]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.42:646][379]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.47:481][476]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.48:014][486]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.48:528][495]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.48:926][502]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.52:236][566]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.05.52:512][571]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.06.08:588][876]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.06.08:917][882]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.06.09:090][885]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.06.27:899][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.06.27:971][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.06.27:976][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.06.28:075][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-08.06.28:076][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.06.28:178][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.06.28:272][243]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.20-08.12.46:259][478]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.20-08.12.48:493][478]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter251422054692DBE7B735039411DF696F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFCharacter.uasset'
+[2018.11.20-08.12.49:251][482]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacterD1A5F28A48033E462B1E309C698F76E9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFCharacter.uasset'
+[2018.11.20-08.12.53:859][570]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-08.12.53:964][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.12.53:964][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-08.12.53:964][570]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 2:12:53)
+[2018.11.20-08.12.53:964][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-08.12.54:066][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102344s)
+[2018.11.20-08.12.54:067][570]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-08.12.54:068][570]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2018.11.20-08.12.54:068][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.104275s)
+[2018.11.20-08.12.54:168][570]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-08.12.54:288][570]LogInit: FAudioDevice initialized.
+[2018.11.20-08.12.54:323][570]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-08.12.54:350][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-17.12.54
+[2018.11.20-08.12.54:350][570]LogWorld: Bringing up level for play took: 0.025754
+[2018.11.20-08.12.54:372][570]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.96
+[2018.11.20-08.12.54:372][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.12.56:279][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.12.57:018][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.13.01:271][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.13.10:054][863]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.11:302][893]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.04
+[2018.11.20-08.13.12:068][911]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.034
+[2018.11.20-08.13.12:687][923]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.13:463][938]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.14:186][951]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.14:742][965]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.15:229][974]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.15:695][983]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.15:998][991]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.16:266][997]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.16:477][  1]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.16:977][ 13]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.18:244][ 41]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.20:966][ 94]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.20:968][ 94]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.20:968][ 94]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.04
+[2018.11.20-08.13.24:075][160]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.24:076][160]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.24:076][160]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.024
+[2018.11.20-08.13.26:576][216]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.26:578][216]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.26:578][216]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.008
+[2018.11.20-08.13.28:306][252]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.1
+[2018.11.20-08.13.29:764][283]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.29:766][283]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.29:766][283]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.06
+[2018.11.20-08.13.30:397][295]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.30:398][295]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.30:398][295]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.044
+[2018.11.20-08.13.30:832][303]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.30:833][303]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.30:833][303]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.044
+[2018.11.20-08.13.31:086][310]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.31:087][310]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.31:087][310]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.044
+[2018.11.20-08.13.32:700][347]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.0
+[2018.11.20-08.13.32:702][347]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.13.32:703][347]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 0.044
+[2018.11.20-08.13.33:325][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.13.33:330][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.13.33:398][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-08.13.33:399][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.13.33:542][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.13.33:651][359]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.11.20-08.13.35:078][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.17.43:452][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto5AE022F7E407054BFF6EC0EB8E42B209C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto5.umap'
+[2018.11.20-08.17.43:476][567]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 5.019
+[2018.11.20-08.17.43:476][567]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.019
+[2018.11.20-08.17.43:484][567]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFCharacter] ([1] browsable assets)...
+[2018.11.20-08.17.43:511][567]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter]
+[2018.11.20-08.17.43:511][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFCharacter]
+[2018.11.20-08.17.44:046][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto5335521C04FE584AF72885A92AA546A3A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFCharacter_Auto5.uasset'
+[2018.11.20-08.17.44:053][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-08.17.44:053][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-08.17.44:328][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto5A44879B54A06D783150DECBBA8250034.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto5.uasset'
+[2018.11.20-08.17.44:335][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-08.17.44:335][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-08.17.45:287][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto5631BA0594F0A0ABB8E658FB610E8C737.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto5.uasset'
+[2018.11.20-08.17.45:303][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-08.17.45:303][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-08.17.45:438][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto50196E95F4EB3B99F11791F88CFA7D717.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto5.uasset'
+[2018.11.20-08.17.45:446][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-08.17.45:446][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-08.17.45:519][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto5C395B1184E8F827F60DDA18F8DACC46D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto5.uasset'
+[2018.11.20-08.17.45:527][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-08.17.45:527][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-08.17.45:637][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto5864B33144E837188F1DA8AA2EC7C6C35.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto5.uasset'
+[2018.11.20-08.17.45:645][567]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Skill/Spell_Projectile] ([1] browsable assets)...
+[2018.11.20-08.17.45:676][567]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Skill/Spell_Projectile.Spell_Projectile]
+[2018.11.20-08.17.45:676][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Spell_Projectile]
+[2018.11.20-08.17.45:807][567]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_Projectile_Auto51ABA9C194FBC1BF8EAE93F99FEFB02D5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Spell_Projectile_Auto5.uasset'
+[2018.11.20-08.17.45:814][567]LogFileHelpers: Auto-saving content packages took 2.334
+[2018.11.20-08.21.34:597][432]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.20-08.22.50:528][854]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.22.57:404][911]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-08.22.57:498][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.22.57:498][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-08.22.57:499][911]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 2:22:57)
+[2018.11.20-08.22.57:499][911]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-08.22.57:642][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143000s)
+[2018.11.20-08.22.57:645][911]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-08.22.57:645][911]LogPlayLevel: PIE: World Init took: (0.002566s)
+[2018.11.20-08.22.57:645][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.146049s)
+[2018.11.20-08.22.57:746][911]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-08.22.57:858][911]LogInit: FAudioDevice initialized.
+[2018.11.20-08.22.57:894][911]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-08.22.57:920][911]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-17.22.57
+[2018.11.20-08.22.57:921][911]LogWorld: Bringing up level for play took: 0.025706
+[2018.11.20-08.22.57:941][911]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.53
+[2018.11.20-08.22.57:941][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.22.59:108][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.23.00:250][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.23.10:546][172]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.11:778][196]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.14:128][245]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.14:918][261]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.15:436][271]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.16:176][288]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.16:702][298]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.17:997][323]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.18:939][343]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.19:365][351]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.19:613][356]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.19:840][361]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.25:645][480]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.26:783][505]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.30:962][591]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.31:183][595]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.31:329][598]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.39:138][752]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.44:339][855]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.49:960][973]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.23.56:272][ 96]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.24.00:259][177]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.24.01:913][211]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.24.04:135][255]Set new viewmode: Wireframe
+[2018.11.20-08.24.05:357][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.24.05:364][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.24.05:444][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-08.24.05:445][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.24.05:624][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.24.05:752][274]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.20-08.24.12:711][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.25.29:256][710]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.25.35:242][775]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-08.25.35:348][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.25.35:349][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-08.25.35:349][775]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 2:25:35)
+[2018.11.20-08.25.35:350][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-08.25.35:493][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143436s)
+[2018.11.20-08.25.35:495][775]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-08.25.35:495][775]LogPlayLevel: PIE: World Init took: (0.001983s)
+[2018.11.20-08.25.35:495][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.145940s)
+[2018.11.20-08.25.35:602][775]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-08.25.35:719][775]LogInit: FAudioDevice initialized.
+[2018.11.20-08.25.35:756][775]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-08.25.35:782][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-17.25.35
+[2018.11.20-08.25.35:782][775]LogWorld: Bringing up level for play took: 0.024998
+[2018.11.20-08.25.35:802][775]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.391
+[2018.11.20-08.25.35:803][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.25.51:302][113]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.25.58:040][255]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.26.03:514][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.26.03:520][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.26.03:585][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-08.26.03:586][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.26.03:739][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.26.03:853][370]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.11.20-08.26.08:811][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.26.29:113][789]Cmd: TRANSACTION UNDO
+[2018.11.20-08.26.29:113][789]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-08.26.30:637][809]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.20-08.26.33:595][854]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter:EventGraph.K2Node_CallFunction_17 or K2Node_CallFunction /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter:EventGraph.K2Node_CallFunction_17
+[2018.11.20-08.27.23:959][685]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.28.29:259][831]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-08.29.26:502][812]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.20-08.29.27:117][813]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.20-08.29.27:222][813]LogEditorTransaction: Undo 노드 이동
+[2018.11.20-08.29.28:582][831]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-08.29.29:540][839]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.20-08.29.31:687][870]LogEditorTransaction: Redo 현 선택을 삭제합니다.
+[2018.11.20-08.29.32:167][871]LogEditorTransaction: Redo 노드 추가
+[2018.11.20-08.29.32:288][871]LogEditorTransaction: Redo 노드 이동
+[2018.11.20-08.29.32:364][871]LogEditorTransaction: Redo 핀 링크 생성
+[2018.11.20-08.29.32:845][874]LogEditorTransaction: Redo 핀 링크 생성
+[2018.11.20-08.30.42:929][ 95]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.30.45:596][100]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter0593849946A4EF24641426BEA4AD8D07.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFEnemyCharacter.uasset'
+[2018.11.20-08.30.49:005][150]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.20-08.30.49:105][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.30.49:105][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.20-08.30.49:106][150]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 21. 오전 2:30:49)
+[2018.11.20-08.30.49:106][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.20-08.30.49:188][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082048s)
+[2018.11.20-08.30.49:190][150]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.20-08.30.49:190][150]LogPlayLevel: PIE: World Init took: (0.001703s)
+[2018.11.20-08.30.49:190][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.084101s)
+[2018.11.20-08.30.49:277][150]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.20-08.30.49:391][150]LogInit: FAudioDevice initialized.
+[2018.11.20-08.30.49:430][150]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.20-08.30.49:451][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.20-17.30.49
+[2018.11.20-08.30.49:452][150]LogWorld: Bringing up level for play took: 0.020286
+[2018.11.20-08.30.49:470][150]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.059
+[2018.11.20-08.30.49:471][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.30.58:481][348]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.07:866][541]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.11:738][626]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.13:516][667]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.15:790][717]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.18:554][773]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.22:735][861]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.25:289][914]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.32:471][ 57]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] 쉴드 0
+[2018.11.20-08.31.35:182][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.31.35:189][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.31.35:263][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.20-08.31.35:264][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.20-08.31.35:424][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.20-08.31.35:546][114]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.11.20-08.31.39:278][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.31.41:659][218]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.20-08.32.06:943][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-08.32.10:005][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto6BD94E60E47C4EC29C4473EBFFBA1681B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto6.umap'
+[2018.11.20-08.32.10:020][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 3.023
+[2018.11.20-08.32.10:020][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.023
+[2018.11.20-08.32.10:027][643]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Character/BP_FBFCharacter] ([1] browsable assets)...
+[2018.11.20-08.32.10:061][643]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter]
+[2018.11.20-08.32.10:061][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFCharacter]
+[2018.11.20-08.32.10:525][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto6950E82934FAC21AB9D508E847323012E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFCharacter_Auto6.uasset'
+[2018.11.20-08.32.10:531][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/MasterSkill] ([1] browsable assets)...
+[2018.11.20-08.32.10:531][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/MasterSkill]
+[2018.11.20-08.32.10:785][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkill_Auto60DC4E6FB4ABD4581DDBD90B7536C3E19.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/MasterSkill_Auto6.uasset'
+[2018.11.20-08.32.10:793][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-08.32.10:793][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-08.32.11:183][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto6F02AB6084AF43F5979EB32B48F11FA70.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto6.uasset'
+[2018.11.20-08.32.11:193][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.20-08.32.11:193][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Dash]
+[2018.11.20-08.32.11:328][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto64B8FFB21476729A00290EC9A921F37F9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Dash_Auto6.uasset'
+[2018.11.20-08.32.11:337][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Fast] ([1] browsable assets)...
+[2018.11.20-08.32.11:337][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Fast]
+[2018.11.20-08.32.11:473][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast_Auto6529CA86A455083EF6D07039344F0C9DF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Fast_Auto6.uasset'
+[2018.11.20-08.32.11:481][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Skill/Skill_Spell_Basic] ([1] browsable assets)...
+[2018.11.20-08.32.11:481][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Skill/Skill_Spell_Basic]
+[2018.11.20-08.32.11:631][643]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Basic_Auto68656452B45023E42276997B5F33CA9FB.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Skill/Skill_Spell_Basic_Auto6.uasset'
+[2018.11.20-08.32.11:640][643]LogFileHelpers: Auto-saving content packages took 1.616
+[2018.11.20-08.32.51:976][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.20-08.35.13:624][916]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.20-08.35.32:271][190]LogEditorTransaction: Undo 노드 추가
+[2018.11.20-08.36.37:419][244]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.20-08.36.39:409][252]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter5A0C606A437E8414742FF0A972B27552.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFEnemyCharacter.uasset'
+[2018.11.20-08.39.33:511][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.20-08.42.16:007][254]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto72B1010BF428EE4C87AA527929019AD9F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto7.umap'
+[2018.11.20-08.42.16:028][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 3.796
+[2018.11.20-08.42.16:028][254]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.796
+[2018.11.20-08.42.16:036][254]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2] ([1] browsable assets)...
+[2018.11.20-08.42.16:036][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Character/BP_FBFPlayableCharacter_2]
+[2018.11.20-08.42.16:953][254]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2_Auto785FE03A7400C893F1DD05F8F0E9AF5F3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Character/BP_FBFPlayableCharacter_2_Auto7.uasset'
+[2018.11.20-08.42.16:960][254]LogFileHelpers: Auto-saving content packages took 0.927
+[2018.11.20-08.47.47:501][263]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.11.20-08.47.48:132][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter68A3A8814111DECC19E172B704C26309.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFCharacter.uasset'
+[2018.11.20-08.47.48:549][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_2A7CE69EE4AEA0E3378C253A7D6D26635.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Character/BP_FBFPlayableCharacter_2.uasset'
+[2018.11.20-08.47.48:571][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/MasterSkill" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset" SILENT=true
+[2018.11.20-08.47.48:967][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/MasterSkillA5BF96214541C91E4E8FA2B3B79F84C7.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/MasterSkill.uasset'
+[2018.11.20-08.47.48:986][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Skill_Dash" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset" SILENT=true
+[2018.11.20-08.47.49:122][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash5726A5374E63B6E97AC8B29F79538AFE.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Dash.uasset'
+[2018.11.20-08.47.49:142][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Temporary/Skill/Skill_Fast" FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Fast.uasset" SILENT=true
+[2018.11.20-08.47.49:213][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Fast429B968C48F3AEFE0865DAA30C7F7BF2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Fast.uasset'
+[2018.11.20-08.47.49:359][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_BasicF0A2AC754E9C1A40CB886FBB3CA71224.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Skill_Spell_Basic.uasset'
+[2018.11.20-08.47.49:526][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Spell_ProjectileEC2BAA424CEFDDF8E93512AA1967D87C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Skill/Spell_Projectile.uasset'
+[2018.11.20-08.47.53:905][263]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest42CD2F7F43BA0BB6239740B566FE629D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap'
+[2018.11.20-08.47.54:078][263]LogFileHelpers: Saving map 'Maps_LostBambooForest' took 4.528
+[2018.11.20-08.47.54:529][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-08.47.54:875][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-08.47.55:130][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-08.47.55:451][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.20-08.47.55:724][263]LogSlate: Window 'S_StatusBar' being destroyed
+[2018.11.20-08.47.55:822][263]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
+[2018.11.20-08.47.55:847][263]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.20-08.47.56:384][264]Cmd: QUIT_EDITOR
+[2018.11.20-08.47.56:983][264]LogExit: Preparing to exit.
+[2018.11.20-08.47.58:244][264]LogDirectoryWatcher: A directory notification failed for 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/', and we were unable to create a new request.
+[2018.11.20-08.47.58:615][264]LogExit: Editor shut down
+[2018.11.20-08.47.58:617][264]LogExit: Transaction tracking system shut down
+[2018.11.20-08.48.00:353][264]LogExit: Object subsystem successfully closed.
+[2018.11.20-08.48.00:436][264]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.20-08.48.00:453][264]LogD3D11RHI: Shutdown
+[2018.11.20-08.48.00:453][264]LogD3D11RHI: CleanupD3DDevice
+[2018.11.20-08.48.00:589][264]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.20-08.48.00:702][264]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2018.11.20-08.48.00:703][264]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2018.11.20-08.48.00:703][264]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.11.20-08.48.00:703][264]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.11.20-08.48.00:703][264]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.11.20-08.48.00:703][264]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.11.20-08.48.00:711][264]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.11.20-08.48.00:711][264]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.11.20-08.48.00:711][264]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.11.20-08.48.00:712][264]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.11.20-08.48.00:713][264]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.11.20-08.48.00:714][264]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.11.20-08.48.00:716][264]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.11.20-08.48.00:717][264]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.11.20-08.48.00:717][264]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.11.20-08.48.00:717][264]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.11.20-08.48.00:717][264]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.11.20-08.48.00:717][264]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.11.20-08.48.00:718][264]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.11.20-08.48.00:720][264]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.11.20-08.48.00:720][264]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.11.20-08.48.00:721][264]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.11.20-08.48.00:721][264]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.11.20-08.48.00:722][264]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.11.20-08.48.00:723][264]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.11.20-08.48.00:724][264]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.11.20-08.48.00:726][264]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.11.20-08.48.00:728][264]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.11.20-08.48.00:729][264]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.11.20-08.48.00:730][264]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.11.20-08.48.00:730][264]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.11.20-08.48.00:731][264]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.11.20-08.48.00:731][264]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.11.20-08.48.00:731][264]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.11.20-08.48.00:840][264]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.11.20-08.48.00:840][264]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.11.20-08.48.00:840][264]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.11.20-08.48.00:840][264]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.11.20-08.48.00:840][264]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.11.20-08.48.00:842][264]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.11.20-08.48.00:843][264]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.11.20-08.48.00:844][264]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.11.20-08.48.00:844][264]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.11.20-08.48.00:844][264]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.11.20-08.48.00:845][264]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.11.20-08.48.00:845][264]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.11.20-08.48.00:845][264]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.11.20-08.48.00:845][264]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.11.20-08.48.00:846][264]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.11.20-08.48.00:846][264]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.11.20-08.48.00:846][264]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.11.20-08.48.00:847][264]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.11.20-08.48.00:848][264]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.11.20-08.48.00:849][264]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.11.20-08.48.00:849][264]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.11.20-08.48.00:849][264]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.11.20-08.48.00:905][264]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.11.20-08.48.00:907][264]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.11.20-08.48.00:907][264]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.11.20-08.48.00:909][264]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.11.20-08.48.00:909][264]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.11.20-08.48.00:910][264]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.11.20-08.48.00:911][264]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.11.20-08.48.00:912][264]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.11.20-08.48.00:913][264]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.11.20-08.48.00:913][264]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.11.20-08.48.00:948][264]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.11.20-08.48.00:949][264]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.11.20-08.48.00:957][264]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.11.20-08.48.00:957][264]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.11.20-08.48.00:958][264]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.20-08.48.00:958][264]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.20-08.48.00:959][264]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.20-08.48.00:959][264]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.20-08.48.00:960][264]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.20-08.48.00:968][264]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.20-08.48.00:968][264]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.20-08.48.00:969][264]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.20-08.48.00:970][264]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.20-08.48.00:970][264]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.20-08.48.00:971][264]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.20-08.48.00:971][264]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.11.20-08.48.01:087][264]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.11.20-08.48.01:089][264]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.20-08.48.01:089][264]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.20-08.48.01:089][264]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.20-08.48.01:090][264]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.20-08.48.01:091][264]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.20-08.48.01:091][264]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.20-08.48.01:091][264]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.20-08.48.01:091][264]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.20-08.48.01:093][264]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.20-08.48.01:093][264]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.20-08.48.01:093][264]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.20-08.48.01:093][264]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.20-08.48.01:102][264]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.20-08.48.01:103][264]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.20-08.48.01:103][264]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.20-08.48.01:103][264]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.20-08.48.01:103][264]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.20-08.48.01:104][264]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.20-08.48.01:106][264]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.20-08.48.01:106][264]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.20-08.48.01:109][264]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.20-08.48.01:109][264]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.20-08.48.01:109][264]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.20-08.48.01:110][264]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.20-08.48.01:110][264]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.20-08.48.01:110][264]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.20-08.48.01:111][264]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.20-08.48.01:111][264]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.20-08.48.01:111][264]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.20-08.48.01:112][264]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.20-08.48.01:113][264]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.20-08.48.01:114][264]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.20-08.48.01:115][264]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.20-08.48.01:115][264]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.20-08.48.01:115][264]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.20-08.48.01:115][264]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.20-08.48.01:115][264]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.20-08.48.01:117][264]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.20-08.48.01:117][264]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (300)
+[2018.11.20-08.48.01:117][264]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.20-08.48.01:117][264]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.20-08.48.01:117][264]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.20-08.48.01:118][264]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.20-08.48.01:118][264]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.20-08.48.01:118][264]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.20-08.48.01:118][264]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.20-08.48.01:119][264]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.20-08.48.01:119][264]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.20-08.48.01:220][264]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.20-08.48.01:323][264]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.20-08.48.01:323][264]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.20-08.48.01:323][264]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.20-08.48.01:324][264]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.20-08.48.01:324][264]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.20-08.48.01:324][264]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.20-08.48.01:325][264]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.20-08.48.01:329][264]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.20-08.48.01:330][264]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.20-08.48.01:331][264]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.20-08.48.01:332][264]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.20-08.48.01:334][264]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.20-08.48.01:339][264]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.20-08.48.01:340][264]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.20-08.48.01:340][264]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.20-08.48.01:340][264]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.20-08.48.01:340][264]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.20-08.48.01:341][264]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.20-08.48.01:344][264]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.20-08.48.01:350][264]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.20-08.48.01:350][264]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.20-08.48.01:350][264]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.20-08.48.01:351][264]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.20-08.48.01:351][264]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.20-08.48.01:351][264]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.20-08.48.01:351][264]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.20-08.48.01:351][264]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.20-08.48.01:352][264]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.20-08.48.01:352][264]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.20-08.48.01:354][264]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.20-08.48.01:354][264]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.20-08.48.01:355][264]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.20-08.48.01:356][264]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.20-08.48.01:356][264]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.20-08.48.01:357][264]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.20-08.48.01:359][264]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.20-08.48.01:360][264]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.20-08.48.01:361][264]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.20-08.48.01:362][264]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.20-08.48.01:369][264]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.20-08.48.01:369][264]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.20-08.48.01:369][264]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.20-08.48.01:369][264]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.20-08.48.01:369][264]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.20-08.48.01:370][264]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.20-08.48.01:370][264]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.20-08.48.01:370][264]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.20-08.48.01:370][264]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.20-08.48.01:371][264]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.20-08.48.01:371][264]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.20-08.48.01:372][264]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.20-08.48.01:372][264]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.20-08.48.01:373][264]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.20-08.48.01:373][264]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.20-08.48.01:374][264]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.20-08.48.01:374][264]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.20-08.48.01:376][264]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.20-08.48.01:396][264]LogDerivedDataCache: Shutdown
+[2018.11.20-08.48.01:396][264]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.20-08.48.01:397][264]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.20-08.48.01:397][264]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.20-08.48.01:398][264]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.20-08.48.01:398][264]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.20-08.48.01:399][264]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.20-08.48.01:399][264]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.20-08.48.01:400][264]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.20-08.48.01:400][264]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.20-08.48.01:400][264]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.20-08.48.01:400][264]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.20-08.48.01:401][264]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.20-08.48.01:402][264]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.20-08.48.01:402][264]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.20-08.48.01:402][264]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.20-08.48.01:402][264]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.20-08.48.01:403][264]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.20-08.48.01:403][264]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.20-08.48.01:424][264]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.20-08.48.01:424][264]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.20-08.48.01:443][264]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.20-08.48.01:444][264]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.20-08.48.01:563][264]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.20-08.48.01:564][264]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.20-08.48.01:564][264]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.20-08.48.01:564][264]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.20-08.48.01:564][264]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.20-08.48.01:565][264]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.20-08.48.01:566][264]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.20-08.48.01:566][264]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.20-08.48.01:566][264]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.20-08.48.01:566][264]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.20-08.48.01:566][264]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.20-08.48.01:567][264]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.20-08.48.01:567][264]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.20-08.48.01:567][264]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.20-08.48.01:568][264]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.20-08.48.01:569][264]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.20-08.48.01:569][264]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.20-08.48.01:569][264]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.20-08.48.01:571][264]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.20-08.48.01:572][264]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.20-08.48.01:585][264]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.20-08.48.01:586][264]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.11.20-08.48.01:586][264]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F6BC7F0-42C5-6828-8A67-20B56749C0DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5b0eb9ea4fda3e341e3a4f8469f8b716%7Cc6d252eadabe4478b45225fa32f2ee07%7C8efa9574-8605-47f4-81c9-781c6a52107c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.20-08.48.01:586][264]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F6BC7F0-42C5-6828-8A67-20B56749C0DE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5b0eb9ea4fda3e341e3a4f8469f8b716%7Cc6d252eadabe4478b45225fa32f2ee07%7C8efa9574-8605-47f4-81c9-781c6a52107c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.20-08.48.01:604][264]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.20-08.48.01:608][264]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.20-08.48.01:609][264]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.20-08.48.01:610][264]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.20-08.48.01:610][264]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.20-08.48.01:610][264]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.20-08.48.01:612][264]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.20-08.48.01:612][264]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.20-08.48.01:613][264]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.20-08.48.01:616][264]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.20-08.48.01:616][264]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.20-08.48.01:616][264]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.20-08.48.01:622][264]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.20-08.48.01:623][264]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.20-08.48.01:623][264]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.20-08.48.01:623][264]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.20-08.48.01:624][264]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.20-08.48.01:632][264]LogExit: Exiting.
+[2018.11.20-08.48.01:653][264]Log file closed, 11/20/18 17:48:01

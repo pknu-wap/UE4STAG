@@ -63,14 +63,14 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Dash
 	}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Dash_Statics::NewProp_BreakTime_MetaData[] = {
-		{ "Category", "Spell" },
+		{ "Category", "Dash" },
 		{ "ModuleRelativePath", "Public/Skill/S_Skill_Dash.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSkill_Dash_Statics::NewProp_BreakTime = { UE4CodeGen_Private::EPropertyClass::Float, "BreakTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Dash, BreakTime), METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Dash_Statics::NewProp_BreakTime_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Dash_Statics::NewProp_BreakTime_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Dash_Statics::NewProp_DashPower_MetaData[] = {
-		{ "Category", "Spell" },
+		{ "Category", "Dash" },
 		{ "ModuleRelativePath", "Public/Skill/S_Skill_Dash.h" },
 	};
 #endif
@@ -106,7 +106,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Dash
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSkill_Dash_CRC() { return 408674136U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSkill_Dash_CRC() { return 2555123322U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

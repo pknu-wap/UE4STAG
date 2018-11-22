@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "S_CrowdControl.h"
 #include "S_Skill_Spell.generated.h"
 /**
  *
@@ -11,14 +12,15 @@ USTRUCT(BlueprintType)
 struct FSkill_Spell
 {
 	GENERATED_BODY()
-
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
+		TEnumAsByte<CCType> CCType;
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		FVector InitPos;
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float InitScale;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float ScaleOffset;
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float InitSpeed;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float SpeedOffset;
@@ -27,21 +29,24 @@ struct FSkill_Spell
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float DamageOffset;
 	// Pitch
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float YAxisOffset;
 	// Yaw
-	UPROPERTY(EditAnyWhere	, BlueprintReadWrite, Category = "Skill")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		float ZAxisOffset;
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
+		int SpawnCount;
 
 	FSkill_Spell()
 	{
 		InitScale = 1;
 		ScaleOffset = 1;
-		InitSpeed = 1000;
-		SpeedOffset = 1000;
+		InitSpeed = 3000;
+		SpeedOffset = 3000;
 		Damage = 10;
 		DamageOffset = 30;
 		YAxisOffset = 1;
 		ZAxisOffset = 1;
+		SpawnCount = 1;
 	};
 };

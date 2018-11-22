@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "FBFBaseCharacter.h"
 
@@ -8,7 +8,7 @@ AFBFBaseCharacter::AFBFBaseCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	//bool bIsImplemented = this->GetClass()->ImplementsInterface(UDamageable::StaticClass());
 }
 
 // Called when the game starts or when spawned
@@ -31,4 +31,3 @@ void AFBFBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-

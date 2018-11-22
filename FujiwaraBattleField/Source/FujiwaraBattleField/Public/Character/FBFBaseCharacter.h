@@ -25,13 +25,4 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-
-
-private:
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Skill", meta = (AllowPrivateAccess = "true"))
-	bool bIsCasting;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Skill", meta = (AllowPrivateAccess = "true"))
-	bool bCanDash;
 };

@@ -57,11 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFBFBaseCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFBFBaseCharacter)
 
 
-#define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Character_FBFBaseCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__bIsCasting() { return STRUCT_OFFSET(AFBFBaseCharacter, bIsCasting); } \
-	FORCEINLINE static uint32 __PPO__bCanDash() { return STRUCT_OFFSET(AFBFBaseCharacter, bCanDash); }
-
-
+#define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Character_FBFBaseCharacter_h_12_PRIVATE_PROPERTY_OFFSET
 #define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Character_FBFBaseCharacter_h_9_PROLOG
 #define FujiwaraBattleField_Source_FujiwaraBattleField_Public_Character_FBFBaseCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

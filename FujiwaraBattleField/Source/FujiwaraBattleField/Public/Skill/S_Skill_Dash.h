@@ -12,8 +12,8 @@ struct FSkill_Dash
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Dash")
 		float DashPower;
-	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Dash")
 		float BreakTime;
 };

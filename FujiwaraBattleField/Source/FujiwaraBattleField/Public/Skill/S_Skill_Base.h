@@ -11,9 +11,9 @@
 UENUM(BlueprintType)
 enum SkillType
 {
-	None UMETA(DisplayName = "None"), 
+	None UMETA(DisplayName = "None"),
 	Spell UMETA(DisplayName = "Spell"),
-	Dash UMETA(DisplayName = "Dash"), 
+	Dash UMETA(DisplayName = "Dash"),
 	CC UMETA(DisplayName = "CC"),
 };
 USTRUCT(BlueprintType)
@@ -21,7 +21,7 @@ struct FSkill_Base
 {
 	GENERATED_BODY()
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
-		TEnumAsByte<SkillType> type;
+		TEnumAsByte<SkillType> Type;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
 		UTexture2D* Overrideicon;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")

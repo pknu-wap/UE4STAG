@@ -1,0 +1,1792 @@
+﻿Log file open, 11/22/18 11:03:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.190620
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.218s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.22-02.03.13:357][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-02.03.13:357][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.22-02.03.13:371][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.22-02.03.13:371][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.22-02.03.13:371][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.22-02.03.13:371][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.11.22-02.03.13:371][  0]LogInit: User: hoon
+[2018.11.22-02.03.13:371][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.22-02.03.13:371][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.11.22-02.03.13:372][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.22-02.03.13:372][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.22-02.03.13:372][  0]LogMemory: Process Physical Memory: 101.24 MB used, 101.24 MB peak
+[2018.11.22-02.03.13:372][  0]LogMemory: Process Virtual Memory: 92.19 MB used, 92.19 MB peak
+[2018.11.22-02.03.13:372][  0]LogMemory: Physical Memory: 4979.43 MB used,  3071.71 MB free, 8051.13 MB total
+[2018.11.22-02.03.13:372][  0]LogMemory: Virtual Memory: 4629.23 MB used,  3071.71 MB free, 134217728.00 MB total
+[2018.11.22-02.03.13:398][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.22-02.03.13:398][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.22-02.03.13:399][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.22-02.03.13:866][  0]LogStreaming: Display: Took  0.468s to InitEngineTextLocalization.
+[2018.11.22-02.03.13:867][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.22-02.03.13:930][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.22-02.03.13:930][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.22-02.03.14:281][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-02.03.14:281][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.22-02.03.14:293][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.22-02.03.14:293][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.22-02.03.14:296][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.22-02.03.14:296][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.22-02.03.14:296][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.22-02.03.14:305][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.22-02.03.14:305][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.22-02.03.14:305][  0]LogWindows: EnumDisplayDevices:
+[2018.11.22-02.03.14:305][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.22-02.03.14:307][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.22-02.03.14:308][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.22-02.03.14:309][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.22-02.03.14:309][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.22-02.03.14:309][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.11.22-02.03.14:309][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.11.22-02.03.14:309][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.11.22-02.03.14:318][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.22-02.03.14:329][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.11.22-02.03.14:331][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/10140/).
+[2018.11.22-02.03.14:331][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/0849D56048E170F0F210C0AAAD4CED2E/'.
+[2018.11.22-02.03.14:827][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.22-02.03.14:856][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.22-02.03.14:883][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.22-02.03.14:904][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.22-02.03.14:921][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.22-02.03.14:940][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.22-02.03.14:960][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.22-02.03.14:979][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.22-02.03.14:987][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:089][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-02.03.15:091][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.22-02.03.15:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-02.03.15:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-02.03.15:188][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-02.03.15:188][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-02.03.15:202][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.22-02.03.15:215][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.22-02.03.15:231][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.22-02.03.15:247][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.22-02.03.15:258][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.22-02.03.15:258][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.22-02.03.15:349][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.22-02.03.15:349][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.22-02.03.15:349][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.22-02.03.16:467][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.22-02.03.16:534][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-02.03.16:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.22-02.03.16:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.22-02.03.16:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.22-02.03.16:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.22-02.03.16:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.22-02.03.16:550][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.22-02.03.16:562][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.22-02.03.16:562][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.22-02.03.16:562][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.22-02.03.16:585][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.22-02.03.16:588][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.22-02.03.16:588][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.22-02.03.16:675][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.11.22-02.03.17:206][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-02.03.17:416][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.22-02.03.17:423][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.22-02.03.17:423][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.22-02.03.17:423][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.22-02.03.17:423][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.22-02.03.17:448][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.22-02.03.18:228][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.184607 seconds
+[2018.11.22-02.03.18:236][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.22-02.03.18:236][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.22-02.03.18:236][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.22-02.03.19:408][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.22-02.03.19:422][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.22-02.03.19:624][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.22-02.03.19:624][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.22-02.03.19:627][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.22-02.03.19:628][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.22-02.03.19:825][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.22-02.03.19:923][  0]LogOcInput: OculusInput pre-init called
+[2018.11.22-02.03.19:993][  0]LogEngine: Initializing Engine...
+[2018.11.22-02.03.19:993][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.22-02.03.19:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-02.03.19:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-02.03.19:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-02.03.19:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-02.03.20:268][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.22-02.03.20:285][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.22-02.03.20:304][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.03.20:482][  0]LogInit: FAudioDevice initialized.
+[2018.11.22-02.03.20:482][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.22-02.03.20:568][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-02.03.20:578][  0]LogInit: Texture streaming: Enabled
+[2018.11.22-02.03.20:607][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.22-02.03.20:623][  0]LogInit: Transaction tracking system initialized
+[2018.11.22-02.03.20:657][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.22-02.03.20:773][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.22-02.03.21:520][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.22-02.03.21:520][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.22-02.03.21:520][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.22-02.03.21:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-02.03.21:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-02.03.21:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-02.03.21:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-02.03.21:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.02s
+[2018.11.22-02.03.21:731][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.22-02.03.21:731][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.22-02.03.21:732][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.22-02.03.21:736][  0]MapCheck: New page: 맵 체크
+[2018.11.22-02.03.21:736][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.22-02.03.21:999][  0]LogLinker: Error: HOTRELOADED_CrowdControl_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset)
+[2018.11.22-02.03.21:999][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter_C:CCTimeline'. Unknown structure.
+[2018.11.22-02.03.22:026][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:026][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:026][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:026][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:026][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD
+[2018.11.22-02.03.22:027][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:027][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:027][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:027][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:027][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD
+[2018.11.22-02.03.22:034][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:034][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:034][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:034][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:034][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals
+[2018.11.22-02.03.22:034][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:034][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:034][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:035][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:035][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA
+[2018.11.22-02.03.22:036][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:036][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:036][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:036][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:036][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals
+[2018.11.22-02.03.22:036][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:036][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:036][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:036][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:036][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA
+[2018.11.22-02.03.22:039][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:039][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:039][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:039][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:039][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N
+[2018.11.22-02.03.22:040][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:040][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:040][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:040][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.22-02.03.22:040][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N
+[2018.11.22-02.03.22:214][  0]LogLinker: Error: HOTRELOADED_CrowdControl_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset)
+[2018.11.22-02.03.22:216][  0]LogClass: Warning: Property CCTimeline of CCTimeline has a struct type mismatch (tag HOTRELOADED_CrowdControl_0 != prop FallbackStruct) in package:  ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.11.22-02.03.22:227][  0]LogLinker: Error: HOTRELOADED_CrowdControl_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset)
+[2018.11.22-02.03.22:312][  0]LogBlueprint: Error: [Compiler BP_FBFCharacter] BP_FBFCharacter  에 선언된 CCTimeline 변수에 유효하지 않은 구조체 유형이 있습니다.
+[2018.11.22-02.03.22:405][  0]LogBlueprint: Error: [Compiler BP_FBFCharacter] BP_FBFCharacter  에 선언된 CCTimeline 변수에 유효하지 않은 구조체 유형이 있습니다.
+[2018.11.22-02.03.22:572][  0]LogBlueprint: Warning: [Compiler BP_FBFCharacter] [0011.39] BP_FBFCharacter 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 262 ms] (/Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter)
+[2018.11.22-02.03.22:595][  0]LogLinker: Error: HOTRELOADED_CrowdControl_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset)
+[2018.11.22-02.03.22:754][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:754][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2018.11.22-02.03.22:754][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:755][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2018.11.22-02.03.22:756][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:756][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2018.11.22-02.03.22:757][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:757][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2018.11.22-02.03.22:761][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:761][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2018.11.22-02.03.22:762][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:762][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2018.11.22-02.03.22:762][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:762][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_0
+[2018.11.22-02.03.22:762][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.22-02.03.22:762][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_0
+[2018.11.22-02.03.23:020][  0]LogSlate: Took 0.002437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.22-02.03.23:020][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.22-02.04.14:180][  0]LogSlate: Window '메시지' being destroyed
+[2018.11.22-02.04.14:183][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.22-02.04.14:303][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.22-02.04.14:307][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Player\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.22-02.04.14:307][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.22-02.04.14:310][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.22-02.04.14:311][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Player\Materials\M_UE4Man_ChestLogo.uasset: Failed to compile Material Instance with Base M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.22-02.04.14:311][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.22-02.04.14:311][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.22-02.04.14:311][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node TextureSample) Logo Mask> Missing input texture
+[2018.11.22-02.04.14:311][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node MakeMaterialAttributes) Error on property OpacityMask
+[2018.11.22-02.04.14:519][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.04.14:812][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.22-02.04.14:844][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.22-02.04.14:948][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 103.85ms.
+[2018.11.22-02.04.14:948][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 53.217
+[2018.11.22-02.04.15:019][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.11.22-02.04.15:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.04.15:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.04.15:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.04.15:082][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.04.15:092][  0]LogCollectionManager: Loaded 0 collections in 0.002239 seconds
+[2018.11.22-02.04.15:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.22-02.04.15:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.11.22-02.04.15:135][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.22-02.04.15:136][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.22-02.04.15:145][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2574 classes and 607 folders.
+[2018.11.22-02.04.15:154][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-02.04.15:272][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-02.04.15:278][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.22-02.04.15:299][  0]LogSlate: Took 0.002887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.22-02.04.15:301][  0]LogSlate: Took 0.001022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.22-02.04.15:306][  0]LogSlate: Took 0.001257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.22-02.04.15:366][  0]LogRenderer: Reallocating scene render targets to support 388x412 Format 9 NumSamples 1 (Frame:1).
+[2018.11.22-02.04.15:933][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.22-02.04.15:933][  0]LogLoad: (Engine Initialization) Total time: 64.76 seconds
+[2018.11.22-02.04.15:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.22-02.04.15:974][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.22-02.04.15:992][  0]LogSlate: Took 0.001621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-02.04.16:014][  1]LogAssetRegistry: Asset discovery search completed in 59.3626 seconds
+[2018.11.22-02.04.16:016][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.22-02.04.16:016][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2018.11.22-02.05.26:922][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.05.30:465][426]LogRenderer: Reallocating scene render targets to support 444x412 Format 9 NumSamples 1 (Frame:3421).
+[2018.11.22-02.05.30:554][427]LogRenderer: Reallocating scene render targets to support 788x412 Format 9 NumSamples 1 (Frame:3423).
+[2018.11.22-02.05.30:662][429]LogRenderer: Reallocating scene render targets to support 852x412 Format 9 NumSamples 1 (Frame:3425).
+[2018.11.22-02.05.30:764][430]LogRenderer: Reallocating scene render targets to support 856x412 Format 9 NumSamples 1 (Frame:3427).
+[2018.11.22-02.05.30:840][431]LogRenderer: Reallocating scene render targets to support 864x412 Format 9 NumSamples 1 (Frame:3429).
+[2018.11.22-02.05.32:137][480]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.05.32:159][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.05.32:159][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.05.35:123][480]LogSlate: Window '메시지' being destroyed
+[2018.11.22-02.05.39:848][632]LogSlate: Took 0.001044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-02.05.39:868][632]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.22-02.05.40:708][632]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.11.22-02.05.42:060][632]LogSlate: Took 0.003978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.22-02.05.42:294][633]LogSlate: Took 0.004417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.22-02.06.05:175][171]BlueprintLog: New page: BP_FBFCharacter 컴파일
+[2018.11.22-02.06.08:507][221]LogSlate: Window 'BP_FBFCharacter' being destroyed
+[2018.11.22-02.06.09:386][245]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.06.09:418][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.06.09:419][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.06.09:436][245]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:06:09)
+[2018.11.22-02.06.09:436][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.06.09:484][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047841s)
+[2018.11.22-02.06.09:485][245]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.06.09:485][245]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2018.11.22-02.06.09:485][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.049137s)
+[2018.11.22-02.06.09:534][245]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.06.09:596][245]LogInit: FAudioDevice initialized.
+[2018.11.22-02.06.09:651][245]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.06.09:668][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.06.09
+[2018.11.22-02.06.09:670][245]LogWorld: Bringing up level for play took: 0.015977
+[2018.11.22-02.06.09:702][245]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.11.22-02.06.09:711][245]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 1.193
+[2018.11.22-02.06.09:711][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.06.09:732][245]LogSlate: Took 0.004312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.22-02.06.11:203][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.06.11:789][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.06.16:937][610]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.06.16:938][610]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.06.16:938][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.16:941][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.17:962][666]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.06.17:962][666]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.06.17:962][666]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.17:966][666]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.18:762][709]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=349.656433 Y=77.919014 R=0.000000
+[2018.11.22-02.06.18:768][709]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.06.18:768][709]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.06.18:768][709]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.18:771][709]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.19:799][765]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.06.19:799][765]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.06.19:799][765]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.19:801][765]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.20:102][782]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=349.533936 Y=75.294312 R=0.000000
+[2018.11.22-02.06.20:107][782]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.06.20:107][782]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.06.20:108][782]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.20:112][782]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.06.20:950][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.06.20:956][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.06.20:996][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-02.06.20:997][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.06.21:036][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.06.21:064][829]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.22-02.06.25:017][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.06.30:013][139]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Straight.Skill_Spell_Straight
+[2018.11.22-02.06.33:194][194]LogSlate: Window 'Skill_Spell_Straight' being destroyed
+[2018.11.22-02.06.37:658][341]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile.SpellProjectile
+[2018.11.22-02.06.51:622][675]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.22-02.06.51:622][675]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.22-02.06.51:625][675]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.22-02.06.51:625][675]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.22-02.07.04:865][  1]BlueprintLog: New page: SpellProjectile 컴파일
+[2018.11.22-02.07.05:821][ 14]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.07.05:865][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.07.05:865][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.07.05:865][ 14]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:07:05)
+[2018.11.22-02.07.05:866][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.07.05:917][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051599s)
+[2018.11.22-02.07.05:918][ 14]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.07.05:918][ 14]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2018.11.22-02.07.05:919][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.052822s)
+[2018.11.22-02.07.05:968][ 14]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.07.06:028][ 14]LogInit: FAudioDevice initialized.
+[2018.11.22-02.07.06:061][ 14]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.07.06:074][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.07.06
+[2018.11.22-02.07.06:075][ 14]LogWorld: Bringing up level for play took: 0.013295
+[2018.11.22-02.07.06:093][ 14]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.424
+[2018.11.22-02.07.06:094][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.07.13:435][282]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.07.13:435][282]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.13:436][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.13:438][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.14:669][333]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.07.14:670][333]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.14:670][333]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.14:673][333]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.15:012][347]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=355.251251 Y=4.099519 R=0.000000
+[2018.11.22-02.07.15:020][347]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.07.15:021][347]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.15:021][347]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.15:023][347]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.16:447][404]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.07.16:447][404]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.16:448][404]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.16:450][404]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.17:701][453]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.07.17:702][453]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.17:702][453]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.17:704][453]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.19:705][526]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.07.19:706][526]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.07.19:707][526]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.19:710][526]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.07.20:636][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.07.20:641][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.07.20:695][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-02.07.20:695][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.07.20:745][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.07.20:786][561]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.22-02.07.21:526][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.07.23:635][636]LogSlate: Window 'SpellProjectile*' being destroyed
+[2018.11.22-02.07.24:712][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.07.29:060][817]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Straight.Skill_Spell_Straight
+[2018.11.22-02.07.37:058][993]BlueprintLog: New page: Skill_Spell_Straight 컴파일
+[2018.11.22-02.08.08:632][763]BlueprintLog: New page: Skill_Spell_Straight 컴파일
+[2018.11.22-02.08.09:544][775]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.08.09:585][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.08.09:585][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.08.09:585][775]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:08:09)
+[2018.11.22-02.08.09:585][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.08.09:627][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041714s)
+[2018.11.22-02.08.09:628][775]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.08.09:628][775]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2018.11.22-02.08.09:628][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.042776s)
+[2018.11.22-02.08.09:675][775]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.08.09:751][775]LogInit: FAudioDevice initialized.
+[2018.11.22-02.08.09:787][775]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.08.09:799][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.08.09
+[2018.11.22-02.08.09:800][775]LogWorld: Bringing up level for play took: 0.012466
+[2018.11.22-02.08.09:816][775]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.702
+[2018.11.22-02.08.09:816][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.08.11:987][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.08.12:576][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.08.16:280][999]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.16:281][999]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.16:281][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.16:283][999]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.17:888][ 63]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.17:889][ 63]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.17:889][ 63]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.17:891][ 63]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.20:072][149]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.20:072][149]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.20:073][149]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.20:074][149]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.22:026][223]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.22:027][223]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.22:027][223]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.22:030][223]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.23:614][283]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.23:614][283]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.23:615][283]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.23:619][283]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.24:935][335]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.24:936][335]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.24:936][335]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.24:939][335]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.26:443][395]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.26:444][395]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.26:444][395]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.26:448][395]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.26:695][405]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.836192 Y=208.833237 R=0.000000
+[2018.11.22-02.08.26:698][405]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.08.26:698][405]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.26:699][405]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.26:705][405]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.27:341][431]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.08.27:341][431]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.27:342][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.27:349][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.28:094][461]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=318.055176 Y=320.630737 R=0.000000
+[2018.11.22-02.08.28:098][461]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.08.28:099][461]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.28:099][461]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.28:104][461]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.28:516][477]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.28:517][477]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.28:518][477]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.28:519][477]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.30:604][559]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.30:604][559]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.30:604][559]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.30:610][559]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.31:887][609]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.31:887][609]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.31:887][609]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.31:892][609]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.34:518][720]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.34:518][720]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.34:519][720]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.34:523][720]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.36:035][783]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.36:036][783]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.36:036][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.36:039][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.38:167][874]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.38:168][874]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.38:168][874]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.38:171][874]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.39:431][928]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.39:431][928]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.39:431][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.39:436][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.40:833][986]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.40:834][986]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.40:834][986]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.40:837][986]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.43:501][ 98]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.43:501][ 98]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.43:503][ 98]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.43:505][ 98]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.45:329][173]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=354.354095 Y=3.461787 R=0.000000
+[2018.11.22-02.08.45:332][173]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.08.45:333][173]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.45:334][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.45:338][173]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.47:428][259]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.47:429][259]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.47:429][259]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.47:432][259]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.49:778][356]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.49:778][356]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.49:779][356]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.49:782][356]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.51:731][441]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.51:732][441]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.51:732][441]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.51:735][441]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.53:618][522]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.53:618][522]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.53:618][522]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.53:620][522]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.54:843][574]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.54:844][574]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.54:844][574]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.54:848][574]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.56:457][644]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.56:457][644]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.56:457][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.56:461][644]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.57:632][694]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.57:632][694]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.57:632][694]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.57:635][694]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.59:530][776]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.08.59:531][776]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.08.59:531][776]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.08.59:533][776]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.00:980][838]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.00:980][838]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.00:981][838]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.00:983][838]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.05:082][ 15]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.05:082][ 15]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.05:082][ 15]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.05:085][ 15]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.06:477][ 72]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.06:478][ 72]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.06:479][ 72]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.06:484][ 72]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.07:902][134]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.07:902][134]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.07:903][134]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.07:906][134]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.09:109][185]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.09:109][185]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.09:109][185]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.09:112][185]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.10:127][229]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.10:127][229]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.10:127][229]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.10:129][229]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.13:059][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.13:064][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.09.13:110][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-02.09.13:110][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.13:144][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.09.13:176][352]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.22-02.09.14:572][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.09.17:352][482]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.09.17:402][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.17:402][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.09.17:403][482]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:09:17)
+[2018.11.22-02.09.17:403][482]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.09.17:474][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070765s)
+[2018.11.22-02.09.17:475][482]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.09.17:475][482]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2018.11.22-02.09.17:475][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.072051s)
+[2018.11.22-02.09.17:534][482]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.09.17:610][482]LogInit: FAudioDevice initialized.
+[2018.11.22-02.09.17:644][482]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.09.17:659][482]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.09.17
+[2018.11.22-02.09.17:660][482]LogWorld: Bringing up level for play took: 0.014766
+[2018.11.22-02.09.17:676][482]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 1.158
+[2018.11.22-02.09.17:677][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.19:895][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.09.20:863][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.09.25:146][740]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.25:147][740]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.25:147][740]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.25:151][740]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.28:504][871]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.28:504][871]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.28:504][871]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.28:508][871]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.30:560][947]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.30:560][947]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.30:561][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.30:562][947]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.32:171][  7]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.32:171][  7]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.32:172][  7]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.32:174][  7]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.33:272][ 49]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.33:272][ 49]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.33:273][ 49]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.33:275][ 49]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.34:003][ 77]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.34:003][ 77]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.34:003][ 77]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.34:006][ 77]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.35:151][121]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.35:156][121]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.35:157][121]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.35:158][121]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.35:163][121]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.36:131][158]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.36:131][158]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.36:131][158]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.36:133][158]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.39:712][292]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.39:713][292]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.39:713][292]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.39:716][292]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.41:794][369]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.41:799][369]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.41:800][369]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.41:800][369]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.41:803][369]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.43:697][444]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.43:703][444]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.43:704][444]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.43:704][444]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.43:710][444]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.45:187][505]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.45:190][505]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.45:191][505]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.45:191][505]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.45:194][505]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.46:537][561]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.46:540][561]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.46:541][561]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.46:541][561]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.46:544][561]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.47:316][594]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.09.47:319][594]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.09.47:320][594]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.47:321][594]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.47:326][594]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.47:772][612]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.09.47:772][612]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.47:772][612]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.47:775][612]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.50:254][714]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.09.50:254][714]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.09.50:254][714]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.50:259][714]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.09.51:017][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.51:021][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.09.51:067][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-02.09.51:067][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.09.51:101][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.09.51:123][747]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.22-02.09.55:459][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.09.55:531][851]LogSlate: Window 'Skill_Spell_Straight*' being destroyed
+[2018.11.22-02.09.57:046][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.09.59:978][986]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter
+[2018.11.22-02.10.06:491][106]LogSlate: Window 'BP_FBFPlayableCharacter' being destroyed
+[2018.11.22-02.10.09:244][187]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.22-02.10.23:385][507]LogSlate: Window 'BP_FBFCharacter' being destroyed
+[2018.11.22-02.10.26:004][584]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter
+[2018.11.22-02.10.50:748][135]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.22-02.11.12:044][637]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill
+[2018.11.22-02.12.49:862][999]BlueprintLog: New page: BaseSkill 컴파일
+[2018.11.22-02.12.51:965][ 18]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.12.52:033][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.12.52:033][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.12.52:033][ 18]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:12:52)
+[2018.11.22-02.12.52:033][ 18]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.12.52:083][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049594s)
+[2018.11.22-02.12.52:084][ 18]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.12.52:084][ 18]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2018.11.22-02.12.52:084][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.050805s)
+[2018.11.22-02.12.52:130][ 18]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.12.52:187][ 18]LogInit: FAudioDevice initialized.
+[2018.11.22-02.12.52:220][ 18]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.12.52:232][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.12.52
+[2018.11.22-02.12.52:232][ 18]LogWorld: Bringing up level for play took: 0.012169
+[2018.11.22-02.12.52:250][ 18]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.268
+[2018.11.22-02.12.52:250][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.12.59:467][254]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.12.59:467][254]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.12.59:468][254]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.12.59:471][254]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.00:524][294]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.00:528][294]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.00:528][294]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.00:529][294]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.00:533][294]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.01:424][327]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.01:431][327]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.01:431][327]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.01:432][327]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.01:434][327]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.01:882][344]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.01:887][344]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.01:888][344]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.01:889][344]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.01:893][344]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:086][352]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.02:092][352]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.02:093][352]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.02:093][352]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:097][352]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:253][358]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.02:259][358]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.02:259][358]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.02:259][358]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:261][358]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:519][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.02:526][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.02:526][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.02:527][368]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:529][368]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:705][375]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.02:710][375]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.02:710][375]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.02:711][375]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:715][375]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:838][380]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.02:844][380]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.02:845][380]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.02:845][380]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.02:851][380]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:002][385]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:008][385]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:008][385]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:009][385]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:014][385]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:109][389]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:113][389]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:114][389]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:114][389]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:117][389]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:262][395]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:265][395]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:265][395]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:266][395]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:271][395]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:412][401]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:416][401]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:416][401]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:417][401]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:421][401]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:548][406]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:555][406]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:555][406]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:556][406]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:558][406]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:682][411]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.03:689][411]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.03:689][411]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.03:689][411]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.03:692][411]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:359][436]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.04:364][436]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.04:365][436]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.04:366][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:369][436]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:497][441]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.04:501][441]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.04:502][441]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.04:502][441]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:506][441]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:654][447]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.04:659][447]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.04:659][447]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.04:659][447]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:664][447]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:811][453]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.04:818][453]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.04:818][453]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.04:819][453]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:823][453]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:972][459]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.04:976][459]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.04:977][459]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.04:977][459]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.04:983][459]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:115][464]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.05:118][464]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.05:118][464]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.05:119][464]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:124][464]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:276][470]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.05:280][470]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.05:281][470]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.05:282][470]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:285][470]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:410][475]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.05:417][475]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.05:417][475]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.05:418][475]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:421][475]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:574][481]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.05:578][481]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.05:579][481]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.05:580][481]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:586][481]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:717][486]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-1.000000 R=0.000000
+[2018.11.22-02.13.05:724][486]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.13.05:724][486]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.13.05:724][486]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.05:727][486]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:CooldownTimeline__UpdateFunc
+	Function /Game/_Temporary/Pawn/Skill/BaseSkill.BaseSkill_C:ExecuteUbergraph_BaseSkill
+
+[2018.11.22-02.13.06:354][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.13.06:358][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.13.06:404][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-02.13.06:404][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.13.06:445][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-02.13.06:477][511]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.22-02.13.09:927][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-02.13.10:268][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Dash.Skill_Dash
+[2018.11.22-02.13.48:195][473]BlueprintLog: New page: Skill_Dash 컴파일
+[2018.11.22-02.13.53:464][575]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Spread.Skill_Spell_Spread
+[2018.11.22-02.13.55:182][601]LogLinker: Error: HOTRELOADED_CrowdControl_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/BP_FBFCharacter.uasset)
+[2018.11.22-02.13.55:251][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_CC_Slow.Skill_CC_Slow
+[2018.11.22-02.13.56:076][611]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Straight.Skill_Spell_Straight
+[2018.11.22-02.14.14:212][ 20]BlueprintLog: New page: Skill_Spell_Straight 컴파일
+[2018.11.22-02.14.31:649][390]BlueprintLog: New page: Skill_CC_Slow 컴파일
+[2018.11.22-02.14.43:900][681]BlueprintLog: New page: Skill_CC_Slow 컴파일
+[2018.11.22-02.15.32:392][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.15.33:075][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.15.34:084][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.16.18:005][741]LogSlate: Took 0.002605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.22-02.16.38:023][262]BlueprintLog: New page: Skill_CC_Slow 컴파일
+[2018.11.22-02.17.27:996][556]LogEditorTransaction: Undo 노드 추가
+[2018.11.22-02.20.22:439][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.069
+[2018.11.22-02.20.22:445][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Pawn/Skill/BaseSkill] ([1] browsable assets)...
+[2018.11.22-02.20.22:445][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/BaseSkill]
+[2018.11.22-02.20.22:728][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BaseSkill_Auto1AAE7CC394514807F11BDC89C076AE06B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/BaseSkill_Auto1.uasset'
+[2018.11.22-02.20.22:735][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter] ([1] browsable assets)...
+[2018.11.22-02.20.22:762][900]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter]
+[2018.11.22-02.20.22:762][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter]
+[2018.11.22-02.20.23:022][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFPlayableCharacter_Auto1A04C2F9145C28742FFBD59A386FC0EA3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter_Auto1.uasset'
+[2018.11.22-02.20.23:026][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Pawn/Skill/Skill_Dash] ([1] browsable assets)...
+[2018.11.22-02.20.23:026][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/Skill_Dash]
+[2018.11.22-02.20.23:089][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Dash_Auto121FAB7BE476FBDC660824994166E4E12.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/Skill_Dash_Auto1.uasset'
+[2018.11.22-02.20.23:093][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Pawn/Skill/Skill_Spell_Straight] ([1] browsable assets)...
+[2018.11.22-02.20.23:093][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/Skill_Spell_Straight]
+[2018.11.22-02.20.23:174][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Straight_Auto11D6F4218429F70544C16B99D3DA5A84D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/Skill_Spell_Straight_Auto1.uasset'
+[2018.11.22-02.20.23:180][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile] ([1] browsable assets)...
+[2018.11.22-02.20.23:199][900]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile.SpellProjectile]
+[2018.11.22-02.20.23:199][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile]
+[2018.11.22-02.20.23:273][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/SpellProjectile_Auto150FDA20E4A55BF0A9B99C0B093528CA3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile_Auto1.uasset'
+[2018.11.22-02.20.23:278][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Pawn/Skill/Skill_Spell_Spread] ([1] browsable assets)...
+[2018.11.22-02.20.23:278][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/Skill_Spell_Spread]
+[2018.11.22-02.20.23:371][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Spread_Auto1C17A457B49D3611D5B8CB59BB84C9AD1.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/Skill_Spell_Spread_Auto1.uasset'
+[2018.11.22-02.20.23:375][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Pawn/Skill/Skill_CC_Slow] ([1] browsable assets)...
+[2018.11.22-02.20.23:375][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Skill/Skill_CC_Slow]
+[2018.11.22-02.20.23:442][900]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_CC_Slow_Auto17211157D4A8E92D38D048F998DFCAC98.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Skill/Skill_CC_Slow_Auto1.uasset'
+[2018.11.22-02.20.23:445][900]LogFileHelpers: Auto-saving content packages took 1.005
+[2018.11.22-02.20.32:139][ 84]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Straight.Skill_Spell_Straight
+[2018.11.22-02.20.35:002][128]BlueprintLog: New page: Skill_Spell_Straight 컴파일
+[2018.11.22-02.22.18:532][638]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Script/L_CombatLibrary.L_CombatLibrary
+[2018.11.22-02.22.46:612][296]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.22-02.22.46:757][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.22.46:869][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.22.46:963][296]LogSlate: Window 'Skill_Spell_Straight*' being destroyed
+[2018.11.22-02.22.46:975][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.22-02.22.56:886][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter
+[2018.11.22-02.23.02:815][722]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.22-02.23.02:993][722]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] BP_FBFEnemyCharacter' 에서 "IsEnemy(Spell)" 라는 이름의 함수를 찾을 수 없습니다.
+ Is Enemy(Spell)  에 대해 'BP_FBFEnemyCharacter' 컴파일이 되었는지 확인하세요.
+[2018.11.22-02.23.03:012][722]LogBlueprint: Error: [Compiler BP_FBFEnemyCharacter] ' 타깃 ' 핀의 현재 값(/Engine/Transient.Default__DEADCLASS_L_CombatLibrary_C_0)이 유효하지 않습니다: PinSubCategoryObject on pin 'self' is NULL and PinSubCategory is 'None' not 'self'
+[2018.11.22-02.23.03:334][722]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] [1192.16] BP_FBFEnemyCharacter 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 519 ms] (/Game/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter)
+[2018.11.22-02.23.50:071][110]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Script/L_CombatLibrary.L_CombatLibrary
+[2018.11.22-02.24.53:728][790]BlueprintLog: New page: L_CombatLibrary 컴파일
+[2018.11.22-02.25.15:883][366]BlueprintLog: New page: L_CombatLibrary 컴파일
+[2018.11.22-02.25.22:963][522]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.11.22-02.25.28:795][640]LogSlate: Window 'BP_FBFEnemyCharacter*' being destroyed
+[2018.11.22-02.25.31:029][707]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter
+[2018.11.22-02.25.34:560][778]BlueprintLog: New page: BP_FBFPlayableCharacter 컴파일
+[2018.11.22-02.25.34:749][778]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] BP_FBFPlayableCharacter' 에서 "IsEnemy(Spell)" 라는 이름의 함수를 찾을 수 없습니다.
+ Is Enemy(Spell)  에 대해 'BP_FBFPlayableCharacter' 컴파일이 되었는지 확인하세요.
+[2018.11.22-02.25.34:768][778]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] ' 타깃 ' 핀의 현재 값(/Engine/Transient.Default__DEADCLASS_L_CombatLibrary_C_0)이 유효하지 않습니다: PinSubCategoryObject on pin 'self' is NULL and PinSubCategory is 'None' not 'self'
+[2018.11.22-02.25.35:048][778]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter] [1343.87] BP_FBFPlayableCharacter 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 488 ms] (/Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter)
+[2018.11.22-02.25.40:233][899]BlueprintLog: New page: BP_FBFPlayableCharacter 컴파일
+[2018.11.22-02.25.45:463][  1]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter
+[2018.11.22-02.27.10:260][432]BlueprintLog: New page: BP_FBFPlayableCharacter 컴파일
+[2018.11.22-02.27.15:325][571]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Projectile/SpellProjectile.SpellProjectile
+[2018.11.22-02.31.08:851][949]BlueprintLog: New page: SpellProjectile 컴파일
+[2018.11.22-02.31.13:223][ 42]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Straight.Skill_Spell_Straight
+[2018.11.22-02.31.14:270][ 53]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Pawn/Skill/Skill_Spell_Spread.Skill_Spell_Spread
+[2018.11.22-02.31.24:559][269]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.22-02.32.09:985][346]BlueprintLog: New page: Skill_Spell_Straight 컴파일
+[2018.11.22-02.32.11:433][372]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Skill_Spell_Straight95909EC245061E23C3F27C865F584EE4.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Skill/Skill_Spell_Straight.uasset'
+[2018.11.22-02.32.24:647][679]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.22-02.33.39:150][525]BlueprintLog: New page: Skill_Spell_Spread 컴파일
+[2018.11.22-02.33.39:533][529]BlueprintLog: New page: Skill_Spell_Spread 컴파일
+[2018.11.22-02.34.29:087][745]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Physics/Collision/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2018.11.22-02.34.54:022][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.082
+[2018.11.22-02.34.54:026][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Temporary/Pawn/Character/BP_FBFCharacter] ([1] browsable assets)...
+[2018.11.22-02.34.54:048][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter]
+[2018.11.22-02.34.54:048][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Pawn/Character/BP_FBFCharacter]
+[2018.11.22-02.35.41:258][826]LogSlate: Window '메시지' being destroyed
+[2018.11.22-02.35.41:265][826]LogSavePackage: Warning: 
+Referencers of REINST_L_CombatLibrary_C_176 /Engine/Transient.Default__DEADCLASS_L_CombatLibrary_C_0:
+[2018.11.22-02.35.41:374][826]LogSavePackage: Warning: 	Function /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter_C:ExecuteUbergraph_BP_FBFCharacter (1 refs)
+[2018.11.22-02.35.41:374][826]LogSavePackage: Warning: 	K2Node_CallFunction /Game/_Temporary/Pawn/Character/BP_FBFCharacter.BP_FBFCharacter:EventGraph.K2Node_CallFunction_0 (1 refs)
+[2018.11.22-02.35.41:375][826]Warning: Can't save ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Pawn/Character/BP_FBFCharacter_Auto2.uasset: Graph is linked to external private object REINST_L_CombatLibrary_C_176 /Engine/Transient.Default__DEADCLASS_L_CombatLibrary_C_0 (unknown property ref)
+[2018.11.22-02.35.43:998][886]BlueprintLog: New page: SpellProjectile 컴파일
+[2018.11.22-02.35.45:208][905]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/SpellProjectile3F53ABD94F4D723E84B316813D939852.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Skill/Projectile/SpellProjectile.uasset'
+[2018.11.22-02.36.02:638][358]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.22-02.36.02:688][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.36.02:688][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-02.36.02:689][358]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 22. 오후 8:36:02)
+[2018.11.22-02.36.02:689][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.22-02.36.02:745][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055525s)
+[2018.11.22-02.36.02:746][358]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.22-02.36.02:746][358]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2018.11.22-02.36.02:746][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.057028s)
+[2018.11.22-02.36.02:806][358]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-02.36.02:864][358]LogInit: FAudioDevice initialized.
+[2018.11.22-02.36.02:901][358]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.22-02.36.02:913][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.22-11.36.02
+[2018.11.22-02.36.02:914][358]LogWorld: Bringing up level for play took: 0.011604
+[2018.11.22-02.36.02:933][358]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.414
+[2018.11.22-02.36.02:933][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.22-02.36.11:283][649]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.11:283][649]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.12:722][711]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.12:722][711]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.13:874][762]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.13:875][762]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.15:484][833]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.15:484][833]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.16:599][882]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.16:599][882]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.17:625][927]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.17:625][927]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.18:162][951]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.36.18:162][951]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.18:882][983]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.36.18:882][983]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.21:884][116]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.36.21:885][116]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.23:376][182]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.23:377][182]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.23:483][187]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.36.23:483][187]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.26:618][326]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.22-02.36.26:618][326]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.28:942][429]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.22-02.36.28:943][429]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.28:963][430]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.22-02.36.28:963][430]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.22-02.36.28:967][430]LogOutputDevice: Warning: 
+
+Script Stack:
+REINST_L_CombatLibrary_C_176.IsEnemy(Spell)
+BP_FBFCharacter_C.ExecuteUbergraph_BP_FBFCharacter
+BP_FBFCharacter_C.OnReceiveDamage
+SpellProjectile_C.ExecuteUbergraph_SpellProjectile
+SpellProjectile_C.ReceiveHit
+
+[2018.11.22-02.36.28:969][430]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
