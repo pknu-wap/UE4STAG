@@ -90,5 +90,8 @@
     <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\CC\S_CrowdControl.h">
       <Filter>Source\FujiwaraBattleField\Public\CC</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Music\S_MusicClip.h">
+      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

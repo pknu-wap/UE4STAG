@@ -1,0 +1,1326 @@
+﻿Log file open, 11/23/18 19:01:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.221578
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.184s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.23-10.01.29:009][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.23-10.01.29:009][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.23-10.01.29:033][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.23-10.01.29:033][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.23-10.01.29:033][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.23-10.01.29:034][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.11.23-10.01.29:034][  0]LogInit: User: hoon
+[2018.11.23-10.01.29:034][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.23-10.01.29:034][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.11.23-10.01.29:035][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.23-10.01.29:035][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.23-10.01.29:035][  0]LogMemory: Process Physical Memory: 100.96 MB used, 100.96 MB peak
+[2018.11.23-10.01.29:035][  0]LogMemory: Process Virtual Memory: 92.32 MB used, 92.32 MB peak
+[2018.11.23-10.01.29:035][  0]LogMemory: Physical Memory: 4986.73 MB used,  3064.40 MB free, 8051.13 MB total
+[2018.11.23-10.01.29:035][  0]LogMemory: Virtual Memory: 4629.23 MB used,  3064.40 MB free, 134217728.00 MB total
+[2018.11.23-10.01.29:064][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.23-10.01.29:064][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.23-10.01.29:065][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.23-10.01.29:636][  0]LogStreaming: Display: Took  0.574s to InitEngineTextLocalization.
+[2018.11.23-10.01.29:637][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.23-10.01.29:705][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.23-10.01.29:705][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.23-10.01.30:461][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.23-10.01.30:461][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.23-10.01.30:490][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.23-10.01.30:490][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.23-10.01.30:499][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.23-10.01.30:499][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.23-10.01.30:499][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.23-10.01.30:511][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.23-10.01.30:512][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.23-10.01.30:512][  0]LogWindows: EnumDisplayDevices:
+[2018.11.23-10.01.30:512][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.23-10.01.30:514][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.23-10.01.30:516][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.23-10.01.30:517][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.23-10.01.30:517][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.23-10.01.30:517][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.11.23-10.01.30:517][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.11.23-10.01.30:517][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.11.23-10.01.30:527][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.23-10.01.30:539][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.11.23-10.01.30:541][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/9348/).
+[2018.11.23-10.01.30:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/1EE3EDEA46B8072EB1AC7E9B04C000E6/'.
+[2018.11.23-10.01.31:556][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.23-10.01.31:584][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.23-10.01.31:609][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.23-10.01.31:636][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.23-10.01.31:664][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.23-10.01.31:714][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.23-10.01.31:747][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.23-10.01.31:777][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.23-10.01.31:790][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:955][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:956][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.23-10.01.31:958][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.23-10.01.32:047][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.23-10.01.32:047][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.23-10.01.32:096][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.23-10.01.32:096][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.23-10.01.32:123][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.23-10.01.32:150][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.23-10.01.32:176][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.23-10.01.32:204][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.23-10.01.32:224][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.23-10.01.32:224][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.23-10.01.32:340][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.23-10.01.32:341][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.23-10.01.32:341][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.23-10.01.33:942][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.23-10.01.34:043][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.23-10.01.34:044][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.23-10.01.34:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.23-10.01.34:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.23-10.01.34:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.23-10.01.34:044][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.23-10.01.34:067][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.23-10.01.34:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.23-10.01.34:080][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.23-10.01.34:080][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.23-10.01.34:119][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.23-10.01.34:121][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.23-10.01.34:122][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.23-10.01.34:242][  0]LogAssetRegistry: FAssetRegistry took 0.0345 seconds to start up
+[2018.11.23-10.01.34:905][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.23-10.01.35:026][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.23-10.01.35:035][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.23-10.01.35:036][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.23-10.01.35:036][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.23-10.01.35:036][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.23-10.01.35:262][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.11.23-10.01.36:271][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.204035 seconds
+[2018.11.23-10.01.36:285][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.23-10.01.36:285][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.23-10.01.36:285][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.23-10.01.37:882][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.23-10.01.37:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.23-10.01.38:158][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.23-10.01.38:158][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.23-10.01.38:160][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.23-10.01.38:162][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.23-10.01.38:399][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.23-10.01.38:526][  0]LogOcInput: OculusInput pre-init called
+[2018.11.23-10.01.38:623][  0]LogEngine: Initializing Engine...
+[2018.11.23-10.01.38:625][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.23-10.01.38:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.23-10.01.38:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.23-10.01.38:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.23-10.01.38:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.23-10.01.39:051][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.23-10.01.39:078][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.23-10.01.39:105][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.23-10.01.39:411][  0]LogInit: FAudioDevice initialized.
+[2018.11.23-10.01.39:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.23-10.01.39:510][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.23-10.01.39:510][  0]LogInit: Texture streaming: Enabled
+[2018.11.23-10.01.39:540][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.23-10.01.39:562][  0]LogInit: Transaction tracking system initialized
+[2018.11.23-10.01.39:610][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.23-10.01.39:764][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.23-10.01.40:761][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.23-10.01.40:761][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.23-10.01.40:761][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.23-10.01.40:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.23-10.01.40:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.23-10.01.40:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.23-10.01.40:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.23-10.01.41:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.02s
+[2018.11.23-10.01.41:011][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.23-10.01.41:011][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.23-10.01.41:014][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.23-10.01.41:020][  0]MapCheck: New page: 맵 체크
+[2018.11.23-10.01.41:020][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.23-10.01.41:519][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:519][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:519][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:519][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:519][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD
+[2018.11.23-10.01.41:519][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:519][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:519][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:520][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:520][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD
+[2018.11.23-10.01.41:529][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:529][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:529][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:530][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:530][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals
+[2018.11.23-10.01.41:530][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:530][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:530][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:530][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:530][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA
+[2018.11.23-10.01.41:531][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:531][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:531][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:531][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:531][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals
+[2018.11.23-10.01.41:532][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:532][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:532][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:532][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:532][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA
+[2018.11.23-10.01.41:535][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:535][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:535][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:535][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:535][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N
+[2018.11.23-10.01.41:536][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:536][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:536][  0]LogLinker: Warning: ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.41:536][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Player/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2018.11.23-10.01.41:536][  0]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N
+[2018.11.23-10.01.42:434][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:434][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2018.11.23-10.01.42:434][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:434][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2018.11.23-10.01.42:435][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:435][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_0
+[2018.11.23-10.01.42:435][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:435][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_0
+[2018.11.23-10.01.42:561][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:561][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2018.11.23-10.01.42:561][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:561][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2018.11.23-10.01.42:563][  0]LogLinker: Warning: '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:563][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2018.11.23-10.01.42:563][  0]LogLinker: Warning: NULL 로드중 '/Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.11.23-10.01.42:563][  0]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/Pawn/Character/Mannequin/Character/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2018.11.23-10.01.42:574][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.23-10.01.42:579][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Player\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.23-10.01.42:579][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.23-10.01.43:430][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.23-10.01.43:432][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Player\Materials\M_UE4Man_ChestLogo.uasset: Failed to compile Material Instance with Base M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.23-10.01.43:432][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.01.43:432][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.01.43:432][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node TextureSample) Logo Mask> Missing input texture
+[2018.11.23-10.01.43:432][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node MakeMaterialAttributes) Error on property OpacityMask
+[2018.11.23-10.01.43:456][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.23-10.01.43:875][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.23-10.01.43:996][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.23-10.01.44:185][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 189.173ms.
+[2018.11.23-10.01.44:185][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 3.174
+[2018.11.23-10.01.44:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-10.01.44:382][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-10.01.44:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-10.01.44:421][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-10.01.44:438][  0]LogCollectionManager: Loaded 0 collections in 0.003338 seconds
+[2018.11.23-10.01.44:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.11.23-10.01.44:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.11.23-10.01.44:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.11.23-10.01.44:501][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.23-10.01.44:522][  0]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 2574 classes and 607 folders.
+[2018.11.23-10.01.44:538][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.23-10.01.44:716][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.23-10.01.44:732][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.23-10.01.44:837][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.23-10.01.44:837][  0]LogLoad: (Engine Initialization) Total time: 18.43 seconds
+[2018.11.23-10.01.44:837][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.23-10.01.44:903][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.23-10.01.44:916][  0]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.23-10.01.44:930][  0]LogSlate: Took 0.011735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.23-10.01.44:954][  0]LogSlate: Took 0.003192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.23-10.01.44:954][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.23-10.01.45:016][  0]LogSlate: Took 0.042604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.23-10.01.45:429][  0]LogSlate: Took 0.001932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.23-10.01.45:819][  2]LogRenderer: Reallocating scene render targets to support 764x124 Format 9 NumSamples 1 (Frame:1).
+[2018.11.23-10.01.47:102][  2]LogRenderer: Reallocating scene render targets to support 764x128 Format 9 NumSamples 1 (Frame:1).
+[2018.11.23-10.01.47:420][  3]LogAssetRegistry: Asset discovery search completed in 13.2039 seconds
+[2018.11.23-10.01.47:423][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.11.23-10.01.47:424][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000381 seconds (updated 0 objects)
+[2018.11.23-10.01.47:445][  3]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.23-10.27.35:389][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-10.27.42:460][846]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.23-10.27.47:272][ 29]LogRenderer: Reallocating scene render targets to support 764x256 Format 9 NumSamples 1 (Frame:1).
+[2018.11.23-10.27.48:529][ 64]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/W_SettingHUD.W_SettingHUD
+[2018.11.23-10.27.49:636][ 64]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2018.11.23-10.27.51:511][ 64]LogSlate: Took 0.001514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.23-10.27.51:553][ 64]LogSlate: Took 0.005017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.23-10.27.54:256][ 72]LogRenderer: Reallocating scene render targets to support 920x256 Format 9 NumSamples 1 (Frame:368).
+[2018.11.23-10.30.15:714][420]LogSlate: Took 0.003732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.23-10.30.56:328][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.076
+[2018.11.23-10.30.56:334][975]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/W_SettingHUD] ([1] browsable assets)...
+[2018.11.23-10.30.56:334][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/W_SettingHUD]
+[2018.11.23-10.30.56:429][975]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SettingHUD_Auto1C1E130484263044898B32C8F29AADC9A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/W_SettingHUD_Auto1.uasset'
+[2018.11.23-10.30.56:431][975]LogFileHelpers: Auto-saving content packages took 0.103
+[2018.11.23-10.49.10:815][569]LogUProjectInfo: Found projects:
+[2018.11.23-10.49.13:374][655]LogSlate: Window '프로젝트 열기' being destroyed
+[2018.11.23-10.49.24:120][ 64]LogAssetEditorManager: Opening Asset editor for Material /Game/_Temporary/Pawn/Character/Player/Materials/M_UE4Man_Body.M_UE4Man_Body
+[2018.11.23-10.49.24:135][ 64]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.23-10.49.24:144][ 64]LogMaterial: Warning: /Engine/Transient.M_UE4Man_Body (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.23-10.49.24:144][ 64]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.49.24:144][ 64]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.49.24:144][ 64]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.23-10.49.24:144][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.23-10.49.24:144][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.23-10.49.24:145][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.23-10.49.24:145][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.23-10.49.24:766][ 64]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.23-10.49.24:772][ 64]LogMaterial: Warning: /Engine/Transient.M_UE4Man_Body (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.23-10.49.24:772][ 64]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.23-10.49.24:773][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.23-10.49.24:784][ 64]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.11.23-10.49.24:793][ 64]LogMaterial: Warning: /Engine/Transient.M_UE4Man_Body (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.23-10.49.24:793][ 64]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.23-10.49.24:824][ 64]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.11.23-10.49.24:827][ 64]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.11.23-10.49.24:854][ 64]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.11.23-10.49.24:917][ 64]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.23-10.49.24:917][ 64]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.23-10.49.24:917][ 64]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.11.23-10.49.24:917][ 64]MaterialEditorStats: Error: [SM5] Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.11.23-10.49.24:917][ 64]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.11.23-10.49.24:917][ 64]MaterialEditorStats: Error: [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.11.23-10.49.24:918][ 64]MaterialEditorStats: Error: [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.11.23-10.49.24:918][ 64]MaterialEditorStats: Error: [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.11.23-10.49.24:918][ 64]MaterialEditorStats: Error: [SM5] Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.11.23-10.49.33:930][283]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.11.23-10.49.34:070][283]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.23-10.49.55:495][855]BlueprintLog: New page: W_SettingHUD 컴파일
+[2018.11.23-10.49.56:903][891]LogSlate: Window 'W_SettingHUD*' being destroyed
+[2018.11.23-10.49.56:913][891]LogSlate: Window 'W_SettingHUD*' being destroyed
+[2018.11.23-10.49.58:912][937]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.23-10.49.59:118][940]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.23-10.50.28:933][123]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.23-10.50.29:505][132]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.23-10.50.57:715][345]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.049
+[2018.11.23-10.50.57:719][345]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/W_SettingHUD] ([1] browsable assets)...
+[2018.11.23-10.50.57:719][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/W_SettingHUD]
+[2018.11.23-10.50.57:839][345]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SettingHUD_Auto2687869DD4F8063C237D1A895231BE026.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/W_SettingHUD_Auto2.uasset'
+[2018.11.23-10.50.57:842][345]LogFileHelpers: Auto-saving content packages took 0.125
+[2018.11.23-10.58.55:405][919]Candidate modules for hot reload:
+[2018.11.23-10.58.55:405][919]  FujiwaraBattleField
+[2018.11.23-10.58.55:406][919]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FujiwaraBattleField,3730 Win64 Development -TargetType=Editor -Project="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" -canskiplink "C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/FujiwaraBattleField.uproject" ]
+[2018.11.23-10.58.55:410][919]Warning: Starting HotReload took  1.3s.
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: New page: 컴파일 - 2018. 11. 24. 오전 5:00:02
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Creating makefile for hot reloading FujiwaraBattleFieldEditor (game project files are newer)
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Parsing headers for FujiwaraBattleFieldEditor
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Reflection code generated for FujiwaraBattleFieldEditor in 16.1504766 seconds
+[2018.11.23-11.00.02:070][ 57]CompilerResultsLog: Building 13 actions with 4 processes...
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [1/13] FujiwaraBattleField.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [2/13] FujiwaraBattleFieldGameModeBase.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [3/13] FBFBaseCharacter.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [4/13] FBFBaseCharacter.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [5/13] FujiwaraBattleField.init.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [6/13] FujiwaraBattleFieldGameModeBase.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [7/13] S_MusicClip.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [8/13] S_CrowdControl.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [9/13] S_Skill_Base.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [10/13] S_Skill_Dash.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [11/13] S_Skill_Spell.gen.cpp
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [12/13] UE4Editor-FujiwaraBattleField-3730.lib
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3730.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3730.exp ??u?? ??????? ??????.
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:   [13/13] UE4Editor-FujiwaraBattleField-3730.dll
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog:      C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3730.suppressed.lib ???????? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-3730.suppressed.exp ??u?? ??????? ??????.
+[2018.11.23-11.00.02:071][ 57]CompilerResultsLog: Total build time: 65.79 seconds (Parallel executor: 31.72 seconds)
+[2018.11.23-11.00.02:071][ 57]LogMainFrame: MainFrame: Module compiling took 66.676 seconds
+[2018.11.23-11.00.02:120][ 57]LogClass: CCType HotReload.
+[2018.11.23-11.00.02:120][ 57]LogClass: SkillType HotReload.
+[2018.11.23-11.00.02:120][ 57]LogClass: CrowdControl HotReload.
+[2018.11.23-11.00.02:120][ 57]LogClass: Could not find existing type MusicClip for HotReload. Assuming new
+[2018.11.23-11.00.02:121][ 57]LogClass: Skill_Base HotReload.
+[2018.11.23-11.00.02:121][ 57]LogClass: Skill_Dash HotReload.
+[2018.11.23-11.00.02:121][ 57]LogClass: Skill_Spell HotReload.
+[2018.11.23-11.00.02:129][ 57]LogContentBrowser: Native class hierarchy updated for 'FujiwaraBattleField' in 0.0007 seconds. Added 2 classes and 4 folders.
+[2018.11.23-11.00.02:135][ 57]Display: HotReload successful (0 functions remapped  5 scriptstructs remapped)
+[2018.11.23-11.00.02:628][ 57]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2575 classes and 609 folders.
+[2018.11.23-11.00.02:714][ 57]Display: HotReload took 68.6s.
+[2018.11.23-11.01.59:730][642]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.23-11.02.00:008][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.SKEL_GeneralMusicSequencer_C' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer_C' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:517][890]LogMetaData: Removing '/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Temporary/Music/NewBlueprint.PackageMetaData'
+[2018.11.23-11.02.05:563][890]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencerA974890D44830D70A5567DA97AF31EC0.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/GeneralMusicSequencer.uasset'
+[2018.11.23-11.02.06:299][913]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer
+[2018.11.23-11.02.07:320][914]LogRenderer: Reallocating scene render targets to support 920x260 Format 9 NumSamples 1 (Frame:1).
+[2018.11.23-11.02.45:011][ 95]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-11.02.45:756][119]LogEditorTransaction: Undo Bool 핀 값 변경
+[2018.11.23-11.02.46:683][154]Cmd: TRANSACTION UNDO
+[2018.11.23-11.02.46:683][154]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.04.04:439][ 43]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.04.23:964][604]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-11.05.09:990][533]LogSlate: Took 0.002068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.23-11.05.46:937][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.131
+[2018.11.23-11.05.46:941][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/W_SettingHUD] ([1] browsable assets)...
+[2018.11.23-11.05.46:942][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/W_SettingHUD]
+[2018.11.23-11.05.47:123][139]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SettingHUD_Auto300B192A94FB1C1F2E0D07FB9C7B6BF48.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/W_SettingHUD_Auto3.uasset'
+[2018.11.23-11.05.47:125][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-11.05.47:126][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-11.05.47:252][139]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto37F943E184587E770A939159CF8FFBF99.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto3.uasset'
+[2018.11.23-11.05.47:255][139]LogFileHelpers: Auto-saving content packages took 0.316
+[2018.11.23-11.05.54:114][250]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.06.06:087][699]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.11.23-11.06.06:097][699]LogClass: Warning: Type mismatch in MusicArray of SKEL_GeneralMusicSequencer_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.11.23-11.06.07:460][734]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-11.06.07:483][734]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-11.06.09:936][823]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.07.25:200][282]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-11.07.42:109][451]LogEditorTransaction: Undo 변수 추가
+[2018.11.23-11.10.00:113][453]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.11.23-11.10.01:285][481]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-11.10.01:306][481]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-11.10.34:695][951]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.12.22:220][916]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.11.23-11.18.58:506][738]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.082
+[2018.11.23-11.18.58:509][738]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-11.18.58:509][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-11.18.58:651][738]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto4B1DADDCA4AE64A464524C9831F6ACCB2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto4.uasset'
+[2018.11.23-11.18.58:652][738]LogFileHelpers: Auto-saving content packages took 0.144
+[2018.11.23-11.37.37:573][924]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.23-11.43.04:431][489]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-11.43.04:497][489]LogBlueprint: Error: [Compiler GeneralMusicSequencer] 이 블루프린트(셀프)는 AudioComponent 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2018.11.23-11.43.04:683][489]LogBlueprint: Warning: [Compiler GeneralMusicSequencer] [6098.28] GeneralMusicSequencer 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 251 ms] (/Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer)
+[2018.11.23-11.43.05:703][515]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer61C09109444242D774953A8C68CA6203.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/GeneralMusicSequencer.uasset'
+[2018.11.23-11.44.22:297][676]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-11.44.23:265][694]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer97FA053543F0B8351ADBB48EA0944105.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/GeneralMusicSequencer.uasset'
+[2018.11.23-11.46.05:613][196]LogSlate: Window 'GeneralMusicSequencer*' being destroyed
+[2018.11.23-11.49.54:483][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.056
+[2018.11.23-11.49.54:488][  5]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-11.49.54:488][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-11.49.54:624][  5]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto5F05446604C501F3BF4033588D1893BF2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto5.uasset'
+[2018.11.23-11.49.54:628][  5]LogFileHelpers: Auto-saving content packages took 0.142
+[2018.11.23-11.57.11:932][880]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-11.58.20:764][569]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.23-11.58.20:972][578]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-11.58.21:890][629]LogEditorTransaction: Redo 노드 추가
+[2018.11.23-11.59.55:159][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.040
+[2018.11.23-11.59.55:162][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-11.59.55:162][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-11.59.55:314][584]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto6D6A9A7804F4ACC17DE078CB8E8670D2B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto6.uasset'
+[2018.11.23-11.59.55:315][584]LogFileHelpers: Auto-saving content packages took 0.154
+[2018.11.23-12.04.15:403][886]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.04.20:345][171]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-12.09.55:567][962]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.061
+[2018.11.23-12.09.55:571][962]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-12.09.55:572][962]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-12.09.55:732][962]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto77CCA0DCB4F8CE3F94CFF2E93732C469D.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto7.uasset'
+[2018.11.23-12.09.55:733][962]LogFileHelpers: Auto-saving content packages took 0.165
+[2018.11.23-12.18.25:172][206]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.19.47:666][976]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.20.47:148][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.072
+[2018.11.23-12.20.47:152][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-12.20.47:152][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-12.20.47:345][159]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto897FCB1294FC7ED5E8D4BE78147148DE9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto8.uasset'
+[2018.11.23-12.20.47:350][159]LogFileHelpers: Auto-saving content packages took 0.201
+[2018.11.23-12.21.35:637][ 35]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-12.24.28:657][492]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.24.59:484][248]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.27.17:521][195]LogBlueprint: Warning: [Compiler ] 붙여넣은  CustomEvent  노드가  OnAudioPlaybackPercent(AudioComponentA)  노드와 충돌되어 커스텀 이벤트로 대체했습니다!
+[2018.11.23-12.27.38:057][ 89]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2018.11.23-12.27.55:357][650]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.31.57:590][ 90]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.31.57:805][ 97]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.31.58:076][104]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-12.31.58:888][139]LogEditorTransaction: Redo 노드 이동
+[2018.11.23-12.32.26:614][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.084
+[2018.11.23-12.32.26:620][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-12.32.26:620][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-12.32.26:814][566]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto9EDD10085459337BD216999B42B5D48C4.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto9.uasset'
+[2018.11.23-12.32.26:818][566]LogFileHelpers: Auto-saving content packages took 0.200
+[2018.11.23-12.36.31:431][217]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.39.53:791][765]LogBlueprint: Warning: [Compiler ] 붙여넣은  CustomEvent  노드가  TransitionMusicSequence  노드와 충돌되어 커스텀 이벤트로 대체했습니다!
+[2018.11.23-12.41.50:127][806]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-12.41.51:209][830]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer5638FAFF4AB189EDF9CDF39EDFBFCC8B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/GeneralMusicSequencer.uasset'
+[2018.11.23-12.43.22:137][588]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.43.37:360][234]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.11.23-12.45.10:362][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.160
+[2018.11.23-12.45.10:369][454]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-12.45.10:369][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-12.45.10:696][454]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto01ABB919346D44FBBF193A18B56492085.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto0.uasset'
+[2018.11.23-12.45.10:698][454]LogFileHelpers: Auto-saving content packages took 0.331
+[2018.11.23-12.46.57:112][773]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-12.46.58:213][796]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer7772553B4C06C778C7AD2A93DA8D77F2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/GeneralMusicSequencer.uasset'
+[2018.11.23-12.47.31:067][ 92]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.23-12.47.37:429][369]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer
+[2018.11.23-12.47.37:948][370]LogRenderer: Reallocating scene render targets to support 920x556 Format 9 NumSamples 1 (Frame:1).
+[2018.11.23-12.47.54:773][ 11]LogClass: Warning: Type mismatch in KiteMusicArray of SKEL_KiteMusicSequencer_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.11.23-12.48.14:146][565]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.49.01:217][ 56]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-12.51.43:772][869]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-12.51.45:206][948]LogEditorTransaction: Redo 노드 이동
+[2018.11.23-12.51.51:158][ 92]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-12.51.51:592][114]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.23-12.52.35:548][ 40]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.23-12.52.35:888][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.23-12.52.48:043][453]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/KiteMusicSequncer.KiteMusicSequncer
+[2018.11.23-12.52.50:312][492]LogSlate: Window 'KiteMusicSequncer*' being destroyed
+[2018.11.23-12.52.50:330][492]LogSlate: Window 'KiteMusicSequncer*' being destroyed
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.SKEL_KiteMusicSequencer_C' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer_C' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:094][708]LogMetaData: Removing '/Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/_Temporary/Music/KiteMusicSequncer.PackageMetaData'
+[2018.11.23-12.52.56:135][708]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer99AAF7274A243442E74BD78254AE1AA4.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/KiteMusicSequencer.uasset'
+[2018.11.23-12.52.56:930][728]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer
+[2018.11.23-12.52.59:059][779]LogSlate: Window 'KiteMusicSequencer' being destroyed
+[2018.11.23-12.52.59:189][779]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/KiteMusicSequencer.KiteMusicSequencer
+[2018.11.23-12.53.00:313][796]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.23-12.53.00:661][802]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.23-12.53.00:783][804]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.11.23-12.53.01:054][811]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.23-12.53.25:588][333]LogClass: Warning: Type mismatch in CrossfadeTimeline of SKEL_KiteMusicSequencer_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.11.23-12.53.37:593][638]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_KiteMusicSequencer_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.11.23-12.55.11:387][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.184
+[2018.11.23-12.55.11:393][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/W_SettingHUD] ([1] browsable assets)...
+[2018.11.23-12.55.11:397][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/W_SettingHUD]
+[2018.11.23-12.55.11:572][135]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_SettingHUD_Auto1E35D23A0472CEA9776248CA718572287.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/W_SettingHUD_Auto1.uasset'
+[2018.11.23-12.55.11:583][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/KiteMusicSequencer] ([1] browsable assets)...
+[2018.11.23-12.55.11:583][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/KiteMusicSequencer]
+[2018.11.23-12.55.11:691][135]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer_Auto130BE1D3D4C645C2A6DAF9BA4EFB9760A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/KiteMusicSequencer_Auto1.uasset'
+[2018.11.23-12.55.11:700][135]LogFileHelpers: Auto-saving content packages took 0.309
+[2018.11.23-12.56.18:434][829]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-12.56.18:630][834]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.56.19:118][849]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.56.40:995][305]LogSlate: Window 'KiteMusicSequencer*' being destroyed
+[2018.11.23-12.56.42:521][376]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/GeneralMusicSequencer.GeneralMusicSequencer
+[2018.11.23-12.57.10:718][860]LogEditorTransaction: Undo 핀 링크 생성
+[2018.11.23-12.57.11:245][886]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-12.57.18:027][269]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-13.00.13:603][ 33]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-13.00.27:568][744]LogSlate: Window '변수 삭제' being destroyed
+[2018.11.23-13.01.36:581][422]LogSlate: Window '외부 커브 생성' being destroyed
+[2018.11.23-13.01.59:270][717]LogEditorTransaction: Undo 트랙을 삭제합니다.
+[2018.11.23-13.05.48:458][228]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.06.26:000][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.090
+[2018.11.23-13.06.26:004][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.06.26:004][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-13.06.26:230][590]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto27B9E7037468A2E2A72022C850089E698.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto2.uasset'
+[2018.11.23-13.06.26:233][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/KiteMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.06.26:233][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/KiteMusicSequencer]
+[2018.11.23-13.06.26:295][590]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer_Auto25332E1A04F35D18F534DFAB15D9BEDEB.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/KiteMusicSequencer_Auto2.uasset'
+[2018.11.23-13.06.26:297][590]LogFileHelpers: Auto-saving content packages took 0.295
+[2018.11.23-13.07.48:417][780]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.07.48:570][787]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.07.48:730][795]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.27:795][123]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.27:992][133]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.28:179][142]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.28:360][151]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.28:531][160]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.28:717][170]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.29:236][200]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.29:609][221]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.30:051][246]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.42:038][960]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.42:976][ 14]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.43:552][ 47]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.44:290][ 90]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.44:683][112]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.51:907][541]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.08.52:099][551]LogEditorTransaction: Undo 키 추가
+[2018.11.23-13.08.52:356][564]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.52:567][575]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.52:748][584]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.52:941][594]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.08.53:694][638]LogEditorTransaction: Redo 마우스 드래그
+[2018.11.23-13.08.53:867][647]LogEditorTransaction: Redo 마우스 드래그
+[2018.11.23-13.08.54:011][654]LogEditorTransaction: Redo 마우스 드래그
+[2018.11.23-13.08.54:157][661]LogEditorTransaction: Redo 마우스 드래그
+[2018.11.23-13.08.54:282][667]LogEditorTransaction: Redo 키 추가
+[2018.11.23-13.08.54:426][674]LogEditorTransaction: Redo 보간 모드 선택
+[2018.11.23-13.08.55:068][711]LogEditorTransaction: Undo 보간 모드 선택
+[2018.11.23-13.10.45:382][636]LogEditorTransaction: Undo 마우스 드래그
+[2018.11.23-13.11.41:402][955]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.13.56:311][786]LogHttp: Warning: 000001BA7DC92980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.23-13.13.56:312][786]LogHttp: Warning: 000001BA7DC92980: libcurl info message cache 0 (Connection 100 seems to be dead!)
+[2018.11.23-13.13.56:312][786]LogHttp: Warning: 000001BA7DC92980: libcurl info message cache 1 (Closing connection 100)
+[2018.11.23-13.13.56:312][786]LogHttp: Warning: 000001BA7DC92980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.11.23-13.13.56:312][786]LogHttp: Warning: 000001BA7DC92980: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.23-13.13.56:312][786]LogHttp: Warning: 000001BA7DC92980: libcurl info message cache 4 (Closing connection 101)
+[2018.11.23-13.16.33:581][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.043
+[2018.11.23-13.16.33:584][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/KiteMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.16.33:584][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/KiteMusicSequencer]
+[2018.11.23-13.16.33:688][ 50]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer_Auto3919FC063453866CF60AEC3B1E8147CD5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/KiteMusicSequencer_Auto3.uasset'
+[2018.11.23-13.16.33:690][ 50]LogFileHelpers: Auto-saving content packages took 0.109
+[2018.11.23-13.20.12:404][256]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.20.13:760][314]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer5AC5AA13401FBBB21C8D0F9EE5517FFA.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/KiteMusicSequencer.uasset'
+[2018.11.23-13.20.24:657][738]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/Music/AmbientMusicSequencer.AmbientMusicSequencer
+[2018.11.23-13.30.02:446][749]BlueprintLog: New page: AmbientMusicSequencer 컴파일
+[2018.11.23-13.30.02:472][749]LogBlueprint: Warning: [Compiler AmbientMusicSequencer] 'AmbientMusicSequencer_C' 에서 "LocalNextMusicClip" 라는 이름의 변수를 찾을 수 없습니다.
+ LocalNextMusicClip 설정  에 대해 'AmbientMusicSequencer_C' 컴파일이 되었는지 확인하세요.
+[2018.11.23-13.30.02:472][749]LogBlueprint: Warning: [Compiler AmbientMusicSequencer] 'AmbientMusicSequencer_C' 에서 "LocalNextMusicClip" 라는 이름의 변수를 찾을 수 없습니다.
+ LocalNextMusicClip 설정  에 대해 'AmbientMusicSequencer_C' 컴파일이 되었는지 확인하세요.
+[2018.11.23-13.30.02:473][749]LogBlueprint: Error: [Compiler AmbientMusicSequencer] Local Next Music Clip  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.11.23-13.30.02:473][749]LogBlueprint: Error: [Compiler AmbientMusicSequencer] Local Next Music Clip  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.11.23-13.30.02:659][749]LogBlueprint: Warning: [Compiler AmbientMusicSequencer] [2516.25] AmbientMusicSequencer 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 2 회, [소요시간 212 ms] (/Game/_Temporary/Music/AmbientMusicSequencer.AmbientMusicSequencer)
+[2018.11.23-13.30.08:668][ 93]LogEditorTransaction: Undo 없는 변수 생성
+[2018.11.23-13.30.16:292][512]BlueprintLog: New page: AmbientMusicSequencer 컴파일
+[2018.11.23-13.30.17:743][576]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/AmbientMusicSequencerA574FF09480663DA1DF0B3B40049D0C9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/AmbientMusicSequencer.uasset'
+[2018.11.23-13.31.29:020][769]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-13.31.35:141][ 20]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-13.32.27:946][371]BlueprintLog: New page: AmbientMusicSequencer 컴파일
+[2018.11.23-13.32.49:076][839]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-13.33.00:821][340]LogEditorTransaction: Undo 노드 추가
+[2018.11.23-13.33.17:963][ 37]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.23-13.33.22:430][167]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/_Temporary/Music/AmbientMusicSequencer.AmbientMusicSequencer:UpdateModulator.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/_Temporary/Music/AmbientMusicSequencer.AmbientMusicSequencer:UpdateModulator.K2Node_CommutativeAssociativeBinaryOperator_0
+[2018.11.23-13.34.30:349][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.050
+[2018.11.23-13.34.30:353][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/AmbientMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.34.30:353][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/AmbientMusicSequencer]
+[2018.11.23-13.34.30:480][834]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/AmbientMusicSequencer_Auto4325FA02342F5376C890094BC10D4F8A3.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/AmbientMusicSequencer_Auto4.uasset'
+[2018.11.23-13.34.30:482][834]LogFileHelpers: Auto-saving content packages took 0.131
+[2018.11.23-13.42.09:293][267]BlueprintLog: New page: AmbientMusicSequencer 컴파일
+[2018.11.23-13.42.10:391][306]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/AmbientMusicSequencer7DF532FF4755A25E3DEDDCA1084BA044.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/AmbientMusicSequencer.uasset'
+[2018.11.23-13.42.31:429][518]BlueprintLog: New page: GeneralMusicSequencer 컴파일
+[2018.11.23-13.42.33:789][621]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.42.47:537][353]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue
+[2018.11.23-13.43.01:485][142]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.43.01:836][148]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.44.22:653][837]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.44.56:335][130]LogHttp: Warning: 000001BA9A2AFC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.23-13.44.56:335][130]LogHttp: Warning: 000001BA9A2AFC40: libcurl info message cache 0 (Connection 118 seems to be dead!)
+[2018.11.23-13.44.56:336][130]LogHttp: Warning: 000001BA9A2AFC40: libcurl info message cache 1 (Closing connection 118)
+[2018.11.23-13.44.56:336][130]LogHttp: Warning: 000001BA9A2AFC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.11.23-13.44.56:336][130]LogHttp: Warning: 000001BA9A2AFC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.23-13.44.56:336][130]LogHttp: Warning: 000001BA9A2AFC40: libcurl info message cache 4 (Closing connection 119)
+[2018.11.23-13.45.11:598][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.100
+[2018.11.23-13.45.11:606][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/GeneralMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.45.11:606][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/GeneralMusicSequencer]
+[2018.11.23-13.45.11:993][174]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/GeneralMusicSequencer_Auto509A484CF403F528A6485B8A49EAA7B56.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/GeneralMusicSequencer_Auto5.uasset'
+[2018.11.23-13.45.11:996][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/KiteMusicSequencer] ([1] browsable assets)...
+[2018.11.23-13.45.11:996][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/KiteMusicSequencer]
+[2018.11.23-13.45.12:092][174]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer_Auto589C2EF0B45D9CC3C9D5D3BABA12233E5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/KiteMusicSequencer_Auto5.uasset'
+[2018.11.23-13.45.12:093][174]LogFileHelpers: Auto-saving content packages took 0.493
+[2018.11.23-13.56.28:986][284]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-13.57.47:450][838]AssetReimport: New page: 처리중인 소스 콘텐츠 변경사항 오전 7:57:47
+[2018.11.23-13.57.47:456][838]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Saved.wav)
+[2018.11.23-13.57.47:497][839]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:501][839]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:504][839]LogFactory: FactoryCreateFile: SoundWave with SoundSurroundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:507][839]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundSurroundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:509][839]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundSurroundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:512][839]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.wav)
+[2018.11.23-13.57.47:540][840]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/No.wav)
+[2018.11.23-13.57.47:602][841]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Shot2.wav)
+[2018.11.23-13.57.47:642][842]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Hit.wav)
+[2018.11.23-13.57.47:747][842]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Saved02AB94FF4B0DDA6554FE879DEF9CC3FB.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Saved.uasset'
+[2018.11.23-13.57.47:781][842]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/YesFAE01E7543C6C7D1D20E6CAAD026B4F5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Yes.uasset'
+[2018.11.23-13.57.47:831][842]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/No2A7D23FD49077DC8DF1491A92AEE3D90.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/No.uasset'
+[2018.11.23-13.57.47:892][842]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Shot28C3B6CEA4120806B7F3261B1658D18F2.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Shot2.uasset'
+[2018.11.23-13.57.47:947][842]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/HitEBD499C64CF324FD517DADA50D9C3F7A.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/Music/MusicAsset/Hit.uasset'
+[2018.11.23-13.57.50:964][941]AssetReimport: /Game/_Temporary/Music/MusicAsset/Saved 새 애셋 임포트중.
+[2018.11.23-13.57.50:964][941]AssetReimport: /Game/_Temporary/Music/MusicAsset/Yes 새 애셋 임포트중.
+[2018.11.23-13.57.50:964][941]AssetReimport: /Game/_Temporary/Music/MusicAsset/No 새 애셋 임포트중.
+[2018.11.23-13.57.50:965][941]AssetReimport: /Game/_Temporary/Music/MusicAsset/Shot2 새 애셋 임포트중.
+[2018.11.23-13.57.50:965][941]AssetReimport: /Game/_Temporary/Music/MusicAsset/Hit 새 애셋 임포트중.
+[2018.11.23-13.57.59:290][199]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Shot2 웨이브 빌드중...
+[2018.11.23-13.57.59:293][199]LogTemp: Couldn't find amount to resample to.
+[2018.11.23-13.57.59:364][199]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 359040 while cooking SoundWave /Game/_Temporary/Music/MusicAsset/Shot2.Shot2.
+[2018.11.23-13.58.00:438][234]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Saved 웨이브 빌드중...
+[2018.11.23-13.58.00:438][234]LogTemp: Couldn't find amount to resample to.
+[2018.11.23-13.58.00:514][234]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 599916 while cooking SoundWave /Game/_Temporary/Music/MusicAsset/Saved.Saved.
+[2018.11.23-13.58.01:164][256]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/_Temporary/Music/MusicAsset/Yes.Yes
+[2018.11.23-13.59.36:551][132]BlueprintLog: New page: KiteMusicSequencer 컴파일
+[2018.11.23-14.00.13:748][101]Cmd: TRANSACTION UNDO
+[2018.11.23-14.00.13:748][101]LogEditorTransaction: Undo 자손 삽입
+[2018.11.23-14.01.32:160][127]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-14.01.32:180][127]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.11.23-14.02.23:043][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.177
+[2018.11.23-14.02.23:048][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/KiteMusicSequencer] ([1] browsable assets)...
+[2018.11.23-14.02.23:048][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/KiteMusicSequencer]
+[2018.11.23-14.02.23:365][566]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/KiteMusicSequencer_Auto638781C2F419382B547643095B14607CF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/KiteMusicSequencer_Auto6.uasset'
+[2018.11.23-14.02.23:374][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/Music/AmbientMusicSequencer] ([1] browsable assets)...
+[2018.11.23-14.02.23:374][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/Music/AmbientMusicSequencer]
+[2018.11.23-14.02.23:610][566]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/AmbientMusicSequencer_Auto651A2920E49F826B1CDF75C85462D6A96.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/Music/AmbientMusicSequencer_Auto6.uasset'
+[2018.11.23-14.02.23:614][566]LogFileHelpers: Auto-saving content packages took 0.568
+[2018.11.23-14.03.00:108][145]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest
+[2018.11.23-14.03.33:844][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.03.34:691][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.23-14.03.38:860][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.03.38:927][830]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.23-14.03.39:045][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.03.39:046][830]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.11.23-14.03.39:069][830]LogPlayLevel: [PlayLevel] Compiling AmbientMusicSequencer before play...
+[2018.11.23-14.03.39:260][830]LogPlayLevel: [PlayLevel] Compiling W_SettingHUD before play...
+[2018.11.23-14.03.39:307][830]LogPlayLevel: PlayLevel: Blueprint regeneration took 261 ms (2 blueprints)
+[2018.11.23-14.03.39:348][830]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 24. 오전 8:03:39)
+[2018.11.23-14.03.39:348][830]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.23-14.03.39:422][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073109s)
+[2018.11.23-14.03.39:422][830]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.23-14.03.39:423][830]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2018.11.23-14.03.39:424][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.074994s)
+[2018.11.23-14.03.39:472][830]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.23-14.03.39:526][830]LogInit: FAudioDevice initialized.
+[2018.11.23-14.03.39:574][830]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.23-14.03.39:587][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.23-23.03.39
+[2018.11.23-14.03.39:589][830]LogWorld: Bringing up level for play took: 0.012366
+[2018.11.23-14.03.39:682][830]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2018.11.23-14.03.39:693][830]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: 0.507
+[2018.11.23-14.03.39:694][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.03.49:077][236]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.23-14.03.49:079][236]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.49:428][250]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.03.49:428][250]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.50:118][277]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=356.769470 Y=79.981667 R=0.000000
+[2018.11.23-14.03.50:125][277]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=356.769470 Y=109.981667 R=0.000000
+[2018.11.23-14.03.50:128][277]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=356.769470 Y=139.981659 R=0.000000
+[2018.11.23-14.03.50:129][277]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.03.50:129][277]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.51:303][327]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.03.51:303][327]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.52:324][374]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.03.52:325][374]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.53:272][417]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.238556 Y=99.912354 R=0.000000
+[2018.11.23-14.03.53:275][417]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.238556 Y=129.912354 R=0.000000
+[2018.11.23-14.03.53:280][417]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.238556 Y=159.912354 R=0.000000
+[2018.11.23-14.03.53:283][417]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.03.53:283][417]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.53:301][417]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.03.53:302][417]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.03.54:225][458]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.23-14.03.54:226][458]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.55:238][503]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.03.55:238][503]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.56:328][552]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=344.603607 Y=168.174957 R=0.000000
+[2018.11.23-14.03.56:331][552]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=344.603607 Y=198.174957 R=0.000000
+[2018.11.23-14.03.56:336][552]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=344.603607 Y=228.174957 R=0.000000
+[2018.11.23-14.03.56:339][552]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.03.56:339][552]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.58:967][671]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.23-14.03.58:967][671]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.59:929][713]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.03.59:930][713]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.03.59:932][713]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.03.59:932][713]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.00:273][728]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=3.035994 Y=140.637070 R=0.000000
+[2018.11.23-14.04.00:277][728]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=3.035994 Y=170.637070 R=0.000000
+[2018.11.23-14.04.00:281][728]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=3.035994 Y=200.637070 R=0.000000
+[2018.11.23-14.04.00:282][728]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.00:282][728]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.00:284][728]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.00:285][728]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.00:994][760]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.01:543][784]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.01:778][795]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.02:126][811]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.02:342][821]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.02:573][831]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.02:726][838]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.02:966][849]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.03:208][860]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.03:428][870]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.03:637][879]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.03:871][890]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.04:259][908]LogBlueprintUserMessages: [ESkill_Dash_C_0] X=4000.000 Y=0.000 Z=0.000
+[2018.11.23-14.04.05:544][965]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.05:545][965]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.06:446][  6]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.066467 Y=63.422478 R=0.000000
+[2018.11.23-14.04.06:449][  6]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.066467 Y=93.422478 R=0.000000
+[2018.11.23-14.04.06:452][  6]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.066467 Y=123.422478 R=0.000000
+[2018.11.23-14.04.06:453][  6]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.06:453][  6]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.07:171][ 38]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.07:171][ 38]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.08:183][ 83]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.08:184][ 83]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.10:098][169]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=350.769562 Y=64.182686 R=0.000000
+[2018.11.23-14.04.10:100][169]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=350.769562 Y=94.182686 R=0.000000
+[2018.11.23-14.04.10:103][169]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=350.769562 Y=124.182686 R=0.000000
+[2018.11.23-14.04.10:109][169]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.10:109][169]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.10:790][199]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.10:790][199]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.11:797][242]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.11:797][242]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.12:880][291]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.12:881][291]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.13:980][341]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.13:981][341]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.15:172][395]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.15:172][395]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.16:319][447]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.16:319][447]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.17:359][494]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.719635 Y=77.898239 R=0.000000
+[2018.11.23-14.04.17:362][494]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.719635 Y=107.898239 R=0.000000
+[2018.11.23-14.04.17:364][494]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.719635 Y=137.898239 R=0.000000
+[2018.11.23-14.04.17:368][494]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.17:368][494]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.20:933][654]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.21:654][686]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.26:452][901]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.26:454][901]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.26:456][901]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.27:267][938]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.27:269][938]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.27:271][938]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.27:717][958]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.27:721][958]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.27:725][958]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.28:188][979]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.28:191][979]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.28:198][979]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.29:048][ 18]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.29:051][ 18]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.29:053][ 18]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.29:899][ 56]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.29:902][ 56]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.29:905][ 56]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.30:770][ 95]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.30:773][ 95]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.30:778][ 95]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.31:216][114]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.31:223][114]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.31:838][141]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.31:842][141]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.31:847][141]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.32:808][185]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.32:811][185]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.32:814][185]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.33:224][204]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.33:228][204]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.33:248][205]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.33:253][205]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.33:723][226]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.33:727][226]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.33:732][226]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.34:645][268]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.34:650][268]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.34:653][268]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.35:073][287]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.35:077][287]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.35:670][314]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.35:674][314]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.35:676][314]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.36:088][332]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.36:092][332]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.36:111][333]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.36:114][333]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.36:608][355]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.36:612][355]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.36:615][355]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.37:561][398]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.37:565][398]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.37:568][398]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.38:512][440]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.38:517][440]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.38:520][440]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.39:374][479]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.39:377][479]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.39:378][479]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.39:832][500]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.39:840][500]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.39:861][501]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.39:868][501]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.39:883][502]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.39:888][502]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:359][523]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.04.40:362][523]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.04.40:365][523]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.04.40:829][542]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:838][542]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:855][543]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:859][543]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:884][544]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.40:887][544]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.42:117][598]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.04.43:848][676]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.43:848][676]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.45:060][730]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.45:061][730]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.45:063][730]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.45:065][730]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.04.46:446][792]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.46:447][792]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.47:927][860]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.47:927][860]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.49:155][916]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.49:155][916]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.49:665][940]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.125641 Y=174.134689 R=0.000000
+[2018.11.23-14.04.49:670][940]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.125641 Y=204.134689 R=0.000000
+[2018.11.23-14.04.49:674][940]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=353.125641 Y=234.134689 R=0.000000
+[2018.11.23-14.04.49:675][940]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.49:676][940]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.52:100][ 45]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.52:101][ 45]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.53:300][ 99]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.53:301][ 99]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.54:403][150]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.54:403][150]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.55:486][199]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.55:487][199]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.56:571][248]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.56:572][248]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.57:645][295]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.57:646][295]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.58:317][326]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=354.934814 Y=201.766754 R=0.000000
+[2018.11.23-14.04.58:318][326]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=354.934814 Y=231.766754 R=0.000000
+[2018.11.23-14.04.58:322][326]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=354.934814 Y=261.766754 R=0.000000
+[2018.11.23-14.04.58:327][326]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.04.58:328][326]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.04.59:546][380]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.04.59:546][380]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.01:718][466]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.01:720][466]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.01:722][466]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.01:892][474]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.01:898][474]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.01:919][475]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.01:923][475]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.02:750][512]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.02:752][512]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.02:755][512]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.02:974][522]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.02:978][522]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.02:982][522]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.03:465][544]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.03:469][544]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.03:472][544]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.03:648][552]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.03:652][552]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.04:165][576]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.04:168][576]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.04:172][576]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.04:722][601]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.04:724][601]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.04:729][601]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.05:367][629]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.05:370][629]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.05:372][629]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.06:158][665]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.06:162][665]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.06:165][665]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.06:337][672]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.06:341][672]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.06:356][673]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.06:361][673]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.06:384][674]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.06:389][674]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:305][715]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.07:309][715]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.07:312][715]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.07:509][724]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:516][724]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:534][725]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:539][725]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:558][726]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.07:563][726]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:335][761]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.08:338][761]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.08:341][761]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.08:540][770]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:546][770]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:562][771]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:567][771]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:592][772]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.08:594][772]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.09:407][806]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.09:410][806]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.09:413][806]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.09:676][818]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.09:679][818]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.09:683][818]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.10:484][852]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.10:488][852]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.10:492][852]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.10:744][863]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.10:747][863]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.10:765][864]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.10:771][864]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.11:282][886]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.05.11:288][886]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.05.11:292][886]LogBlueprintUserMessages: [ESkill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.05.14:728][ 40]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.14:733][ 40]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.16:844][135]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.16:850][135]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.17:446][162]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.17:449][162]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.21:912][364]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.21:915][364]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.24:726][492]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.24:730][492]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.25:516][528]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.25:522][528]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.28:874][680]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.28:874][680]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.28:876][680]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.28:877][680]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.30:332][746]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.30:332][746]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.31:408][795]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.31:408][795]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.32:455][843]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.32:456][843]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.33:542][892]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.33:543][892]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.34:665][943]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.34:666][943]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.35:582][985]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=352.372223 Y=223.436096 R=0.000000
+[2018.11.23-14.05.35:583][985]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=352.372223 Y=253.436096 R=0.000000
+[2018.11.23-14.05.35:588][985]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=352.372223 Y=283.436096 R=0.000000
+[2018.11.23-14.05.35:590][985]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.05.35:591][985]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.36:191][ 12]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.36:191][ 12]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.37:094][ 53]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.37:554][ 74]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.37:757][ 83]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.38:090][ 98]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.38:278][106]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.38:430][113]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.38:631][122]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.38:812][130]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.39:139][144]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.05.39:502][160]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.05.39:682][168]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.05.39:836][175]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.05.40:028][183]LogBlueprintUserMessages: [BP_FBFEnemyCharacter_C_0] Hello
+[2018.11.23-14.05.40:632][207]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.40:632][207]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.41:968][264]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.637726 Y=75.021866 R=0.000000
+[2018.11.23-14.05.41:970][264]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.637726 Y=105.021866 R=0.000000
+[2018.11.23-14.05.41:973][264]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.637726 Y=135.021866 R=0.000000
+[2018.11.23-14.05.41:976][264]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.05.41:976][264]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.41:978][264]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.41:978][264]LogBlueprintUserMessages: [BP_FBFPlayableCharacter_C_0] Hello
+[2018.11.23-14.05.42:595][291]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.42:595][291]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.43:789][345]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.05.43:789][345]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.45:089][404]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.515228 Y=81.479836 R=0.000000
+[2018.11.23-14.05.45:091][404]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.515228 Y=111.479836 R=0.000000
+[2018.11.23-14.05.45:095][404]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=351.515228 Y=141.479828 R=0.000000
+[2018.11.23-14.05.45:096][404]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.05.45:096][404]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.05.46:637][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.05.46:647][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.05.46:754][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.23-14.05.46:754][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.05.46:798][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.05.46:821][473]LogRenderer: Reallocating scene render targets to support 920x684 Format 9 NumSamples 1 (Frame:71299).
+[2018.11.23-14.05.46:872][474]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.23-14.05.48:696][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.06.18:471][ 49]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.23-14.06.18:519][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.06.18:519][ 49]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.11.23-14.06.18:534][ 49]LogPlayLevel: [PlayLevel] Compiling AmbientMusicSequencer before play...
+[2018.11.23-14.06.18:788][ 49]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
+[2018.11.23-14.06.18:788][ 49]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 24. 오전 8:06:18)
+[2018.11.23-14.06.18:788][ 49]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.23-14.06.18:826][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037893s)
+[2018.11.23-14.06.18:827][ 49]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.23-14.06.18:827][ 49]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.11.23-14.06.18:827][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.038868s)
+[2018.11.23-14.06.18:871][ 49]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.23-14.06.18:923][ 49]LogInit: FAudioDevice initialized.
+[2018.11.23-14.06.18:934][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.06.19:013][ 49]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.23-14.06.19:025][ 49]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.23-23.06.19
+[2018.11.23-14.06.19:028][ 49]LogWorld: Bringing up level for play took: 0.014396
+[2018.11.23-14.06.19:050][ 49]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.136
+[2018.11.23-14.06.19:051][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.06.24:153][216]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.24:153][216]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.24:671][234]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.06.24:674][234]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.06.24:677][234]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.06.24:682][234]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.06.24:682][234]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.24:869][241]LogBlueprintUserMessages: [Skill_Dash_C_0] Casting Dash
+[2018.11.23-14.06.24:869][241]LogBlueprintUserMessages: [Skill_Dash_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.25:505][264]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.25:505][264]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.27:259][328]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.27:259][328]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.28:359][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.06.28:362][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.06.28:365][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.06.28:370][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.06.28:370][368]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.28:832][385]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.28:832][385]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.30:084][431]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.30:084][431]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.31:332][474]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.31:333][474]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.32:040][499]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=-30.000000 R=0.000000
+[2018.11.23-14.06.32:043][499]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=0.000000 R=0.000000
+[2018.11.23-14.06.32:047][499]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] P=0.000000 Y=30.000000 R=0.000000
+[2018.11.23-14.06.32:051][499]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] Casting SpreadSpell
+[2018.11.23-14.06.32:052][499]LogBlueprintUserMessages: [Skill_Spell_Spread_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.32:667][519]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] Casting BasicShot
+[2018.11.23-14.06.32:667][519]LogBlueprintUserMessages: [Skill_Spell_Straight_C_0] 스킬 사용 후 쿨에 들어감
+[2018.11.23-14.06.33:802][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.06.33:809][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.06.33:832][560]LogSlate: Window 'FujiwaraBattleField 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.11.23-14.06.33:890][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.23-14.06.33:890][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.06.33:996][561]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.23-14.06.52:273][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.07.06:400][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.07.06:529][584]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.23-14.07.06:583][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.07.06:584][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.23-14.07.06:584][584]PIE: New page: PIE 세션: Maps_LostBambooForest (2018. 11. 24. 오전 8:07:06)
+[2018.11.23-14.07.06:584][584]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Maps_LostBambooForest
+[2018.11.23-14.07.06:653][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068380s)
+[2018.11.23-14.07.06:653][584]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.11.23-14.07.06:654][584]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2018.11.23-14.07.06:654][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest to /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest (0.069658s)
+[2018.11.23-14.07.06:715][584]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.23-14.07.06:780][584]LogInit: FAudioDevice initialized.
+[2018.11.23-14.07.06:815][584]LogLoad: Game class is 'BP_MyGameModeBase_C'
+[2018.11.23-14.07.06:823][584]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maps_LostBambooForest.Maps_LostBambooForest up for play (max tick rate 60) at 2018.11.23-23.07.06
+[2018.11.23-14.07.06:824][584]LogWorld: Bringing up level for play took: 0.007783
+[2018.11.23-14.07.06:841][584]PIE: /Game/Maps/UEDPIE_0_Maps_LostBambooForest 에 대한 에디터에서 플레이 시작 시간: -0.346
+[2018.11.23-14.07.06:842][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.07.14:093][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.07.22:843][ 34]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.11.23-14.07.22:915][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.07.22:921][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.07.23:003][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.23-14.07.23:003][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest' with GeneratedClass '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest_C' with ClassGeneratedBy '/Game/Maps/Maps_LostBambooForest.Maps_LostBambooForest:PersistentLevel.Maps_LostBambooForest'
+[2018.11.23-14.07.23:066][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.23-14.07.23:124][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.23-14.07.27:076][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.07.59:904][888]LogEditorActor: Deleted Actor: AmbientMusicSequencer_C
+[2018.11.23-14.07.59:940][888]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.11.23-14.08.00:387][899]LogEditorActor: Deleted Actor: KiteMusicSequencer_C
+[2018.11.23-14.08.00:429][899]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2018.11.23-14.08.46:784][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.23-14.08.51:470][203]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-14.08.52:250][220]LogEditorTransaction: Undo 애셋에서 컴포넌트 추가
+[2018.11.23-14.10.08:755][931]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.23-14.12.56:382][300]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-14.13.08:367][698]BlueprintLog: New page: Maps_LostBambooForest 컴파일
+[2018.11.23-14.15.25:027][166]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-14.15.25:640][181]LogEditorTransaction: Undo 노드 이동
+[2018.11.23-14.15.26:852][218]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.11.23-14.17.54:311][951]BlueprintLog: New page: Maps_LostBambooForest 컴파일
+[2018.11.23-14.17.55:514][951]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.142 s
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: 
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: Ensure condition failed: Component && (Component->GetOuter() == GeneratedClass) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 1154]
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: 
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: Stack: 
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8c2a71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8bfe0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8bffb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8569ec6a UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff7aa94c38 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8495c9a4 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff848efee1 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8975df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff848ef8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff849505b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b4c29fe UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b5c5872 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b5a24bf UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b689c3b UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b4794c5 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b511db2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b4f7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8b4eb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8bafd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.23-14.17.55:514][951]LogOutputDevice: Error: [Callstack] 0x00007fff8baf0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fff8baff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fff8baec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fffcb876d41 USER32.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fffcb876713 USER32.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fff8bb00646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007ff6a3ca54e5 UE4Editor.exe!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007ff6a3cb5b3c UE4Editor.exe!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007ff6a3cb5bba UE4Editor.exe!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007ff6a3cc3dac UE4Editor.exe!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007ff6a3cc5aaa UE4Editor.exe!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fffcbcb3034 KERNEL32.DLL!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: [Callstack] 0x00007fffcc871471 ntdll.dll!UnknownFunction []
+[2018.11.23-14.17.55:515][951]LogOutputDevice: Error: 
+[2018.11.23-14.17.55:519][951]LogStats:                SubmitErrorReport -  0.001 s

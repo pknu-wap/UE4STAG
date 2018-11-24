@@ -406,6 +406,7 @@
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField
+/I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\CC
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Character
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Skill
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
