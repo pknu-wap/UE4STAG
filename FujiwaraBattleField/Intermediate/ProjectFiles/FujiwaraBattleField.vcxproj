@@ -410,6 +410,14 @@
     <NMakeOutput>..\..\Binaries\HTML5\FujiwaraBattleField-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\FBFPlayerController.cpp" />
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget.cpp" />
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget2.cpp" />
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\MyUserWidget.cpp" />
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\FBFPlayerController.h" />
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget.h" />
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget2.h" />
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\MyUserWidget.h" />
     <None Include="..\..\FujiwaraBattleField.uproject" />
     <None Include="..\..\Source\FujiwaraBattleField.Target.cs" />
     <None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs" />

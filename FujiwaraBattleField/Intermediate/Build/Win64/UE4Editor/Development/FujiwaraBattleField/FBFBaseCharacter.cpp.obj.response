@@ -402,6 +402,11 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMGEditor
+/I Editor\UMGEditor\Classes
+/I Editor\UMGEditor\Public
+/I Editor\UMGEditor
+/I Editor\UMGEditor\Public\Settings
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Inc\FujiwaraBattleField
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public
@@ -410,6 +415,7 @@
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Character
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Music
 /I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Skill
+/I C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\Widget
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"

@@ -85,6 +85,12 @@
     <Filter Include="Source\FujiwaraBattleField\Private\Skill">
       <UniqueIdentifier>{96497c3f-b874-4265-9d5e-c5ba72b7127f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\FujiwaraBattleField\Public\Widget">
+      <UniqueIdentifier>{75ba1ed4-eb48-489c-8f6b-f8cbb879d10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FujiwaraBattleField\Private\Widget">
+      <UniqueIdentifier>{a3f41d2f-af5b-44c2-9190-4818552b1642}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\CC\S_CrowdControl.h">
@@ -93,5 +99,31 @@
     <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Music\S_MusicClip.h">
       <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget.h">
+      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\FBFPlayerController.h">
+      <Filter>Source\FujiwaraBattleField\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget2.h">
+      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\MyUserWidget.h">
+      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget.cpp">
+      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\FBFPlayerController.cpp">
+      <Filter>Source\FujiwaraBattleField\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget2.cpp">
+      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\MyUserWidget.cpp">
+      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
