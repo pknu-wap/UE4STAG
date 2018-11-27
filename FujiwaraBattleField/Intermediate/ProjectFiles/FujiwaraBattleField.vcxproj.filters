@@ -1,129 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\FujiwaraBattleField.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{08B9F03B-AF15-411E-A522-BC439B1BB366}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FujiwaraBattleField.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{46F4AFF3-CAF5-4211-BFF1-FBA5B404D5DD}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\FujiwaraBattleField">
-      <UniqueIdentifier>{D181D148-A360-4BAF-A03D-02093BFB22D3}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
-      <Filter>Source\FujiwaraBattleField</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.cpp">
-      <Filter>Source\FujiwaraBattleField</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.h">
-      <Filter>Source\FujiwaraBattleField</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.cpp">
-      <Filter>Source\FujiwaraBattleField</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
-      <Filter>Source\FujiwaraBattleField</Filter>
-    </ClInclude>
-    <Filter Include="Source\FujiwaraBattleField\Private">
-      <UniqueIdentifier>{83EDB6D8-F929-4242-B198-3A6A59C3972E}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Private\CC">
-      <UniqueIdentifier>{D3E3B903-4269-4442-8666-46518B465023}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Private\Character">
-      <UniqueIdentifier>{C00F2C0E-73F3-48D2-AFEE-9F0131E13393}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Character\FBFBaseCharacter.cpp">
-      <Filter>Source\FujiwaraBattleField\Private\Character</Filter>
-    </ClCompile>
-    <Filter Include="Source\FujiwaraBattleField\Public">
-      <UniqueIdentifier>{650A3DB8-F5EB-4A80-AE54-F1F1E1C286D3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Public\CC">
-      <UniqueIdentifier>{3395EDED-2177-4519-BF2A-728798C241AE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Public\Character">
-      <UniqueIdentifier>{DA78627C-61C1-4FC0-B79B-6984B51D325E}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Character\FBFBaseCharacter.h">
-      <Filter>Source\FujiwaraBattleField\Public\Character</Filter>
-    </ClInclude>
-    <Filter Include="Source\FujiwaraBattleField\Public\Skill">
-      <UniqueIdentifier>{D9FB74EA-248A-4188-8149-979618400A25}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Base.h">
-      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Dash.h">
-      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Spell.h">
-      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\FujiwaraBattleField\Private\Skill">
-      <UniqueIdentifier>{96497c3f-b874-4265-9d5e-c5ba72b7127f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Public\Widget">
-      <UniqueIdentifier>{75ba1ed4-eb48-489c-8f6b-f8cbb879d10b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\FujiwaraBattleField\Private\Widget">
-      <UniqueIdentifier>{a3f41d2f-af5b-44c2-9190-4818552b1642}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\CC\S_CrowdControl.h">
-      <Filter>Source\FujiwaraBattleField\Public\CC</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Music\S_MusicClip.h">
-      <Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget.h">
-      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\FBFPlayerController.h">
-      <Filter>Source\FujiwaraBattleField\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget2.h">
-      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\MyUserWidget.h">
-      <Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget.cpp">
-      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\FBFPlayerController.cpp">
-      <Filter>Source\FujiwaraBattleField\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget2.cpp">
-      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\MyUserWidget.cpp">
-      <Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\FujiwaraBattleField.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5EFA334D-4ED1-4B7D-80EF-BAA37FCC83CD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FujiwaraBattleField.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FujiwaraBattleFieldEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{9F8474F4-DFCF-46C4-B03D-E2E65598C2D4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FujiwaraBattleField">
+			<UniqueIdentifier>{111F0C2C-66D6-4704-9DEE-D34C1EDB4B4F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.Build.cs">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.cpp">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleField.h">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.cpp">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\FujiwaraBattleFieldGameModeBase.h">
+			<Filter>Source\FujiwaraBattleField</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Private">
+			<UniqueIdentifier>{81692229-E440-4DFD-9479-096A2F164341}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\Private\FBFPlayerController.cpp">
+			<Filter>Source\FujiwaraBattleField\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\FujiwaraBattleField\Private\Character">
+			<UniqueIdentifier>{F16CFB82-2EEA-4066-AA38-37A904F8968E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Character\FBFBaseCharacter.cpp">
+			<Filter>Source\FujiwaraBattleField\Private\Character</Filter>
+		</ClCompile >
+		<Filter Include="Source\FujiwaraBattleField\Private\Widget">
+			<UniqueIdentifier>{B31B0780-5491-47C6-9E67-A2D71A3598FB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\FloatingWidget.cpp">
+			<Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\FujiwaraBattleField\Private\Widget\MyUserWidget.cpp">
+			<Filter>Source\FujiwaraBattleField\Private\Widget</Filter>
+		</ClCompile >
+		<Filter Include="Source\FujiwaraBattleField\Public">
+			<UniqueIdentifier>{75EF61F1-9417-4DFF-9040-7381F8C8796B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\FBFPlayerController.h">
+			<Filter>Source\FujiwaraBattleField\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Public\CC">
+			<UniqueIdentifier>{5D2F0122-4554-4707-B8C9-DDACFAEC0BF4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\CC\S_CrowdControl.h">
+			<Filter>Source\FujiwaraBattleField\Public\CC</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Public\Character">
+			<UniqueIdentifier>{D8A969B4-B42B-4FEE-B086-4F08FBC77A1C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Character\FBFBaseCharacter.h">
+			<Filter>Source\FujiwaraBattleField\Public\Character</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Public\Music">
+			<UniqueIdentifier>{C44CDC07-C65D-46AC-88DC-2DAD4C563DC2}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Music\S_MusicClip.h">
+			<Filter>Source\FujiwaraBattleField\Public\Music</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Public\Skill">
+			<UniqueIdentifier>{7C5FC6E1-AB66-4343-8D7B-88C8EBEDCE32}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Base.h">
+			<Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Dash.h">
+			<Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Skill\S_Skill_Spell.h">
+			<Filter>Source\FujiwaraBattleField\Public\Skill</Filter>
+		</ClInclude >
+		<Filter Include="Source\FujiwaraBattleField\Public\Widget">
+			<UniqueIdentifier>{6FE08A32-F2DE-43F2-A6E3-94524FD6633A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\FloatingWidget.h">
+			<Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\FujiwaraBattleField\Public\Widget\MyUserWidget.h">
+			<Filter>Source\FujiwaraBattleField\Public\Widget</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

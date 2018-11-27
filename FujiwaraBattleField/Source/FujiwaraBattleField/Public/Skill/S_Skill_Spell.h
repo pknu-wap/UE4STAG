@@ -13,7 +13,7 @@ struct FSkill_Spell
 {
 	GENERATED_BODY()
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
-		TEnumAsByte<CCType> CCType;
+		TEnumAsByte<CCType> CCtype;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")
 		FVector InitPos;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Spell")

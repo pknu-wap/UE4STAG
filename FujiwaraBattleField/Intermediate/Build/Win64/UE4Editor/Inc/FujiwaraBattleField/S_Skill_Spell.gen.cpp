@@ -83,9 +83,9 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Spel
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InitPos;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CCType_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CCtype_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CCType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CCtype;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -172,12 +172,12 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Spel
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_InitPos = { UE4CodeGen_Private::EPropertyClass::Struct, "InitPos", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Spell, InitPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_InitPos_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_InitPos_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCType_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCtype_MetaData[] = {
 		{ "Category", "Spell" },
 		{ "ModuleRelativePath", "Public/Skill/S_Skill_Spell.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCType = { UE4CodeGen_Private::EPropertyClass::Byte, "CCType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Spell, CCType), Z_Construct_UEnum_FujiwaraBattleField_CCType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCType_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCType_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCtype = { UE4CodeGen_Private::EPropertyClass::Byte, "CCtype", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Spell, CCtype), Z_Construct_UEnum_FujiwaraBattleField_CCType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCtype_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCtype_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSkill_Spell_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_SpawnCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_ZAxisOffset,
@@ -189,7 +189,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Spel
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_ScaleOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_InitScale,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_InitPos,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Spell_Statics::NewProp_CCtype,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSkill_Spell_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_FujiwaraBattleField,
@@ -218,7 +218,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Spel
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSkill_Spell_CRC() { return 2991490392U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSkill_Spell_CRC() { return 2447279983U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
