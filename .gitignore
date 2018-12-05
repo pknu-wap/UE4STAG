@@ -81,3 +81,7 @@ DerivedDataCache/*
 # Digital Create Contents Directory
 FBFGimp/*
 FBFBlender/*
+
+# Deleted LargeFile
+FujiwaraBattleField-backup-2018.11.24-10.29.52.log
+bfg-1.13.0.jar
