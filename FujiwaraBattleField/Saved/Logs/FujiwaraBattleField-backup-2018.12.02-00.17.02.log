@@ -1,0 +1,1119 @@
+﻿Log file open, 12/01/18 17:42:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.271790
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/nvTextureTools/Win64/nvtt_64.dll' (GetLastError=193)
+LogWindows:   Missing import: MSVCR120.dll
+LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+LogWindows:   Looked in: C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Binaries/Win64
+LogWindows:   Looked in: C:\Users\cho1h\Documents\UE4STAG\FujiwaraBattleField\Binaries\Win64
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.122s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal Engine4/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.01-08.42.29:083][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-08.42.29:083][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.01-08.42.29:098][  0]LogHAL: Display: Platform has ~ 8 GB [8449830912 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.01-08.42.29:098][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.01-08.42.29:098][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.01-08.42.29:098][  0]LogInit: Computer: DESKTOP-8CN6RMF
+[2018.12.01-08.42.29:098][  0]LogInit: User: cho1h
+[2018.12.01-08.42.29:098][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.01-08.42.29:098][  0]LogInit: High frequency timer resolution =1.945314 MHz
+[2018.12.01-08.42.29:099][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.01-08.42.29:099][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.01-08.42.29:099][  0]LogMemory: Process Physical Memory: 100.38 MB used, 100.38 MB peak
+[2018.12.01-08.42.29:099][  0]LogMemory: Process Virtual Memory: 91.13 MB used, 91.13 MB peak
+[2018.12.01-08.42.29:099][  0]LogMemory: Physical Memory: 4706.30 MB used,  3352.09 MB free, 8058.39 MB total
+[2018.12.01-08.42.29:099][  0]LogMemory: Virtual Memory: 4643.90 MB used,  3352.09 MB free, 134217728.00 MB total
+[2018.12.01-08.42.29:113][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.01-08.42.29:113][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.01-08.42.29:114][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.01-08.42.29:619][  0]LogStreaming: Display: Took  0.507s to InitEngineTextLocalization.
+[2018.12.01-08.42.29:620][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.01-08.42.29:668][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.01-08.42.29:668][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.01-08.42.30:068][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-08.42.30:068][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.01-08.42.30:123][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.12.01-08.42.30:123][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.01-08.42.30:128][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.01-08.42.30:128][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.01-08.42.30:128][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.01-08.42.30:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.01-08.42.30:137][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.01-08.42.30:137][  0]LogWindows: EnumDisplayDevices:
+[2018.12.01-08.42.30:137][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.12.01-08.42.30:138][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.12.01-08.42.30:138][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.12.01-08.42.30:139][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.12.01-08.42.30:139][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2018.12.01-08.42.30:139][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2018.12.01-08.42.30:139][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2018.12.01-08.42.30:139][  0]LogRHI: Texture pool is 1499 MB (70% of 2142 MB)
+[2018.12.01-08.42.30:255][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.01-08.42.30:265][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.12.01-08.42.30:268][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/6404/).
+[2018.12.01-08.42.30:268][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cho1h/AppData/Local/Temp/UnrealShaderWorkingDir/1F5824AC46BA1E10571F338402CE2A89/'.
+[2018.12.01-08.42.30:751][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.01-08.42.30:775][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.01-08.42.30:798][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.01-08.42.30:821][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.01-08.42.30:846][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.01-08.42.30:868][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.01-08.42.30:893][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.01-08.42.30:915][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.01-08.42.30:929][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.01-08.42.31:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.01-08.42.31:108][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.01-08.42.31:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-08.42.31:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.01-08.42.31:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-08.42.31:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.01-08.42.31:270][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.01-08.42.31:291][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.01-08.42.31:317][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.01-08.42.31:341][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.01-08.42.31:356][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.01-08.42.31:357][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.01-08.42.31:448][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.01-08.42.31:448][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.01-08.42.31:448][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.01-08.42.32:807][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.01-08.42.32:905][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/cho1h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-08.42.32:906][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/cho1h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.01-08.42.32:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.01-08.42.32:906][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.01-08.42.32:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.01-08.42.32:906][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.01-08.42.32:934][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.01-08.42.32:947][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cho1h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.01-08.42.32:947][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.01-08.42.32:947][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.01-08.42.32:982][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.01-08.42.32:985][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.01-08.42.32:986][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.01-08.42.33:104][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2018.12.01-08.42.33:744][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.01-08.42.33:980][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.01-08.42.33:986][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.01-08.42.33:986][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.01-08.42.33:986][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.01-08.42.33:986][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.01-08.42.34:005][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.12.01-08.42.34:477][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.090287 seconds
+[2018.12.01-08.42.34:483][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.01-08.42.34:483][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.01-08.42.34:483][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.01-08.42.35:256][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.01-08.42.35:269][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.01-08.42.35:423][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.01-08.42.35:423][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.01-08.42.35:425][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.01-08.42.35:426][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.01-08.42.35:587][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.01-08.42.35:669][  0]LogOcInput: OculusInput pre-init called
+[2018.12.01-08.42.35:762][  0]LogEngine: Initializing Engine...
+[2018.12.01-08.42.35:763][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.01-08.42.35:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-08.42.35:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-08.42.35:765][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-08.42.35:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-08.42.36:127][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.01-08.42.36:147][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.01-08.42.36:389][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.01-08.42.36:469][  0]LogInit: FAudioDevice initialized.
+[2018.12.01-08.42.36:469][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.01-08.42.36:553][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/cho1h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.01-08.42.36:572][  0]LogInit: Texture streaming: Enabled
+[2018.12.01-08.42.36:599][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.01-08.42.36:617][  0]LogInit: Transaction tracking system initialized
+[2018.12.01-08.42.36:650][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.01-08.42.36:745][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.01-08.42.36:817][  0]LogLinker: Warning: '/Game/TopDownBP/TopDownOverview' 파일을 찾을 수 없습니다.
+[2018.12.01-08.42.36:817][  0]LogLinker: Warning: '/Game/TopDownBP/TopDownOverview' 파일을 찾을 수 없습니다.
+[2018.12.01-08.42.36:817][  0]LogUObjectGlobals: Warning: 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2018.12.01-08.42.37:763][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.01-08.42.37:763][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.01-08.42.37:763][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.01-08.42.37:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.01-08.42.37:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.01-08.42.37:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.01-08.42.37:764][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.01-08.42.37:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/' took 0.03s
+[2018.12.01-08.42.37:935][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.01-08.42.37:935][  0]Cmd: MAP LOAD FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.01-08.42.37:936][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.01-08.42.37:939][  0]MapCheck: New page: 맵 체크
+[2018.12.01-08.42.37:939][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.01-08.42.39:771][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  MoveForward 입력 축  에 대해 알려지지 않은 'MoveForward' 축을 레퍼런싱합니다.
+[2018.12.01-08.42.39:772][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  LookUp 입력 축  에 대해 알려지지 않은 'LookUp' 축을 레퍼런싱합니다.
+[2018.12.01-08.42.39:772][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  Turn 입력 축  에 대해 알려지지 않은 'Turn' 축을 레퍼런싱합니다.
+[2018.12.01-08.42.39:772][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] Input Axis Event 가  MoveRight 입력 축  에 대해 알려지지 않은 'MoveRight' 축을 레퍼런싱합니다.
+[2018.12.01-08.42.39:772][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] InputAction Event 가  Jump 입력 액션  에 대해 알려지지 않은 'Jump' 액션을 레퍼런싱합니다.
+[2018.12.01-08.42.39:871][  0]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter_2] [0012.46] BP_FBFPlayableCharacter_2 컴파일에 성공했습니다만, 경고가 5 회 있습니다. [소요시간 317 ms] (/Game/_Temporary/Character/BP_FBFPlayableCharacter_2.BP_FBFPlayableCharacter_2)
+[2018.12.01-08.42.41:630][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.12.01-08.42.46:844][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.01-08.42.46:978][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.01-08.42.47:107][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 128.229ms.
+[2018.12.01-08.42.47:107][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 9.172
+[2018.12.01-08.42.47:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-08.42.47:484][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-08.42.47:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-08.42.47:510][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.01-08.42.47:532][  0]LogCollectionManager: Loaded 0 collections in 0.002143 seconds
+[2018.12.01-08.42.47:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.12.01-08.42.47:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/Developers/cho1h/Collections/' took 0.01s
+[2018.12.01-08.42.47:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.12.01-08.42.47:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.01-08.42.47:594][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2573 classes and 605 folders.
+[2018.12.01-08.42.47:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.12.01-08.42.49:077][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.12.01-08.42.49:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.01-08.42.49:164][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.01-08.42.49:172][  0]LogSlate: Took 0.005355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.01-08.42.49:179][  0]LogSlate: Took 0.005307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.01-08.42.49:180][  0]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.01-08.42.49:213][  0]LogSlate: Took 0.023998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.01-08.42.49:823][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.12.01-08.42.50:319][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.12.01-08.42.50:319][  0]LogLoad: (Engine Initialization) Total time: 22.91 seconds
+[2018.12.01-08.42.50:319][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.01-08.42.50:344][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.12.01-08.42.50:386][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.12.01-08.42.50:645][  0]LogSlate: Took 0.022441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-08.42.51:169][  2]LogAssetRegistry: Asset discovery search completed in 18.0863 seconds
+[2018.12.01-08.42.51:186][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.12.01-08.42.51:186][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2018.12.01-08.43.16:352][791]LogEditorViewport: Clicking on Actor (LMB): BP_FBFEnemyCharacter_C (BP_FBFEnemyCharacter)
+[2018.12.01-08.43.18:396][800]Cmd: DELETE
+[2018.12.01-08.43.18:397][800]Cmd: ACTOR DELETE
+[2018.12.01-08.43.18:667][800]LogEditorActor: Deleted Actor: BP_FBFEnemyCharacter_C
+[2018.12.01-08.43.18:802][800]LogEditorActor: Deleted 1 Actors (0.222 secs)
+[2018.12.01-08.43.19:307][818]LogEditorViewport: Clicking on Actor (LMB): BP_FBFPlayableCharacter_2_C (BP_FBFPlayableCharacter_2)
+[2018.12.01-08.43.19:937][826]Cmd: DELETE
+[2018.12.01-08.43.19:937][826]Cmd: ACTOR DELETE
+[2018.12.01-08.43.19:971][826]LogEditorActor: Deleted Actor: BP_FBFPlayableCharacter_2_C
+[2018.12.01-08.43.20:072][826]LogEditorActor: Deleted 1 Actors (0.134 secs)
+[2018.12.01-08.43.22:189][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-08.43.39:988][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-08.43.41:891][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-08.44.04:860][ 29]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.01-08.44.04:887][ 29]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI/BT_BossBehavierTree.BT_BossBehavierTree
+[2018.12.01-08.44.05:430][ 29]LogSlate: Took 0.028561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.01-08.44.08:437][145]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter
+[2018.12.01-08.44.09:992][145]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.12.01-08.44.12:853][147]LogSlate: Took 0.047036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.01-08.44.14:235][191]LogSlate: Window 'BP_FBFEnemyCharacter*' being destroyed
+[2018.12.01-08.47.50:166][103]BlueprintLog: New page: BP_FBFEnemyCharacter 컴파일
+[2018.12.01-08.48.14:718][345]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.01-08.48.17:727][411]LogMetaData: Removing '/Game/AI/Deco_Phase.Deco_Phase_C' ref from Metadata '/Game/AI/Deco_Phase3.PackageMetaData'
+[2018.12.01-08.48.17:727][411]LogMetaData: Removing '/Game/AI/Deco_Phase.Deco_Phase:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Deco_Phase3.PackageMetaData'
+[2018.12.01-08.48.17:727][411]LogMetaData: Removing '/Game/AI/Deco_Phase.SKEL_Deco_Phase_C' ref from Metadata '/Game/AI/Deco_Phase3.PackageMetaData'
+[2018.12.01-08.48.17:790][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Deco_Phase" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Deco_Phase.uasset" SILENT=true
+[2018.12.01-08.48.17:968][411]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Deco_Phase8CB5C40049E08F6C700CEF883F21EF0C.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Deco_Phase.uasset'
+[2018.12.01-08.48.18:310][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.48.18:404][411]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree2250A18843EE577C021AB7B1F4D02452.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.48.18:532][412]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Deco_Phase.
+[2018.12.01-08.48.20:397][456]LogMetaData: Removing '/Game/AI/Deco_Phase2.Deco_Phase2_C' ref from Metadata '/Game/AI/Deco_Phase.PackageMetaData'
+[2018.12.01-08.48.20:397][456]LogMetaData: Removing '/Game/AI/Deco_Phase2.SKEL_Deco_Phase2_C' ref from Metadata '/Game/AI/Deco_Phase.PackageMetaData'
+[2018.12.01-08.48.20:397][456]LogMetaData: Removing '/Game/AI/Deco_Phase2.Deco_Phase2:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Deco_Phase.PackageMetaData'
+[2018.12.01-08.48.20:456][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Deco_Phase2" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Deco_Phase2.uasset" SILENT=true
+[2018.12.01-08.48.20:489][456]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Deco_Phase2D93E885244696DE0C36C6E9985278C74.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Deco_Phase2.uasset'
+[2018.12.01-08.48.20:804][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.48.20:862][456]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTreeE1CBD0164F2A3065E44578853506FFC7.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.48.20:932][456]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Deco_Phase2.
+[2018.12.01-08.52.51:908][271]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto12DD59C2545AAAD980157768DE9636B9D.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto1.umap'
+[2018.12.01-08.52.51:930][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 1.274
+[2018.12.01-08.52.51:930][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.274
+[2018.12.01-08.52.51:932][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.12.01-08.52.51:974][271]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.12.01-08.52.51:974][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFEnemyCharacter]
+[2018.12.01-08.52.52:113][271]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto1CE0DF49D48CE6D0F589F4EB6331A5B97.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFEnemyCharacter_Auto1.uasset'
+[2018.12.01-08.52.52:115][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFCharacter] ([1] browsable assets)...
+[2018.12.01-08.52.52:128][271]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFCharacter.BP_FBFCharacter]
+[2018.12.01-08.52.52:128][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFCharacter]
+[2018.12.01-08.52.52:128][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_FBFCharacter" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-08.52.52:280][271]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto15F30EC5547BB646ABAEC6795FAB246F8.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto1.uasset'
+[2018.12.01-08.52.52:281][271]LogFileHelpers: Auto-saving content packages took 0.350
+[2018.12.01-08.56.15:059][348]LogMetaData: Removing '/Game/AI/Phase1.Phase1_C' ref from Metadata '/Game/AI/Deco_Phase1.PackageMetaData'
+[2018.12.01-08.56.15:059][348]LogMetaData: Removing '/Game/AI/Phase1.Phase1:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Deco_Phase1.PackageMetaData'
+[2018.12.01-08.56.15:060][348]LogMetaData: Removing '/Game/AI/Phase1.SKEL_Phase1_C' ref from Metadata '/Game/AI/Deco_Phase1.PackageMetaData'
+[2018.12.01-08.56.15:110][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Phase1" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Phase1.uasset" SILENT=true
+[2018.12.01-08.56.15:143][348]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Phase146F3AD5A4352E11CF0FA63A2C01F6A0B.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Phase1.uasset'
+[2018.12.01-08.56.15:454][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.56.15:531][348]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTreeC55AA8744B3D2A3B7FF975AA4E59B8C4.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.56.15:654][350]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/Phase1.
+[2018.12.01-08.56.20:963][492]LogMetaData: Removing '/Game/AI/Phase2.Phase2_C' ref from Metadata '/Game/AI/Deco_Phase2.PackageMetaData'
+[2018.12.01-08.56.20:963][492]LogMetaData: Removing '/Game/AI/Phase2.SKEL_Phase2_C' ref from Metadata '/Game/AI/Deco_Phase2.PackageMetaData'
+[2018.12.01-08.56.20:963][492]LogMetaData: Removing '/Game/AI/Phase2.Phase2:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Deco_Phase2.PackageMetaData'
+[2018.12.01-08.56.21:014][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Phase2" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Phase2.uasset" SILENT=true
+[2018.12.01-08.56.21:048][492]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Phase21BC5E5E94B76ABDA2CD87BB04151DB9A.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/Phase2.uasset'
+[2018.12.01-08.56.21:360][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.56.21:418][492]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree6D15140B4FF1DAEABE6F46AC8931FF84.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.56.21:587][495]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/Phase2.
+[2018.12.01-08.56.41:991][419]LogMetaData: Removing '/Game/AI/UseSpell.UseSpell_C' ref from Metadata '/Game/AI/Task_UseSkill.PackageMetaData'
+[2018.12.01-08.56.41:991][419]LogMetaData: Removing '/Game/AI/UseSpell.SKEL_UseSpell_C' ref from Metadata '/Game/AI/Task_UseSkill.PackageMetaData'
+[2018.12.01-08.56.42:041][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSpell" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset" SILENT=true
+[2018.12.01-08.56.42:083][419]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSpellBF645A9D482BEC463140E898652EC642.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset'
+[2018.12.01-08.56.42:386][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.56.42:443][419]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTreeEF1D87E947A3B77386DB5AA623714026.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.56.42:566][421]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/UseSpell.
+[2018.12.01-08.56.43:699][453]Cmd: TRANSACTION UNDO
+[2018.12.01-08.56.43:699][453]LogEditorTransaction: Undo 노드 이동
+[2018.12.01-08.56.45:569][517]Cmd: TRANSACTION UNDO
+[2018.12.01-08.56.45:569][517]LogEditorTransaction: Undo 노드 이동
+[2018.12.01-08.56.48:080][587]Cmd: TRANSACTION REDO
+[2018.12.01-08.56.48:080][587]LogEditorTransaction: Redo 노드 이동
+[2018.12.01-08.56.48:801][607]Cmd: TRANSACTION REDO
+[2018.12.01-08.56.48:801][607]LogEditorTransaction: Redo 노드 이동
+[2018.12.01-08.57.04:926][181]LogMetaData: Removing '/Game/AI/UseSkill.UseSkill_C' ref from Metadata '/Game/AI/UseSpell.PackageMetaData'
+[2018.12.01-08.57.04:926][181]LogMetaData: Removing '/Game/AI/UseSkill.SKEL_UseSkill_C' ref from Metadata '/Game/AI/UseSpell.PackageMetaData'
+[2018.12.01-08.57.04:978][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSkill.uasset" SILENT=true
+[2018.12.01-08.57.05:017][181]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkill88D25BC740C84B48CC1EF0B2E44C756C.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSkill.uasset'
+[2018.12.01-08.57.05:334][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-08.57.05:391][181]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree794DE8CE4449FA2F98D42881383656AB.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-08.57.05:557][184]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/UseSkill.
+[2018.12.01-08.57.12:159][365]LogMetaData: Removing '/Game/AI/UseSpell.UseSpell_C' ref from Metadata '/Game/AI/Task_UseSpell.PackageMetaData'
+[2018.12.01-08.57.12:159][365]LogMetaData: Removing '/Game/AI/UseSpell.SKEL_UseSpell_C' ref from Metadata '/Game/AI/Task_UseSpell.PackageMetaData'
+[2018.12.01-08.57.12:209][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSpell" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset" SILENT=true
+[2018.12.01-08.57.12:241][365]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSpell983B0B97412EA3C191041F8E34ACBFEC.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset'
+[2018.12.01-08.57.12:597][365]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AI/UseSpell.
+[2018.12.01-08.57.17:936][515]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/UseSpell.UseSpell
+[2018.12.01-08.59.37:480][780]LogSlate: Took 0.027271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.01-08.59.41:295][  8]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.41:295][  8]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.41:296][  8]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.41:296][  8]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:200][ 62]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:200][ 62]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:201][ 62]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:201][ 62]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:366][ 72]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:367][ 72]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:368][ 72]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:368][ 72]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:567][ 84]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:567][ 84]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.42:567][ 84]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.42:568][ 84]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:190][510]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:190][510]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:191][510]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:191][510]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:297][516]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:298][516]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:298][516]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:298][516]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:669][538]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:670][538]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.50:670][538]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.50:670][538]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:057][561]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:058][561]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:058][561]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:059][561]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:444][584]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:445][584]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:445][584]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:446][584]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:814][606]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:815][606]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.51:815][606]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.51:815][606]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.52:052][620]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.52:053][620]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.52:053][620]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.52:053][620]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:106][683]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:106][683]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:106][683]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:107][683]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:925][732]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:925][732]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:926][732]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:926][732]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:977][735]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:978][735]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.53:978][735]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.53:978][735]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-08.59.54:671][769]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-08.59.55:057][791]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.00.55:742][390]LogEditorTransaction: Undo 노드 이동
+[2018.12.01-09.00.56:152][410]LogEditorTransaction: Undo 노드 추가
+[2018.12.01-09.00.56:338][417]LogEditorTransaction: Undo 파라미터 유형 변경
+[2018.12.01-09.00.56:505][427]LogEditorTransaction: Undo 파라미터 유형 변경
+[2018.12.01-09.00.56:954][427]LogEditorTransaction: Undo 변수 이름변경
+[2018.12.01-09.00.57:002][427]LogEditorTransaction: Undo 변수 추가
+[2018.12.01-09.00.57:203][429]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.01-09.00.57:384][435]LogEditorTransaction: Undo 노드 이동
+[2018.12.01-09.00.59:667][572]LogEditorTransaction: Redo 노드 이동
+[2018.12.01-09.00.59:917][587]LogEditorTransaction: Redo 현 선택을 삭제합니다.
+[2018.12.01-09.01.00:663][628]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.01-09.01.08:985][ 86]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/UseSkill.UseSkill
+[2018.12.01-09.02.54:836][176]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto280AD5C1F413D92C0F317FD8AA2154625.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto2.umap'
+[2018.12.01-09.02.54:848][176]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 1.893
+[2018.12.01-09.02.54:848][176]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.893
+[2018.12.01-09.02.54:852][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSkill] ([1] browsable assets)...
+[2018.12.01-09.02.54:852][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSkill]
+[2018.12.01-09.02.54:852][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.02.54:959][176]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkill_Auto226700A6D47CD0DF57D13678AE654A7F4.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto2.uasset'
+[2018.12.01-09.02.54:965][176]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.12.01-09.02.54:995][176]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.12.01-09.02.54:995][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFEnemyCharacter]
+[2018.12.01-09.02.55:342][176]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto2DE3B5DD442157B1B7A1F2585D9B4CD94.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFEnemyCharacter_Auto2.uasset'
+[2018.12.01-09.02.55:346][176]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFCharacter] ([1] browsable assets)...
+[2018.12.01-09.02.55:371][176]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFCharacter.BP_FBFCharacter]
+[2018.12.01-09.02.55:371][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFCharacter]
+[2018.12.01-09.02.55:371][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_FBFCharacter" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.02.55:741][176]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto29F13AEB34EA00465B320B3B633423291.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto2.uasset'
+[2018.12.01-09.02.55:744][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSpell] ([1] browsable assets)...
+[2018.12.01-09.02.55:744][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSpell]
+[2018.12.01-09.02.55:744][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSpell" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSpell_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.02.55:836][176]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSpell_Auto2C4FCAE784D556BA4AB02E8882B6D11BF.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSpell_Auto2.uasset'
+[2018.12.01-09.02.55:839][176]LogFileHelpers: Auto-saving content packages took 0.988
+[2018.12.01-09.04.28:976][328]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.28:976][328]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.28:977][328]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.28:977][328]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.29:231][343]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.29:231][343]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.29:231][343]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.29:232][343]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.29:486][358]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.29:487][358]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.29:487][358]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.29:488][358]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:740][433]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:741][433]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:741][433]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:741][433]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:844][439]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:844][439]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:844][439]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:845][439]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:934][444]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:934][444]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:935][444]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:935][444]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:987][447]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:987][447]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.30:988][447]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.30:988][447]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.31:921][503]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.31:922][503]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.31:922][503]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.31:923][503]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:059][511]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:059][511]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:060][511]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:060][511]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:230][521]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:231][521]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:231][521]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:231][521]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:334][527]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:334][527]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.32:335][527]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.32:335][527]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.33:120][574]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.33:120][574]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.33:121][574]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.33:121][574]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:271][643]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:271][643]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:271][643]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:272][643]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:446][653]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:446][653]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:447][653]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:447][653]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:538][658]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:538][658]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:539][658]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:539][658]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:606][662]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:607][662]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.34:607][662]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.34:608][662]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:143][694]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:144][694]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:144][694]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:144][694]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:268][701]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:268][701]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:269][701]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:269][701]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:322][704]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:322][704]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:322][704]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:323][704]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:389][708]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:389][708]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:389][708]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:390][708]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:522][716]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:523][716]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.04.35:523][716]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.35:523][716]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.04.36:066][749]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.05.56:416][348]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2018.12.01-09.05.57:049][348]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTService_BlueprintBase_New.
+[2018.12.01-09.09.48:901][396]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.48:901][396]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.48:902][396]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.48:902][396]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:124][469]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:124][469]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:125][469]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:125][469]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:328][481]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:328][481]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:329][481]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:329][481]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:413][486]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:414][486]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:414][486]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:415][486]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:548][494]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:549][494]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.50:550][494]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.50:550][494]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.51:378][544]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.51:430][546]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.09.51:464][547]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.09.51:498][548]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.06:395][437]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.06:427][438]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.08:823][581]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.08:823][581]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.08:824][581]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.08:824][581]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.08:991][591]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.08:992][591]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.08:993][591]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.08:993][591]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.09:094][597]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.09:095][597]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.09:095][597]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.09:096][597]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.09:500][621]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.09:501][621]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.10.09:501][621]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.10.09:501][621]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.12.56:246][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.034
+[2018.12.01-09.12.56:248][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_BossBehavierTree] ([1] browsable assets)...
+[2018.12.01-09.12.56:248][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_BossBehavierTree]
+[2018.12.01-09.12.56:286][105]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree_Auto3FE4315CC4305D762EDA795B072FDC172.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BT_BossBehavierTree_Auto3.uasset'
+[2018.12.01-09.12.56:288][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BB_BossBlackBoard] ([1] browsable assets)...
+[2018.12.01-09.12.56:288][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BB_BossBlackBoard]
+[2018.12.01-09.12.56:288][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_BossBlackBoard" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BB_BossBlackBoard_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.12.56:644][105]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BB_BossBlackBoard_Auto30ACD9E3C4F0EAE438D0C46AEA8617B7D.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BB_BossBlackBoard_Auto3.uasset'
+[2018.12.01-09.12.56:648][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.12.01-09.12.56:648][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BTService_BlueprintBase_New]
+[2018.12.01-09.12.56:665][105]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BTService_BlueprintBase_New_Auto6AA23E374DEA8E93ADAE119F09F1C9C1.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BTService_BlueprintBase_New_Auto3.uasset'
+[2018.12.01-09.12.56:666][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSkill] ([1] browsable assets)...
+[2018.12.01-09.12.56:666][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSkill]
+[2018.12.01-09.12.56:666][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.12.56:703][105]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkill_Auto3C3A8B38F41F851E4E91EE09AAEFA5244.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto3.uasset'
+[2018.12.01-09.12.56:704][105]LogFileHelpers: Auto-saving content packages took 0.457
+[2018.12.01-09.14.34:243][241]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:244][241]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:245][241]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:245][241]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:453][253]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:453][253]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:454][253]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:454][253]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:594][261]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:595][261]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:595][261]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:595][261]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:900][279]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:901][279]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:901][279]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:902][279]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:988][284]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:988][284]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.34:989][284]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.34:989][284]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.35:073][289]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.35:073][289]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.35:074][289]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.35:074][289]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.35:173][295]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.35:174][295]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.14.35:174][295]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.35:174][295]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter_C
+[2018.12.01-09.14.35:718][328]LogUObjectHash: Warning: Ambiguous search, could be BlueprintGeneratedClass /Game/_Temporary/Character/BP_FBFCharacter.BP_FBFCharacter_C or BlueprintGeneratedClass /Game/AI/BP_FBFCharacter.BP_FBFCharacter_C
+[2018.12.01-09.20.54:126][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.01-09.23.28:804][926]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto441DC6CE44108AB60BE196990842CD8BC.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto4.umap'
+[2018.12.01-09.23.28:812][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.973
+[2018.12.01-09.23.28:812][926]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.973
+[2018.12.01-09.23.28:817][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BB_BossBlackBoard] ([1] browsable assets)...
+[2018.12.01-09.23.28:817][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BB_BossBlackBoard]
+[2018.12.01-09.23.28:817][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_BossBlackBoard" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BB_BossBlackBoard_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.23.28:870][926]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BB_BossBlackBoard_Auto4C8E1C5584C4D4F488283F5B3FE008654.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BB_BossBlackBoard_Auto4.uasset'
+[2018.12.01-09.23.28:873][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.12.01-09.23.28:873][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BTService_BlueprintBase_New]
+[2018.12.01-09.23.28:916][926]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BTService_BlueprintBase_New_AutoAE5E2ED246DDAE2ADB2AC29DA09BBF72.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BTService_BlueprintBase_New_Auto4.uasset'
+[2018.12.01-09.23.28:918][926]LogFileHelpers: Auto-saving content packages took 0.102
+[2018.12.01-09.33.30:186][836]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'Distance' instances, change its type, and recompile?
+[2018.12.01-09.33.33:338][991]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.01-09.33.33:345][991]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.01-09.34.07:581][864]BlueprintLog: New page: BTService_BlueprintBase_New 컴파일
+[2018.12.01-09.34.20:205][505]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.042
+[2018.12.01-09.34.20:208][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.12.01-09.34.20:208][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BTService_BlueprintBase_New]
+[2018.12.01-09.34.20:269][505]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BTService_BlueprintBase_New_Auto8F3F60294A4408AAF976B188735480DC.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BTService_BlueprintBase_New_Auto5.uasset'
+[2018.12.01-09.34.20:271][505]LogFileHelpers: Auto-saving content packages took 0.064
+[2018.12.01-09.34.58:945][191]LogMetaData: Removing '/Game/AI/SetDistance.SKEL_SetDistance_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.12.01-09.34.58:945][191]LogMetaData: Removing '/Game/AI/SetDistance.SetDistance_C' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.12.01-09.34.58:945][191]LogMetaData: Removing '/Game/AI/SetDistance.SetDistance:GetDistance.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.12.01-09.34.58:945][191]LogMetaData: Removing '/Game/AI/SetDistance.SetDistance:GetDistance.K2Node_FunctionResult_0' ref from Metadata '/Game/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2018.12.01-09.34.58:999][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/SetDistance" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/SetDistance.uasset" SILENT=true
+[2018.12.01-09.34.59:062][191]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/SetDistance79A8AAAD4A1ACEE8D0F6458696F03B77.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/SetDistance.uasset'
+[2018.12.01-09.34.59:628][192]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/SetDistance.
+[2018.12.01-09.35.15:334][ 38]Cmd: TRANSACTION UNDO
+[2018.12.01-09.35.15:334][ 38]LogEditorTransaction: Undo 노드 추가
+[2018.12.01-09.36.45:261][613]Cmd: TRANSACTION UNDO
+[2018.12.01-09.36.45:261][613]LogEditorTransaction: Undo 노드 이동
+[2018.12.01-09.44.34:272][921]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.045
+[2018.12.01-09.44.34:274][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_BossBehavierTree] ([1] browsable assets)...
+[2018.12.01-09.44.34:274][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_BossBehavierTree]
+[2018.12.01-09.44.34:352][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree_Auto6F68D0FFE4E39EEA1AEF5DB9A2BA7C3A3.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BT_BossBehavierTree_Auto6.uasset'
+[2018.12.01-09.44.34:355][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSkill] ([1] browsable assets)...
+[2018.12.01-09.44.34:355][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSkill]
+[2018.12.01-09.44.34:355][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.44.34:431][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkill_Auto66028D599449D0B600262F3AA5AB6D50A.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto6.uasset'
+[2018.12.01-09.44.34:434][921]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.12.01-09.44.34:464][921]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.12.01-09.44.34:464][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFEnemyCharacter]
+[2018.12.01-09.44.34:710][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto6F424BF3541C67D2D6B9EC8B600A676DF.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFEnemyCharacter_Auto6.uasset'
+[2018.12.01-09.44.34:713][921]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFCharacter] ([1] browsable assets)...
+[2018.12.01-09.44.34:737][921]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFCharacter.BP_FBFCharacter]
+[2018.12.01-09.44.34:737][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFCharacter]
+[2018.12.01-09.44.34:737][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_FBFCharacter" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.44.35:063][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter_Auto60FCBF2DF4AE5CCB300EB20BD87D5E37F.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFCharacter_Auto6.uasset'
+[2018.12.01-09.44.35:066][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSpell] ([1] browsable assets)...
+[2018.12.01-09.44.35:066][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSpell]
+[2018.12.01-09.44.35:066][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSpell" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSpell_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.44.35:139][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSpell_Auto64B556C54458B2DD0F5E7B3968D9423AC.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSpell_Auto6.uasset'
+[2018.12.01-09.44.35:142][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/SetDistance] ([1] browsable assets)...
+[2018.12.01-09.44.35:142][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/SetDistance]
+[2018.12.01-09.44.35:142][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/SetDistance" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/SetDistance_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.44.35:242][921]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/SetDistance_Auto610E0FE324820957706FFD48984B41339.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/SetDistance_Auto6.uasset'
+[2018.12.01-09.44.35:244][921]LogFileHelpers: Auto-saving content packages took 0.971
+[2018.12.01-09.54.36:285][590]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto754E5592E42A2435D6AE2928E686219A5.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto7.umap'
+[2018.12.01-09.54.36:290][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.831
+[2018.12.01-09.54.36:290][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.831
+[2018.12.01-09.54.36:298][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/UseSkill] ([1] browsable assets)...
+[2018.12.01-09.54.36:298][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/UseSkill]
+[2018.12.01-09.54.36:298][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.12.01-09.54.36:340][590]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkill_Auto7FB016DFB46DFB6C6E5899E838271B29A.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/UseSkill_Auto7.uasset'
+[2018.12.01-09.54.36:344][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_FBFEnemyCharacter] ([1] browsable assets)...
+[2018.12.01-09.54.36:372][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter]
+[2018.12.01-09.54.36:372][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_FBFEnemyCharacter]
+[2018.12.01-09.54.36:484][590]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter_Auto7BE1AE3664520F6CA6B6D9089DD813FA9.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/AI/BP_FBFEnemyCharacter_Auto7.uasset'
+[2018.12.01-09.54.36:485][590]LogFileHelpers: Auto-saving content packages took 0.188
+[2018.12.01-10.10.44:802][299]BlueprintLog: New page: UseSkill 컴파일
+[2018.12.01-10.10.47:965][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.12.01-10.10.48:332][410]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.01-10.10.50:305][410]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForestDBA66AD242D6842A19172382391BD9FF.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap'
+[2018.12.01-10.10.54:977][443]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.12.01-10.10.57:587][463]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest7D25BD9A42C7594D101C6C9ADC410271.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap'
+[2018.12.01-10.10.59:767][491]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.12.01-10.10.59:801][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_BossBlackBoard" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BB_BossBlackBoard.uasset" SILENT=true
+[2018.12.01-10.10.59:872][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BB_BossBlackBoard29AE39AA41DF108AF5045D894B060501.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BB_BossBlackBoard.uasset'
+[2018.12.01-10.10.59:892][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_FBFCharacter" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BP_FBFCharacter.uasset" SILENT=true
+[2018.12.01-10.11.00:232][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFCharacter61F9EDF94EA973C187095182CD78CE68.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BP_FBFCharacter.uasset'
+[2018.12.01-10.11.00:257][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_FBFEnemyCharacter" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BP_FBFEnemyCharacter.uasset" SILENT=true
+[2018.12.01-10.11.00:545][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BP_FBFEnemyCharacter564FB29B41046B6AF7EBAFA96F961EF6.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BP_FBFEnemyCharacter.uasset'
+[2018.12.01-10.11.00:565][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_BossBehavierTree" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset" SILENT=true
+[2018.12.01-10.11.00:639][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/BT_BossBehavierTree0A969BBE4232405E52BEADAEFC352182.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset'
+[2018.12.01-10.11.00:655][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/SetDistance" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/SetDistance.uasset" SILENT=true
+[2018.12.01-10.11.00:757][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/SetDistance362CCD7248CF8797533DAE8273D7757C.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/SetDistance.uasset'
+[2018.12.01-10.11.00:773][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSkill" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSkill.uasset" SILENT=true
+[2018.12.01-10.11.00:853][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSkillD691700E43F9B9220ACF4D8DEEBB2C5B.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSkill.uasset'
+[2018.12.01-10.11.00:869][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/UseSpell" FILE="C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset" SILENT=true
+[2018.12.01-10.11.00:954][491]LogSavePackage: Moving 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Saved/UseSpellF53BD53044785ED06452EF8896B28C09.tmp' to 'C:/Users/cho1h/Documents/UE4STAG/FujiwaraBattleField/Content/AI/UseSpell.uasset'
+[2018.12.01-10.11.01:774][491]LogSlate: Window 'FujiwaraBattleField - 언리얼 에디터' being destroyed
+[2018.12.01-10.11.01:780][491]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.12.01-10.11.02:377][492]Cmd: QUIT_EDITOR
+[2018.12.01-10.11.03:005][492]LogExit: Preparing to exit.
+[2018.12.01-10.11.04:922][492]LogExit: Editor shut down
+[2018.12.01-10.11.04:924][492]LogExit: Transaction tracking system shut down
+[2018.12.01-10.11.10:425][492]LogExit: Object subsystem successfully closed.
+[2018.12.01-10.11.10:999][492]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.01-10.11.11:041][492]LogD3D11RHI: Shutdown
+[2018.12.01-10.11.11:041][492]LogD3D11RHI: CleanupD3DDevice
+[2018.12.01-10.11.11:368][492]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.01-10.11.15:500][492]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.12.01-10.11.15:500][492]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.12.01-10.11.15:501][492]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.12.01-10.11.15:501][492]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.12.01-10.11.15:594][492]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.12.01-10.11.15:594][492]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.12.01-10.11.15:594][492]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.12.01-10.11.15:688][492]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.12.01-10.11.15:709][492]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.12.01-10.11.15:729][492]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.12.01-10.11.15:791][492]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.12.01-10.11.15:805][492]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.12.01-10.11.15:805][492]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.12.01-10.11.15:805][492]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.12.01-10.11.15:806][492]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.12.01-10.11.15:806][492]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.12.01-10.11.15:834][492]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.12.01-10.11.15:877][492]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.12.01-10.11.15:911][492]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.12.01-10.11.15:911][492]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.12.01-10.11.15:911][492]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.12.01-10.11.15:931][492]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.12.01-10.11.15:954][492]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.12.01-10.11.16:125][492]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.12.01-10.11.16:125][492]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.12.01-10.11.16:526][492]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.12.01-10.11.16:526][492]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.12.01-10.11.16:526][492]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.12.01-10.11.16:572][492]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.12.01-10.11.16:583][492]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.12.01-10.11.16:583][492]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.12.01-10.11.16:583][492]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.12.01-10.11.16:597][492]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.12.01-10.11.16:597][492]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.12.01-10.11.16:597][492]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.12.01-10.11.16:597][492]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.12.01-10.11.16:645][492]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.12.01-10.11.16:728][492]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.12.01-10.11.16:856][492]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.12.01-10.11.16:908][492]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.12.01-10.11.16:932][492]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.12.01-10.11.16:932][492]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.12.01-10.11.16:955][492]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.12.01-10.11.16:955][492]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.12.01-10.11.16:955][492]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.12.01-10.11.17:353][492]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.12.01-10.11.17:353][492]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.12.01-10.11.17:353][492]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.12.01-10.11.17:353][492]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.12.01-10.11.17:353][492]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.12.01-10.11.17:392][492]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.12.01-10.11.17:413][492]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.12.01-10.11.17:445][492]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.12.01-10.11.17:464][492]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.12.01-10.11.17:464][492]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.12.01-10.11.17:464][492]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.12.01-10.11.17:479][492]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.12.01-10.11.17:480][492]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.12.01-10.11.17:503][492]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.12.01-10.11.17:523][492]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.12.01-10.11.17:524][492]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.12.01-10.11.17:524][492]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.12.01-10.11.17:578][492]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.12.01-10.11.17:597][492]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.12.01-10.11.17:608][492]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.12.01-10.11.17:623][492]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.12.01-10.11.17:649][492]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.12.01-10.11.17:702][492]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.12.01-10.11.17:761][492]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.12.01-10.11.17:788][492]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.12.01-10.11.17:807][492]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.12.01-10.11.17:807][492]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.12.01-10.11.17:839][492]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.12.01-10.11.17:840][492]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.12.01-10.11.17:872][492]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.12.01-10.11.17:872][492]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.12.01-10.11.17:898][492]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.12.01-10.11.17:915][492]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.12.01-10.11.17:915][492]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.12.01-10.11.17:918][492]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.12.01-10.11.17:919][492]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.12.01-10.11.17:974][492]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.12.01-10.11.18:063][492]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.12.01-10.11.18:096][492]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.12.01-10.11.18:096][492]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.12.01-10.11.18:129][492]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.12.01-10.11.18:131][492]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.12.01-10.11.18:131][492]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.12.01-10.11.18:131][492]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.12.01-10.11.18:147][492]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.12.01-10.11.18:189][492]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.12.01-10.11.18:200][492]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.12.01-10.11.18:208][492]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.12.01-10.11.18:208][492]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.12.01-10.11.18:426][492]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.12.01-10.11.18:459][492]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.12.01-10.11.18:459][492]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.12.01-10.11.18:459][492]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.12.01-10.11.18:464][492]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.12.01-10.11.18:464][492]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.12.01-10.11.18:464][492]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.12.01-10.11.18:478][492]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.12.01-10.11.18:479][492]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.12.01-10.11.18:514][492]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.12.01-10.11.18:514][492]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.12.01-10.11.18:514][492]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.12.01-10.11.18:514][492]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.12.01-10.11.18:544][492]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.12.01-10.11.18:544][492]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.12.01-10.11.18:544][492]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.12.01-10.11.18:545][492]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.12.01-10.11.18:560][492]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.12.01-10.11.18:561][492]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.12.01-10.11.18:569][492]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.12.01-10.11.18:570][492]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.12.01-10.11.18:570][492]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.12.01-10.11.18:579][492]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.12.01-10.11.18:594][492]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.12.01-10.11.18:594][492]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.12.01-10.11.18:615][492]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.12.01-10.11.18:632][492]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.12.01-10.11.18:632][492]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.12.01-10.11.18:657][492]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.12.01-10.11.18:657][492]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.12.01-10.11.18:657][492]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.12.01-10.11.18:694][492]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.12.01-10.11.18:714][492]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.12.01-10.11.18:720][492]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.12.01-10.11.18:729][492]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.12.01-10.11.18:729][492]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.12.01-10.11.18:729][492]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.12.01-10.11.18:729][492]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.12.01-10.11.18:729][492]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.12.01-10.11.18:751][492]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.12.01-10.11.18:760][492]LogModuleManager: Shutting down and abandoning module FujiwaraBattleField (300)
+[2018.12.01-10.11.18:760][492]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.01-10.11.18:760][492]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.01-10.11.18:760][492]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.01-10.11.18:760][492]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.12.01-10.11.18:774][492]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.12.01-10.11.18:774][492]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.12.01-10.11.18:774][492]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.12.01-10.11.18:817][492]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.01-10.11.18:817][492]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.01-10.11.18:918][492]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.01-10.11.19:029][492]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.01-10.11.19:029][492]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.01-10.11.19:045][492]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.01-10.11.19:045][492]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.01-10.11.19:045][492]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.01-10.11.19:045][492]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.01-10.11.19:084][492]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.01-10.11.19:117][492]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.01-10.11.19:157][492]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.01-10.11.19:157][492]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.01-10.11.19:168][492]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.01-10.11.19:197][492]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.01-10.11.19:200][492]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.01-10.11.19:228][492]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.01-10.11.19:228][492]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.01-10.11.19:228][492]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.01-10.11.19:238][492]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.01-10.11.19:245][492]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.01-10.11.19:251][492]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.01-10.11.19:257][492]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.01-10.11.19:257][492]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.01-10.11.19:257][492]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.01-10.11.19:269][492]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.01-10.11.19:269][492]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.01-10.11.19:269][492]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.01-10.11.19:269][492]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.01-10.11.19:274][492]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.01-10.11.19:284][492]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.01-10.11.19:284][492]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.01-10.11.19:285][492]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.01-10.11.19:300][492]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.01-10.11.19:318][492]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.01-10.11.19:318][492]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.01-10.11.19:329][492]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.01-10.11.19:352][492]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.01-10.11.19:390][492]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.01-10.11.19:390][492]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.01-10.11.19:416][492]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.01-10.11.19:416][492]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.01-10.11.19:454][492]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.01-10.11.19:462][492]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.01-10.11.19:476][492]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.01-10.11.19:489][492]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.01-10.11.19:489][492]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.01-10.11.19:496][492]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.01-10.11.19:530][492]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.01-10.11.19:530][492]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.01-10.11.19:546][492]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.01-10.11.19:575][492]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.01-10.11.19:577][492]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.01-10.11.19:617][492]LogDerivedDataCache: Shutdown
+[2018.12.01-10.11.19:618][492]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.01-10.11.19:632][492]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.01-10.11.19:632][492]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.01-10.11.19:650][492]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.01-10.11.19:660][492]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.01-10.11.19:682][492]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.01-10.11.19:682][492]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.01-10.11.19:694][492]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.01-10.11.19:694][492]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.01-10.11.19:706][492]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.01-10.11.19:712][492]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.01-10.11.19:754][492]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.01-10.11.19:755][492]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.01-10.11.19:769][492]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.01-10.11.19:783][492]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.01-10.11.19:796][492]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.01-10.11.19:796][492]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.01-10.11.19:805][492]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.01-10.11.19:805][492]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.01-10.11.19:890][492]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.01-10.11.19:890][492]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.01-10.11.19:890][492]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.01-10.11.19:907][492]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.01-10.11.19:907][492]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.01-10.11.19:907][492]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.01-10.11.19:908][492]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.01-10.11.19:909][492]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.01-10.11.19:909][492]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.01-10.11.19:909][492]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.01-10.11.19:958][492]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.01-10.11.19:980][492]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.01-10.11.20:025][492]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.01-10.11.20:038][492]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.01-10.11.20:038][492]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF81D2BC7-4F0F-3AB1-4DB4-189F421690A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c6815ac54eca81c3c6beba85e15d2075%7C15fc74ef24ac48c89be1ab68cd6f85aa%7C45c761d1-180b-4b5e-86cd-1b2d290af186&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.01-10.11.20:044][492]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.01-10.11.20:057][492]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.01-10.11.20:057][492]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.01-10.11.20:058][492]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.01-10.11.20:069][492]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.01-10.11.20:069][492]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.01-10.11.20:083][492]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.01-10.11.20:099][492]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.01-10.11.20:100][492]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.01-10.11.20:116][492]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.01-10.11.20:131][492]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.01-10.11.20:131][492]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.01-10.11.20:142][492]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.01-10.11.20:163][492]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.01-10.11.20:176][492]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.01-10.11.20:176][492]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.01-10.11.20:186][492]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.01-10.11.20:187][492]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.01-10.11.20:187][492]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.01-10.11.20:187][492]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.01-10.11.20:202][492]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.01-10.11.20:202][492]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.01-10.11.20:208][492]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.01-10.11.20:208][492]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.01-10.11.20:242][492]LogExit: Exiting.
+[2018.12.01-10.11.20:253][492]Log file closed, 12/01/18 19:11:20
