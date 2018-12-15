@@ -32,5 +32,8 @@ struct FSkill_Base
 		int Cost;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
 		float TickIntervall;
-
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+		bool bIsComboSkill;
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+		bool bIsChargedSkill;
 };

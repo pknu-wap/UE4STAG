@@ -96,6 +96,16 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsChargedSkill_MetaData[];
+#endif
+		static void NewProp_bIsChargedSkill_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsChargedSkill;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsComboSkill_MetaData[];
+#endif
+		static void NewProp_bIsComboSkill_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsComboSkill;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TickIntervall_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TickIntervall;
@@ -132,6 +142,28 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FSkill_Base>();
 	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_MetaData[] = {
+		{ "Category", "Skill" },
+		{ "ModuleRelativePath", "Public/Skill/S_Skill_Base.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_SetBit(void* Obj)
+	{
+		((FSkill_Base*)Obj)->bIsChargedSkill = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsChargedSkill", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FSkill_Base), &Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill_MetaData[] = {
+		{ "Category", "Skill" },
+		{ "ModuleRelativePath", "Public/Skill/S_Skill_Base.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill_SetBit(void* Obj)
+	{
+		((FSkill_Base*)Obj)->bIsComboSkill = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsComboSkill", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FSkill_Base), &Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_TickIntervall_MetaData[] = {
 		{ "Category", "Skill" },
@@ -175,6 +207,8 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type = { UE4CodeGen_Private::EPropertyClass::Byte, "Type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, Type), Z_Construct_UEnum_FujiwaraBattleField_SkillType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSkill_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_TickIntervall,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Cost,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_CastingTime,
@@ -209,7 +243,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 1596602617U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 265083855U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
