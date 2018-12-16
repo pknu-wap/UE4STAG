@@ -1,12 +1,40 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading FujiwaraBattleFieldEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+﻿  Cleaning FujiwaraBattleFieldEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for FujiwaraBattleFieldEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] SaveGameC.cpp
-    [2/3] UE4Editor-FujiwaraBattleField-9793.lib
-       C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-9793.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-9793.exp ??u?? ??????? ??????.
-    [3/3] UE4Editor-FujiwaraBattleField-9793.dll
-       C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-9793.suppressed.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField-9793.suppressed.exp ??u?? ??????? ??????.
+  Parsing headers for FujiwaraBattleFieldEditor
+    Running UnrealHeaderTool "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\FujiwaraBattleFieldEditor\Development\FujiwaraBattleFieldEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+LogCompile : error : Circular dependency detected for filename C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Source\FujiwaraBattleField\Public\FBFPlayerController.h!
+  Reflection code generated for FujiwaraBattleFieldEditor in 11.3442838 seconds
+  Building 24 actions with 4 processes...
+    [1/24] PCLaunch.rc
+    [2/24] SharedPCH.Engine.cpp
+    [3/24] S_Skill_Dash.gen.cpp
+    [4/24] S_Skill_Base.gen.cpp
+    [5/24] S_MusicClip.gen.cpp
+    [6/24] S_CrowdControl.gen.cpp
+    [7/24] ObjectRecord.gen.cpp
+    [8/24] SaveGameC.gen.cpp
+    [9/24] FujiwaraBattleFieldGameModeBase.gen.cpp
+    [10/24] FujiwaraBattleField.init.gen.cpp
+    [11/24] FBFBaseCharacter.gen.cpp
+    [12/24] MyUserWidget.gen.cpp
+    [13/24] SaveGameC.cpp
+    [14/24] FBFPlayerController.gen.cpp
+    [15/24] FBFBaseCharacter.cpp
+    [16/24] MyUserWidget.cpp
+    [17/24] FujiwaraBattleFieldGameModeBase.cpp
+    [18/24] FujiwaraBattleField.cpp
+    [19/24] FloatingWidget.cpp
+    [20/24] S_Skill_Spell.gen.cpp
+    [21/24] FBFPlayerController.cpp
+    [22/24] FloatingWidget.gen.cpp
+    [23/24] UE4Editor-FujiwaraBattleField.lib
+       C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.exp ??u?? ??????? ??????.
+    [24/24] UE4Editor-FujiwaraBattleField.dll
+       C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.suppressed.lib ????귯?? ?? C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Intermediate\Build\Win64\UE4Editor\Development\FujiwaraBattleField\UE4Editor-FujiwaraBattleField.suppressed.exp ??u?? ??????? ??????.
   Deploying FujiwaraBattleFieldEditor Win64 Development...
-  Total build time: 30.04 seconds (Parallel executor: 7.04 seconds)
+  Total build time: 64.23 seconds (Parallel executor: 44.13 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" FujiwaraBattleFieldEditor Win64 Development "C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\FujiwaraBattleField.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).

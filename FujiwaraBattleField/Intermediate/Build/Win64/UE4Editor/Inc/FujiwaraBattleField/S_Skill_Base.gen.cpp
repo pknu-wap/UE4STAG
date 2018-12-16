@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeS_Skill_Base() {}
 	FUJIWARABATTLEFIELD_API UEnum* Z_Construct_UEnum_FujiwaraBattleField_SkillType();
 	UPackage* Z_Construct_UPackage__Script_FujiwaraBattleField();
 	FUJIWARABATTLEFIELD_API UScriptStruct* Z_Construct_UScriptStruct_FSkill_Base();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 // End Cross Module References
 	static UEnum* SkillType_StaticEnum()
@@ -96,6 +97,10 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_sound;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsChargedSkill_MetaData[];
 #endif
 		static void NewProp_bIsChargedSkill_SetBit(void* Obj);
@@ -142,6 +147,13 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FSkill_Base>();
 	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_sound_MetaData[] = {
+		{ "Category", "Skill" },
+		{ "ModuleRelativePath", "Public/Skill/S_Skill_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_sound = { UE4CodeGen_Private::EPropertyClass::Object, "sound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, sound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_sound_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_sound_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill_MetaData[] = {
 		{ "Category", "Skill" },
@@ -207,6 +219,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type = { UE4CodeGen_Private::EPropertyClass::Byte, "Type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FSkill_Base, Type), Z_Construct_UEnum_FujiwaraBattleField_SkillType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_Type_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSkill_Base_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_sound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsChargedSkill,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_bIsComboSkill,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSkill_Base_Statics::NewProp_TickIntervall,
@@ -243,7 +256,7 @@ static struct FScriptStruct_FujiwaraBattleField_StaticRegisterNativesFSkill_Base
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 265083855U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSkill_Base_CRC() { return 1705595739U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

@@ -36,4 +36,6 @@ struct FSkill_Base
 		bool bIsComboSkill;
 	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
 		bool bIsChargedSkill;
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite, Category = "Skill")
+		USoundBase* sound;
 };
