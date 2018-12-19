@@ -1,0 +1,901 @@
+﻿Log file open, 12/19/18 14:20:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.488353
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.337s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.19-05.20.34:964][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-05.20.34:964][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.19-05.20.34:995][  0]LogHAL: Display: Platform has ~ 8 GB [8442224640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.19-05.20.34:995][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.19-05.20.34:995][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.19-05.20.34:996][  0]LogInit: Computer: DESKTOP-3RQR4D6
+[2018.12.19-05.20.34:996][  0]LogInit: User: hoon
+[2018.12.19-05.20.34:996][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.12.19-05.20.34:996][  0]LogInit: High frequency timer resolution =2.648439 MHz
+[2018.12.19-05.20.34:997][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.19-05.20.34:997][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-05.20.34:997][  0]LogMemory: Process Physical Memory: 100.99 MB used, 100.99 MB peak
+[2018.12.19-05.20.34:997][  0]LogMemory: Process Virtual Memory: 96.10 MB used, 96.10 MB peak
+[2018.12.19-05.20.34:997][  0]LogMemory: Physical Memory: 5366.28 MB used,  2684.86 MB free, 8051.13 MB total
+[2018.12.19-05.20.34:997][  0]LogMemory: Virtual Memory: 4633.54 MB used,  2684.86 MB free, 134217728.00 MB total
+[2018.12.19-05.20.35:035][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.19-05.20.35:036][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.19-05.20.35:037][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.19-05.20.35:778][  0]LogStreaming: Display: Took  0.743s to InitEngineTextLocalization.
+[2018.12.19-05.20.35:779][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.19-05.20.35:881][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.19-05.20.35:881][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.19-05.20.36:353][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.19-05.20.36:353][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.19-05.20.36:369][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.12.19-05.20.36:370][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.19-05.20.36:374][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.19-05.20.36:375][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.19-05.20.36:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.19-05.20.36:387][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.19-05.20.36:387][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.19-05.20.36:387][  0]LogWindows: EnumDisplayDevices:
+[2018.12.19-05.20.36:387][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.12.19-05.20.36:389][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.12.19-05.20.36:391][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.12.19-05.20.36:392][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.12.19-05.20.36:392][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.12.19-05.20.36:392][  0]LogD3D11RHI:   Driver Version: 21.20.16.4528 (internal:21.20.16.4528, unified:21.20.16.4528)
+[2018.12.19-05.20.36:392][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2018.12.19-05.20.36:392][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
+[2018.12.19-05.20.36:404][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.19-05.20.36:423][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.12.19-05.20.36:426][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/2520/).
+[2018.12.19-05.20.36:426][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hoon/AppData/Local/Temp/UnrealShaderWorkingDir/54CA30E94E0215E0AFF534A17002593A/'.
+[2018.12.19-05.20.38:092][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.19-05.20.38:127][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.19-05.20.38:166][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.19-05.20.38:216][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.19-05.20.38:262][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.19-05.20.38:307][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.19-05.20.38:348][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.19-05.20.38:381][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.19-05.20.38:397][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-05.20.38:633][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.19-05.20.38:776][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.19-05.20.38:776][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.19-05.20.38:841][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.19-05.20.38:841][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.19-05.20.38:875][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.19-05.20.38:906][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.19-05.20.38:936][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.19-05.20.38:970][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.19-05.20.38:997][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.19-05.20.38:998][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.19-05.20.39:146][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.19-05.20.39:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.19-05.20.39:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.19-05.20.41:263][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.19-05.20.41:427][  0]LogDerivedDataCache: Loaded boot cache 0.16s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.19-05.20.41:428][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.19-05.20.41:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.19-05.20.41:428][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.19-05.20.41:428][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.19-05.20.41:428][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.19-05.20.41:459][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.19-05.20.41:474][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.19-05.20.41:474][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.19-05.20.41:474][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.19-05.20.41:522][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.19-05.20.41:525][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.19-05.20.41:526][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.19-05.20.41:665][  0]LogAssetRegistry: FAssetRegistry took 0.0386 seconds to start up
+[2018.12.19-05.20.42:543][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-05.20.42:858][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.19-05.20.42:868][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.19-05.20.42:868][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.19-05.20.42:868][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.19-05.20.42:868][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.19-05.20.42:916][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.12.19-05.20.44:399][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.225915 seconds
+[2018.12.19-05.20.44:416][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.19-05.20.44:416][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.19-05.20.44:416][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.19-05.20.46:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.19-05.20.46:952][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.19-05.20.47:245][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.19-05.20.47:245][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.19-05.20.47:249][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.19-05.20.47:251][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.19-05.20.47:548][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.19-05.20.47:813][  0]LogOcInput: OculusInput pre-init called
+[2018.12.19-05.20.47:946][  0]LogEngine: Initializing Engine...
+[2018.12.19-05.20.47:949][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.19-05.20.47:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.19-05.20.47:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-05.20.47:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.19-05.20.47:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-05.20.48:491][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.19-05.20.48:539][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.19-05.20.48:599][  0]LogInit: XAudio2 using 'LG Ultra HD(인텔(R) 디스플레이 오디오)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.19-05.20.48:683][  0]LogInit: FAudioDevice initialized.
+[2018.12.19-05.20.48:683][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.19-05.20.48:827][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/hoon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.19-05.20.48:840][  0]LogInit: Texture streaming: Enabled
+[2018.12.19-05.20.48:880][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.19-05.20.48:907][  0]LogInit: Transaction tracking system initialized
+[2018.12.19-05.20.48:967][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.19-05.20.49:151][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.19-05.20.50:364][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.19-05.20.50:364][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.19-05.20.50:364][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.19-05.20.50:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.19-05.20.50:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-05.20.50:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.19-05.20.50:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-05.20.50:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 0.04s
+[2018.12.19-05.20.50:675][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.19-05.20.50:675][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Maps/Maps_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-05.20.50:678][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.19-05.20.50:683][  0]MapCheck: New page: 맵 체크
+[2018.12.19-05.20.50:683][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.19-05.20.57:951][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.12.19-05.20.57:959][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Mannequin\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.12.19-05.20.57:959][  0]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.12.19-05.20.57:964][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.12.19-05.20.57:967][  0]LogMaterial: Warning: C:\Users\hoon\Desktop\UE4STAG\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Mannequin\Materials\M_UE4Man_ChestLogo.uasset: Failed to compile Material Instance with Base M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.19-05.20.57:967][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.19-05.20.57:967][  0]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.12.19-05.20.57:967][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node TextureSample) Logo Mask> Missing input texture
+[2018.12.19-05.20.57:967][  0]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node MakeMaterialAttributes) Error on property OpacityMask
+[2018.12.19-05.20.59:201][  0]LogAIModule: Creating AISystem for world Maps_LostBambooForest
+[2018.12.19-05.21.00:106][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-05.21.00:257][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-05.21.00:534][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 277.229ms.
+[2018.12.19-05.21.00:534][  0]LogFileHelpers: Loading map 'Maps_LostBambooForest' took 9.858
+[2018.12.19-05.21.00:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-05.21.00:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-05.21.00:792][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-05.21.00:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-05.21.00:832][  0]LogCollectionManager: Loaded 0 collections in 0.004699 seconds
+[2018.12.19-05.21.00:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.12.19-05.21.00:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Developers/hoon/Collections/' took 0.01s
+[2018.12.19-05.21.00:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.12.19-05.21.00:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.19-05.21.00:944][  0]LogContentBrowser: Native class hierarchy populated in 0.0364 seconds. Added 2578 classes and 609 folders.
+[2018.12.19-05.21.00:968][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.19-05.21.01:192][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.19-05.21.01:217][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.19-05.21.01:560][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-05.21.01:576][  0]LogSlate: Took 0.011573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.19-05.21.01:593][  0]LogSlate: Took 0.015099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.19-05.21.01:593][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-05.21.01:613][  0]LogSlate: Took 0.001749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-05.21.02:004][  0]LogRenderer: Reallocating scene render targets to support 1476x444 Format 9 NumSamples 1 (Frame:1).
+[2018.12.19-05.21.03:349][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.12.19-05.21.03:349][  0]LogLoad: (Engine Initialization) Total time: 31.90 seconds
+[2018.12.19-05.21.03:349][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.19-05.21.03:386][  0]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.12.19-05.21.03:776][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.19-05.21.03:844][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.12.19-05.21.03:918][  0]LogSlate: Took 0.001757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.19-05.21.04:624][  3]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.19-05.21.04:688][  4]LogAssetRegistry: Asset discovery search completed in 23.0503 seconds
+[2018.12.19-05.21.04:694][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.12.19-05.21.04:694][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000140 seconds (updated 0 objects)
+[2018.12.19-05.21.09:349][ 37]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/' took 5.54s
+[2018.12.19-05.21.32:758][335]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.12.19-05.21.42:141][443]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.19-05.21.55:240][472]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.12.19-05.21.59:628][541]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record
+[2018.12.19-05.22.01:295][541]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2018.12.19-05.22.03:745][541]LogSlate: Took 0.001558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.19-05.23.41:605][628]LogSlate: Took 0.019739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.12.19-05.23.43:758][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.W_SaveSlot:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.SKEL_W_SaveSlot_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.SKEL_W_SkillHotKey_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.SKEL_W_Clear_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.SKEL_W_Defeat_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.SKEL_W_MissCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:759][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.W_SaveSlot_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_1:W_Record_C_3.WidgetTree_0.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_1:W_Record_C_4.WidgetTree_0.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_1:W_Record_C_5.WidgetTree_0.VerticalBox_0
+[2018.12.19-05.23.43:760][647]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:W_Record_C_4.WidgetTree_0.VerticalBox_0.VerticalBoxSlot_0) from referencer (Overlay /Engine/UMG/Editor/Transient.Overlay_0).  Import failed...
+[2018.12.19-05.23.43:761][647]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_0"''
+[2018.12.19-05.24.44:954][211]LogSlate: Took 0.004452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.19-05.26.16:194][766]LogEditorTransaction: Undo 이동 위젯
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.SKEL_W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.SKEL_W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.SKEL_W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:760][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:761][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:761][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:761][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:761][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:761][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:762][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_15.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:762][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_16.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:762][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_17.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:762][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_18.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:762][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_19.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:763][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:763][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:763][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:764][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:764][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:765][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:765][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:766][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:766][828]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2018.12.19-05.26.23:766][828]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_2"''
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.SKEL_W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.SKEL_W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.SKEL_W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:929][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_15.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_16.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_17.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_18.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_19.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:930][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_21.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_21.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.23:931][828]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2018.12.19-05.26.23:931][828]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_2"''
+[2018.12.19-05.26.24:203][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:203][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:204][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:204][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:204][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.SKEL_W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:204][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.SKEL_W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:204][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:205][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.SKEL_W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:205][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:205][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:206][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:206][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:206][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:207][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:207][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_15.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_16.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_17.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_18.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_19.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:208][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_21.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:W_Record_C_22.WidgetTree_0.HorizontalBox_0
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:209][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:210][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:211][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:211][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_20.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:212][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_21.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:212][829]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:W_Record_C_22.WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2
+[2018.12.19-05.26.24:212][829]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2018.12.19-05.26.24:213][829]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_2"''
+[2018.12.19-05.27.32:347][376]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.12.19-05.28.43:778][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.SKEL_W_RecordContainer_C' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:778][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer_C' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:779][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:779][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:779][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:779][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:779][989]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Record.PackageMetaData'
+[2018.12.19-05.28.43:928][989]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer127DE9374A13C1B06C4F70B9E2FF750B.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-05.28.49:476][ 31]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_Record.SKEL_W_Record_C' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Ranking.PackageMetaData'
+[2018.12.19-05.28.49:476][ 31]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_Record.W_Record_C' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Ranking.PackageMetaData'
+[2018.12.19-05.28.49:476][ 31]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Ranking.PackageMetaData'
+[2018.12.19-05.28.49:476][ 31]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Ranking.PackageMetaData'
+[2018.12.19-05.28.49:476][ 31]LogMetaData: Removing '/Game/_Temporary/UI/Widget/Menu/W_Record.W_Record:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Temporary/UI/Widget/Menu/W_Ranking.PackageMetaData'
+[2018.12.19-05.28.49:571][ 31]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record7FFBC0C946AE3C8A743A0A8365C84107.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-05.28.54:421][ 60]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/Menu/W_Record.W_Record
+[2018.12.19-05.29.04:054][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_Opening.W_Opening:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:054][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_Opening.SKEL_W_Opening_C:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:055][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.SKEL_W_Setting_C:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:055][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_Opening.W_Opening_C:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:055][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting_C:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:055][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:056][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer_C:WidgetTree.VerticalBox_1
+[2018.12.19-05.29.04:057][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_1:W_RecordContainer_C_33.WidgetTree_0.VerticalBox_1
+[2018.12.19-05.29.04:057][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_1:W_RecordContainer_C_32.WidgetTree_0.VerticalBox_1
+[2018.12.19-05.29.04:058][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:WidgetTree.VerticalBox_1.VerticalBoxSlot_0 or VerticalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_0
+[2018.12.19-05.29.04:058][139]LogUObjectHash: Warning: Ambiguous search, could be VerticalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:WidgetTree.VerticalBox_1.VerticalBoxSlot_0 or VerticalBoxSlot /Engine/Transient.World_1:W_RecordContainer_C_32.WidgetTree_0.VerticalBox_1.VerticalBoxSlot_0
+[2018.12.19-05.29.04:058][139]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:WidgetTree.VerticalBox_1.VerticalBoxSlot_0) from referencer (Overlay /Engine/UMG/Editor/Transient.Overlay_1).  Import failed...
+[2018.12.19-05.29.04:058][139]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_1.VerticalBoxSlot_0"''
+[2018.12.19-05.30.02:921][656]LogRenderer: Reallocating scene render targets to support 1844x552 Format 9 NumSamples 1 (Frame:3839).
+[2018.12.19-05.30.04:143][668]LogSlate: Window 'W_Record*' being destroyed
+[2018.12.19-05.30.08:024][721]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/Menu/W_Opening.W_Opening
+[2018.12.19-05.33.12:736][ 80]LogSlate: Window '색 선택 툴' being destroyed
+[2018.12.19-05.33.17:681][192]LogSlate: Window '색 선택 툴' being destroyed
+[2018.12.19-05.33.20:759][254]LogSlate: Window '색 선택 툴' being destroyed
+[2018.12.19-05.34.01:716][138]LogTexture: Display: 텍스처 빌드: bamboo_01_billboard (AutoDXT, 1024X1024)
+[2018.12.19-05.34.17:996][499]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/_Assets/Trees/Bamboo/textures/bamboo_01_billboard.bamboo_01_billboard
+[2018.12.19-05.34.18:027][499]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2018.12.19-05.35.23:469][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.SKEL_W_StatusBar_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:470][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:470][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_Crosshair.W_Crosshair:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:471][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.W_SaveSlot:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_DamageFloating.W_DamageFloating:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_DangerZone.W_DangerZone:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_SafeZone.W_SafeZone:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_Crosshair.SKEL_W_Crosshair_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_DamageFloating.SKEL_W_DamageFloating_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or ObjectProperty /Game/_Temporary/UI/Widget/Skill/W_DangerZone.SKEL_W_DangerZone_C:SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_DangerZone.SKEL_W_DangerZone_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or ObjectProperty /Game/_Temporary/UI/Widget/Skill/W_SafeZone.SKEL_W_SafeZone_C:SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_SafeZone.SKEL_W_SafeZone_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:472][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.SKEL_W_SaveSlot_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:473][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.SKEL_W_SkillHotKey_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:473][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Clear.SKEL_W_Clear_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:473][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.SKEL_W_Defeat_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:474][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.SKEL_W_LoadCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:474][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.SKEL_W_MissCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.SKEL_W_SaveCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Setting.SKEL_W_Setting_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or ObjectProperty /Game/_Temporary/UI/Widget/Skill/W_DangerZone.W_DangerZone_C:SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or ObjectProperty /Game/_Temporary/UI/Widget/Skill/W_SafeZone.W_SafeZone_C:SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_Crosshair.W_Crosshair_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_DamageFloating.W_DamageFloating_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_DangerZone.W_DangerZone_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Skill/W_SafeZone.W_SafeZone_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.W_SaveSlot_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Defeat.W_Defeat_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_LoadCheck.W_LoadCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:475][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_MissCheck.W_MissCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_SaveCheck.W_SaveCheck_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/InGame/W_Setting.W_Setting_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.World_3:W_Record_C_8.WidgetTree_0.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.World_3:W_Record_C_7.WidgetTree_0.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.World_3:W_Record_C_6.WidgetTree_0.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer_C:WidgetTree.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.World_1:W_RecordContainer_C_33.WidgetTree_0.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogUObjectHash: Warning: Ambiguous search, could be SizeBox /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0 or SizeBox /Engine/Transient.World_1:W_RecordContainer_C_32.WidgetTree_0.SizeBox_0
+[2018.12.19-05.35.23:476][ 90]LogProperty: Warning: Illegal TEXT reference to a private object in external package (SizeBoxSlot /Game/_Temporary/UI/Widget/InGame/Status/W_StatusBar.W_StatusBar:WidgetTree.SizeBox_0.SizeBoxSlot_0) from referencer (Overlay /Engine/UMG/Editor/Transient.Overlay_1).  Import failed...
+[2018.12.19-05.35.23:476][ 90]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'SizeBoxSlot'"SizeBox_0.SizeBoxSlot_0"''
+[2018.12.19-05.35.46:236][629]LogEditorTransaction: Undo Image 편집
+[2018.12.19-05.36.03:310][ 16]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-05.36.04:400][ 24]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordC0A6750F46C5D141998DEFBBE57B9978.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-05.36.18:931][352]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-05.36.19:731][353]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer6ADCCCD74FC2B5BD22FE80A3C50034A1.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-05.36.36:026][767]LogSlate: Took 0.001877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.19-05.36.55:134][503]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-05.36.56:198][525]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer8EDF56084F737D33CEAFA7B7E60AFC80.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-05.38.49:712][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/GameFamework/Save/BP_RecordSaveGame.BP_RecordSaveGame
+[2018.12.19-05.39.31:950][273]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/GameFamework/Save/BP_BaseSaveGame.BP_BaseSaveGame
+[2018.12.19-05.40.00:486][ 54]LogSlate: Window '변수 삭제' being destroyed
+[2018.12.19-05.40.02:217][ 81]LogSlate: Window '변수 삭제' being destroyed
+[2018.12.19-05.40.05:157][113]LogSlate: Window '변수 삭제' being destroyed
+[2018.12.19-05.40.10:613][328]LogSlate: Took 0.001601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.19-05.40.34:775][204]LogClass: Warning: Type mismatch in ClearTime of SKEL_BP_RecordSaveGame_C - Previous (StructProperty) Current(MapProperty) for package:  FObjectReader
+[2018.12.19-05.40.57:032][929]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-05.40.58:160][950]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-05.40.58:170][950]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-05.41.57:841][988]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.41.57:932][988]LogClass: Warning: Type mismatch in ClearTime of BP_RecordSaveGame_C - Previous (TextProperty) Current(MapProperty) for package:  FObjectReader
+[2018.12.19-05.41.59:364][  6]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame106E7AE64230A6D5E8F6BD9356DBA07E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.42.34:299][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.083
+[2018.12.19-05.42.34:306][266]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-05.42.34:306][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-05.42.34:440][266]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto14A544FA4434F57A011129AA7581F7022.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto1.uasset'
+[2018.12.19-05.42.34:445][266]LogFileHelpers: Auto-saving content packages took 0.144
+[2018.12.19-05.42.59:450][ 91]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.42.59:506][ 91]LogClass: Warning: Type mismatch in ClearTime of BP_RecordSaveGame_C - Previous (MapProperty) Current(TextProperty) for package:  FObjectReader
+[2018.12.19-05.43.00:408][102]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame5C7B14234C6093783B371189D40B8355.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.46.44:623][604]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-05.51.42:691][610]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.51.42:758][610]LogClass: Warning: Type mismatch in ClearTime of BP_RecordSaveGame_C - Previous (TextProperty) Current(MapProperty) for package:  FObjectReader
+[2018.12.19-05.52.33:630][219]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame67EEAB39408CBF950F05709E51BD50C9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.54.16:005][618]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.54.37:035][320]LogEditorTransaction: Undo 핀 링크 생성
+[2018.12.19-05.54.37:271][324]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.19-05.55.26:075][939]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.55.26:135][939]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Target Map  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.26:135][939]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Key  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.26:135][939]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Variable  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.26:136][939]LogBlueprint: Error: [Compiler BP_RecordSaveGame] ' Target Map ' 핀의 현재 값이 유효하지 않습니다: ('Target Map' 같은) 맵 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeMap 노드를 연결해 보세요).
+[2018.12.19-05.55.26:254][939]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] [2094.80] BP_RecordSaveGame 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 0 회, [소요시간 178 ms] (/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame.BP_RecordSaveGame)
+[2018.12.19-05.55.29:050][  8]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.55.29:114][  8]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Target Map  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.29:114][  8]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Key  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.29:114][  8]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Variable  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Remove  에 무언가를 연결하세요.
+[2018.12.19-05.55.29:115][  8]LogBlueprint: Error: [Compiler BP_RecordSaveGame] ' Target Map ' 핀의 현재 값이 유효하지 않습니다: ('Target Map' 같은) 맵 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeMap 노드를 연결해 보세요).
+[2018.12.19-05.55.29:218][  8]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] [2097.77] BP_RecordSaveGame 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 0 회, [소요시간 167 ms] (/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame.BP_RecordSaveGame)
+[2018.12.19-05.55.56:722][950]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.56.28:762][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.094
+[2018.12.19-05.56.28:767][182]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame] ([1] browsable assets)...
+[2018.12.19-05.56.28:767][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame]
+[2018.12.19-05.56.28:924][182]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame_Auto2368FD760425DDC3CC2D6B282298F6353.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame_Auto2.uasset'
+[2018.12.19-05.56.28:932][182]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-05.56.28:932][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-05.56.29:068][182]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto247ADA3114DE1F10A32E719BB34D1CF66.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto2.uasset'
+[2018.12.19-05.56.29:074][182]LogFileHelpers: Auto-saving content packages took 0.308
+[2018.12.19-05.57.02:968][269]LogDialogs: Warning: Suppressed: Local Variable LocalClaerTime is in use! Do you really want to delete it?
+[2018.12.19-05.57.04:368][313]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.57.42:243][492]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.57.43:351][502]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame6B8C7B744066F62AB22F6489652B4444.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.57.49:024][692]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-05.57.49:777][693]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGameFF70C12443F6C3B748E508B5E35B46E8.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.58.02:332][127]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame1E5A7C444765EAF5788C2A8CDAC072E5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-05.58.20:465][735]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-05.58.53:420][891]LogEditorTransaction: Undo 노드 이동
+[2018.12.19-05.58.54:051][905]LogEditorTransaction: Undo 노드 추가
+[2018.12.19-05.59.29:560][ 22]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.19-05.59.58:699][702]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-05.59.59:687][709]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordD7135A0545F1CB3FD123018F1BBA7DCF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.00.02:591][787]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.00.03:666][796]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer94EF587C447DDE9D199C7493C5EF8273.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-06.00.12:443][ 64]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.19-06.01.02:295][832]LogEditorTransaction: Undo 노드 추가
+[2018.12.19-06.04.20:451][936]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.05.27:199][466]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.05.28:482][490]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.05.41:247][812]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.06.06:258][399]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.06.38:601][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.054
+[2018.12.19-06.06.38:606][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_Record] ([1] browsable assets)...
+[2018.12.19-06.06.38:606][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_Record]
+[2018.12.19-06.06.38:751][228]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record_Auto3844DECA347AB2B6D0F7A158146AC9B9C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_Record_Auto3.uasset'
+[2018.12.19-06.06.38:758][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-06.06.38:759][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-06.06.38:919][228]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto30B02B3B2495F81ADBF24919A8475D0A9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto3.uasset'
+[2018.12.19-06.06.38:925][228]LogFileHelpers: Auto-saving content packages took 0.321
+[2018.12.19-06.07.17:160][132]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.07.18:056][144]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainerBD965C174E3379F6D29F6A8A52344FF9.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-06.07.33:814][452]LogSlate: Window '색 선택 툴' being destroyed
+[2018.12.19-06.07.36:305][509]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.07.37:358][517]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record1D46A617426572B7590A0FA9EAC803D1.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.08.01:004][107]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.08.37:356][116]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.09.05:147][861]LogEditorTransaction: Undo Size Rule 편집
+[2018.12.19-06.09.05:669][870]LogEditorTransaction: Undo Horizontal Alignment 편집
+[2018.12.19-06.09.06:291][884]LogEditorTransaction: Undo Left 편집
+[2018.12.19-06.09.17:923][188]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.09.26:442][401]LogEditorTransaction: Undo Left 편집
+[2018.12.19-06.09.39:281][732]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.09.44:251][830]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.09.54:864][ 86]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.10.25:431][946]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.19-06.10.37:242][342]LogEditorTransaction: Undo 코멘트 변경됨
+[2018.12.19-06.10.37:655][353]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.19-06.12.54:765][714]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Temporary/GameFamework/BP_FBFGameInstance.BP_FBFGameInstance
+[2018.12.19-06.16.09:101][352]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/InGame/W_Clear.W_Clear
+[2018.12.19-06.16.59:783][821]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/_Temporary/UI/Widget/Menu/W_SaveSlot.W_SaveSlot
+[2018.12.19-06.17.41:532][863]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.17.42:818][874]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record403E115849411AAAE289DDA81802FD25.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.18.12:871][917]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.068
+[2018.12.19-06.18.12:875][917]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-06.18.12:875][917]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-06.18.13:036][917]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto4A820700340970E6EB65F67B0B665D43E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto4.uasset'
+[2018.12.19-06.18.13:040][917]LogFileHelpers: Auto-saving content packages took 0.166
+[2018.12.19-06.18.23:764][256]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record47324A5A422A32AF269BC6805E5ADEBE.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.21.25:209][946]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.21.25:235][946]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.23.17:600][156]LogEditorTransaction: Undo 노드 이동
+[2018.12.19-06.23.18:385][175]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.12.19-06.23.49:797][115]BlueprintLog: New page: W_Clear 컴파일
+[2018.12.19-06.24.12:539][758]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-06.24.37:414][319]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-06.24.39:202][349]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.24.39:222][349]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.24.44:269][473]LogEditorTransaction: Undo 파라미터 유형 변경
+[2018.12.19-06.24.45:025][491]LogEditorTransaction: Undo 파라미터 유형 변경
+[2018.12.19-06.24.48:670][555]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-06.24.49:561][570]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.24.49:578][570]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.26.37:266][157]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-06.26.38:248][170]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame308129F94382B4837B5717A8277CC416.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-06.26.45:421][383]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame64ED1B80428E8971C7552AA703FB64A8.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-06.27.49:397][200]BlueprintLog: New page: BP_FBFGameInstance 컴파일
+[2018.12.19-06.27.50:223][200]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.27.50:498][200]LogBlueprint: Warning: [Compiler W_RecordContainer] [4039.05] W_RecordContainer 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 963 ms] (/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer)
+[2018.12.19-06.28.05:002][588]BlueprintLog: New page: W_Clear 컴파일
+[2018.12.19-06.28.05:402][589]BlueprintLog: New page: W_Clear 컴파일
+[2018.12.19-06.28.06:689][610]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_ClearD268028C451D9DAA0AE85ABD76DACD9C.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/InGame/W_Clear.uasset'
+[2018.12.19-06.28.10:400][716]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.28.10:467][716]LogBlueprint: Error: [Compiler W_Record] Clear Time  및  In Text  핀을 연결할 수 없습니다: Convert 플로트 to Text
+[2018.12.19-06.28.10:467][716]LogBlueprint: Error: [Compiler W_Record] In Text  및  Clear Time  핀을 연결할 수 없습니다: Convert 플로트 to Text
+[2018.12.19-06.28.10:475][716]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.28.10:502][716]LogBlueprint: Warning: [Compiler W_RecordContainer] [4059.05] W_RecordContainer 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 84 ms] (/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer)
+[2018.12.19-06.28.11:157][716]LogBlueprint: Warning: [Compiler W_Record] [4059.71] W_Record 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 757 ms] (/Game/_Temporary/UI/Widget/Menu/W_Record.W_Record)
+[2018.12.19-06.29.18:594][684]LogEditorTransaction: Undo 핀 링크 생성
+[2018.12.19-06.30.20:666][632]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-06.30.21:853][644]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordA9C6EAFC49759220A795D1AF253F1F9E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.30.32:984][985]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record7B74653F4A29FE3E8435C3809ABAD510.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-06.33.39:242][ 42]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Maps_LostBambooForest_Auto5EB1E077B4483D4496E4D7A9B0CBC017F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/Maps/Maps_LostBambooForest_Auto5.umap'
+[2018.12.19-06.33.39:314][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 15.902
+[2018.12.19-06.33.39:315][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 15.902
+[2018.12.19-06.33.39:362][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/BP_FBFGameInstance] ([1] browsable assets)...
+[2018.12.19-06.33.39:362][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/BP_FBFGameInstance]
+[2018.12.19-06.33.46:763][ 42]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFGameInstance_Auto5E35A90714B722778FD9057BD74CF66D6.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/BP_FBFGameInstance_Auto5.uasset'
+[2018.12.19-06.33.46:856][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/InGame/W_Defeat] ([1] browsable assets)...
+[2018.12.19-06.33.46:856][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/InGame/W_Defeat]
+[2018.12.19-06.33.49:246][ 42]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Defeat_Auto5AF44455B408B6323ABA9DD84101C14F5.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/InGame/W_Defeat_Auto5.uasset'
+[2018.12.19-06.33.49:263][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-06.33.49:263][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-06.33.50:386][ 42]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto54E0CEC304E817746AE0CBEA263ECE5EC.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto5.uasset'
+[2018.12.19-06.33.50:404][ 42]LogFileHelpers: Auto-saving content packages took 11.064
+[2018.12.19-06.39.50:965][167]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-06.42.17:143][530]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.42.18:298][544]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainerF28B625C4F21CC864941EEAC2C0F837E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-06.43.17:394][460]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.43.40:051][114]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.43.42:176][139]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainerEB8E1D2E480B5FCB46E9DFBBE00ABAAF.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-06.45.00:005][335]LogEditorTransaction: Undo 핀 링크 생성
+[2018.12.19-06.45.00:329][344]LogEditorTransaction: Undo 핀 링크 생성
+[2018.12.19-06.46.55:985][733]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.124
+[2018.12.19-06.46.55:990][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/BP_FBFGameInstance] ([1] browsable assets)...
+[2018.12.19-06.46.55:990][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/BP_FBFGameInstance]
+[2018.12.19-06.46.56:546][733]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFGameInstance_Auto6D02BBCA74800B5635B1F3EBE9D6398BD.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/BP_FBFGameInstance_Auto6.uasset'
+[2018.12.19-06.46.56:551][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame] ([1] browsable assets)...
+[2018.12.19-06.46.56:551][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame]
+[2018.12.19-06.46.56:712][733]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame_Auto6F421CC774291B6BA4B95E5BD5A3C8594.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame_Auto6.uasset'
+[2018.12.19-06.46.56:716][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-06.46.56:716][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-06.46.56:923][733]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto625CD006D44F4E3B45981A4851D980C07.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto6.uasset'
+[2018.12.19-06.46.56:925][733]LogFileHelpers: Auto-saving content packages took 0.938
+[2018.12.19-06.47.05:239][925]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-06.47.06:310][943]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.47.06:340][943]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2018.12.19-06.48.59:973][333]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-06.49.00:095][333]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.49.00:095][333]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.49.00:096][333]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.49.00:096][333]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-06.49.00:883][333]LogBlueprint: Warning: [Compiler W_RecordContainer] [5309.43] W_RecordContainer 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 0 회, [소요시간 909 ms] (/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer)
+[2018.12.19-06.49.20:978][621]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/_Temporary/GameFamework/Script/Structs/S_SaveRecord.S_SaveRecord
+[2018.12.19-06.49.50:132][212]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SaveRecord056BF0C34C68E2B479CD89BB2A0C2721.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Script/Structs/S_SaveRecord.uasset'
+[2018.12.19-06.49.53:097][354]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/S_SaveRecord752D628A40E8A31F4733398945C1C7AE.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Script/Structs/S_SaveRecord.uasset'
+[2018.12.19-06.50.39:864][806]LogClass: Warning: Type mismatch in RecordArray of SKEL_BP_RecordSaveGame_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.12.19-06.51.58:755][ 53]LogEditorTransaction: Undo 구조체 핀 분할
+[2018.12.19-06.52.01:610][120]LogEditorTransaction: Undo 노드 추가
+[2018.12.19-06.52.06:269][250]LogEditorTransaction: Undo 노드 추가
+[2018.12.19-06.56.59:634][851]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.084
+[2018.12.19-06.56.59:640][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame] ([1] browsable assets)...
+[2018.12.19-06.56.59:640][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame]
+[2018.12.19-06.56.59:804][851]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame_Auto7F200ADF84B1CAB55AFE95DA2A30A1209.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame_Auto7.uasset'
+[2018.12.19-06.56.59:810][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-06.56.59:810][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-06.57.00:034][851]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto77BB1C61A4F09651D9918D9B71C1BC4C8.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto7.uasset'
+[2018.12.19-06.57.00:039][851]LogFileHelpers: Auto-saving content packages took 0.402
+[2018.12.19-06.58.44:084][348]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.19-07.06.03:057][847]LogEditorTransaction: Undo 노드 이동
+[2018.12.19-07.07.42:183][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.080
+[2018.12.19-07.07.42:188][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame] ([1] browsable assets)...
+[2018.12.19-07.07.42:188][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame]
+[2018.12.19-07.07.42:359][  6]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame_Auto8CCC0A28C4ACEA8E13F3EBD8CDEA49C45.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame_Auto8.uasset'
+[2018.12.19-07.07.42:365][  6]LogFileHelpers: Auto-saving content packages took 0.178
+[2018.12.19-07.09.20:326][193]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2018.12.19-07.12.22:691][151]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.12.42:070][707]LogSlate: Window '변수 유형 변경' being destroyed
+[2018.12.19-07.18.21:255][516]LogDialogs: Warning: Suppressed: Local Variable LocalRecordData is in use! Do you really want to delete it?
+[2018.12.19-07.18.31:477][759]LogEditorTransaction: Undo 노드 추가
+[2018.12.19-07.18.39:816][983]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.18.39:932][983]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] 'BP_RecordSaveGame_C' 에서 "LocalClearTime" 라는 이름의 변수를 찾을 수 없습니다.
+ LocalClearTime 설정  에 대해 'BP_RecordSaveGame_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.18.39:933][983]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] 'BP_RecordSaveGame_C' 에서 "LocalClearTime" 라는 이름의 변수를 찾을 수 없습니다.
+ LocalClearTime 구하기  에 대해 'BP_RecordSaveGame_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.18.39:933][983]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] 'BP_RecordSaveGame_C' 에서 "LocalIndex" 라는 이름의 변수를 찾을 수 없습니다.
+ LocalIndex 설정  에 대해 'BP_RecordSaveGame_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.18.39:935][983]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Local Index  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.19-07.18.39:935][983]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Local Clear Time  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.19-07.18.39:936][983]LogBlueprint: Error: [Compiler BP_RecordSaveGame] Local Clear Time  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.19-07.18.40:120][983]LogBlueprint: Warning: [Compiler BP_RecordSaveGame] [7088.67] BP_RecordSaveGame 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 3 회, [소요시간 303 ms] (/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame.BP_RecordSaveGame)
+[2018.12.19-07.18.44:459][101]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.22.27:400][145]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maps_LostBambooForest' took 0.123
+[2018.12.19-07.22.27:406][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/BP_FBFGameInstance] ([1] browsable assets)...
+[2018.12.19-07.22.27:407][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/BP_FBFGameInstance]
+[2018.12.19-07.22.28:005][145]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_FBFGameInstance_Auto93F39928D41AC33393B5DB1833BF5EE32.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/BP_FBFGameInstance_Auto9.uasset'
+[2018.12.19-07.22.28:011][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame] ([1] browsable assets)...
+[2018.12.19-07.22.28:011][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame]
+[2018.12.19-07.22.28:247][145]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame_Auto9D4819296469117693834B5A3E52F1565.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/GameFamework/Save/BP_RecordSaveGame_Auto9.uasset'
+[2018.12.19-07.22.28:252][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer] ([1] browsable assets)...
+[2018.12.19-07.22.28:252][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Temporary/UI/Widget/Menu/W_RecordContainer]
+[2018.12.19-07.22.28:505][145]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer_Auto9DD63F949434D93C9D5CBAAA1250E8B22.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/Autosaves/Game/_Temporary/UI/Widget/Menu/W_RecordContainer_Auto9.uasset'
+[2018.12.19-07.22.28:509][145]LogFileHelpers: Auto-saving content packages took 1.105
+[2018.12.19-07.23.40:830][423]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.23.41:230][423]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-07.23.41:230][423]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-07.23.41:230][423]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-07.23.41:231][423]LogBlueprint: Error: [Compiler W_RecordContainer] 사용 중인  Clear Time Array  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.19-07.23.41:238][423]LogBlueprint: Warning: [Compiler W_RecordContainer] 'BP_RecordSaveGame_C' 에서 "ClearTime" 라는 이름의 변수를 찾을 수 없습니다.
+ ClearTime 구하기  에 대해 'BP_RecordSaveGame_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.23.41:263][423]LogBlueprint: Error: [Compiler W_RecordContainer] Clear Time  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.19-07.23.41:288][423]LogBlueprint: Warning: [Compiler W_RecordContainer] [7389.84] W_RecordContainer 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 1 회, [소요시간 404 ms] (/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer)
+[2018.12.19-07.23.42:683][435]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGameF8A386354D27DF16079B18A90DBB472F.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-07.25.44:976][846]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.25.48:980][961]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGame7E40E4E340B336E79FC9A5B9083445AE.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-07.26.08:508][600]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.26.09:399][613]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGameC78F0A7F4C4A53999B44D38B042BA639.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-07.26.21:970][ 53]BlueprintLog: New page: BP_RecordSaveGame 컴파일
+[2018.12.19-07.26.23:057][ 72]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/BP_RecordSaveGameEB6474B3418B68D4E5100EADB6E42A64.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/GameFamework/Save/BP_RecordSaveGame.uasset'
+[2018.12.19-07.26.48:181][870]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-07.26.48:251][870]LogBlueprint: Warning: [Compiler W_RecordContainer] 'BP_RecordSaveGame_C' 에서 "ClearTime" 라는 이름의 변수를 찾을 수 없습니다.
+ ClearTime 구하기  에 대해 'BP_RecordSaveGame_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.26.48:254][870]LogBlueprint: Error: [Compiler W_RecordContainer] W_RecordContainer_C' 에서 "Sort" 라는 이름의 함수를 찾을 수 없습니다.
+ Sort  에 대해 'W_RecordContainer_C' 컴파일이 되었는지 확인하세요.
+[2018.12.19-07.26.48:831][870]LogBlueprint: Warning: [Compiler W_RecordContainer] [7577.38] W_RecordContainer 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 648 ms] (/Game/_Temporary/UI/Widget/Menu/W_RecordContainer.W_RecordContainer)
+[2018.12.19-07.26.49:642][887]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainerEEF5A700424ECD21965641990851481E.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-07.27.54:631][647]LogDialogs: Warning: Suppressed: Variable ClearTimeArray is in use! Do you really want to delete it?
+[2018.12.19-07.29.05:579][895]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-07.30.07:532][689]LogEditorTransaction: Undo 핀 링크 생성
+[2018.12.19-07.31.02:457][299]BlueprintLog: New page: W_Record 컴파일
+[2018.12.19-07.31.03:703][309]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_Record2EC852FE408FB904FD1F8A90049D2099.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_Record.uasset'
+[2018.12.19-07.31.10:975][514]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-07.31.12:218][524]LogSavePackage: Moving '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Saved/W_RecordContainer0E7F513D4E9F3AE0B9453C84BD5E7BA6.tmp' to '../../../../../../Users/hoon/Desktop/UE4STAG/UE4STAG/FujiwaraBattleField/Content/_Temporary/UI/Widget/Menu/W_RecordContainer.uasset'
+[2018.12.19-07.31.25:605][890]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2018.12.19-07.31.28:467][911]LogEditorTransaction: Undo 위젯 이름변경
+[2018.12.19-07.31.31:256][972]BlueprintLog: New page: W_RecordContainer 컴파일
+[2018.12.19-07.31.33:172][972]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.377 s
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: 
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: SObjectWidget for 'W_Record_C /Engine/Transient.World_1:W_RecordContainer_C_225.WidgetTree_0.W_Record' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: Stack: 
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabb7471f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabb480c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabb49b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffab45c9a63 UE4Editor-UMG.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc817496 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc820255 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc81738e UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:172][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc820215 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc81738e UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc820215 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc81738e UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc820215 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabc81f39a UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba6e755a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffab4692ebb UE4Editor-UMG.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabaec2ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabae9756e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabae13f54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffabae134ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffab3cd0091 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffa9682df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffab3ccf8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffab3d305b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba7129fe UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba815872 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba7f24bf UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba8d9c3b UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba6c94c5 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba761db2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba747c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:173][972]LogOutputDevice: Error: [Callstack] 0x00007ffaba73b25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffac82ed1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffac82e0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffac82ef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffac82dc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffaff946d41 USER32.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffaff946713 USER32.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffac82f0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ff6306154e5 UE4Editor.exe!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ff630625b3c UE4Editor.exe!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ff630625bba UE4Editor.exe!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ff630633dac UE4Editor.exe!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ff630635aaa UE4Editor.exe!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffaffef3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: [Callstack] 0x00007ffb00283691 ntdll.dll!UnknownFunction []
+[2018.12.19-07.31.33:174][972]LogOutputDevice: Error: 
+[2018.12.19-07.31.33:179][972]LogStats:                SubmitErrorReport -  0.000 s
