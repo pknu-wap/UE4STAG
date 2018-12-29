@@ -1,0 +1,849 @@
+﻿Log file open, 12/26/18 16:31:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FujiwaraBattleField
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.630906
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.205s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files (x86)/~Game/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.010s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.26-07.31.50:508][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-07.31.50:508][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.26-07.31.50:540][  0]LogHAL: Display: Platform has ~ 8 GB [8393322496 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.26-07.31.50:541][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.26-07.31.50:541][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.26-07.31.50:542][  0]LogInit: Computer: DESKTOP-33J3PSK
+[2018.12.26-07.31.50:542][  0]LogInit: User: Utsuho
+[2018.12.26-07.31.50:542][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.26-07.31.50:542][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.12.26-07.31.50:542][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2018.12.26-07.31.50:542][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.26-07.31.50:542][  0]LogMemory: Process Physical Memory: 101.53 MB used, 101.53 MB peak
+[2018.12.26-07.31.50:542][  0]LogMemory: Process Virtual Memory: 93.29 MB used, 93.29 MB peak
+[2018.12.26-07.31.50:542][  0]LogMemory: Physical Memory: 5319.88 MB used,  2684.62 MB free, 8004.50 MB total
+[2018.12.26-07.31.50:542][  0]LogMemory: Virtual Memory: 4647.79 MB used,  2684.62 MB free, 134217728.00 MB total
+[2018.12.26-07.31.50:652][  0]LogInit: Using OS detected language (ko-KR).
+[2018.12.26-07.31.50:652][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.12.26-07.31.50:655][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.12.26-07.31.51:347][  0]LogStreaming: Display: Took  0.695s to InitEngineTextLocalization.
+[2018.12.26-07.31.51:347][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.26-07.31.51:499][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.26-07.31.51:499][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.26-07.31.55:319][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.26-07.31.55:319][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.26-07.31.55:339][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.26-07.31.55:339][  0]LogD3D11RHI:       128/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.26-07.31.55:410][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.26-07.31.55:410][  0]LogD3D11RHI:       1993/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.26-07.31.55:414][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.26-07.31.55:414][  0]LogD3D11RHI:       0/0/4002 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.26-07.31.55:414][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.12.26-07.31.55:442][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.26-07.31.55:442][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.26-07.31.55:443][  0]LogWindows: EnumDisplayDevices:
+[2018.12.26-07.31.55:443][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.26-07.31.55:444][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.26-07.31.55:444][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.26-07.31.55:445][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:1)
+[2018.12.26-07.31.55:446][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.26-07.31.55:447][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.26-07.31.55:448][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.12.26-07.31.55:448][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2018.12.26-07.31.55:449][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.26-07.31.55:449][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.26-07.31.55:449][  0]LogD3D11RHI:   Driver Version: 353.54 (internal:10.18.13.5354, unified:353.54)
+[2018.12.26-07.31.55:449][  0]LogD3D11RHI:      Driver Date: 7-13-2015
+[2018.12.26-07.31.55:449][  0]LogRHI: Texture pool is 1395 MB (70% of 1993 MB)
+[2018.12.26-07.31.55:477][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.12.26-07.31.55:477][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.26-07.31.55:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.26-07.31.55:502][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Intermediate/Shaders/WorkingDirectory/141544/).
+[2018.12.26-07.31.55:502][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utsuho/AppData/Local/Temp/UnrealShaderWorkingDir/62B5739A4496D3F88B756E8FADCD6FF4/'.
+[2018.12.26-07.31.56:154][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.26-07.31.56:177][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.26-07.31.56:197][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.26-07.31.56:221][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.26-07.31.56:252][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.26-07.31.56:273][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.26-07.31.56:292][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.26-07.31.56:312][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.26-07.31.56:322][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.26-07.31.56:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-07.31.56:453][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.26-07.31.56:539][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.26-07.31.56:539][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.26-07.31.56:570][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.26-07.31.56:570][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.26-07.31.56:588][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.26-07.31.56:607][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.26-07.31.56:625][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.26-07.31.56:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.26-07.31.56:665][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.26-07.31.56:666][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.26-07.31.56:813][  0]LogXGEController: Cleaning working directory: C:/Users/Utsuho/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.26-07.31.56:813][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.26-07.31.56:813][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.26-07.31.56:813][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.26-07.31.57:835][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.26-07.31.58:457][  0]LogDerivedDataCache: Loaded boot cache 0.62s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.26-07.31.58:458][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.26-07.31.58:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.26-07.31.58:458][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.26-07.31.58:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.26-07.31.58:458][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.26-07.31.58:478][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.26-07.31.58:491][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utsuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.26-07.31.58:491][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.26-07.31.58:491][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.26-07.31.58:515][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.26-07.31.58:518][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.26-07.31.58:532][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.26-07.31.58:914][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2018.12.26-07.31.59:459][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-07.31.59:684][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.26-07.31.59:704][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.26-07.31.59:704][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.26-07.31.59:704][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.26-07.31.59:704][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.26-07.31.59:739][  0]LogNetVersion: FujiwaraBattleField 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1838566955)
+[2018.12.26-07.32.00:611][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.170937 seconds
+[2018.12.26-07.32.00:619][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.26-07.32.00:619][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.26-07.32.00:619][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.26-07.32.04:810][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.26-07.32.04:826][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.26-07.32.05:119][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.26-07.32.05:119][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.26-07.32.05:124][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.26-07.32.05:127][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.26-07.32.05:395][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.26-07.32.05:629][  0]LogOcInput: OculusInput pre-init called
+[2018.12.26-07.32.05:723][  0]LogEngine: Initializing Engine...
+[2018.12.26-07.32.05:725][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.26-07.32.05:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.26-07.32.05:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.26-07.32.05:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.26-07.32.05:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.26-07.32.06:006][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.26-07.32.06:029][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.26-07.32.06:112][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.26-07.32.06:275][  0]LogInit: FAudioDevice initialized.
+[2018.12.26-07.32.06:275][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.26-07.32.06:447][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/Utsuho/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.26-07.32.06:460][  0]LogInit: Texture streaming: Enabled
+[2018.12.26-07.32.06:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.26-07.32.06:539][  0]LogInit: Transaction tracking system initialized
+[2018.12.26-07.32.06:588][  0]BlueprintLog: New page: 에디터 로드
+[2018.12.26-07.32.06:739][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.12.26-07.32.07:125][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.26-07.32.07:125][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.26-07.32.07:125][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.26-07.32.07:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.26-07.32.07:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.26-07.32.07:125][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.26-07.32.07:126][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.26-07.32.07:437][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.12.26-07.32.07:437][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.26-07.32.07:438][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.26-07.32.07:443][  0]MapCheck: New page: 맵 체크
+[2018.12.26-07.32.07:443][  0]LightingResults: New page: 라이팅 빌드
+[2018.12.26-07.32.08:230][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:239][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:239][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:243][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:257][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:257][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:270][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:282][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:282][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:293][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:306][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:306][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:326][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:334][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:334][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:338][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:354][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:354][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:358][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:381][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:381][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:386][  0]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.08:409][  0]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\Maps\Map_LostBambooForest.umap: Failed to compile Material Instance with Base M_FujiwaraBattleField_Land for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.32.08:409][  0]LogMaterial: 	Function MA_Gravel_Layer: (Node PixelDepth) Invalid node used in hull/domain shader input!
+[2018.12.26-07.32.08:461][  0]LogAIModule: Creating AISystem for world Map_LostBambooForest
+[2018.12.26-07.32.11:741][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/LBF_BattleField) is flushing async loading
+[2018.12.26-07.32.11:741][  0]LogStreaming: Display: Flushing async loaders.
+[2018.12.26-07.32.11:745][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.26-07.32.11:774][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.26-07.32.11:907][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 131.621ms.
+[2018.12.26-07.32.11:907][  0]LogFileHelpers: Loading map 'Map_LostBambooForest' took 4.470
+[2018.12.26-07.32.12:118][  0]LogCollectionManager: Loaded 0 collections in 0.004950 seconds
+[2018.12.26-07.32.12:172][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Collections/' took 0.01s
+[2018.12.26-07.32.12:172][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Developers/Utsuho/Collections/' took 0.01s
+[2018.12.26-07.32.12:172][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Collections/' took 0.01s
+[2018.12.26-07.32.12:172][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.26-07.32.12:185][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2578 classes and 609 folders.
+[2018.12.26-07.32.12:198][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.26-07.32.12:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.26-07.32.12:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.12:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.12:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.12:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.12:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.26-07.32.12:853][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0011 seconds. Added 2 classes and 3 folders.
+[2018.12.26-07.32.13:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.13:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.13:057][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.13:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.26-07.32.13:086][  0]LogSlate: Took 0.008858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.26-07.32.13:105][  0]LogSlate: Took 0.016397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.26-07.32.13:118][  0]LogSlate: Took 0.010351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.26-07.32.13:133][  0]LogSlate: Took 0.014458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.12.26-07.32.13:141][  0]LogSlate: Took 0.009102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.26-07.32.13:228][  0]LogRenderer: Reallocating scene render targets to support 960x904 Format 10 NumSamples 1 (Frame:1).
+[2018.12.26-07.32.13:373][  0]LogRenderer: Reallocating scene render targets to support 1632x1016 Format 10 NumSamples 1 (Frame:2).
+[2018.12.26-07.32.13:495][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.26-07.32.13:495][  0]LogLoad: (Engine Initialization) Total time: 28.86 seconds
+[2018.12.26-07.32.13:495][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.26-07.32.13:524][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.12.26-07.32.13:556][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.26-07.32.13:639][  0]LogSlate: Took 0.007817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.26-07.32.14:017][  7]LogAssetRegistry: Asset discovery search completed in 15.1271 seconds
+[2018.12.26-07.32.14:029][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.12.26-07.32.14:029][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000309 seconds (updated 0 objects)
+[2018.12.26-07.32.14:608][ 24]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.26-07.32.16:474][105]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.26-07.32.18:076][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.12.26-07.32.19:022][174]Cmd: DELETE
+[2018.12.26-07.32.19:022][174]Cmd: ACTOR DELETE
+[2018.12.26-07.32.19:059][174]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.26-07.32.19:091][174]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2018.12.26-07.32.22:640][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.26-07.32.27:995][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.26-07.32.32:938][583]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.12.26-07.32.34:803][583]LogSavePackage: Moving '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Saved/Map_LostBambooForest7BA7D9AF45490B7BA8A09EB373858EF4.tmp' to '../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/Maps/Map_LostBambooForest.umap'
+[2018.12.26-07.32.34:873][583]LogFileHelpers: Saving map 'Map_LostBambooForest' took 1.878
+[2018.12.26-07.32.34:885][583]LogPlayLevel: Launcher Device ID: WindowsNoEditor@DESKTOP-33J3PSK
+[2018.12.26-07.32.34:897][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.26-07.32.34:898][583]LogCook: Display: Creating asset registry
+[2018.12.26-07.32.36:701][583]LogCook: Display: Discovering localized assets
+[2018.12.26-07.32.36:739][583]LogCook: Display: Cooked content cleared for platform AllDesktop
+[2018.12.26-07.32.36:741][583]LogCook: Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+[2018.12.26-07.32.36:805][583]LogCook: Display: Cooked content cleared for platform MacClient
+[2018.12.26-07.32.36:805][583]LogCook: Display: Unable to read previous cook inisettings for platform MacClient invalidating cook
+[2018.12.26-07.32.36:872][583]LogCook: Display: Cooked content cleared for platform MacNoEditor
+[2018.12.26-07.32.36:872][583]LogCook: Display: Unable to read previous cook inisettings for platform MacNoEditor invalidating cook
+[2018.12.26-07.32.36:938][583]LogCook: Display: Cooked content cleared for platform MacServer
+[2018.12.26-07.32.36:938][583]LogCook: Display: Unable to read previous cook inisettings for platform MacServer invalidating cook
+[2018.12.26-07.32.36:998][583]LogCook: Display: Cooked content cleared for platform Mac
+[2018.12.26-07.32.36:999][583]LogCook: Display: Unable to read previous cook inisettings for platform Mac invalidating cook
+[2018.12.26-07.32.37:062][583]LogCook: Display: Cooked content cleared for platform WindowsClient
+[2018.12.26-07.32.37:062][583]LogCook: Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+[2018.12.26-07.32.37:131][583]LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2018.12.26-07.32.37:132][583]LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2018.12.26-07.32.37:197][583]LogCook: Display: Cooked content cleared for platform WindowsServer
+[2018.12.26-07.32.37:197][583]LogCook: Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+[2018.12.26-07.32.37:265][583]LogCook: Display: Cooked content cleared for platform Windows
+[2018.12.26-07.32.37:265][583]LogCook: Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+[2018.12.26-07.32.37:329][583]LogCook: Display: Cooked content cleared for platform Android
+[2018.12.26-07.32.37:330][583]LogCook: Display: Unable to read previous cook inisettings for platform Android invalidating cook
+[2018.12.26-07.32.37:392][583]LogCook: Display: Cooked content cleared for platform Android_ASTC
+[2018.12.26-07.32.37:393][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+[2018.12.26-07.32.37:455][583]LogCook: Display: Cooked content cleared for platform Android_ATC
+[2018.12.26-07.32.37:456][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+[2018.12.26-07.32.37:521][583]LogCook: Display: Cooked content cleared for platform Android_DXT
+[2018.12.26-07.32.37:521][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+[2018.12.26-07.32.37:587][583]LogCook: Display: Cooked content cleared for platform Android_ETC1
+[2018.12.26-07.32.37:588][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+[2018.12.26-07.32.37:652][583]LogCook: Display: Cooked content cleared for platform Android_ETC1a
+[2018.12.26-07.32.37:652][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1a invalidating cook
+[2018.12.26-07.32.37:711][583]LogCook: Display: Cooked content cleared for platform Android_ETC2
+[2018.12.26-07.32.37:711][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+[2018.12.26-07.32.37:769][583]LogCook: Display: Cooked content cleared for platform Android_PVRTC
+[2018.12.26-07.32.37:770][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+[2018.12.26-07.32.37:832][583]LogCook: Display: Cooked content cleared for platform AndroidClient
+[2018.12.26-07.32.37:833][583]LogCook: Display: Unable to read previous cook inisettings for platform AndroidClient invalidating cook
+[2018.12.26-07.32.37:900][583]LogCook: Display: Cooked content cleared for platform Android_ASTCClient
+[2018.12.26-07.32.37:901][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTCClient invalidating cook
+[2018.12.26-07.32.37:961][583]LogCook: Display: Cooked content cleared for platform Android_ATCClient
+[2018.12.26-07.32.37:961][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATCClient invalidating cook
+[2018.12.26-07.32.38:021][583]LogCook: Display: Cooked content cleared for platform Android_DXTClient
+[2018.12.26-07.32.38:021][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXTClient invalidating cook
+[2018.12.26-07.32.38:082][583]LogCook: Display: Cooked content cleared for platform Android_ETC1Client
+[2018.12.26-07.32.38:083][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1Client invalidating cook
+[2018.12.26-07.32.38:148][583]LogCook: Display: Cooked content cleared for platform Android_ETC1aClient
+[2018.12.26-07.32.38:148][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1aClient invalidating cook
+[2018.12.26-07.32.38:222][583]LogCook: Display: Cooked content cleared for platform Android_ETC2Client
+[2018.12.26-07.32.38:222][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2Client invalidating cook
+[2018.12.26-07.32.38:289][583]LogCook: Display: Cooked content cleared for platform Android_PVRTCClient
+[2018.12.26-07.32.38:289][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTCClient invalidating cook
+[2018.12.26-07.32.38:354][583]LogCook: Display: Cooked content cleared for platform Android_Multi
+[2018.12.26-07.32.38:354][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+[2018.12.26-07.32.38:421][583]LogCook: Display: Cooked content cleared for platform Android_MultiClient
+[2018.12.26-07.32.38:422][583]LogCook: Display: Unable to read previous cook inisettings for platform Android_MultiClient invalidating cook
+[2018.12.26-07.32.38:491][583]LogCook: Display: Cooked content cleared for platform HTML5
+[2018.12.26-07.32.38:491][583]LogCook: Display: Unable to read previous cook inisettings for platform HTML5 invalidating cook
+[2018.12.26-07.32.38:560][583]LogCook: Display: Cooked content cleared for platform IOSClient
+[2018.12.26-07.32.38:561][583]LogCook: Display: Unable to read previous cook inisettings for platform IOSClient invalidating cook
+[2018.12.26-07.32.38:632][583]LogCook: Display: Cooked content cleared for platform IOS
+[2018.12.26-07.32.38:633][583]LogCook: Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+[2018.12.26-07.32.38:694][583]LogCook: Display: Cooked content cleared for platform TVOSClient
+[2018.12.26-07.32.38:694][583]LogCook: Display: Unable to read previous cook inisettings for platform TVOSClient invalidating cook
+[2018.12.26-07.32.38:756][583]LogCook: Display: Cooked content cleared for platform TVOS
+[2018.12.26-07.32.38:756][583]LogCook: Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+[2018.12.26-07.32.38:816][583]LogCook: Display: Cooked content cleared for platform LinuxClient
+[2018.12.26-07.32.38:817][583]LogCook: Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+[2018.12.26-07.32.38:901][583]LogCook: Display: Cooked content cleared for platform LinuxNoEditor
+[2018.12.26-07.32.38:902][583]LogCook: Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+[2018.12.26-07.32.38:985][583]LogCook: Display: Cooked content cleared for platform LinuxServer
+[2018.12.26-07.32.38:985][583]LogCook: Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+[2018.12.26-07.32.39:066][583]LogCook: Display: Cooked content cleared for platform Linux
+[2018.12.26-07.32.39:066][583]LogCook: Display: Unable to read previous cook inisettings for platform Linux invalidating cook
+[2018.12.26-07.32.39:136][583]LogCook: Display: Cooked content cleared for platform Lumin
+[2018.12.26-07.32.39:137][583]LogCook: Display: Unable to read previous cook inisettings for platform Lumin invalidating cook
+[2018.12.26-07.32.39:201][583]LogCook: Display: Sandbox cleanup took 2.462 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC1a Android_ETC2 Android_PVRTC AndroidClient Android_ASTCClient Android_ATCClient Android_DXTClient Android_ETC1Client Android_ETC1aClient Android_ETC2Client Android_PVRTCClient Android_Multi Android_MultiClient HTML5 IOSClient IOS TVOSClient TVOS LinuxClient LinuxNoEditor LinuxServer Linux Lumin  iterative false
+[2018.12.26-07.32.40:451][583]LogMaterial: Verifying Global Shaders for PCD3D_SM4
+[2018.12.26-07.32.40:801][584]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.12.26-07.32.40:891][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.26-07.32.40:895][584]LogCook: Display: Cooked packages 0 Packages Remain 383 Total 383
+[2018.12.26-07.32.40:972][584]LogMaterial: Display: Missing cached shader map for material M_FujiwaraBattleField_Land, compiling. 
+[2018.12.26-07.32.41:087][585]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.26-07.32.41:087][585]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.26-07.32.41:087][585]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.26-07.32.41:087][585]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.26-07.32.41:088][585]LogCook: Display: Cooked packages 0 Packages Remain 383 Total 383
+[2018.12.26-07.32.46:336][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.46:336][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_DamageFloating.W_DamageFloating_C 레퍼런싱한 것: Default__BP_FBFPlayableCharacter_C
+[2018.12.26-07.32.46:336][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.46:336][585]LoadErrors: Error: /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_DamageFloating
+[2018.12.26-07.32.46:337][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.46:337][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: Default__BP_FBFPlayableCharacter_C
+[2018.12.26-07.32.46:337][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.46:337][585]LoadErrors: Error: /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey
+[2018.12.26-07.32.50:581][585]LogLinker: Warning: '/Game/AI/MovetoCenter' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:581][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/MovetoCenter' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:582][585]LoadErrors: Error: /Game/AI/Move : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/MovetoCenter
+[2018.12.26-07.32.50:582][585]LogLinker: Warning: '/Game/AI/MovetoCenter' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:582][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/MovetoCenter' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:605][585]LogLinker: Warning: '/Game/AI/SetBlackboardKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:606][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/SetBlackboardKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:606][585]LoadErrors: Error: /Game/AI/Move : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/SetBlackboardKey
+[2018.12.26-07.32.50:606][585]LogLinker: Warning: '/Game/AI/SetBlackboardKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:607][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/SetBlackboardKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:615][585]LogLinker: Warning: '/Game/AI/UseSkill2' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:615][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/UseSkill2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:615][585]LoadErrors: Error: /Game/AI/Move : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/UseSkill2
+[2018.12.26-07.32.50:615][585]LogLinker: Warning: '/Game/AI/UseSkill2' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:616][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/Move.uasset 로드중 '/Game/AI/UseSkill2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:645][585]LogLinker: Warning: '/Game/AI/MovetoCenter' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:645][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/MovetoCenter' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:646][585]LoadErrors: Error: /Game/AI/BT_BossBehavierTree : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/MovetoCenter
+[2018.12.26-07.32.50:646][585]LogLinker: Warning: '/Game/AI/SetBlackboardKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:646][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/SetBlackboardKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:646][585]LoadErrors: Error: /Game/AI/BT_BossBehavierTree : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/SetBlackboardKey
+[2018.12.26-07.32.50:647][585]LogLinker: Warning: '/Game/AI/UseSkill2' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:647][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/UseSkill2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:647][585]LoadErrors: Error: /Game/AI/BT_BossBehavierTree : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AI/UseSkill2
+[2018.12.26-07.32.50:648][585]LogLinker: Warning: '/Game/AI/MovetoCenter' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:648][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/MovetoCenter' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:649][585]LogLinker: Warning: '/Game/AI/SetBlackboardKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:650][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/SetBlackboardKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:650][585]LogLinker: Warning: '/Game/AI/UseSkill2' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:651][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/AI/BT_BossBehavierTree.uasset 로드중 '/Game/AI/UseSkill2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:661][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:661][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:662][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:662][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:679][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:680][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: K2Node_SpawnActorFromClass_0
+[2018.12.26-07.32.50:680][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:701][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:701][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:701][585]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey
+[2018.12.26-07.32.50:703][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:703][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:766][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:766][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:766][585]LoadErrors: Error: /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey
+[2018.12.26-07.32.50:767][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:767][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:767][585]LoadErrors: Error: /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_DamageFloating
+[2018.12.26-07.32.50:768][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:768][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:768][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:768][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:769][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:769][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:769][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:769][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:771][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:771][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: K2Node_MacroInstance_2
+[2018.12.26-07.32.50:771][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:772][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:772][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:772][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:773][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:773][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:773][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: K2Node_VariableGet_11
+[2018.12.26-07.32.50:773][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:774][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:774][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: K2Node_VariableGet_12
+[2018.12.26-07.32.50:774][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:775][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:775][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:775][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:775][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey.W_SkillHotKey_C 레퍼런싱한 것: K2Node_VariableGet_7
+[2018.12.26-07.32.50:776][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:776][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:776][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:782][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:782][585]LoadErrors: 로드에 실패했습니다. /Game/_Temporary/UI/Widget/InGame/W_DamageFloating.W_DamageFloating_C 레퍼런싱한 것: K2Node_CreateWidget_0
+[2018.12.26-07.32.50:783][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:783][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:784][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:805][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:805][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:805][585]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_SkillHotKey
+[2018.12.26-07.32.50:810][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:811][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:811][585]LoadErrors: Error: /Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter : 애셋에 대한 파일을 찾을 수 없습니다. /Game/_Temporary/UI/Widget/InGame/W_DamageFloating
+[2018.12.26-07.32.50:811][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:811][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:813][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:813][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:814][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:814][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_DamageFloating' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:814][585]LogLinker: Warning: '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.50:814][585]LogLinker: Warning: ../../../../../../../Users/Utsuho/Desktop/General/ProjectSpace/UE4STAG/FujiwaraBattleField/Content/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.uasset 로드중 '/Game/_Temporary/UI/Widget/InGame/W_SkillHotKey' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.12.26-07.32.51:409][585]LogBlueprint: Warning: [Compiler GideonPlayerCharacter] InputAction Event 가  ResetVR 입력 액션  에 대해 알려지지 않은 'ResetVR' 액션을 레퍼런싱합니다.
+[2018.12.26-07.32.51:409][585]LogBlueprint: Warning: [Compiler GideonPlayerCharacter] Input Axis Event 가  LookUpRate 입력 축  에 대해 알려지지 않은 'LookUpRate' 축을 레퍼런싱합니다.
+[2018.12.26-07.32.51:410][585]LogBlueprint: Warning: [Compiler GideonPlayerCharacter] Input Axis Event 가  TurnRate 입력 축  에 대해 알려지지 않은 'TurnRate' 축을 레퍼런싱합니다.
+[2018.12.26-07.32.51:421][585]LogBlueprint: Warning: [Compiler PhasePlayerCharacter] InputAction Event 가  ResetVR 입력 액션  에 대해 알려지지 않은 'ResetVR' 액션을 레퍼런싱합니다.
+[2018.12.26-07.32.51:421][585]LogBlueprint: Warning: [Compiler PhasePlayerCharacter] Input Axis Event 가  LookUpRate 입력 축  에 대해 알려지지 않은 'LookUpRate' 축을 레퍼런싱합니다.
+[2018.12.26-07.32.51:421][585]LogBlueprint: Warning: [Compiler PhasePlayerCharacter] Input Axis Event 가  TurnRate 입력 축  에 대해 알려지지 않은 'TurnRate' 축을 레퍼런싱합니다.
+[2018.12.26-07.32.51:496][585]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] 기본값이 아닌  Hot Key  입력 핀이  스폰 액터  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2018.12.26-07.32.51:516][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] Create Widget  노드 스폰에는 클래스를 지정해야 합니다.
+[2018.12.26-07.32.51:522][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] 사용 중인  Init Location  핀은 더 이상  Create Widget  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.26-07.32.51:522][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] 사용 중인  Damage to Display  핀은 더 이상  Create Widget  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.26-07.32.51:522][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] 사용 중인  Isplayer  핀은 더 이상  Create Widget  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.26-07.32.51:526][585]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter] 'BP_FBFPlayableCharacter' 에서 "AssignedSpell" 라는 이름의 변수를 찾을 수 없습니다.
+ AssignedSpell 구하기  에 대해 'BP_FBFPlayableCharacter' 컴파일이 되었는지 확인하세요.
+[2018.12.26-07.32.51:526][585]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter] 'BP_FBFPlayableCharacter' 에서 "HotKey" 라는 이름의 변수를 찾을 수 없습니다.
+ HotKey 구하기  에 대해 'BP_FBFPlayableCharacter' 컴파일이 되었는지 확인하세요.
+[2018.12.26-07.32.51:526][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] 사용 중인  All Hot Key Slots  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2018.12.26-07.32.51:742][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] ' Array ' 핀의 현재 값이 유효하지 않습니다: ('Target Array' 핀과 같은) 배열 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeArray 노드를 연결해 보십시오).
+[2018.12.26-07.32.51:742][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] Assigned Spell  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.26-07.32.51:742][585]LogBlueprint: Error: [Compiler BP_FBFPlayableCharacter] Hot Key  와 연관된 프로퍼티를 찾지 못했습니다.
+[2018.12.26-07.32.52:094][585]LogBlueprint: Warning: [Compiler GideonPlayerCharacter] [0067.46] GideonPlayerCharacter 컴파일에 성공했습니다만, 경고가 3 회 있습니다. [소요시간 1,218 ms] (/Game/ParagonGideon/Characters/Heroes/Gideon/GideonPlayerCharacter.GideonPlayerCharacter)
+[2018.12.26-07.32.52:095][585]LogBlueprint: Warning: [Compiler PhasePlayerCharacter] [0067.46] PhasePlayerCharacter 컴파일에 성공했습니다만, 경고가 3 회 있습니다. [소요시간 1,218 ms] (/Game/ParagonPhase/Characters/Heroes/Phase/PhasePlayerCharacter.PhasePlayerCharacter)
+[2018.12.26-07.32.52:095][585]LogBlueprint: Warning: [Compiler BP_FBFEnemyCharacter] [0067.46] BP_FBFEnemyCharacter 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 1,218 ms] (/Game/_Temporary/Pawn/Character/Enemy/BP_FBFEnemyCharacter.BP_FBFEnemyCharacter)
+[2018.12.26-07.32.52:095][585]LogBlueprint: Warning: [Compiler BP_FBFPlayableCharacter] [0067.46] BP_FBFPlayableCharacter 컴파일에 실패했습니다. 치명적 오류 8 회, 경고 2 회, [소요시간 1,218 ms] (/Game/_Temporary/Pawn/Character/Player/BP_FBFPlayableCharacter.BP_FBFPlayableCharacter)
+[2018.12.26-07.32.57:901][585]LogTexture: Display: 텍스처 빌드: T_WaterSplash2x2_N (BC5, 1024X1024)
+[2018.12.26-07.32.57:901][585]LogTexture: Display: 텍스처 빌드: T_Spark_Soft (AutoDXT, 512X512)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_WaterSplash2x2 (AutoDXT, 1024X1024)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Plasma_Wisps_N (BC5, 4096X4096)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Radial_Refraction_Blur_N (BC5, 1024X1024)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Radial_Burst (AutoDXT, 2048X2048)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_SmokeTile_Strip_03_Height_TILE (AutoDXT, 2048X256)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_SplineThickness_Mask (AutoDXT, 256X256)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_SmokeTile_Strip_03_TILE (AutoDXT, 2048X256)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Concrete_ChunkSubUV_N_TGA (BC5, 512X512)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_SmokeTile_Strip_03_Soft_N_TILE (BC5, 2048X256)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Concrete_ChunkSubUV_D (AutoDXT, 512X512)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_FireBall_07D_E (AutoDXT, 2048X2048)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_RockWall01_normals (BC5, 2048X2048)
+[2018.12.26-07.32.57:902][585]LogTexture: Display: 텍스처 빌드: T_Rockwall01 (AutoDXT, 2048X2048)
+[2018.12.26-07.32.57:902][585]LogMaterial: Display: Missing cached shader map for material M_Spline_Preview, compiling. 
+[2018.12.26-07.32.58:041][585]LogMaterial: Display: Missing cached shader map for material M_Hotdog_VLerp_DirectionTint, compiling. 
+[2018.12.26-07.33.07:144][585]LogShaderCompilers: Display: Shaders left to compile 153
+[2018.12.26-07.33.07:158][585]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.12.26-07.33.07:159][585]LogShaderCompilers: Display: Shaders left to compile 133
+[2018.12.26-07.33.07:159][585]LogShaderCompilers: Display: Shaders left to compile 123
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_Meteor_D (AutoDXT, 4096X4096)
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_FireBall_07D_Depth (AutoDXT, 2048X2048)
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_TilingClouds_01 (AutoDXT, 1024X1024)
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_Meteor_N (BC5, 4096X4096)
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_Meteor_S (AutoDXT, 4096X4096)
+[2018.12.26-07.33.07:159][585]LogTexture: Display: 텍스처 빌드: T_Plasma_Wisps (AutoDXT, 4096X4096)
+[2018.12.26-07.33.43:054][585]LogTexture: Display: 텍스처 빌드: T_FluidSmoke_04_Depth (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:055][585]LogTexture: Display: 텍스처 빌드: T_FluidSmoke_04_N (BC5, 2048X2048)
+[2018.12.26-07.33.43:055][585]LogTexture: Display: 텍스처 빌드: T_WaveDisplaced_N (BC5, 256X256)
+[2018.12.26-07.33.43:055][585]LogTexture: Display: 텍스처 빌드: T_NoiseBubbly_Large (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Beam_Gradient_02 (AutoDXT, 32X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_WaterTile_Blur_Packed (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_FluidSmoke_04 (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Fire_SmokeWisps_Tile (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Flare_Spikeball (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Portal_Gradient_M (AutoDXT, 64X2048)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Portal_Gradient_D (AutoDXT, 32X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Trail_Mask (AutoDXT, 512X512)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Smoke_Trail_Soft (AutoDXT, 2048X256)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Silky_Smoke_Trail (AutoDXT, 2048X256)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_TilingClouds_01_N (BC5, 512X512)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Portal_Gradient_02_D (AutoDXT, 32X1024)
+[2018.12.26-07.33.43:056][585]LogTexture: Display: 텍스처 빌드: T_Soft_Noise (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_GroundLash_Tile_NM (BC5, 1024X1024)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_GroundLash_Tile (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Portal_Gradient_02_M (AutoDXT, 32X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Burden_Ribbon_M (AutoDXT, 1024X1024)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Lensflare_02 (AutoDXT, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Inky_Smoke (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_WaterTests_BF_01E_D (AutoDXT, 4096X4096)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_WaterTests_BF_01E_N (BC5, 4096X4096)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Decal_Orion3_N (BC5, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Star_Runes_M (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_EnergyPlasma_Tile_H_01 (AutoDXT, 2048X1024)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_LDR_Flare01 (AutoDXT, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Smooth_Gradient_Vertical_A (AutoDXT, 64X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_FlareWide_04 (AutoDXT, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Portal_Space_D (AutoDXT, 4096X4096)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Surface_Erosion_M (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_FireBall_07D_N (BC5, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_sand (AutoDXT, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Rune_Ring_M (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Rune_Trim_1_N (BC5, 2048X2048)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
+[2018.12.26-07.33.43:057][585]LogTexture: Display: 텍스처 빌드: T_Wind_Blur (AutoDXT, 2048X2048)
+[2018.12.26-07.33.43:058][585]LogMaterial: Display: Missing cached shader map for material M_WispySmokeTest, compiling. 
+[2018.12.26-07.33.43:316][585]LogMaterial: Display: Missing cached shader map for material M_WaterImpact_Strand_Masked, compiling. 
+[2018.12.26-07.33.43:549][585]LogMaterial: Display: Missing cached shader map for material M_SplineThickenSmoke_Trails_Master, compiling. 
+[2018.12.26-07.33.45:469][585]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.12.26-07.33.45:523][585]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Mannequin\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.33.45:526][585]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.26-07.33.45:526][585]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.12.26-07.33.45:527][585]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.26-07.33.45:527][585]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+[2018.12.26-07.33.45:527][585]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2018.12.26-07.33.45:527][585]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2018.12.26-07.33.45:527][585]LogMaterial: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2018.12.26-07.33.45:548][585]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2018.12.26-07.33.45:551][585]LogMaterial: Warning: C:\Users\Utsuho\Desktop\General\ProjectSpace\UE4STAG\FujiwaraBattleField\Content\_Temporary\Pawn\Character\Mannequin\Materials\M_UE4Man_ChestLogo.uasset: Failed to compile Material Instance with Base M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.26-07.33.45:552][585]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.26-07.33.45:552][585]LogMaterial: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2018.12.26-07.33.45:552][585]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node TextureSample) Logo Mask> Missing input texture
+[2018.12.26-07.33.45:552][585]LogMaterial: 	Function ML_Plastic_Shiny_Beige_LOGO: (Node MakeMaterialAttributes) Error on property OpacityMask
+[2018.12.26-07.33.46:072][585]LogStaticMesh: SM_Ult_Runes_Outer 스태틱 메시 빌드중...
+[2018.12.26-07.33.46:076][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.46:174][585]LogStaticMesh: Built static mesh [0.10s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Ult_Runes_Outer.SM_Ult_Runes_Outer
+[2018.12.26-07.33.48:139][585]LogShaderCompilers: Display: Shaders left to compile 503
+[2018.12.26-07.33.48:139][585]LogShaderCompilers: Display: Shaders left to compile 493
+[2018.12.26-07.33.48:139][585]LogMaterial: Display: Missing cached shader map for material M_Radial_Blur_Refraction, compiling. 
+[2018.12.26-07.33.48:266][585]LogMaterial: Display: Missing cached shader map for material M_Fog_SphericalDensity, compiling. 
+[2018.12.26-07.33.48:296][585]LogMaterial: Display: Missing cached shader map for material M_Fog_SphericalDensity, compiling. 
+[2018.12.26-07.33.48:327][585]LogMaterial: Display: Missing cached shader map for material M_Explosion_RockChunks, compiling. 
+[2018.12.26-07.33.48:426][585]LogMaterial: Display: Missing cached shader map for material M_Meteor_Fragment, compiling. 
+[2018.12.26-07.33.48:493][585]LogMaterial: Display: Missing cached shader map for material M_Fireball_Unlit_Purple, compiling. 
+[2018.12.26-07.33.48:522][585]LogMaterial: Display: Missing cached shader map for material M_Lensflare_TB_Soft, compiling. 
+[2018.12.26-07.33.48:554][585]LogMaterial: Display: Missing cached shader map for material M_WaterRipple_Mesh_Foam, compiling. 
+[2018.12.26-07.33.48:700][585]LogStaticMesh: SM_Plasma_Mesh_Reduced 스태틱 메시 빌드중...
+[2018.12.26-07.33.48:700][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.48:742][585]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonGideon/FX/Meshes/Smoke/SM_Plasma_Mesh_Reduced.SM_Plasma_Mesh_Reduced
+[2018.12.26-07.33.48:769][585]LogStaticMesh: SM_WaterFall_RippleMeshes 스태틱 메시 빌드중...
+[2018.12.26-07.33.48:769][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.48:814][585]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonGideon/FX/Meshes/Water/SM_WaterFall_RippleMeshes.SM_WaterFall_RippleMeshes
+[2018.12.26-07.33.48:841][585]LogStaticMesh: SM_Sphere_FlippedNormals 스태틱 메시 빌드중...
+[2018.12.26-07.33.48:841][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.48:859][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Shapes/SM_Sphere_FlippedNormals.SM_Sphere_FlippedNormals
+[2018.12.26-07.33.49:007][585]LogStaticMesh: SM_Meteor_Chunk_Small 스태틱 메시 빌드중...
+[2018.12.26-07.33.49:007][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.49:042][585]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_Meteor_Chunk_Small.SM_Meteor_Chunk_Small
+[2018.12.26-07.33.50:741][585]LogShaderCompilers: Display: Shaders left to compile 1011
+[2018.12.26-07.33.50:741][585]LogShaderCompilers: Display: Shaders left to compile 1001
+[2018.12.26-07.33.50:741][585]LogMaterial: Display: Missing cached shader map for material M_Explosion_Smoke_Spears, compiling. 
+[2018.12.26-07.33.50:788][585]LogStaticMesh: SM_Turret_LightRays 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:788][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:876][585]LogStaticMesh: Built static mesh [0.09s] /Game/ParagonGideon/FX/Meshes/Game/SM_Turret_LightRays.SM_Turret_LightRays
+[2018.12.26-07.33.50:885][585]LogStaticMesh: SM_ExploSpline_02 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:885][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:887][585]LogStaticMesh: Built static mesh [0.00s] /Game/ParagonGideon/FX/Meshes/Splines/Smoke/SM_ExploSpline_02.SM_ExploSpline_02
+[2018.12.26-07.33.50:903][585]LogStaticMesh: SM_MeteorChopped_Meteor_Chopped8 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:903][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:923][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_MeteorChopped_Meteor_Chopped8.SM_MeteorChopped_Meteor_Chopped8
+[2018.12.26-07.33.50:935][585]LogStaticMesh: SM_MeteorChopped_Meteor_Chopped7 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:935][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:946][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_MeteorChopped_Meteor_Chopped7.SM_MeteorChopped_Meteor_Chopped7
+[2018.12.26-07.33.50:960][585]LogStaticMesh: SM_MeteorChopped_Meteor_Chopped4 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:960][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:971][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_MeteorChopped_Meteor_Chopped4.SM_MeteorChopped_Meteor_Chopped4
+[2018.12.26-07.33.50:982][585]LogStaticMesh: SM_MeteorChopped_Meteor_Chopped3 스태틱 메시 빌드중...
+[2018.12.26-07.33.50:982][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.50:993][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_MeteorChopped_Meteor_Chopped3.SM_MeteorChopped_Meteor_Chopped3
+[2018.12.26-07.33.51:012][585]LogStaticMesh: SM_MeteorChopped_Meteor_Chopped2 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:012][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:027][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_MeteorChopped_Meteor_Chopped2.SM_MeteorChopped_Meteor_Chopped2
+[2018.12.26-07.33.51:089][585]LogStaticMesh: SM_WindCone 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:089][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:101][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Shapes/SM_WindCone.SM_WindCone
+[2018.12.26-07.33.51:112][585]LogMaterial: Display: Missing cached shader map for material M_Meteor_Smoke_Surround, compiling. 
+[2018.12.26-07.33.51:158][585]LogStaticMesh: SM_Burden_Projectile 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:158][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:175][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Shapes/SM_Burden_Projectile.SM_Burden_Projectile
+[2018.12.26-07.33.51:182][585]LogMaterial: Display: Missing cached shader map for material M_Burden_Projectile_Outer, compiling. 
+[2018.12.26-07.33.51:218][585]LogMaterial: Display: Missing cached shader map for material M_Lensflare_012, compiling. 
+[2018.12.26-07.33.51:244][585]LogMaterial: Display: Missing cached shader map for material M_Wispy_Smoke_Trail_Projectile, compiling. 
+[2018.12.26-07.33.51:308][585]LogStaticMesh: SM_Meteor_Small 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:308][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:437][585]LogStaticMesh: Built static mesh [0.13s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/Abilities/SM_Meteor_Small.SM_Meteor_Small
+[2018.12.26-07.33.51:449][585]LogMaterial: Display: Missing cached shader map for material M_Meteor_Masked_RMB, compiling. 
+[2018.12.26-07.33.51:560][585]LogMaterial: Display: Missing cached shader map for material M_FlareMesh, compiling. 
+[2018.12.26-07.33.51:604][585]LogMaterial: Display: Missing cached shader map for material M_OverheadPortal, compiling. 
+[2018.12.26-07.33.51:634][585]LogMaterial: Display: Missing cached shader map for material M_Inky_Smoke_Burst, compiling. 
+[2018.12.26-07.33.51:674][585]LogMaterial: Display: Missing cached shader map for material M_LensFlareMaster, compiling. 
+[2018.12.26-07.33.51:706][585]LogMaterial: Display: Missing cached shader map for material M_LensFlareMaster, compiling. 
+[2018.12.26-07.33.51:752][585]LogStaticMesh: SM_Impact_Warp 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:752][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:766][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/SM_Impact_Warp.SM_Impact_Warp
+[2018.12.26-07.33.51:775][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Open_Burst, compiling. 
+[2018.12.26-07.33.51:827][585]LogStaticMesh: SM_Wispy_SplineThicken 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:827][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:831][585]LogStaticMesh: Built static mesh [0.00s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Wispy_SplineThicken.SM_Wispy_SplineThicken
+[2018.12.26-07.33.51:837][585]LogMaterial: Display: Missing cached shader map for material M_Wisp_SplineThicken, compiling. 
+[2018.12.26-07.33.51:878][585]LogStaticMesh: SM_BigPortal_Torus 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:878][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:899][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_BigPortal_Torus.SM_BigPortal_Torus
+[2018.12.26-07.33.51:907][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Outer_Smoke, compiling. 
+[2018.12.26-07.33.51:950][585]LogStaticMesh: SM_BigPortal 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:950][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.51:969][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_BigPortal.SM_BigPortal
+[2018.12.26-07.33.51:995][585]LogStaticMesh: SM_BigPortal_Space 스태틱 메시 빌드중...
+[2018.12.26-07.33.51:995][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.52:022][585]LogStaticMesh: Built static mesh [0.03s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_BigPortal_Space.SM_BigPortal_Space
+[2018.12.26-07.33.52:032][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Space, compiling. 
+[2018.12.26-07.33.52:068][585]LogStaticMesh: SM_Circle_Curved_Edge 스태틱 메시 빌드중...
+[2018.12.26-07.33.52:068][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.52:079][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Circle_Curved_Edge.SM_Circle_Curved_Edge
+[2018.12.26-07.33.52:086][585]LogMaterial: Display: Missing cached shader map for material M_Star_Runes_Big, compiling. 
+[2018.12.26-07.33.52:435][585]LogMaterial: Display: Missing cached shader map for material M_Gideon_Water_Particles, compiling. 
+[2018.12.26-07.33.52:547][585]LogMaterial: Display: Missing cached shader map for material M_Gideon_Water_Particles, compiling. 
+[2018.12.26-07.33.52:859][585]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_014 웨이브 빌드중...
+[2018.12.26-07.33.52:861][585]LogTemp: Couldn't find amount to resample to.
+[2018.12.26-07.33.52:987][585]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 622772 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_014.Gideon_Effort_Laugh_014.
+[2018.12.26-07.33.53:001][585]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_013 웨이브 빌드중...
+[2018.12.26-07.33.53:003][585]LogTemp: Couldn't find amount to resample to.
+[2018.12.26-07.33.53:096][585]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 495576 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_013.Gideon_Effort_Laugh_013.
+[2018.12.26-07.33.53:097][585]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_012 웨이브 빌드중...
+[2018.12.26-07.33.53:098][585]LogTemp: Couldn't find amount to resample to.
+[2018.12.26-07.33.53:179][585]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 506500 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_012.Gideon_Effort_Laugh_012.
+[2018.12.26-07.33.53:180][585]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_011 웨이브 빌드중...
+[2018.12.26-07.33.53:181][585]LogTemp: Couldn't find amount to resample to.
+[2018.12.26-07.33.53:256][585]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 381536 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_011.Gideon_Effort_Laugh_011.
+[2018.12.26-07.33.53:257][585]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_010 웨이브 빌드중...
+[2018.12.26-07.33.53:259][585]LogTemp: Couldn't find amount to resample to.
+[2018.12.26-07.33.53:325][585]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 432808 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_010.Gideon_Effort_Laugh_010.
+[2018.12.26-07.33.53:566][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Space_Opposite, compiling. 
+[2018.12.26-07.33.53:601][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Sprite, compiling. 
+[2018.12.26-07.33.53:642][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Rim, compiling. 
+[2018.12.26-07.33.53:699][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Pebbles, compiling. 
+[2018.12.26-07.33.53:821][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_OuterSmoke, compiling. 
+[2018.12.26-07.33.53:856][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Mesh, compiling. 
+[2018.12.26-07.33.53:913][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Dust, compiling. 
+[2018.12.26-07.33.53:981][585]LogMaterial: Display: Missing cached shader map for material M_Wispy_Pulse, compiling. 
+[2018.12.26-07.33.54:048][585]LogStaticMesh: SM_Black_Hole_Main 스태틱 메시 빌드중...
+[2018.12.26-07.33.54:048][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.54:092][585]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Black_Hole_Main.SM_Black_Hole_Main
+[2018.12.26-07.33.54:120][585]LogStaticMesh: SM_Black_Hole_Vortex 스태틱 메시 빌드중...
+[2018.12.26-07.33.54:120][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.54:143][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Black_Hole_Vortex.SM_Black_Hole_Vortex
+[2018.12.26-07.33.54:150][585]LogMaterial: Display: Missing cached shader map for material M_BlackHole_Vortex, compiling. 
+[2018.12.26-07.33.54:305][585]LogStaticMesh: SM_Gideon_Ring_Portal 스태틱 메시 빌드중...
+[2018.12.26-07.33.54:305][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.54:487][585]LogStaticMesh: Built static mesh [0.18s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Gideon_Ring_Portal.SM_Gideon_Ring_Portal
+[2018.12.26-07.33.54:493][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Space_Mini, compiling. 
+[2018.12.26-07.33.54:527][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Space_Mini, compiling. 
+[2018.12.26-07.33.54:569][585]LogStaticMesh: SM_Black_Hole_Rim 스태틱 메시 빌드중...
+[2018.12.26-07.33.54:570][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.54:580][585]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Black_Hole_Rim.SM_Black_Hole_Rim
+[2018.12.26-07.33.54:672][585]LogMaterial: Display: Missing cached shader map for material M_Floor_Burst, compiling. 
+[2018.12.26-07.33.54:736][585]LogStaticMesh: SM_Ult_Runes_Inner 스태틱 메시 빌드중...
+[2018.12.26-07.33.54:736][585]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.26-07.33.54:756][585]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonGideon/FX/Meshes/Heroes/Gideon/SM_Ult_Runes_Inner.SM_Ult_Runes_Inner
+[2018.12.26-07.33.54:763][585]LogMaterial: Display: Missing cached shader map for material M_Star_Runes_Ring_Ult, compiling. 
+[2018.12.26-07.33.54:816][585]LogMaterial: Display: Missing cached shader map for material M_GlowPoint_DistShrink_MASTER, compiling. 
+[2018.12.26-07.33.54:947][585]LogMaterial: Display: Missing cached shader map for material M_Portal_Space_Mini, compiling. 
+[2018.12.26-07.33.56:271][585]LogShaderCompilers: Display: Shaders left to compile 3098
+[2018.12.26-07.33.56:272][585]LogShaderCompilers: Display: Shaders left to compile 3088
+[2018.12.26-07.33.56:795][586]LogCook: Display: Cooked packages 0 Packages Remain 1229 Total 1229
+[2018.12.26-07.33.56:841][586]LogAIModule: Creating AISystem for world Entry
+[2018.12.26-07.33.57:061][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0047 seconds. Added 0 classes and 0 folders.
+[2018.12.26-07.33.57:083][586]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2018.12.26-07.33.57:242][587]LogCook: Display: Cooked packages 1 Packages Remain 1229 Total 1230
+[2018.12.26-07.33.57:517][588]LogCook: Display: Cooked packages 9 Packages Remain 1228 Total 1237
+[2018.12.26-07.33.57:531][588]LogMaterial: Display: Missing cached shader map for material M_Flame_Projectile_Master, compiling. 
+[2018.12.26-07.33.57:700][588]LogSlate: Took 0.020603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.12.26-07.33.57:731][589]LogCook: Display: Cooked packages 12 Packages Remain 1227 Total 1239
+[2018.12.26-07.33.58:878][590]LogShaderCompilers: Display: Shaders left to compile 3090
+[2018.12.26-07.33.58:899][590]LogCook: Display: Cooked packages 21 Packages Remain 1226 Total 1247
+[2018.12.26-07.33.59:158][591]LogCook: Display: Cooked packages 29 Packages Remain 1225 Total 1254
+[2018.12.26-07.33.59:301][592]LogCook: Display: Cooked packages 32 Packages Remain 1225 Total 1257
+[2018.12.26-07.33.59:420][593]LogCook: Display: Cooked packages 51 Packages Remain 1224 Total 1275
+[2018.12.26-07.33.59:587][594]LogCook: Display: Cooked packages 65 Packages Remain 1223 Total 1288
+[2018.12.26-07.33.59:609][594]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
