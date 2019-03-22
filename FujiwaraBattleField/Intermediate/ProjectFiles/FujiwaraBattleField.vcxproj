@@ -83,7 +83,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F176D4C9-23A4-4ADB-98B5-A62DC5A4A52C}</ProjectGuid>
+    <ProjectGuid>{F7DC220A-8C74-4CE4-8760-889B6D7D42AF}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>FujiwaraBattleField</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>

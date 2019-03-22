@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "WidgetTree.h"
 #include "UserWidget.h"
-#include "FBFPlayerController.h"
 #include "FloatingWidget.generated.h"
 /**
  * 
